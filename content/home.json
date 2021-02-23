@@ -65,10 +65,6 @@
       "img": "/img/uploads/tstorytiasonia.jpg",
       "alt": "História de Tia Sônia",
       "link": "http://www.tiasonia.com.br/pt-br/sobre"
-    },
-    {
-      "type": "custom-html",
-      "html": "<div class=\"ml-form-embed\"\n  data-account=\"1184030:r4h1t6y8d5\"\n  data-form=\"1703292:y6j4v6\">\n</div>\n"
-    }
+    }    
   ]
 }
