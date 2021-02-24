@@ -379,8 +379,7 @@ display: none !important;
     margin-right: -20px;
     text-transform: uppercase;
 }
-// altura selos 95
-.stamps img {max-height: 95px !important; }
+
 /* ALPIX */
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @font-face {
@@ -969,4 +968,10 @@ footer .trustvox-certificate__fixed-seal{
 
   #product-description .lead, h1{font-size:calc(var(--h1) * 0.6)!important}
   .prices--big .prices__value{font-size:calc(var(--h1) * 0.8)}
+
+  .stamps>li{
+    flex: 0 0 calc(50% - 10px);
+    width: auto;
+    min-width: auto;
+  }
 }
