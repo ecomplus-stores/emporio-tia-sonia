@@ -7,7 +7,7 @@ if (Array.isArray(posts) && posts.length) {
         <div class="row">
           <% posts.forEach(slug => { %>
             <% const { title, thumbnail, description } = _.cms(`posts/${slug}`) %>
-            <div class="col col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
               <div class="card">
                 <% if (thumbnail) { %>
                   <a href="/posts/<%= slug %>">
