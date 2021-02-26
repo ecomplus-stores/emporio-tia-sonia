@@ -20,7 +20,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
-      "title": "Acabamos de Lançar!",
+      "title": "Tem Novidades para Você!",
       "sort": "sales"
     },
     {
@@ -65,6 +65,6 @@
       "img": "/img/uploads/tstorytiasonia.jpg",
       "alt": "História de Tia Sônia",
       "link": "http://www.tiasonia.com.br/pt-br/sobre"
-    }    
+    }
   ]
 }
