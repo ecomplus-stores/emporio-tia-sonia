@@ -59,6 +59,15 @@
       "title": "Café Orgânico!"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
+      "title": "Pipocas Gourmet!",
+      "sort": "sales"
+    },
+    {
       "type": "custom-html",
       "html": "<h1 style=\"\n    text-align: center;\n    color: #aaaa;\n\">Conheça a história da melhor Granola do Brasil!</h1>"
     },
@@ -67,15 +76,6 @@
       "img": "/img/uploads/tstorytiasonia.jpg",
       "alt": "História de Tia Sônia",
       "link": "http://www.tiasonia.com.br/pt-br/sobre"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
-      "title": "Pipocas Gourmet!",
-      "sort": "sales"
     }
   ]
 }
