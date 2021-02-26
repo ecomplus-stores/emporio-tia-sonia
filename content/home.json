@@ -28,7 +28,7 @@
       "shuffle": false,
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
       "sort": "sales",
-      "title": "Esses são os Preferidos!"
+      "title": "Os Preferidos!"
     },
     {
       "type": "responsive-banner",
@@ -41,7 +41,7 @@
       "shuffle": false,
       "collection_id": "5e04f9b1661b5405730b8040:categories:Kits Tia Sônia:/kits-tia-sonia",
       "sort": "sales",
-      "title": "Leve mais, Pague menos!"
+      "title": "Mais, por menos!"
     },
     {
       "type": "custom-html",
@@ -53,7 +53,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "collection_id": "5f99819fb2161709fa453ee6:categories:Café Orgânico:/cafe-colheita-das-alegrias",
       "sort": "sales",
       "title": "Café Orgânico!"
