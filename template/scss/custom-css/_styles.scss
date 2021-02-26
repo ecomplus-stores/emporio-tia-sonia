@@ -523,7 +523,7 @@ body{
   background:#fff;
 }
 .product-card .product-card__buy{
-  position: absolute;
+  position: relative !important;
   top: 0;
   width: auto;
   left: 0;
