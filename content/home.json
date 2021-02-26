@@ -21,7 +21,7 @@
       "shuffle": true,
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
       "title": "Tem Novidades para Você!",
-      "sort": "sales"
+      "sort": "slug"
     },
     {
       "type": "collection-shelf",
