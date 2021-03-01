@@ -894,6 +894,8 @@ font-family:PT Sans;
     width:25px;
     padding:0;
   }
+
+  #checkout .product-card .product-card__buy > button:after{line-height:normal!important}
 }
 
 
@@ -974,4 +976,22 @@ footer .trustvox-certificate__fixed-seal{
     width: auto;
     min-width: auto;
   }
+}
+
+.recommended-items .product-card__buy{
+  position: absolute!important;
+  width: 100%;
+}
+#checkout .product-card .product-card__buy > button{margin:0 auto}
+#checkout .product-card .product-card__buy > button{font-size:0;line-height:0}
+#checkout .product-card .product-card__buy > button:after{
+  font-size: 14px;
+  content: "Adicionar";
+  display: block;
+  line-height: 47px;
+}
+
+@media(min-width:990px){
+  .app__footer .stamps>li{flex:0 0 auto}
+  .app__stamps>.stamps{justify-content:center}
 }

@@ -12,3 +12,7 @@ $('body').click(function(e){
         $('#instant-search .search__status .close').click();
     }
 });
+
+// if($('#page-products').length){
+//     $('.shipping-calculator').insertAfter('#product-actions .product__buy');
+// }
