@@ -37,14 +37,14 @@
       "chunk.0ea5445c0c1e3c54ad4d.js.map"
     ],
     "checkout": [
-      "checkout.501241cc28ba0b319c4e.js",
-      "checkout.501241cc28ba0b319c4e.js.map"
+      "checkout.ed78bbe377bf328343c8.js",
+      "checkout.ed78bbe377bf328343c8.js.map"
     ],
     "storefront": [
       "storefront.fcc9a6f93b5a453e1541.css",
-      "storefront.afd0076c4dd024946b6a.js",
+      "storefront.c7869ad37e57faec355c.js",
       "storefront.fcc9a6f93b5a453e1541.css.map",
-      "storefront.afd0076c4dd024946b6a.js.map"
+      "storefront.c7869ad37e57faec355c.js.map"
     ]
   }
 }
