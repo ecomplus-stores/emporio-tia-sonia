@@ -995,3 +995,7 @@ footer .trustvox-certificate__fixed-seal{
   .app__footer .stamps>li{flex:0 0 auto}
   .app__stamps>.stamps{justify-content:center}
 }
+
+@media(max-width:990px){
+  .recommended-items .product-card__buy{position:relative!important}
+}
