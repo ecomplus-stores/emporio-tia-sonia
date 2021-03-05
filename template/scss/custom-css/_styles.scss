@@ -936,7 +936,8 @@ footer .trustvox-certificate__fixed-seal{
 
 @media(max-width:990px){
   .product-card .product-card__buy,
-  .product-card:hover .product-card__buy{
+  .product-card:hover .product-card__buy,
+  .recommended-items .product-card__buy{
     position: relative !important;
     top: auto;
     margin: 15px 0 0 0;
