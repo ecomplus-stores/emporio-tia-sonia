@@ -2,6 +2,7 @@
   "phone_wpp": true,
   "socials": true,
   "sort_categories": [
+    "todos-os-produtos",
     "kits-tia-sonia",
     "granola-tia-sonia",
     "snacks",
@@ -14,7 +15,6 @@
     "acucares",
     "bebidas-em-po",
     "naturais",
-    "produtos-parceiros",
-    "outros-produtos"
+    "produtos-parceiros"
   ]
 }
