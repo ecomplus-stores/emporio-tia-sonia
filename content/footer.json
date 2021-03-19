@@ -8,20 +8,32 @@
     "title": "Informações",
     "list": [
       {
-        "text": "Contato",
-        "url": "/pages/contato"
+        "text": "Acompanhar Pedido",
+        "url": "/acompanhar-pedido"
+      },
+      {
+        "text": "Onde encontrar",
+        "url": "/pages/onde-encontrar"
       },
       {
         "text": "Clube de Assinatura",
         "url": "https://assinetiasonia.com.br"
       },
       {
-        "text": "Acompanhar Pedido",
-        "url": "/acompanhar-pedido"
+        "text": "Blog",
+        "url": "https://www.emporiotiasonia.com.br/blog"
+      },
+      {
+        "text": "Cadastro para Revenda",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd0D_JwA36qSMeSArUjFZMWvjBpV3FuKQM5gpIQJwcNK8D9ig/viewform"
       },
       {
         "text": "Cadastro Nutricionista",
         "url": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista"
+      },
+      {
+        "text": "Sobre a Tia Sônia",
+        "url": "/pages/sobre-nos"
       },
       {
         "text": "Condições de entrega",
@@ -30,10 +42,6 @@
       {
         "text": "Dúvidas frequentes",
         "url": "/pages/faq"
-      },
-      {
-        "text": "Onde encontrar",
-        "url": "/pages/onde-encontrar"
       },
       {
         "text": "Política de privacidade",
@@ -48,16 +56,8 @@
         "url": "/pages/trocas"
       },
       {
-        "text": "Cadastro para Revenda",
-        "url": "https://docs.google.com/forms/d/e/1FAIpQLSd0D_JwA36qSMeSArUjFZMWvjBpV3FuKQM5gpIQJwcNK8D9ig/viewform"
-      },
-      {
-        "text": "Sobre nós",
-        "url": "/pages/sobre-nos"
-      },
-      {
-        "text": "Blog",
-        "url": "https://www.emporiotiasonia.com.br/blog"
+        "text": "Contatos",
+        "url": "/pages/contato"
       }
     ]
   },
