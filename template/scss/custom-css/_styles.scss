@@ -986,7 +986,7 @@ footer .trustvox-certificate__fixed-seal{
   display: block;
   line-height: 47px;
 }
-
+.stamps > li #seloEconfy > img{max-width:unset!important;width:unset!important}
 @media(min-width:990px){
   .app__footer .stamps>li{flex:0 0 auto}
   .app__stamps>.stamps{justify-content:center}
