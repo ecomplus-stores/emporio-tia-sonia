@@ -34,7 +34,8 @@
       "type": "responsive-banner",
       "link": "https://docs.google.com/forms/d/e/1FAIpQLSd0D_JwA36qSMeSArUjFZMWvjBpV3FuKQM5gpIQJwcNK8D9ig/viewform",
       "alt": "parceiros",
-      "img": "/img/uploads/01-1920x500-parceiro-02-min.jpg"
+      "img": "/img/uploads/bannersitejpg-min.jpg",
+      "mobile_img": "/img/uploads/bannermobilejpg-min.jpg"
     },
     {
       "type": "collection-shelf",
