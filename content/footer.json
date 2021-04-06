@@ -66,6 +66,10 @@
     "title": "Granolas",
     "list": [
       {
+        "text": "Todos os Produtos",
+        "url": "https://www.emporiotiasonia.com.br/todos-os-produtos"
+      },
+      {
         "text": "Tradicional",
         "url": "https://www.emporiotiasonia.com.br/tradicional"
       },
