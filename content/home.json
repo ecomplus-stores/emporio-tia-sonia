@@ -9,18 +9,10 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/04-1920x500-px-1-min.jpg",
-          "mobile_img": "/img/uploads/03-1080x1080px-min.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search",
-          "alt": "Frete"
-        },
-        {
-          "start": "2021-04-06T01:20:21.158Z",
-          "end": "",
-          "img": "/img/uploads/banner_ecommerce_sou-min.jpg",
-          "link": "https://www.emporiotiasonia.com.br/sou-mais",
-          "alt": "soumais",
-          "mobile_img": "/img/uploads/soumais.jpg"
+          "img": "/img/uploads/stories-cafe-14-04.jpg",
+          "mobile_img": "/img/uploads/feed-cafe-14-04.jpg",
+          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
+          "alt": "Cafe"
         }
       ]
     },
