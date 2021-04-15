@@ -1,6 +1,8 @@
 <%
 const contacts = _.cms('contacts') || {}
 const footer = _.cms('footer') || {}
+const header = _.cms('header') || {}
+
 const logo = _.settings.logo
   ? { url: _.settings.logo, alt: _.settings.name }
   : _.store.logo
@@ -14,6 +16,19 @@ const logo = _.settings.logo
 </head>
 
 <body class="app">
+  <% if (header.marketing_stripe) { %>
+    <% if (header.marketing_stripe.text) { %>
+      <% if (header.marketing_stripe.link) { %>
+        <a class="top-bar__countdown" href="<%= header.marketing_stripe.link %>">
+          <%= header.marketing_stripe.text %>
+        </a>
+      <% } else { %>
+        <div class="top-bar__countdown">
+          <%= header.marketing_stripe.text %>
+        </div>
+      <% } %>
+    <% } %>
+  <% } %>
   <header class="app__header">
     <div class="container-fluid">
       <div class="row">
