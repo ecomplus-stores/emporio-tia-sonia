@@ -76,6 +76,10 @@
       "img": "/img/uploads/tstorytiasonia.jpg",
       "alt": "História de Tia Sônia",
       "link": "http://www.tiasonia.com.br/pt-br/sobre"
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
