@@ -7,10 +7,6 @@
   "meta_description": "A dieta vegana é rica em frutas, verduras, legumes, alimentos que são ricos em fibras, minerais e vitaminas que auxiliam no processo de emagrecimento e promovem saciedade.",
   "sections": [
     {
-      "type": "breadcrumbs",
-      "enabled": true
-    },
-    {
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
@@ -22,6 +18,10 @@
           "alt": "low"
         }
       ]
+    },
+    {
+      "type": "breadcrumbs",
+      "enabled": true
     },
     {
       "type": "page-title",
