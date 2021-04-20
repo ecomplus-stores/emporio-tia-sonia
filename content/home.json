@@ -5,15 +5,7 @@
     {
       "type": "banner-slider",
       "autoplay": 0,
-      "slides": [
-        {
-          "start": "2021-04-15T11:49:14.455Z",
-          "end": "2021-04-20T02:59:00.000Z",
-          "img": "/img/uploads/banner.jpg",
-          "mobile_img": "/img/uploads/feed.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term="
-        }
-      ]
+      "slides": []
     },
     {
       "type": "collection-shelf",
