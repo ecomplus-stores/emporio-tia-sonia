@@ -36,7 +36,7 @@ jobs:
         run: sleep 120
 
       - name: Squash and merge
-        uses: actions/github-script@v3
+        uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
