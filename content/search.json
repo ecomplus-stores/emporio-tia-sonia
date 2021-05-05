@@ -4,10 +4,5 @@
       "type": "search-engine",
       "enabled": true
     },   
-    <!-- 
-    {
-      "type": "custom-html",
-      "html": "<script async defer src=\"https://my.hellobar.com/a59d1a509c4f669a915565111985e630c939b46a.js\" type=\"text/javascript\" charset=\"utf-8\" async=\"async\"></script>"
-    } -->
   ]
 }
