@@ -5,7 +5,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 12px !important;
-  background:#C61475 !important;
+  background:#012765 !important;
 }
 
 #header {
@@ -23,6 +23,12 @@
 .header__toggler-icon {
     //color: #cecece;
  }
+
+//video produto
+.gallery__item--video {
+    font-size: 18px;
+    margin-top: -9px;
+}
 
 //links blog
 .blog-post a {
