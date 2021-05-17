@@ -12,7 +12,7 @@
           "img": "/img/uploads/week-granola.jpg",
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
           "alt": "granola",
-          "mobile_img": "/img/uploads/granolasweekfeed.mobile-1080x1080.jpg"
+          "mobile_img": "/img/uploads/granolasweekfeed.mobile_1080x1080.jpg"
         },
         {
           "start": "",
@@ -85,10 +85,6 @@
       "img": "/img/uploads/tstorytiasonia.jpg",
       "alt": "História de Tia Sônia",
       "link": "http://www.tiasonia.com.br/pt-br/sobre"
-    },
-    {
-      "type": "blog",
-      "enabled": true
     }
   ]
 }
