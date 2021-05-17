@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.becb64d1212a0b5eca3265e69c473e37.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.a69417853a20ed9ff296cfc3c5b1bfba.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.5e85fe8ead78b2099a51b28b7bc92361.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.d2cb12b77389cf236fbb893bd9482a24.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.f66381db4397c1ed03ef2900219edd53.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Tia Sônia",
+  "short_name": "Tia Sônia",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A Tia Sônia está sempre preocupada com a boa qualidade, ingredientes nutritivos e sabor agradável. Tudo para produzir e levar até você refeições naturalmente deliciosas, repletas de energia nutritiva e muito amor.",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
