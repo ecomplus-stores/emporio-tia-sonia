@@ -8,12 +8,8 @@
   "contacts_stripe": {
     "pages": [
       {
-        "title": "CONTATOS",
+        "title": "Fale com a Tia Sônia",
         "link": "https://www.emporiotiasonia.com.br/pages/contato"
-      },
-      {
-        "title": "ÁREA DO LOJISTA",
-        "link": "https://tiasonia.meuspedidos.com.br"
       }
     ],
     "phone_wpp": false,
