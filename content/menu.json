@@ -2,19 +2,18 @@
   "phone_wpp": true,
   "socials": true,
   "sort_categories": [
-    "todos-os-produtos",
+    "estilos-de-alimentacao",
     "kits-tia-sonia",
     "granola-tia-sonia",
     "snacks",
     "integrais",
     "cookies",
-    "funcionais",
     "pastas-tia-sonia",
     "barras",
-    "linha-gourmet",
     "acucares",
     "bebidas-em-po",
     "naturais",
-    "produtos-parceiros"
+    "produtos-parceiros",
+    "todos-os-produtos"
   ]
 }
