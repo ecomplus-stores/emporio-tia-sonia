@@ -1000,3 +1000,35 @@ footer .trustvox-certificate__fixed-seal{
   .recommended-items .product-card__buy{position:relative!important}
   footer #seloEconfy img{max-width:auto!important;width:unset!important}
 }
+
+#estilos-slider{
+  align-items:center;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+#estilos-slider > div > strong{
+  color: #2056ae;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+#estilos-slider .glide__slide{}
+#estilos-slider .glide__slide strong{
+  display:block;
+  font-size:15px;
+  font-weight:normal;
+  margin-top:5px;
+}
+#estilos-slider .glide__slide a{
+  display:block;
+  text-align:center;
+}
+
+@media(max-width:990px){
+  #estilos-slider > div > strong{
+      color: #2056ae;      
+      text-align:center;
+      margin:15px 0 30px 0;
+      width:100%;
+      display:block;
+  }
+}

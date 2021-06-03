@@ -1,9 +1,91 @@
 <% if (typeof opt.html === 'string') { %>
   <section class="custom-html my-4 my-lg-5">
     <div class="container">
+      <% if (opt.html === '[estilos-de-alimentacao]') { 
+        // load menu options and contacts from content
+        const menu = _.cms('menu') || {}
+        const contacts = _.cms('contacts') || {}
+
+       
+        // start grouping categories by parent slug
+        const categoryParents = _.lodash.groupBy(_.categories, ({ parent }) => {
+          return !parent || !parent.slug ? '_' : parent.slug
+        })
+        const getSubmenuId = slug => `a-${slug.replace(/\//g, '_')}`
+
+        const mainCategories = categoryParents._
+        if (mainCategories) {
+          if (Array.isArray(menu.sort_categories)) {
+            // reorder first level categories list
+            for (let i = menu.sort_categories.length - 1; i >= 0; i--) {
+              const slug = menu.sort_categories[i]
+              const categoryIndex = mainCategories.findIndex(category => category.slug === slug)
+              if (categoryIndex > -1) {
+                const category = mainCategories[categoryIndex]
+                mainCategories.splice(categoryIndex, 1)
+                mainCategories.unshift(category)
+              }
+            }
+          }
+        }
+        //console.log(categoryParents['estilos-de-alimentacao'])
+        %>
+      <div class="row align-items-center " id="estilos-slider">
+        <div class="col-12 col-md-2">
+          <strong>Estilos de Alimentação</strong>
+        </div>
+        <div class="col-12 col-md-10">
+          <div
+            class="glide"
+            data-wait-mutation="false"
+            data-autoplay="3000"
+            data-per-view="6"            
+            data-per-view-sm="3"
+          >
+            <div class="glide__track" data-glide-el="track">
+              <div class="glide__slides">
+              <% categoryParents['estilos-de-alimentacao'].forEach(subcategory => { %>            
+                <div class="glide__slide">
+                  <div>
+                    <a href="<%= subcategory.slug %>"><img src="<%= subcategory.icon.url %>" alt="<%= subcategory.name %>"></a>
+                  </div>
+                  <div>
+                    <a href="<%= subcategory.slug %>">
+                      <strong>
+                        <%= subcategory.name %>
+                      </strong>
+                    </a>
+                  </div>
+                </div>
+              <% }) %>
+              </div>
+              <div
+              class="glide__arrows glide__arrows--outer d-md-none"
+              data-glide-el="controls"
+            >
+              <button
+                class="btn glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+                aria-label="<%= _.dictionary('previous') %>"
+              >
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button
+                class="btn glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+                aria-label="<%= _.dictionary('next') %>"
+              >
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            </div>
+        </div>
+      </div>
+      <% } else { %>
       <div class="html-clearfix">
         <%- opt.html %>
       </div>
+      <% } %>
     </div>
   </section>
 <% } %>
