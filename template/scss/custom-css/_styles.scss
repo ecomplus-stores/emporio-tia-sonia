@@ -1022,7 +1022,10 @@ footer .trustvox-certificate__fixed-seal{
   display:block;
   text-align:center;
 }
-#accordion-menu > div:not(#categories-nav) .menu__list .menu__item-icon{display:none;}
+// #accordion-menu > div:not(#categories-nav) .menu__list .menu__item-icon{display:none;}
+#accordion-menu > div:not(#categories-nav) .menu__list .menu__item-icon{}
+#accordion-menu > div:not(#categories-nav) .menu__list .menu__item-icon img{padding:10px;}
+#accordion-menu > div:not(#categories-nav) .menu__list a:hover .menu__item-icon img{    filter: brightness(100);}
 @media(max-width:990px){
   #estilos-slider > div > strong{
       color: #2056ae;      
