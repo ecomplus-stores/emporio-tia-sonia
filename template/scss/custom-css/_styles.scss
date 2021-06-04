@@ -1022,13 +1022,17 @@ footer .trustvox-certificate__fixed-seal{
   display:block;
   text-align:center;
 }
-
+#accordion-menu > div:not(#categories-nav) .menu__list .menu__item-icon{display:none;}
 @media(max-width:990px){
   #estilos-slider > div > strong{
       color: #2056ae;      
       text-align:center;
-      margin:15px 0 30px 0;
+      margin:30px 0;
       width:100%;
       display:block;
   }
+  #estilos-slider{padding:0 1.5em}
+  #estilos-slider .btn.glide__arrow--left{left:-2em}
+  #estilos-slider .btn.glide__arrow--right{right:-2em}
+  
 }
