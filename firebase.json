@@ -5,7 +5,7 @@
         "source": "/coquinho-crocante",
         "destination": "/coquinho",
         "type": 301
-      }
+      },
       {
         "source": "/snack-coquinho",
         "destination": "/coquinho",
