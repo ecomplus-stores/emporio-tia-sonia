@@ -5,16 +5,15 @@
       "enabled": true
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2021-06-08T00:26:59.792Z",
-          "end": "",
-          "img": "/img/uploads/topo-mercos.png",
-          "link": "https://docs.google.com/forms/d/e/1FAIpQLSd0D_JwA36qSMeSArUjFZMWvjBpV3FuKQM5gpIQJwcNK8D9ig/viewform",
-          "alt": "revenda"
-        }
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2021-06-08T00:47:16.035Z",
+      "end": "2021-06-10T00:47:16.080Z",
+      "offers": [
+        "5d09191e24607a6a42d71363",
+        "5d09194024607a6a42d7139f",
+        "5d09196224607a6a42d713db",
+        "5d09192824607a6a42d71375"
       ]
     }
   ]
