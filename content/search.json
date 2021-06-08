@@ -5,6 +5,10 @@
       "enabled": true
     },
     {
+      "type": "custom-html",
+      "html": "<hr>"
+    },
+    {
       "type": "blog",
       "enabled": true
     }
