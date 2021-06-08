@@ -3,6 +3,12 @@
     {
       "type": "search-engine",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/topo-mercos.png",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSd0D_JwA36qSMeSArUjFZMWvjBpV3FuKQM5gpIQJwcNK8D9ig/viewform",
+      "alt": "revenda"
     }
   ]
 }
