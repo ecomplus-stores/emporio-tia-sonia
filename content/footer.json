@@ -8,28 +8,8 @@
     "title": "Informações ",
     "list": [
       {
-        "text": "Acompanhar Pedido",
-        "url": "/acompanhar-pedido"
-      },
-      {
-        "text": "Onde encontrar",
-        "url": "/pages/onde-encontrar"
-      },
-      {
-        "text": "Clube de Assinatura",
-        "url": "https://assinetiasonia.com.br"
-      },
-      {
-        "text": "Blog",
-        "url": "https://www.emporiotiasonia.com.br/blog"
-      },
-      {
-        "text": "Área do Lojista",
-        "url": "https://tiasonia.meuspedidos.com.br/entrar"
-      },
-      {
-        "text": "Cadastro Nutricionista",
-        "url": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista"
+        "text": "Fale com a Tia Sônia",
+        "url": "/pages/contato"
       },
       {
         "text": "Sobre a Tia Sônia",
@@ -40,8 +20,20 @@
         "url": "/pages/entrega"
       },
       {
-        "text": "Dúvidas frequentes",
-        "url": "/pages/faq"
+        "text": "Onde encontrar",
+        "url": "/pages/onde-encontrar"
+      },
+      {
+        "text": "Dicas e Receitas Saudáveis",
+        "url": "https://www.emporiotiasonia.com.br/blog"
+      },
+      {
+        "text": "Área do Lojista",
+        "url": "https://tiasonia.meuspedidos.com.br/entrar"
+      },
+      {
+        "text": "Cadastro Nutricionista",
+        "url": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista"
       },
       {
         "text": "Política de privacidade",
@@ -56,8 +48,12 @@
         "url": "/pages/trocas"
       },
       {
-        "text": "Contatos",
-        "url": "/pages/contato"
+        "text": "Clube de Assinatura",
+        "url": "https://assinetiasonia.com.br"
+      },
+      {
+        "text": "Acompanhar Pedido",
+        "url": "/acompanhar-pedido"
       }
     ]
   },
