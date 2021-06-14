@@ -37,6 +37,14 @@
           "mobile_img": "/img/uploads/02-1080x1080-pasta-caju-min.jpg",
           "alt": "pasta",
           "link": "https://www.emporiotiasonia.com.br/castanha-de-caju"
+        },
+        {
+          "start": "2021-06-14T12:33:47.518Z",
+          "end": "",
+          "img": "/img/uploads/bannernutri.jpg",
+          "mobile_img": "/img/uploads/feednutri.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
+          "alt": "nutri"
         }
       ]
     },
@@ -86,13 +94,6 @@
       "collection_id": "5f99819fb2161709fa453ee6:categories:Café Orgânico:/cafe-colheita-das-alegrias",
       "sort": "sales",
       "title": "Café Orgânico!"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/bannernutri.jpg",
-      "mobile_img": "/img/uploads/feednutri.jpg",
-      "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
-      "alt": "nutri"
     },
     {
       "type": "custom-html",
