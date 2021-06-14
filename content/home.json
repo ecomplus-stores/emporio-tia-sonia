@@ -54,13 +54,6 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
-      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
-      "sort": "sales",
-      "title": "Os Preferidos!"
-    },
-    {
-      "type": "collection-shelf",
       "shuffle": true,
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
       "title": "Lançamentos!",
@@ -72,6 +65,13 @@
       "alt": "achocolatado2",
       "img": "/img/uploads/banner-site-1920x500.jpg",
       "mobile_img": "/img/uploads/1080x1080.jpg"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
+      "sort": "sales",
+      "title": "Os Preferidos!"
     },
     {
       "type": "collection-shelf",
