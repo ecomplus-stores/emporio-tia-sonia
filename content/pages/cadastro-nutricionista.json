@@ -5,6 +5,10 @@
   "meta_description": "Cadastre-se e tenha acesso aos benefícios da Tia Sônia para Nutricionistas. Preencha o formulário abaixo e aguarde o contato de nossa equipe.",
   "sections": [
     {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
@@ -15,10 +19,6 @@
           "alt": "nutri"
         }
       ]
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
     }
   ]
 }
