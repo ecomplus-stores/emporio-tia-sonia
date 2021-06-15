@@ -1,6 +1,16 @@
 {
   "sections": [
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/topo-produto15off.png",
+          "link": "https://www.emporiotiasonia.com.br/todos-os-produtos",
+          "alt": "15off"
+        }
+      ]
+    },
+    {
       "type": "breadcrumbs",
       "enabled": true
     },
