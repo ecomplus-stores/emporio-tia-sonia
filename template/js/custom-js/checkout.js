@@ -10,3 +10,11 @@ window.storefront.on('widget:@ecomplus/widget-fb-pixel', function () {
     }
   }, 800)
 })
+
+storefront.on('widget:@ecomplus/widget-tag-manager', function () {
+    setTimeout(function () {
+        if((window.innerWidth < 767) && $('#cart').length) {
+            $('.cart__discount').after($('.recommended-items'))
+        }
+    }, 800);
+  });
