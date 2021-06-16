@@ -1,9 +1,14 @@
 {
   "title": "Cadastro Nutricionista",
-  "body": "Cadastre-se e tenha acesso aos benefícios da Tia Sônia para Nutricionistas. Preencha o formulário abaixo e aguarde o contato de nossa equipe.\n\n<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform?embedded=true\" width=\"100%\" height=\"1265\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Carregando…</iframe>",
+  "body": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform?embedded=true\" width=\"100%\" height=\"1265\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Carregando…</iframe>",
   "meta_title": "Cadastro para Nutricionistas - Tia Sônia",
   "meta_description": "Cadastre-se e tenha acesso aos benefícios da Tia Sônia para Nutricionistas. Preencha o formulário abaixo e aguarde o contato de nossa equipe.",
   "sections": [
+    {
+      "type": "page-title",
+      "title": "Cadastros para Nutricionistas",
+      "description": "Cadastre-se e tenha acesso aos benefícios da Tia Sônia para Nutricionistas. Preencha o formulário abaixo e aguarde o contato de nossa equipe."
+    },
     {
       "type": "extra-page",
       "enabled": true
