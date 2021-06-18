@@ -24,6 +24,25 @@
     //color: #cecece;
  }
 
+// ajuste produto mobile
+@media screen and (max-width: 480px) {
+.mb-2, .my-2 {
+    margin-bottom: -20px;
+}
+  .mb-4, .my-4 {
+    margin-bottom: -35px;
+}
+  .gallery__item--video {
+    font-size: 11px;
+    margin-top: -13px;    
+    padding: 8px 12px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+  
+}
+
+
 //links blog
 .blog-post a {
     color: #394177;
