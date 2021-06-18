@@ -255,6 +255,7 @@
   
               
               <transition enter-active-class="animated fadeInUp">
+                <!--
                 <slot
                   name="payment-gateways"
                   v-bind="{ paymentOptions }"
@@ -302,7 +303,7 @@
                       </div>
                     </div>
                   </article>
-                </slot>
+                </slot> -->
               </transition>
   
               <p
@@ -319,7 +320,7 @@
                   </template>
                 </strong>
               </p>
-  
+            <!--
               <slot name="share">
                 <a-share
                   v-if="body.slug"
@@ -328,7 +329,7 @@
                   :title="body.name"
                   :description="body.short_description"
                 />
-              </slot>
+              </slot>-->
   
               <slot name="track-price">
                 <div
