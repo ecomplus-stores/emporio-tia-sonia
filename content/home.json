@@ -71,14 +71,8 @@
       "shuffle": false,
       "collection_id": null,
       "sort": "sales",
-      "title": "Os Preferidos!"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "collection_id": "5e04f9b1661b5405730b8040:categories:Kits Tia Sônia:/kits-tia-sonia",
-      "sort": "sales",
-      "title": "Mais, por menos!"
+      "title": "Os Preferidos!",
+      "limit": 12
     },
     {
       "type": "custom-html",
