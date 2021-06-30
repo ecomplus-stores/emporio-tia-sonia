@@ -52,11 +52,14 @@
       "sort": "sales"
     },
     {
+      "type": "custom-html",
+      "html": "<h1 style=\"\n    text-align: center;\n    color: #aaaa;\n\">Conheça a história da melhor Granola do Brasil!</h1>"
+    },
+    {
       "type": "responsive-banner",
-      "link": "https://www.emporiotiasonia.com.br/achocolatado-em-po-260gr",
-      "alt": "achocolatado2",
-      "img": "/img/uploads/banner-site-1920x500.jpg",
-      "mobile_img": "/img/uploads/1080x1080.jpg"
+      "img": "/img/uploads/tstorytiasonia.jpg",
+      "alt": "História de Tia Sônia",
+      "link": "http://www.tiasonia.com.br/pt-br/sobre"
     },
     {
       "type": "collection-shelf",
@@ -82,14 +85,11 @@
       "title": "Café Orgânico!"
     },
     {
-      "type": "custom-html",
-      "html": "<h1 style=\"\n    text-align: center;\n    color: #aaaa;\n\">Conheça a história da melhor Granola do Brasil!</h1>"
-    },
-    {
       "type": "responsive-banner",
-      "img": "/img/uploads/tstorytiasonia.jpg",
-      "alt": "História de Tia Sônia",
-      "link": "http://www.tiasonia.com.br/pt-br/sobre"
+      "link": "https://www.emporiotiasonia.com.br/achocolatado-em-po-260gr",
+      "alt": "achocolatado2",
+      "img": "/img/uploads/banner-site-1920x500.jpg",
+      "mobile_img": "/img/uploads/1080x1080.jpg"
     }
   ]
 }
