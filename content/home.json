@@ -53,7 +53,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<h1 style=\"\n    text-align: center;\n    color: #aaaa;\n\">Conheça a história da melhor Granola do Brasil!</h1>"
+      "html": "<h1 style=\"\n    text-align: center;\n    color: #204294;\n\">Conheça a história da melhor Granola do Brasil!</h1>"
     },
     {
       "type": "responsive-banner",
