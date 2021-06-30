@@ -78,18 +78,18 @@
       "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '85317'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Orgânico:/cafe-colheita-das-alegrias",
-      "sort": "sales",
-      "title": "Café Orgânico!"
-    },
-    {
       "type": "responsive-banner",
       "link": "https://www.emporiotiasonia.com.br/achocolatado-em-po-260gr",
       "alt": "achocolatado2",
       "img": "/img/uploads/banner-site-1920x500.jpg",
       "mobile_img": "/img/uploads/1080x1080.jpg"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Orgânico:/cafe-colheita-das-alegrias",
+      "sort": "sales",
+      "title": "Café Orgânico!"
     }
   ]
 }
