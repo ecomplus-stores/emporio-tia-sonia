@@ -7,6 +7,14 @@
       "autoplay": 0,
       "slides": [
         {
+          "start": "2021-07-13T17:23:58.291Z",
+          "end": "",
+          "img": "/img/uploads/banner-1920x500.jpg",
+          "mobile_img": "/img/uploads/banner-mobile.jpg",
+          "link": "https://www.emporiotiasonia.com.br/todos-os-produtos?",
+          "alt": "levemais"
+        },
+        {
           "start": "2021-05-24T11:28:08.776Z",
           "end": "",
           "img": "/img/uploads/nova-embalagem-pote-1920-1-.jpg",
