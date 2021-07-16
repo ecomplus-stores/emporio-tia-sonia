@@ -30,16 +30,16 @@
       "description": "Descubra neste artigo os principais benefícios da granola para a sua saúde."
     },
     {
-      "type": "blog-post",
-      "enabled": true
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
       "page": "",
       "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
       "title": "Granola é Tia Sônia!"
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     }
   ]
 }
