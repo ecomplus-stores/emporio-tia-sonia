@@ -75,11 +75,12 @@
       "collection_id": null,
       "sort": "sales",
       "title": "Os Preferidos!",
-      "limit": 12
+      "limit": "",
+      "page": 4
     },
     {
       "type": "custom-html",
-      "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Milhares de clientes já provaram os Produtos Tia Sônia, confira algumas opiniões.</a></h4>"
+      "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Milhares de Pessoas já provaram os Produtos Tia Sônia, confira as opiniões mais recentes:</a></h4>"
     },
     {
       "type": "custom-html",
@@ -95,9 +96,10 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Orgânico:/cafe-colheita-das-alegrias",
+      "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
       "sort": "sales",
-      "title": "Café Orgânico!"
+      "title": "Leve Mais, Por Menos!",
+      "page": 4
     }
   ]
 }
