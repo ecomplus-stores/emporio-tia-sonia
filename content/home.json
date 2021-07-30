@@ -76,7 +76,7 @@
       "sort": "sales",
       "title": "Os Preferidos!",
       "limit": "",
-      "page": 4
+      "page": ""
     },
     {
       "type": "custom-html",
@@ -95,11 +95,11 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
       "sort": "sales",
       "title": "Leve Mais, Por Menos!",
-      "page": 4
+      "page": ""
     }
   ]
 }
