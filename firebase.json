@@ -15,6 +15,11 @@
         "source": "/barra-de-cereais-tia-sonia-mix-de-castanhas-com-chocolate-display-com-24-unidades-de-25-g",
         "destination": "/barra-de-cereais-tia-sonia-mix-de-castanhas-display-com-24-unidades-de-20g",
         "type": 301
+      },
+      {
+        "source": "/display-coquinho-crocante-tia-sonia",
+        "destination": "/coquinho-crocante-25g-10-unidades",
+        "type": 301
       }
     ],
     "public": "dist",
