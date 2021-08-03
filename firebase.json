@@ -20,6 +20,96 @@
         "source": "/display-coquinho-crocante-tia-sonia",
         "destination": "/coquinho-crocante-25g-10-unidades",
         "type": 301
+      },
+      {
+        "source": "/funcionais-tia-sonia-cranberry",
+        "destination": "/cranberry-80g",
+        "type": 301
+      },
+      {
+        "source": "/funcionais-tia-sonia-goji-berry",
+        "destination": "/granola-low-carb-com-prebiotico-nuts-e-berry-pote",
+        "type": 301
+      },
+      {
+        "source": "/gourmet-tia-sonia-mix-gourmet-pote-320g",
+        "destination": "/temperado",
+        "type": 301
+      },
+      {
+        "source": "/mix-gourmet",
+        "destination": "/temperado",
+        "type": 301
+      },
+      {
+        "source": "/pasta-de-amendoim",
+        "destination": "/amendoin",
+        "type": 301
+      },
+      {
+        "source": "/amendoin",
+        "destination": "/amendoim",
+        "type": 301
+      },
+      {
+        "source": "/sublime-tia-sonia-mix-de-castanhas-display-com-24-pacotes-de-30g",
+        "destination": "/snack-mix-de-castanhas-25g--10-unidades",
+        "type": 301
+      },
+      {
+        "source": "/sublime-tia-sonia-tapioca-crocante-display-com-24-pacotes-de-30g",
+        "destination": "/crocante-tapioca-25g--10-unidades",
+        "type": 301
+      },
+      {
+        "source": "/cafe-organico-colheita-das-alegrias---gourmet-torrado-graos",
+        "destination": "/cafe-organico-gourmet-graos",
+        "type": 301
+      },
+      {
+        "source": "/camisa-tia-sonia-preta",
+        "destination": "/todos-os-produtos",
+        "type": 301
+      },
+      {
+        "source": "/canudo-de-metal-curvo",
+        "destination": "/todos-os-produtos",
+        "type": 301
+      },
+      {
+        "source": "/cranberry",
+        "destination": "/cranberry-80g",
+        "type": 301
+      },
+      {
+        "source": "/display-coquinho-crocante-tia-sonia",
+        "destination": "/coquinho-crocante-25g-10-unidades",
+        "type": 301
+      },
+      {
+        "source": "/funcionais",
+        "destination": "/integrais",
+        "type": 301
+      },
+      {
+        "source": "/granola-tia-sonia-light-display-com-24-pacotes-de-30g",
+        "destination": "/light",
+        "type": 301
+      },
+      {
+        "source": "/linha-gourmet",
+        "destination": "/estilos-de-alimentacao",
+        "type": 301
+      },
+      {
+        "source": "/outros-produtos",
+        "destination": "/todos-os-produtos",
+        "type": 301
+      },
+      {
+        "source": "/squeeze-tia-sonia",
+        "destination": "/todos-os-produtos",
+        "type": 301
       }
     ],
     "public": "dist",
