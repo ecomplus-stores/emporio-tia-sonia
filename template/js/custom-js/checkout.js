@@ -1,18 +1,23 @@
 // Add your custom JavaScript for checkout here.
-window.storefront.on('widget:@ecomplus/widget-fb-pixel', function () {
-  setTimeout(function () {
-    const pedido = document.getElementById('order') || false
-    const statusOrderPaid = document.querySelector('.order-info__financial-status--paid') || false
-    if (pedido && statusOrderPaid) {
-      const timeShipping = document.querySelector('.shipping-line')
-      const htmlLink = '<br><a href="/acompanhar-pedido" target="blank">Acompanhar Pedido</a>'
-      timeShipping.insertAdjacentHTML('afterend', htmlLink)
+const routerToLink = window.storefrontApp && window.storefrontApp.router
+routerToLink.afterEach(({ name }) => {
+  if(name === 'order') {
+    const appendLink = () => {
+      const pedido = document.getElementById('order') || false
+      const statusOrderPaid = document.querySelector('.order-info__financial-status--paid') || false
+      if (pedido && statusOrderPaid) {
+        const timeShipping = document.querySelector('.shipping-line')
+        const htmlLink = '<br><a href="/acompanhar-pedido" target="blank">Acompanhar Pedido</a>'
+        timeShipping.insertAdjacentHTML('afterend', htmlLink)
+        clearInterval(tryAppendInterval)
+      }
     }
-  }, 800)
+    const tryAppendInterval = setInterval(appendLink, 200)
+  }
 })
 
-storefront.on('widget:@ecomplus/widget-tag-manager', function () {
-    setTimeout(function () {
+storefront.on('widget:@ecomplus/widget-tag-manager', () => {
+    setTimeout(() => {
         if((window.innerWidth < 767) && $('#cart').length) {
             $('.cart__discount').after($('.recommended-items'))
         }
