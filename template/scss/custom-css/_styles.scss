@@ -1060,6 +1060,6 @@ footer .trustvox-certificate__fixed-seal{
 }
 // menu phone adicionar link para blog
 .menu__phone {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
 }
