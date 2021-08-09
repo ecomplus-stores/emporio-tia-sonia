@@ -54,6 +54,15 @@
     },
     {
       "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
+      "sort": "sales",
+      "title": "Granola Tia Sônia: Qualidade e Sabor Incomparável!"
+    },
+    {
+      "type": "collection-shelf",
       "shuffle": true,
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
       "title": "As novidades!",
