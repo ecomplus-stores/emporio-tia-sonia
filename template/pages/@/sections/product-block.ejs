@@ -161,8 +161,8 @@ if (_.state.brands && _.state.brands[0]) {
 if (_.state.pictures && _.state.pictures.length) {
   productJsonLd.image = _.ecomUtils.img(_.state, null, 'zoom').url
 }
-if (_.state.mpn && _.state.mpn[0]) {
-  productJsonLd.mpn = _.state.mpn[0]
+if (_.state.gtin && _.state.gtin[0]) {
+  productJsonLd.gtin = _.state.gtin[0]
 }
 %>
 <script type="application/ld+json"><%-
