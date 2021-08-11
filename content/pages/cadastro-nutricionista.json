@@ -10,20 +10,20 @@
       "description": "Cadastre-se e tenha acesso aos benefícios da Tia Sônia para Nutricionistas. Preencha o formulário abaixo e aguarde o contato de nossa equipe."
     },
     {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
         {
           "start": "2021-06-11T12:04:40.492Z",
           "end": "",
-          "img": "/img/uploads/bannernutri.jpg",
+          "img": "/img/uploads/clube-nutri-tiasonia.jpg",
           "alt": "nutri"
         }
       ]
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     }
   ]
 }
