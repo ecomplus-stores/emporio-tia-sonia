@@ -10,16 +10,8 @@
       "description": "O nosso Clube é um programa com objetivo de nos conectar e nos aproximar ainda mais! E se você quer se juntar a nós para inspirar cada vez mais pessoas a ter uma alimentação saudável, venha com a gente! "
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2021-06-11T12:04:40.492Z",
-          "end": "",
-          "img": "/img/uploads/clube-nutri-tiasonia.jpg",
-          "alt": "nutri"
-        }
-      ]
+      "type": "responsive-banner",
+      "img": "/img/uploads/clube-nutri-tiasonia.jpg"
     },
     {
       "type": "extra-page",
