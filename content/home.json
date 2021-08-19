@@ -89,10 +89,10 @@
     },
     {
       "type": "responsive-banner",
-      "link": "https://www.emporiotiasonia.com.br/achocolatado-em-po-260gr",
-      "alt": "achocolatado2",
-      "img": "/img/uploads/banner-site-1920x500.jpg",
-      "mobile_img": "/img/uploads/1080x1080.jpg"
+      "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia",
+      "alt": "kits",
+      "img": "/img/uploads/1920-kits.jpg",
+      "mobile_img": "/img/uploads/1080-kits.jpg"
     },
     {
       "type": "collection-shelf",
