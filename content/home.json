@@ -37,6 +37,14 @@
           "mobile_img": "/img/uploads/feednutri.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
           "alt": "nutri"
+        },
+        {
+          "start": "2021-08-26T20:10:29.369Z",
+          "end": "",
+          "img": "/img/uploads/ebook-500.jpg",
+          "mobile_img": "/img/uploads/ebook-1080.jpg",
+          "alt": "eboook",
+          "link": "https://lp.tiasonia.com.br/ebook"
         }
       ]
     },
