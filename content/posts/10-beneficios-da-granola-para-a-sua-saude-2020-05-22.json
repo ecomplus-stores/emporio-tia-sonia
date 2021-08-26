@@ -35,6 +35,13 @@
     {
       "type": "blog-post",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/ebook-500.jpg",
+      "mobile_img": "/img/uploads/ebook-1080.jpg",
+      "link": "https://lp.tiasonia.com.br/ebook",
+      "alt": "ebook"
     }
   ]
 }
