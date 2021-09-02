@@ -11,3 +11,5 @@ Disallow: /admin/index.html$
 Disallow: /admin/cms/$
 Disallow: /admin/cms/index$
 Disallow: /admin/cms/index.html$
+Disallow: /404
+
