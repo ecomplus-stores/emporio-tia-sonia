@@ -7,20 +7,20 @@
       "autoplay": 0,
       "slides": [
         {
-          "start": "2021-06-07T12:54:43.398Z",
-          "end": "",
-          "img": "/img/uploads/03-1920x500-pasta-caju_-min.jpg",
-          "mobile_img": "/img/uploads/02-1080x1080-pasta-caju-min.jpg",
-          "alt": "pasta",
-          "link": "https://www.emporiotiasonia.com.br/castanha-de-caju"
-        },
-        {
           "start": "2021-08-17T13:26:49.727Z",
           "end": "",
           "img": "/img/uploads/1920-kits.jpg",
           "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia",
           "alt": "kits",
           "mobile_img": "/img/uploads/1080-kits.jpg"
+        },
+        {
+          "start": "2021-06-07T12:54:43.398Z",
+          "end": "",
+          "img": "/img/uploads/03-1920x500-pasta-caju_-min.jpg",
+          "mobile_img": "/img/uploads/02-1080x1080-pasta-caju-min.jpg",
+          "alt": "pasta",
+          "link": "https://www.emporiotiasonia.com.br/castanha-de-caju"
         },
         {
           "start": "2021-05-24T11:28:22.133Z",
