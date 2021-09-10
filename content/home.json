@@ -50,10 +50,6 @@
     },
     {
       "type": "custom-html",
-      "html": "[estilos-de-alimentacao]"
-    },
-    {
-      "type": "custom-html",
       "html": "<h1 style=\"text-align: center; color: #204294;\">Conheça a história da melhor Granola do Brasil!</h1>"
     },
     {
@@ -61,6 +57,10 @@
       "img": "/img/uploads/tstorytiasonia.jpg",
       "alt": "História de Tia Sônia",
       "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
+    },
+    {
+      "type": "custom-html",
+      "html": "[estilos-de-alimentacao]"
     },
     {
       "type": "collection-shelf",
