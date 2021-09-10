@@ -23,6 +23,22 @@
     {
       "type": "product-specifications",
       "enabled": true
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "views"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/ebook-500.jpg",
+      "link": "https://lp.tiasonia.com.br/ebook",
+      "alt": "ebook",
+      "mobile_img": "/img/uploads/ebook-1080.jpg"
+    },
+    {
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
