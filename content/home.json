@@ -53,6 +53,16 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
+      "type": "custom-html",
+      "html": "<h1 style=\"text-align: center; color: #204294;\">Conheça a história da melhor Granola do Brasil!</h1>"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/tstorytiasonia.jpg",
+      "alt": "História de Tia Sônia",
+      "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -67,16 +77,6 @@
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
       "title": "As novidades!",
       "sort": "sales"
-    },
-    {
-      "type": "custom-html",
-      "html": "<h1 style=\"text-align: center; color: #204294;\">Conheça a história da melhor Granola do Brasil!</h1>"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/tstorytiasonia.jpg",
-      "alt": "História de Tia Sônia",
-      "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
     },
     {
       "type": "collection-shelf",
