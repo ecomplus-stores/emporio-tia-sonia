@@ -8,7 +8,11 @@
   "contacts_stripe": {
     "pages": [
       {
-        "title": "Fale com a Tia Sônia",
+        "title": "Conheça a Tia Sônia",
+        "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
+      },
+      {
+        "title": "Contato",
         "link": "https://www.emporiotiasonia.com.br/pages/contato"
       }
     ],
