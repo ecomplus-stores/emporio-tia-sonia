@@ -97,10 +97,10 @@
     },
     {
       "type": "responsive-banner",
-      "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia",
-      "alt": "kits",
-      "img": "/img/uploads/1920-kits.jpg",
-      "mobile_img": "/img/uploads/1080-kits.jpg"
+      "link": "https://lp.tiasonia.com.br/ebook",
+      "alt": "ebook",
+      "img": "/img/uploads/ebook-500.jpg",
+      "mobile_img": "/img/uploads/ebook-1080.jpg"
     },
     {
       "type": "collection-shelf",
