@@ -42,7 +42,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<h1 style=\"text-align: center; color: #204294;\">Conheça a história da melhor Granola do Brasil!</h1>"
+      "html": "<a href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\">\n<h1 style=\"text-align: center; color: #204294;\">Conheça a história da melhor Granola do Brasil!</h1>\n</a>"
     },
     {
       "type": "responsive-banner",
