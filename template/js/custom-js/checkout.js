@@ -10,8 +10,9 @@ routerToLink.afterEach(({ name }) => {
         const shippingtTracking = document.querySelector('.order-info__shipping-tracking')
                
         timeShipping.insertAdjacentHTML('afterend', htmlLink)
-        clearInterval(tryAppendInterval)
         const htmlLink = '<br><a href="/acompanhar-pedido" target="blank">Acompanhar Pedido</a>'
+        clearInterval(tryAppendInterval)
+        
       }
     }
     const tryAppendInterval = setInterval(appendLink, 200)
