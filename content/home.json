@@ -4,8 +4,16 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 0,
+      "autoplay": 1000,
       "slides": [
+        {
+          "start": "2021-09-15T17:59:16.802Z",
+          "end": "",
+          "img": "/img/uploads/03-1920x500-dia-docliente.jpg",
+          "mobile_img": "/img/uploads/02-1080x1080-dia-do-cliente.jpg",
+          "link": "https://www.emporiotiasonia.com.br/todos-os-produtos",
+          "alt": "levemais"
+        },
         {
           "start": "2021-08-17T13:26:49.727Z",
           "end": "",
