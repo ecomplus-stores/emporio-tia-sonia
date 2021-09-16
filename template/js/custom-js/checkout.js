@@ -6,9 +6,14 @@ routerToLink.afterEach(({ name }) => {
       const pedido = document.getElementById('order') || false
       const statusOrderPaid = document.querySelector('.order-info__financial-status--paid') || false
       if (pedido && statusOrderPaid) {
-        const timeShipping = document.querySelector('.order-info__shipping-tracking')
+        const timeShipping = document.querySelector('.shipping-line')
+        const shippingtTracking = document.querySelector('.order-info__shipping-tracking')
         const htmlLink = '<br><a href="/acompanhar-pedido" target="blank">Acompanhar Pedido</a>'
-        timeShipping.insertAdjacentHTML('afterend', htmlLink)        
+        if (timeShipping && shippingtTracking) {
+          shippingtTracking.insertAdjacentHTML('afterend', htmlLink)   
+        } else {
+          timeShipping.insertAdjacentHTML('afterend', htmlLink)
+        }        
         clearInterval(tryAppendInterval)
         
       }
