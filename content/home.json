@@ -65,11 +65,10 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
-      "sort": "sales",
-      "title": "Granola Tia Sônia: Qualidade e Sabor Incomparável!"
+      "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
+      "sort": "news",
+      "title": "Leve Mais, Por Menos!",
+      "page": ""
     },
     {
       "type": "collection-shelf",
@@ -105,10 +104,11 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
-      "sort": "news",
-      "title": "Leve Mais, Por Menos!",
-      "page": ""
+      "limit": "",
+      "page": "",
+      "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
+      "sort": "sales",
+      "title": "Granola Tia Sônia: Qualidade e Sabor Incomparável!"
     }
   ]
 }
