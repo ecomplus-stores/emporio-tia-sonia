@@ -30,10 +30,6 @@
       "link": "https://lp.tiasonia.com.br/ebook",
       "alt": "ebook",
       "mobile_img": "/img/uploads/ebook-1080.jpg"
-    },
-    {
-      "type": "blog",
-      "enabled": true
     }
   ]
 }
