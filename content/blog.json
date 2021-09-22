@@ -8,7 +8,9 @@
       "enabled": true
     },
     {
-      "type": "page-title"
+      "type": "page-title",
+      "title": "Blog da Tia Sônia: Dicas e Conteúdos sobre Alimentação Saudável, Bem Estar e muito mais!",
+      "description": "Assuntos que tem o objetivo de ajudar as pessoas a viverem o seu sentir bem,  transformando suas vidas positivamente para que espalhem  a seu redor todo o prazer que sentem em viver."
     },
     {
       "type": "blog",
