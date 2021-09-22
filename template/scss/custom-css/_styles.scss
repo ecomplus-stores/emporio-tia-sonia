@@ -37,6 +37,13 @@
 }
   
 }
+@media (min-width: 992px)
+.gallery__item--video {
+    padding: var(--spacer-2) 0;
+    font-size: var(--font-size);
+    background: #ffc240;
+    border-radius: 5px;
+}
 
 
 //links blog
