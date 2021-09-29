@@ -70,9 +70,11 @@
         },
         {
           "start": "2021-09-29T12:57:58.521Z",
-          "end": "2021-09-29T12:57:58.583Z",
+          "end": "",
           "img": "/img/uploads/sou-e-gran-chocolate-500.jpg",
-          "mobile_img": "/img/uploads/sou-e-gran-chocolate.jpg"
+          "mobile_img": "/img/uploads/sou-e-gran-chocolate.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
+          "alt": "casa"
         }
       ]
     },
