@@ -7,46 +7,6 @@
       "autoplay": 10000,
       "slides": [
         {
-          "start": "2021-09-15T17:59:16.802Z",
-          "end": "",
-          "img": "/img/uploads/500-banana-go.jpg",
-          "mobile_img": "/img/uploads/1080-banana-go.jpg",
-          "link": "https://www.emporiotiasonia.com.br/banana-go",
-          "alt": "levemais"
-        },
-        {
-          "start": "2021-08-17T13:26:49.727Z",
-          "end": "",
-          "img": "/img/uploads/1920-kits.jpg",
-          "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia",
-          "alt": "kits",
-          "mobile_img": "/img/uploads/1080-kits.jpg"
-        },
-        {
-          "start": "2021-06-07T12:54:43.398Z",
-          "end": "",
-          "img": "/img/uploads/03-1920x500-pasta-caju_-min.jpg",
-          "mobile_img": "/img/uploads/02-1080x1080-pasta-caju-min.jpg",
-          "alt": "pasta",
-          "link": "https://www.emporiotiasonia.com.br/castanha-de-caju"
-        },
-        {
-          "start": "2021-06-14T12:33:47.518Z",
-          "end": "",
-          "img": "/img/uploads/bannernutri.jpg",
-          "mobile_img": "/img/uploads/feednutri.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
-          "alt": "nutri"
-        },
-        {
-          "start": "2021-08-26T20:10:29.369Z",
-          "end": "",
-          "img": "/img/uploads/ebook-500.jpg",
-          "mobile_img": "/img/uploads/ebook-1080.jpg",
-          "alt": "eboook",
-          "link": "https://lp.tiasonia.com.br/ebook"
-        },
-        {
           "start": "2021-09-29T12:24:20.434Z",
           "end": "",
           "mobile_img": "/img/uploads/leite-e-achocolatado.jpg",
@@ -123,6 +83,30 @@
           "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
           "alt": "casa",
           "mobile_img": "/img/uploads/granola-tra-e-achocolatado.jpg"
+        },
+        {
+          "start": "2021-09-15T17:59:16.802Z",
+          "end": "",
+          "img": "/img/uploads/500-banana-go.jpg",
+          "mobile_img": "/img/uploads/1080-banana-go.jpg",
+          "link": "https://www.emporiotiasonia.com.br/banana-go",
+          "alt": "levemais"
+        },
+        {
+          "start": "2021-08-17T13:26:49.727Z",
+          "end": "",
+          "img": "/img/uploads/1920-kits.jpg",
+          "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia",
+          "alt": "kits",
+          "mobile_img": "/img/uploads/1080-kits.jpg"
+        },
+        {
+          "start": "2021-06-14T12:33:47.518Z",
+          "end": "",
+          "img": "/img/uploads/bannernutri.jpg",
+          "mobile_img": "/img/uploads/feednutri.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
+          "alt": "nutri"
         }
       ]
     },
