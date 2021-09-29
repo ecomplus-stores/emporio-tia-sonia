@@ -126,7 +126,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "collection_id": "5ed92bce14ff772fde777274:collections:Compre e Ganhe!:/amor-sabor-e-qualidade-",
       "sort": "sales",
       "title": "Leve Mais, Por Menos!",
