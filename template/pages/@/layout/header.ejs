@@ -43,74 +43,73 @@ if (header.categories_list) {
 %>
 
 <div id="overlay" class="fade"></div>
-
-<header class="header" id="header">
-  <div class="top-bar">
-    <% if (header.marketing_stripe) { %>
-      <% if (header.marketing_stripe.text) { %>
-        <% if (header.marketing_stripe.link) { %>
-          <a class="top-bar__countdown" href="<%= header.marketing_stripe.link %>">
-            <%= header.marketing_stripe.text %>
-          </a>
-        <% } else { %>
-          <div class="top-bar__countdown">
-            <%= header.marketing_stripe.text %>
-          </div>
-        <% } %>
+<div class="top-bar">
+  <% if (header.marketing_stripe) { %>
+    <% if (header.marketing_stripe.text) { %>
+      <% if (header.marketing_stripe.link) { %>
+        <a class="top-bar__countdown" href="<%= header.marketing_stripe.link %>">
+          <%= header.marketing_stripe.text %>
+        </a>
+      <% } else { %>
+        <div class="top-bar__countdown">
+          <%= header.marketing_stripe.text %>
+        </div>
       <% } %>
     <% } %>
+  <% } %>
 
-    <div class="top-bar__nav d-none d-md-block">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <nav class="top-bar__page-links">
-              <% if (header.contacts_stripe.pages) { %>
-                <% header.contacts_stripe.pages.forEach(({ link, title }) => { %>
-                  <a target="_blank" href="<%= link %>"><%= title %></a>
-                <% }) %>
-              <% } %>
-            </nav>
-            <% if (header.contacts_stripe.phone_wpp) { %>
-              <% if (contacts.whatsapp) { %>
-                <a
-                  href="javascript:;"
-                  target="_blank"
-                  rel="noopener"
-                  class="whatsapp-link"
-                  data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>"
-                >
-                  <i class="fab fa-whatsapp"></i>
-                  <%= contacts.whatsapp %>
-                </a>
-              <% } %>
-              <% if (contacts.phone) { %>
-                <a
-                  href="tel:+<%= contacts.phone.replace(/\D/g, '') %>"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <i class="fas fa-phone"></i>
-                  <%= contacts.phone %>
-                </a>
-              <% } %>
-            <% } %>
-          </div>
-          <% if (header.contacts_stripe.socials) { %>
-            <div class="col-auto">
-              <% networks.forEach(network => { %>
-                <% if (contacts[network]) { %>
-                  <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
-                    <i class="fab fa-<%= network %>"></i>
-                  </a>
-                <% } %>
+  <div class="top-bar__nav d-none d-md-block">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <nav class="top-bar__page-links">
+            <% if (header.contacts_stripe.pages) { %>
+              <% header.contacts_stripe.pages.forEach(({ link, title }) => { %>
+                <a target="_blank" href="<%= link %>"><%= title %></a>
               <% }) %>
-            </div>
+            <% } %>
+          </nav>
+          <% if (header.contacts_stripe.phone_wpp) { %>
+            <% if (contacts.whatsapp) { %>
+              <a
+                href="javascript:;"
+                target="_blank"
+                rel="noopener"
+                class="whatsapp-link"
+                data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>"
+              >
+                <i class="fab fa-whatsapp"></i>
+                <%= contacts.whatsapp %>
+              </a>
+            <% } %>
+            <% if (contacts.phone) { %>
+              <a
+                href="tel:+<%= contacts.phone.replace(/\D/g, '') %>"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-phone"></i>
+                <%= contacts.phone %>
+              </a>
+            <% } %>
           <% } %>
         </div>
+        <% if (header.contacts_stripe.socials) { %>
+          <div class="col-auto">
+            <% networks.forEach(network => { %>
+              <% if (contacts[network]) { %>
+                <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
+                  <i class="fab fa-<%= network %>"></i>
+                </a>
+              <% } %>
+            <% }) %>
+          </div>
+        <% } %>
       </div>
     </div>
   </div>
+</div>
+<header class="header" id="header">
   <div class="header__container container-fluid">
     <div class="header__row row">
       <div class="col-auto p-0">
@@ -221,7 +220,7 @@ if (header.categories_list) {
             <input
               type="search"
               name="term"
-              placeholder="<%= _.dictionary('searchProducts') %>"
+              placeholder="Buscar"
               aria-label="<%= _.dictionary('searchProducts') %>"
               class="header__search-input form-control"
               id="search-input"

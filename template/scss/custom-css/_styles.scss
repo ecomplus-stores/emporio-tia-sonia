@@ -491,7 +491,6 @@ body{
 .header__container{margin:0 auto;padding:15px}
 .badge-primary{background:var(--apx_laranja2_h)}
 .header__nav{
-  background: #F2F2F2;
   display:flex;
   justify-content:space-between;
   max-width: 1080px;
@@ -661,8 +660,8 @@ h1{
 
 @media(min-width:990px){
   .header__logo{
-    max-height: unset;
-    margin: -20px 0 0 0;
+    // max-height: unset;
+    // margin: -20px 0 0 0;
   }
 
   #content > div > .banner-slider:first-child{
@@ -1074,5 +1073,32 @@ footer .trustvox-certificate__fixed-seal{
   flex-direction: column;
 }
 .product-item .ts-shelf-container {
+  display: none !important;
+}
+@media(min-width: 992px) {
+  .header__row {
+    display: flex;
+    .col-auto.p-0 {
+      order: 1;
+    }
+    .col.col-lg-auto.pl-1.pl-md-2.pl-lg-3 {
+      order: 2;
+    }
+    .d-none.d-lg-block.col {
+      order: 3;
+    }
+    .d-none.d-lg-block.col-12.col-lg-3.collapse {
+      order: 4;
+      flex-basis: 10%;
+    }
+    .order-lg-last.col-auto.p-0 {
+      order: 5;
+    }
+  }
+  #header #instant-search .search__box.card{
+    left: -450% !important;
+  }
+}
+.top-bar__nav {
   display: none !important;
 }
