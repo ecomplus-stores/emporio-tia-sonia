@@ -160,6 +160,7 @@ if (_.state.brands && _.state.brands[0]) {
 }
 if (_.state.pictures && _.state.pictures.length) {
   productJsonLd.image = _.ecomUtils.img(_.state, null, 'zoom').url
+    .replace(/(\w+\.)?(ecoms\d)\.com/i, '$2-nyc3.nyc3.cdn.digitaloceanspaces.com')
 }
 if (_.state.gtin && _.state.gtin[0]) {
   productJsonLd.gtin = _.state.gtin[0]
