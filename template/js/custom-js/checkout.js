@@ -1,9 +1,4 @@
 // Add your custom JavaScript for checkout here.
-
-<!-- Offer Goal Conversion: CPA -->
-<img src="https://letsperformgo.go2cloud.org/aff_goal?a=l&goal_name=cpa&adv_id=568&offer_id=159&adv_sub=SUB_ID&amount=AMOUNT" width="1" height="1" />
-<!-- // End Offer Goal Conversion -->
-
 const routerToLink = window.storefrontApp && window.storefrontApp.router
 routerToLink.afterEach(({ name }) => {
   if(name === 'order') {
