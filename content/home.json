@@ -48,9 +48,9 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": "5ed92bce14ff772fde777274:collections:Compre e Ganhe!:/amor-sabor-e-qualidade-",
-      "sort": "sales",
-      "title": "Leve Mais, Por Menos!",
+      "collection_id": null,
+      "sort": "highest_price",
+      "title": "Tem Amor, Tem Sabor!",
       "page": ""
     },
     {
