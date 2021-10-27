@@ -15,7 +15,9 @@
         {
           "start": "2021-09-14T12:58:35.101Z",
           "end": "",
-          "img": "/img/uploads/sobre-a-tia-sonia.jpg"
+          "img": "/img/uploads/sobre-a-tia-sonia.jpg",
+          "link": "https://www.emporiotiasonia.com.br/tradicional",
+          "alt": "Granola"
         }
       ]
     }
