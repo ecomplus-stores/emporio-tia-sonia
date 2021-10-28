@@ -7,6 +7,14 @@
       "autoplay": 60000,
       "slides": [
         {
+          "start": "2021-10-28T17:48:44.277Z",
+          "end": "",
+          "img": "/img/uploads/500-banana-go.jpg",
+          "mobile_img": "/img/uploads/1080-banana-go.jpg",
+          "link": "https://www.emporiotiasonia.com.br/todos-os-produtos",
+          "alt": "go"
+        },
+        {
           "start": "2021-08-17T13:26:49.727Z",
           "end": "",
           "img": "/img/uploads/1920-kits.jpg",
