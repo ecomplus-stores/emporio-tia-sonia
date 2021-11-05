@@ -31,9 +31,12 @@
   .gallery__item--video {
     font-size: 11px;    
     margin-top: -13px !important;    
-    padding: 8px 12px;
-    border: 1px solid;
+    padding: 8px 12px;    
     border-radius: 20px;
+    background: #fa4616;
+    opacity: 1;
+    border: none;
+    color: #f8f9fa;
 }
   
 }
