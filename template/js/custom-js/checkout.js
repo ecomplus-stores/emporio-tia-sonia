@@ -62,7 +62,7 @@ ${customer.name.family_name}`
                 var bvWidgetShared = new window.bvWidgetShared();
 
                 bvWidgetShared.Init({
-                    host: "https://indexia.app",
+                    host: "https://account.beeviral.app",
                     element: "app_cw_widget",
                     campaing_token: "UU9Ka1NqZTVYanhudjc5SnhQVVhLZz09",
                     name: customerName,
@@ -91,7 +91,7 @@ function initializebvWidgetShared(i, t) {
 
         , e.async = !0
 
-        , e.src = "https://indexia.app/Scripts/app/widget_sharing.js"
+        , e.src = "https://account.beeviral.app/Scripts/app/widget_sharing.js"
 
         , e.onload = initbvWidgetShared
 
