@@ -31,30 +31,3 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
   });
 
 
-
-
-// BEE VIRAL
-<script type="text/javascript">
-        function initbvWidgetShared() {
-            var bvWidgetShared = new window.bvWidgetShared();
-            bvWidgetShared.Init({
-                host: "https://account.beeviral.app",
-                element: "app_cw_widget",
-                campaign_token: "UU9Ka1NqZTVYanhudjc5SnhQVVhLZz09"
-            });
-        }
-        //
-        function initializebvWidgetShared(i, t) {
-            var e;
-            i.getElementById(t) ? initbvWidgetShared() : ((
-                e = i.createElement("script")).id = t
-                , e.async = !0
-                , e.src = "https://account.beeviral.app/Scripts/app/widget_sharing.js"
-                , e.onload = initbvWidgetShared
-                , i.head.appendChild(e))
-        }
-        function initiateCallbvWidgetShared() {
-            initializebvWidgetShared(document, "bvWidgetShared-js-sdk")
-        }
-        window.addEventListener ? window.addEventListener("load", initiateCallbvWidgetShared, !1) : window.attachEvent("load", initiateCallbvWidgetShared, !1);
-</script>
