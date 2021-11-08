@@ -5,7 +5,7 @@
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 11px !important;
-  background: #293a98 !important;
+  background: #333333 !important;
 }
 
 #header {
@@ -31,9 +31,12 @@
   .gallery__item--video {
     font-size: 11px;    
     margin-top: -13px !important;    
-    padding: 8px 12px;
-    border: 1px solid;
+    padding: 8px 12px;    
     border-radius: 20px;
+    background: #fa4616;
+    opacity: 1;
+    border: none;
+    color: #f8f9fa;
 }
   
 }
@@ -42,9 +45,12 @@
 .gallery__item--video {
     padding: var(--spacer-2) 0;
     font-size: var(--font-size);
-    background: #ffc240;
+    background: #FF0000;
     border-radius: 5px;
+    opacity: 1 !important;
+    color: #ffffff;    
 }
+  .fa-play{color: #ffffff !important;}
 }
 
 
@@ -247,7 +253,7 @@ body {
 }
 // Footer
 .footer__title +ul.list-unstyled > li:first-child span,.footer__title +ul.list-unstyled > li:first-child a {
-  font-size: 20px !important;
+  font-size: 17px !important;
   color: #2C0E7A !important;
 }
 .footer__title + p {
@@ -612,7 +618,7 @@ body{
 
 .prices__value{
   font-size: 1.7rem;
-  color:var(--apx_laranja2_h);
+  color:#4698ca;
   font-family: Averta;
   font-weight: 700;
   line-height: 1.22;
@@ -1101,4 +1107,9 @@ footer .trustvox-certificate__fixed-seal{
 }
 .top-bar__nav {
   display: none !important;
+}
+
+//container blog
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {max-width: 1024px; }
 }

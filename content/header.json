@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite! 🎁 Frete Grátis em compras acima de 99",
-    "link": "https://www.emporiotiasonia.com.br/amor-sabor-e-qualidade-",
+    "text": "Esquenta Black Friday 🔥 20% OFF + Frete Grátis (acima de R$99)",
+    "link": "https://www.emporiotiasonia.com.br/black-friday",
     "background": "#0a59a8",
     "color": "#ffffff"
   },
@@ -12,14 +12,14 @@
   },
   "categories_list": {
     "featured": [
+      "/black-friday?Black Friday",
       "/todos-os-produtos?Todos os Produtos",
       "/estilos-de-alimentacao?Estilos de Alimentação",
       "/banana-go?Banana Go",
       "/granola-tia-sonia?Granolas",
       "/snacks?Snacks",
       "/low-carb?Low Carb",
-      "/cafe-colheita-das-alegrias?Café Orgânico",
-      "/pipocas-sinta?Pipocas Sinta+"
+      "/cafe-colheita-das-alegrias?Café Orgânico"
     ],
     "random": 0,
     "full_width": false

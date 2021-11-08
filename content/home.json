@@ -4,85 +4,15 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 10000,
+      "autoplay": 60000,
       "slides": [
         {
-          "start": "2021-09-29T12:24:20.434Z",
-          "end": "",
-          "mobile_img": "/img/uploads/leite-e-achocolatado.jpg",
-          "img": "/img/uploads/leite-e-achocolatado-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "leite"
-        },
-        {
-          "start": "2021-09-29T12:36:56.841Z",
-          "end": "",
-          "img": "/img/uploads/snack-e-cookie-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "Snack e Cookie",
-          "mobile_img": "/img/uploads/snack-e-cookie.jpg"
-        },
-        {
-          "start": "2021-09-29T12:52:23.657Z",
-          "end": "",
-          "img": "/img/uploads/tapioca-pot-e-sache-pasta-500.jpg",
-          "mobile_img": "/img/uploads/tapioca-pot-e-sache-pasta.jpg"
-        },
-        {
-          "start": "2021-09-29T12:57:58.521Z",
-          "end": "",
-          "img": "/img/uploads/sou-e-gran-chocolate-500.jpg",
-          "mobile_img": "/img/uploads/sou-e-gran-chocolate.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "casa"
-        },
-        {
-          "start": "2021-09-29T13:01:37.564Z",
-          "end": "",
-          "img": "/img/uploads/conquinho-e-gran-light-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "casa",
-          "mobile_img": "/img/uploads/conquinho-e-gran-light.jpg"
-        },
-        {
-          "start": "2021-09-29T13:04:22.831Z",
-          "end": "",
-          "img": "/img/uploads/pasta-de-castanha-e-tapioca-crocante-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "casa",
-          "mobile_img": "/img/uploads/pasta-de-castanha-e-tapioca-crocante.jpg"
-        },
-        {
-          "start": "2021-09-29T13:07:11.415Z",
-          "end": "",
-          "img": "/img/uploads/pas-amendoim-pot-e-cookis-castranha-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "casa",
-          "mobile_img": "/img/uploads/pas-amendoim-pot-e-cookis-castranha.jpg"
-        },
-        {
-          "start": "2021-09-29T13:10:32.143Z",
-          "end": "",
-          "img": "/img/uploads/low-carb-e-x-pin-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "casa",
-          "mobile_img": "/img/uploads/low-carb-e-x-pin.jpg"
-        },
-        {
-          "start": "2021-09-29T13:12:16.968Z",
-          "end": "",
-          "img": "/img/uploads/gran.-premio-pot-e-snack-frutas-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "casa",
-          "mobile_img": "/img/uploads/gran.-premio-pot-e-snack-frutas.jpg"
-        },
-        {
-          "start": "2021-09-29T13:16:23.954Z",
-          "end": "",
-          "img": "/img/uploads/granola-tra-e-achocolatado-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=casadinha",
-          "alt": "casa",
-          "mobile_img": "/img/uploads/granola-tra-e-achocolatado.jpg"
+          "start": "2021-10-28T17:48:44.277Z",
+          "end": "2021-11-14T12:41:33.574Z",
+          "img": "/img/uploads/snacks-bf-500.jpg",
+          "mobile_img": "/img/uploads/snacks-bf-1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/black-friday",
+          "alt": "black"
         },
         {
           "start": "2021-08-17T13:26:49.727Z",
@@ -126,9 +56,9 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": "5ed92bce14ff772fde777274:collections:Compre e Ganhe!:/amor-sabor-e-qualidade-",
+      "collection_id": "617c5ac688313d7b958781d7:categories:Black Friday:/black-friday",
       "sort": "sales",
-      "title": "Leve Mais, Por Menos!",
+      "title": "Esquenta 🔥 Black Friday",
       "page": ""
     },
     {
