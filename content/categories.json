@@ -29,15 +29,6 @@
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": "5deaa397cea1b26d087dc20a"
-    },
-    {
-      "type": "offers-timer",
-      "max_hours": 24,
-      "start": "2021-11-10T23:46:36.117Z",
-      "end": "2021-11-13T02:59:36.158Z",
-      "offers": [
-        "611169c833f3ce442f87b32a"
-      ]
     }
   ]
 }
