@@ -364,17 +364,19 @@ body {
 h1 {
     font-size: 2.0rem;
 }
+
 //estrelas trustvox
 .product-card__name +div {
   margin-left: 25%;
-  display: none !important
+  //display: none !important
 }
+
 //não mostrar preço com desconto
 .prices__discount{
   display:none;
 }
 .discount-applier .alert::after{
- content: '*O valor do desconto não é cumulativo com outras promoções ou cupom de desconto'
+ //content: '*O valor do desconto não é cumulativo com outras promoções ou cupom de desconto'
 }
 //remover status pedido aberto
 .order-info__status--open {
