@@ -80,10 +80,6 @@ h1 {
     color: #705a3d !important;
 }
 
-//trustvox
-//html body .ts-shelf-container {
- //   display: none;
-//}
 
 //texto menu
 .header__row .header__nav a {
@@ -386,10 +382,7 @@ h1 {
 .summary__item img {
   width: 50px;
 }
-// hide trustvox star
-.products-carousel .ts-shelf-container {
-  //display: none;
-}
+
 .product-item
 
 // aumentar botao comprar
@@ -1081,7 +1074,7 @@ footer .trustvox-certificate__fixed-seal{
   flex-direction: column;
 }
 .product-item .ts-shelf-container {
-  display: none !important;
+  //display: none !important;
 }
 @media(min-width: 992px) {
   .header__row {
