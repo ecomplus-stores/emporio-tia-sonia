@@ -369,7 +369,7 @@ h1 {
 
 //não mostrar preço com desconto
 .prices__discount{
-  display:none;
+  //display:none;
 }
 .discount-applier .alert::after{
  //content: '*O valor do desconto não é cumulativo com outras promoções ou cupom de desconto'
