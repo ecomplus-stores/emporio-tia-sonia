@@ -45,7 +45,8 @@ export default {
       console.log(days)
       let date = new Date()
       let today = date.getDay()
-      if (typeof window.storefrontApp === 'undefined') {
+      const rota = window.storefrontApp && window.storefrontApp.router && window.storefrontApp.router.currentRoute && window.storefrontApp.router.currentRoute.name
+      if ((rota !== 'order') && (rota !== 'confirmation')) {
         date.setDate(date.getDate() + days + (today === 6 ? 2 : +!today) + (Math.floor((days - 1 + (today % 6 || 1)) / 5) * 2));
         return 'Até ' + date.toLocaleDateString();
       }
