@@ -50,8 +50,7 @@ function initbvWidgetShared() {
 
             if (order) {
                 const customer = ecomPassport.getCustomer()
-                const customerName = `${customer.name.given_name} ${customer.name.middle_name} 
-${customer.name.family_name}`
+                const customerName = `${customer.name.given_name} ${customer.name.family_name}`
 
                 const $confirmDiv = document.querySelector('#confirmation')
                 $confirmDiv.insertAdjacentHTML('beforeend','<div id="app_cw_widget"></div>')
