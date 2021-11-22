@@ -12,10 +12,6 @@
       "type": "page-title"
     },
     {
-      "type": "custom-html",
-      "html": "<a href=\"https://www.emporiotiasonia.com.br/black-friday\">\n  <p style=\"text-align: center;\">Ofertas por Tempo limitado!<br>\n    <img src=\"http://gen.sendtric.com/countdown/in52aojznx\" style=\"text-align: center;\" />\n  </p>\n</a>\n"
-    },
-    {
       "type": "category-retail",
       "enabled": true,
       "sort": "sales"
