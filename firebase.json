@@ -21,6 +21,12 @@
         "destination": "/coquinho-crocante-25g-10-unidades",
         "type": 301
       },
+      
+      {
+        "source": "/x-pin",
+        "destination": "/granola-zero-acucar",
+        "type": 301
+      },
       {
         "source": "/funcionais-tia-sonia-cranberry",
         "destination": "/cranberry-80g",
