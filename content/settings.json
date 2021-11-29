@@ -1,5 +1,4 @@
 {
-  "repository": "ecomplus-stores/emporio-tia-sonia",
   "domain": "www.emporiotiasonia.com.br",
   "currency_symbol": "R$",
   "primary_color": "#222831",
@@ -8,17 +7,18 @@
     "custom": "_"
   },
   "bg_color": "#ffffff",
-  "logo": "/img/uploads/logo.png",
+  "repository": "ecomplus-stores/emporio-tia-sonia",
+  "logo": "/img/uploads/logo-1996-1-.png",
   "name": "Tia Sônia",
   "short_name": "Tia Sônia",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
-  "favicon": "/img/uploads/favicon.png",
+  "favicon": "/img/uploads/logo-1996-3-.png",
   "country_code": "BR",
   "secondary_color": "#393e46",
-  "icon": "/img/uploads/logo-unico.png",
+  "icon": "/img/uploads/logo-1996-1-.png",
   "store_id": 1024,
   "description": "A Tia Sônia está sempre preocupada com a boa qualidade, ingredientes nutritivos e sabor agradável. Tudo para produzir e levar até você refeições naturalmente deliciosas, repletas de energia nutritiva e muito amor.",
-  "large_icon": "/img/uploads/logo.png"
+  "large_icon": "/img/uploads/logo-1996-1-.png"
 }
