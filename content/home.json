@@ -7,14 +7,6 @@
       "autoplay": 60000,
       "slides": [
         {
-          "start": "2021-10-28T17:48:44.277Z",
-          "end": "2021-11-29T03:00:00.000Z",
-          "img": "/img/uploads/black-friday-4-.jpg",
-          "mobile_img": "/img/uploads/black-friday-5-.jpg",
-          "link": "https://www.emporiotiasonia.com.br/black-friday",
-          "alt": "black"
-        },
-        {
           "start": "2021-11-27T15:19:04.603Z",
           "end": "",
           "img": "/img/uploads/lata-tia-sonia.jpg",
@@ -42,7 +34,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<a href=\"https://www.emporiotiasonia.com.br/black-friday\">\n  <p style=\"text-align: center;\">Ainda dá tempo, Aproveite!<br>\n    <img src=\"https://gen.sendtric.com/countdown/unb5y5gqpn\" style=\"text-align: center;\" />\n  </p>\n</a>\n\n<a style=\"text-align: center; color: #204294; text-decoration: none;\" href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\">\n<h1>Conheça a história da melhor Granola do Brasil!</h1>\n</a>"
+      "html": "\n\n<a style=\"text-align: center; color: #204294; text-decoration: none;\" href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\">\n<h1>Conheça a história da melhor Granola do Brasil!</h1>\n</a>"
     },
     {
       "type": "responsive-banner",
