@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
     "text": "💛 Frete Grátis Brasil (acima de R$99)",
-    "link": "https://www.emporiotiasonia.com.br/black-friday",
+    "link": "",
     "background": "#0a59a8",
     "color": "#ffffff"
   },
@@ -12,7 +12,6 @@
   },
   "categories_list": {
     "featured": [
-      "/black-friday?Black Friday",
       "/todos-os-produtos?Todos os Produtos",
       "/kits-tia-sonia?Kits",
       "/estilos-de-alimentacao?Estilos de Alimentação",
