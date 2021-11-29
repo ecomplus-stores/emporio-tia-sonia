@@ -17,6 +17,11 @@
         "type": 301
       },
       {
+        "source": "/black-friday",
+        "destination": "/todos-os-produtos",
+        "type": 301
+      },
+      {
         "source": "/display-coquinho-crocante-tia-sonia",
         "destination": "/coquinho-crocante-25g-10-unidades",
         "type": 301
