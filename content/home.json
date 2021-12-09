@@ -64,7 +64,7 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": "613a5ae6522ab535e60901c6:categories:Banana Go:/banana-go",
+      "collection_id": null,
       "title": "As novidades!",
       "sort": "news"
     },
