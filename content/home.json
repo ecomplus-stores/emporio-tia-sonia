@@ -63,7 +63,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "collection_id": null,
       "title": "As novidades!",
       "sort": "news"
