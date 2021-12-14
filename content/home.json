@@ -78,10 +78,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/nova-embalagem-pote-1920-1-.jpg",
-      "mobile_img": "/img/uploads/nova-embalagem-pote-1080.jpg",
-      "alt": "biodegradavel",
-      "link": "https://www.emporiotiasonia.com.br/search?term=biodegradavel"
+      "img": "/img/uploads/banana-go-1920x500.jpg",
+      "mobile_img": "/img/uploads/banana-go-1080.jpg",
+      "alt": "banana",
+      "link": "https://www.emporiotiasonia.com.br/banana-go"
     },
     {
       "type": "collection-shelf",
