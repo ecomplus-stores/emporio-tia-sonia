@@ -115,6 +115,10 @@
       "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
       "sort": "sales",
       "title": "Granola Tia Sônia: Qualidade e Sabor Incomparável!"
+    },
+    {
+      "type": "custom-html",
+      "html": "\n<script>\n  (function (o, c, t, a, d, e, s, k) {\n    o.octadesk = o.octadesk || {};\n    s = c.getElementsByTagName(\"body\")[0];\n    k = c.createElement(\"script\");\n    k.async = 1;\n    k.src = t + '/' + a + '?showButton=' +  d + '&openOnMessage=' + e;\n    s.appendChild(k);\n  })(window, document, 'https://chat.octadesk.services/api/widget', 'tiasonia',  true, true);\n</script>"
     }
   ]
 }
