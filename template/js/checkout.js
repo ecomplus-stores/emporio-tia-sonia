@@ -9,7 +9,7 @@ lessUnit.innerHTML = window.ecomUtils.formatMoney(lessQuantity, 'BRL', 'pt_br')
 ecomCart.on('change', ({ data }) => {
   const cartCalc = document.querySelectorAll('#cart')
   if (cartCalc.length) {
-    document.getElementById('containerCalc').style.display = 'none'
+    document.getElementById('containerCalc').style.display = 'block'
     let percentBar
     const countQuantity = data.subtotal
     const evalQuantity = lessQuantity - countQuantity
@@ -28,6 +28,6 @@ ecomCart.on('change', ({ data }) => {
       document.getElementById('percentBar').innerHTML = percentBar
     }
   } else {
-    document.getElementById('containerCalc').style.display = 'block'
+    document.getElementById('containerCalc').style.display = 'none'
   }
 })
