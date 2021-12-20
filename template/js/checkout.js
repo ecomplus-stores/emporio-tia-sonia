@@ -28,6 +28,6 @@ ecomCart.on('change', ({ data }) => {
       document.getElementById('percentBar').innerHTML = percentBar
     }
   } else {
-    document.getElementById('containerCalc').style.display = 'none'
+    document.getElementById('containerCalc').style.display = 'block'
   }
 })
