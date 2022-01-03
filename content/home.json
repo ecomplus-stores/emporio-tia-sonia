@@ -7,20 +7,20 @@
       "autoplay": 60000,
       "slides": [
         {
-          "start": "2021-12-10T20:54:55.265Z",
-          "end": "",
-          "img": "/img/uploads/kits-presents-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=presente",
-          "alt": "presente",
-          "mobile_img": "/img/uploads/kits-presentes.jpg"
-        },
-        {
           "start": "2021-11-27T15:19:04.603Z",
           "end": "",
           "img": "/img/uploads/lata-tia-sonia.jpg",
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
           "alt": "Lata",
           "mobile_img": "/img/uploads/latatia-sonia-1080.jpg"
+        },
+        {
+          "start": "2021-12-10T20:54:55.265Z",
+          "end": "",
+          "img": "/img/uploads/kits-presents-500.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?term=presente",
+          "alt": "presente",
+          "mobile_img": "/img/uploads/kits-presentes.jpg"
         },
         {
           "start": "2021-12-02T13:59:31.803Z",
@@ -46,7 +46,8 @@
           "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
           "alt": "nutri"
         }
-      ]
+      ],
+      "full_width": true
     },
     {
       "type": "custom-html",
