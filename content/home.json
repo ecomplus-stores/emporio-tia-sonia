@@ -45,6 +45,14 @@
           "mobile_img": "/img/uploads/feednutri.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
           "alt": "nutri"
+        },
+        {
+          "start": "2022-01-06T00:10:45.292Z",
+          "end": "",
+          "img": "/img/uploads/granola-1920-2-.jpg",
+          "mobile_img": "/img/uploads/granola-1080-1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/tradicional",
+          "alt": "granola"
         }
       ],
       "full_width": true
