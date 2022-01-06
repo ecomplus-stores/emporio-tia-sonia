@@ -61,6 +61,14 @@
           "link": "https://www.emporiotiasonia.com.br/coquinho",
           "alt": "coquinho",
           "mobile_img": "/img/uploads/coquinho-1080.jpg"
+        },
+        {
+          "start": "2022-01-06T00:13:40.511Z",
+          "end": "",
+          "img": "/img/uploads/tapi-1920.jpg",
+          "link": "https://www.emporiotiasonia.com.br/tapioca-crocante",
+          "alt": "tapioca",
+          "mobile_img": "/img/uploads/tapi-1080.jpg"
         }
       ],
       "full_width": true
