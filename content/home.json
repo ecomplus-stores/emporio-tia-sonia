@@ -53,6 +53,14 @@
           "mobile_img": "/img/uploads/granola-1080-1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/tradicional",
           "alt": "granola"
+        },
+        {
+          "start": "2022-01-06T00:12:37.627Z",
+          "end": "",
+          "img": "/img/uploads/coquinho-1920.jpg",
+          "link": "https://www.emporiotiasonia.com.br/coquinho",
+          "alt": "coquinho",
+          "mobile_img": "/img/uploads/coquinho-1080.jpg"
         }
       ],
       "full_width": true
