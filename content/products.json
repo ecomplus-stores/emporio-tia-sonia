@@ -34,6 +34,10 @@
     {
       "type": "custom-html",
       "html": "\n<script>\n  (function (o, c, t, a, d, e, s, k) {\n    o.octadesk = o.octadesk || {};\n    s = c.getElementsByTagName(\"body\")[0];\n    k = c.createElement(\"script\");\n    k.async = 1;\n    k.src = t + '/' + a + '?showButton=' +  d + '&openOnMessage=' + e;\n    s.appendChild(k);\n  })(window, document, 'https://chat.octadesk.services/api/widget', 'tiasonia',  true, true);\n</script>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"top-bar__countdown\">Frete Grátis (compras acima de R$99)</div>"
     }
   ]
 }
