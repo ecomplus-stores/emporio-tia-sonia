@@ -6,7 +6,16 @@
     "color": "#ffffff"
   },
   "contacts_stripe": {
-    "pages": [],
+    "pages": [
+      {
+        "title": "Lojistas",
+        "link": "https://compre.tiasonia.com.br/"
+      },
+      {
+        "title": "Combos",
+        "link": "https://www.emporiotiasonia.com.br/search?term=combo"
+      }
+    ],
     "phone_wpp": false,
     "socials": false
   },
