@@ -7,6 +7,22 @@
       "autoplay": 60000,
       "slides": [
         {
+          "start": "2021-08-17T13:26:49.727Z",
+          "end": "",
+          "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
+          "alt": "fidelidade",
+          "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
+        },
+        {
+          "start": "2021-12-02T13:59:31.803Z",
+          "end": "",
+          "img": "/img/uploads/banner-granola-400g-sem-passas.jpg",
+          "mobile_img": "/img/uploads/1080x1080-granola-400g-sem-passa.jpg",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-sem-uva-passa-400",
+          "alt": "sem passas 400"
+        },
+        {
           "start": "2021-11-27T15:19:04.603Z",
           "end": "",
           "img": "/img/uploads/lata-tia-sonia.jpg",
@@ -21,22 +37,6 @@
           "link": "https://www.emporiotiasonia.com.br/search?term=presente",
           "alt": "presente",
           "mobile_img": "/img/uploads/kits-presentes.jpg"
-        },
-        {
-          "start": "2021-12-02T13:59:31.803Z",
-          "end": "",
-          "img": "/img/uploads/banner-granola-400g-sem-passas.jpg",
-          "mobile_img": "/img/uploads/1080x1080-granola-400g-sem-passa.jpg",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-sem-uva-passa-400",
-          "alt": "sem passas 400"
-        },
-        {
-          "start": "2021-08-17T13:26:49.727Z",
-          "end": "",
-          "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-          "alt": "fidelidade",
-          "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
         },
         {
           "start": "2021-06-14T12:33:47.518Z",
