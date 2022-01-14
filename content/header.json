@@ -6,16 +6,7 @@
     "color": "#ffffff"
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Lojistas",
-        "link": "https://compre.tiasonia.com.br/"
-      },
-      {
-        "title": "Combos",
-        "link": "https://www.emporiotiasonia.com.br/search?term=combo"
-      }
-    ],
+    "pages": [],
     "phone_wpp": false,
     "socials": false
   },
@@ -25,9 +16,7 @@
       "/cafe-colheita-das-alegrias?Café Colheita das Alegrias",
       "/pipocas-sinta?Pipocas Sinta+",
       "/banana-go?Banana Go",
-      "/granola-tia-sonia?Granolas",
-      "/kits-tia-sonia?Kits",
-      "/snacks?Snacks"
+      "/granola-tia-sonia?Granolas"
     ],
     "random": 0,
     "full_width": false
