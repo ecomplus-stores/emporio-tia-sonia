@@ -1,6 +1,6 @@
 {
   "marketing_stripe": {
-    "text": "📦 FRETE GRÁTIS: ACIMA DE R$99",
+    "text": "🚚 FRETE GRÁTIS: ACIMA DE R$99",
     "link": "",
     "background": "#0a59a8",
     "color": "#ffffff"
@@ -17,7 +17,7 @@
       "/produtos-parceiros?Marcas Parceiras"
     ],
     "random": 0,
-    "full_width": true
+    "full_width": false
   },
   "search_input": true
 }
