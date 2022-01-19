@@ -13,8 +13,6 @@
 }
 .header__row .header__nav a {
     //color: #fff !important;
-    text-transform: uppercase;
-    font-size: 14px;
 }
 // .top-bar, .top-bar__nav {
 //     background:#F8F9FA !important;
@@ -868,8 +866,8 @@ color: var(--apx_azul);
 position: relative;
 font-weight: 700!important;
 padding: 18px 0;
-text-transform: none;
-font-size: 16px;
+text-transform: uppercase;
+font-size: 14px;
 margin: 0;
 font-family:PT Sans;
 }
