@@ -8,8 +8,8 @@
       "type": "product-block",
       "enabled": true,
       "size_guide": {
-        "image": "/img/uploads/02-1080x1080-granola-min.jpg",
-        "title": "#"
+        "image": "",
+        "title": ""
       }
     },
     {
@@ -34,10 +34,6 @@
       "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
       "alt": "pontos",
       "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
-    },
-    {
-      "type": "custom-html",
-      "html": "<script>\n  (function (o, c, t, a, d, e, s, k) {\n    o.octadesk = o.octadesk || {};\n    s = c.getElementsByTagName(\"body\")[0];\n    k = c.createElement(\"script\");\n    k.async = 1;\n    k.src = t + '/' + a + '?showButton=' +  d + '&openOnMessage=' + e;\n    s.appendChild(k);\n  })(window, document, 'https://chat.octadesk.services/api/widget', 'tiasonia',  true, true);\n</script>"
     }
   ]
 }
