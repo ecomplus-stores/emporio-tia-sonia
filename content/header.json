@@ -13,8 +13,8 @@
   "categories_list": {
     "featured": [
       "/todos-os-produtos?Todos os Produtos",
-      "/produtos-parceiros?Marcas Parceiras",
-      "/granola-tia-sonia?Granola"
+      "/granola-tia-sonia?Granola",
+      "/produtos-parceiros?Marcas Parceiras"
     ],
     "random": 0,
     "full_width": false
