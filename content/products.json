@@ -1,10 +1,6 @@
 {
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<div class=\"top-bar__countdown\">Frete Grátis (compras acima de R$99)</div>"
-    },
-    {
       "type": "breadcrumbs",
       "enabled": true
     },
