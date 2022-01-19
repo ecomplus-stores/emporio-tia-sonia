@@ -13,7 +13,7 @@
 }
 .header__row .header__nav a {
     //color: #fff !important;
-    text-transform: none !important;
+    text-transform: uppercase !important;
     font-size: 14px !important;
 }
 // .top-bar, .top-bar__nav {
@@ -601,7 +601,6 @@ body{
 .products-carousel__title a:after{
   background:#fff
 }
-
 
 .product-card__name{
   font-size: 1rem;
