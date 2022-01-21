@@ -96,10 +96,11 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
       "title": "As novidades!",
-      "sort": "offers"
+      "sort": "offers",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
     {
       "type": "custom-html",
