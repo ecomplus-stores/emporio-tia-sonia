@@ -17,10 +17,6 @@
       ]
     },
     {
-      "type": "breadcrumbs",
-      "enabled": true
-    },
-    {
       "type": "extra-page",
       "enabled": true
     },
@@ -32,5 +28,5 @@
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "Promoção ativa: **Verão Sou + Tia Sônia!**\n\n**Como participar?**\n\n* Em compras acima de R$ 150\n* Ganhe Frete Grátis\n* 10% de desconto em todo site: Usando o cupom: **SOUMAIS**\n* Brinde Sou + Vitalidade ([link](https://www.emporiotiasonia.com.br/bebida-funcional-sou--vitalidade-150g))\n\nOfertas válidas **até 31/01/2022.** Aproveite!"
+  "body": "<hr>\nPromoção ativa: **Verão Sou + Tia Sônia!**\n\n**Como participar?**\n\n* Em compras acima de R$ 150\n* Ganhe Frete Grátis\n* 10% de desconto em todo site: Usando o cupom: **SOUMAIS**\n* Brinde Sou + Vitalidade ([link](https://www.emporiotiasonia.com.br/bebida-funcional-sou--vitalidade-150g))\n\nOfertas válidas **até 31/01/2022.** Aproveite!"
 }
