@@ -6,6 +6,11 @@
       "img": "/img/uploads/soumais1920x500.jpg",
       "mobile_img": "/img/uploads/soumais-1080x1080.jpg",
       "alt": "soumais"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
