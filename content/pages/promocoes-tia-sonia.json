@@ -17,6 +17,10 @@
       ]
     },
     {
+      "type": "breadcrumbs",
+      "enabled": true
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
