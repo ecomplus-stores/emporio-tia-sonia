@@ -135,6 +135,14 @@
     {
       "src": "/img/uploads/fabrinq.jpg",
       "alt": "abrinq"
+    },
+    {
+      "src": "/img/uploads/capitalismo.jpg",
+      "alt": "capitalismo"
+    },
+    {
+      "src": "/img/uploads/empresab-1-.jpg",
+      "alt": "EMPRESAB"
     }
   ],
   "payment_methods": {
@@ -149,7 +157,7 @@
     "bradesco": false,
     "santander": false,
     "mastercard": true,
-    "paypal": false,
+    "paypal": true,
     "citibank": false,
     "hiper": true,
     "diners": false,
