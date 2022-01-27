@@ -201,8 +201,60 @@
                 </span>
               </slot>
             </div>
-
+            
             <template v-else>
+              <div class="product__buy">
+                <div class="apx_quantity_selector">
+                  <button type="button"
+                  @click="ev => changeQntUn(body, -1,ev)"
+                  ><i class="fas fa-chevron-down"></i></button>
+                  
+                  <input type="tel" 
+                    :min="body.min_quantity"
+                    :max="body.quantity"
+                    :value="body.min_quantity ? body.min_quantity : 1"
+                    :disabled="!isInStock"
+                    :readonly="body.min_quantity === body.max_quantity"
+
+                    @change="ev => changeQntUn(body, null, ev)"
+                    @keyup.up="changeQntUn(body, 1,this)"
+                    @keyup.down="changeQntUn(body, -1, this)"
+
+                    name="form-control apx_quantity-selector__input"/>
+                  
+                  <button type="button"
+                  @click="ev => changeQntUn(body, 1,ev)"
+                  ><i class="fas fa-chevron-up"></i></button>
+                </div>
+                <span @click="buy">
+                  <slot
+                    name="buy"
+                    v-bind="{ hasClickedBuy, isOnCart }"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-lg btn-primary"
+                      :disabled="hasClickedBuy && !isOnCart"
+                    >
+                      <slot name="buy-button-content">
+                        <i class="fas fa-shopping-bag mr-1"></i>
+                        {{ strBuy }}
+                      </slot>
+                    </button>
+                  </slot>
+                </span>
+              </div>
+              <p
+                class="product__short-stock"
+                v-if="isLowQuantity"
+              >
+                <i class="fas fa-forward mr-1"></i>
+                {{ i19only }}
+                <strong>{{ productQuantity }}</strong>
+                {{ i19unitsInStock }}
+              </p>
+            </template>
+            <!-- <template v-else>
               <div
                 v-if="hasBuyButton"
                 class="product__buy"
@@ -236,7 +288,7 @@
                 <strong>{{ productQuantity }}</strong>
                 {{ i19unitsInStock }}
               </p>
-            </template>
+            </template> -->
 
             <!-- <slot name="share">
               <a-share

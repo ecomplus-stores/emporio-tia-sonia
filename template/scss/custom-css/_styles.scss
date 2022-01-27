@@ -1108,3 +1108,42 @@ footer .trustvox-certificate__fixed-seal{
 @media (min-width: 1200px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {max-width: 1024px; }
 }
+
+
+// quantity selector
+.product__buy .apx_quantity_selector{position:relative;}
+.product__buy .apx_quantity_selector button:last-child{left:auto; right:0;}
+.product__buy .apx_quantity_selector button i{font-size:12px;line-height:32px;}
+.product__buy .apx_quantity_selector button{
+  background: #333;
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+  height: 34px;
+  left: 0;
+  margin: 7px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 34px;
+  z-index: 2;
+}
+.product__buy .apx_quantity_selector input{
+  background: #f7f7f7;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 48px;
+  letter-spacing: 1px;
+  pointer-events: none;
+  text-align: center;
+  width: 150px;
+  font-weight: bold;
+}
+.product__buy{display:flex;gap:15px;}
+@media(max-width:990px){
+  .product__buy{}
+  .product__buy .apx_quantity_selector + span{width:100%}
+  .product__buy .apx_quantity_selector + span  .btn-primary{white-space:nowrap;padding-left:0;padding-right:0;white-space:nowrap;width:100%}
+  .product__buy .apx_quantity_selector input{width:130px;}
+}
