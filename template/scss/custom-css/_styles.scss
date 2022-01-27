@@ -1115,10 +1115,10 @@ footer .trustvox-certificate__fixed-seal{
 .product__buy .apx_quantity_selector button:last-child{left:auto; right:0;}
 .product__buy .apx_quantity_selector button i{font-size:12px;line-height:32px;}
 .product__buy .apx_quantity_selector button{
-  background: #333;
+  background: transparent;
   border: 0;
   border-radius: 7px;
-  color: #fff;
+  color: #333;
   height: 34px;
   left: 0;
   margin: 7px;
@@ -1137,7 +1137,7 @@ footer .trustvox-certificate__fixed-seal{
   letter-spacing: 1px;
   pointer-events: none;
   text-align: center;
-  width: 150px;
+  width: 120px;
   font-weight: bold;
 }
 .product__buy{display:flex;gap:15px;}

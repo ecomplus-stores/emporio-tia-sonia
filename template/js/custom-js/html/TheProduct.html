@@ -40,15 +40,18 @@
           </component>
         </div>
       </slot>
-
+      
+      <div class="col d-none d-md-block"></div>
       <div
         class="col"
         ref="actions"
       >
         <!-- tag -->
-                <span id="regra-1" style="position: relative; display:block;">
-                  <i class="fa fa-truck" aria-hidden="true"></i> <b>Frete Grátis</b> em compras acima de R$ 99</span>
-            
+        <span id="regra-1" style="position: relative; display:block;">
+          <i class="fa fa-truck" aria-hidden="true"></i> <b>Frete Grátis</b> em compras acima de R$ 99</span>
+    
+      </div>
+       
         <slot
           v-if="!isSSR"
           name="heading"
@@ -59,6 +62,7 @@
           >
             {{ name }}
           </component>
+          
           <p class="product__sku">
             COD: {{ body.sku }}
           </p>
