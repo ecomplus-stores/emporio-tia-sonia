@@ -336,6 +336,33 @@ export default {
       }
     },
 
+    changeQntUn (item, qntDiff, ev) {
+      const { body } = this
+      let input = ev.target.closest('.apx_quantity_selector').querySelector('input');
+      //console.log(input.querySelector('input').value = 3);
+      //console.log(input);
+      let newQnt = parseInt(input.value) + parseInt(qntDiff);
+      // console.log(newQnt)
+      //console.log(newQnt)
+      if (newQnt > 0) {
+        if (body.min_quantity > newQnt) {
+          newQnt = body.min_quantity
+        } else {
+          const itemMaxQnt = body.max_quantity !== undefined ? body.max_quantity : 9999999
+          if (itemMaxQnt < newQnt) {
+            this.alertVariant = 'info'
+            this.hasMaxAlert = true
+            newQnt = maxQnt
+          }
+        }   
+        input.value = newQnt     
+        this.$emit('set-quantity', {
+          body,
+          quantity: newQnt
+        })
+      }
+    },
+
     buy () {
       this.hasClickedBuy = true
       const product = sanitizeProductBody(this.body)
@@ -350,7 +377,7 @@ export default {
       const { customizations } = this
       this.$emit('buy', { product, variationId, customizations })
       if (this.canAddToCart) {
-        ecomCart.addProduct({ ...product, customizations }, variationId)
+        ecomCart.addProduct({ ...product, customizations }, variationId, parseInt(document.querySelector('.apx_quantity_selector > input').value))
       }
       this.isOnCart = true
     },
