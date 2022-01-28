@@ -2,7 +2,6 @@
   class="product"
   :data-product-id="body._id"
   :data-sku="body.sku"
-  :data-selected-variation="selectedVariationId"
 >
   <a-alert
     :can-show="hasLoadError"
@@ -41,11 +40,18 @@
           </component>
         </div>
       </slot>
-
+      
+      <div class="col d-none d-md-block"></div>
       <div
         class="col"
         ref="actions"
       >
+        <!-- tag -->
+        <span id="regra-1" style="position: relative; display:block;">
+          <i class="fa fa-truck" aria-hidden="true"></i> <b>Frete Grátis</b> em compras acima de R$ 99</span>
+    
+      </div>
+       
         <slot
           v-if="!isSSR"
           name="heading"
@@ -56,6 +62,7 @@
           >
             {{ name }}
           </component>
+          
           <p class="product__sku">
             COD: {{ body.sku }}
           </p>
@@ -73,23 +80,23 @@
             ></div>
           </slot>
 
-          <div
+          <slot
+            name="unavailable"
             v-if="!body.available"
-            class="product__unavailable"
           >
-            <slot name="unavailable">
+            <p class="product__unavailable">
               {{ i19unavailable }}
-            </slot>
-          </div>
+            </p>
+          </slot>
 
-          <div
+          <slot
+            name="out-of-stock"
             v-else-if="!isInStock"
-            class="product__out-of-stock"
           >
-            <slot name="out-of-stock">
+            <p class="product__out-of-stock">
               {{ i19outOfStock }}
-            </slot>
-          </div>
+            </p>
+          </slot>
 
           <template v-else>
             <slot name="prices">
@@ -198,6 +205,7 @@
                 </span>
               </slot>
             </div>
+            
             <template v-else>
               <div class="product__buy">
                 <div class="apx_quantity_selector">
@@ -250,18 +258,9 @@
                 {{ i19unitsInStock }}
               </p>
             </template>
-            <!--<template v-else>
+            <!-- <template v-else>
               <div
-                v-if="!isVariationInStock"
-                class="product__out-of-stock"
-              >
-                <slot name="out-of-stock">
-                  {{ i19outOfStock }}
-                </slot>
-              </div>
-
-              <div
-                v-else-if="hasBuyButton"
+                v-if="hasBuyButton"
                 class="product__buy"
                 ref="buy"
               >
@@ -276,7 +275,7 @@
                       :disabled="hasClickedBuy && !isOnCart"
                     >
                       <slot name="buy-button-content">
-                        <i class="i-shopping-bag mr-1"></i>
+                        <i class="fas fa-shopping-bag mr-1"></i>
                         {{ strBuy }}
                       </slot>
                     </button>
@@ -288,14 +287,14 @@
                 class="product__short-stock"
                 v-if="isLowQuantity"
               >
-                <i class="i-forward mr-1"></i>
+                <i class="fas fa-forward mr-1"></i>
                 {{ i19only }}
                 <strong>{{ productQuantity }}</strong>
                 {{ i19unitsInStock }}
               </p>
-            </template>-->
+            </template> -->
 
-            <slot name="share">
+            <!-- <slot name="share">
               <a-share
                 v-if="body.slug"
                 class="mb-3"
@@ -303,9 +302,9 @@
                 :title="body.name"
                 :description="body.short_description"
               />
-            </slot>
+            </slot> -->
 
-            <transition enter-active-class="animated fadeInUp">
+            <!-- <transition enter-active-class="animated fadeInUp">
               <slot
                 name="payment-gateways"
                 v-bind="{ paymentOptions }"
@@ -323,7 +322,7 @@
                       aria-controls="product-payment"
                     >
                       <span>{{ i19paymentOptions }}</span>
-                      <i class="i-chevron-down"></i>
+                      <i class="fas fa-chevron-down"></i>
                     </a>
 
                     <div
@@ -351,13 +350,13 @@
                   </div>
                 </article>
               </slot>
-            </transition>
+            </transition> -->
 
             <p
               v-if="body.production_time && body.production_time.days"
               class="product__production"
             >
-              <i class="i-info-circle mr-1"></i>
+              <i class="fas fa-info-circle mr-1"></i>
               {{ i19productionDeadline }}:
               <strong>
                 {{ body.production_time.days }}
@@ -368,6 +367,7 @@
               </strong>
             </p>
 
+            
             <slot
               v-if="!isQuickview"
               name="shipping"
@@ -389,6 +389,11 @@
                   </div>
                 </template>
               </shipping-calculator>
+            <!-- 
+                <span id="regra-1"><b>Frete Grátis</b> para compras acima de R$ 99</span><br>             
+                <span id="regra-2">A partir de <b>20</b> unidades <b>20%</b> de desconto</span><br>
+                <span id="regra-3">A partir de <b>30</b> unidades <b>30%</b> de desconto</span> 
+            -->
             </slot>
 
             <slot name="track-price">
@@ -443,7 +448,7 @@
               class="btn btn-lg btn-primary" 
               @click="buyOrScroll"
             >
-              <i class="i-shopping-bag mr-1"></i>
+              <i class="fas fa-shopping-bag mr-1"></i>
               {{ strBuy }}
             </a>
           </div>
