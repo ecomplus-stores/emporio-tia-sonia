@@ -67,6 +67,10 @@
     },
     {
       "type": "custom-html",
+      "html": "[estilos-de-alimentacao]"
+    },
+    {
+      "type": "custom-html",
       "html": "\n\n<a style=\"text-align: center; color: #204294; text-decoration: none;\" href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\">\n<h1>Conheça a história da melhor Granola do Brasil!</h1>\n</a>"
     },
     {
@@ -74,10 +78,6 @@
       "img": "/img/uploads/tstorytiasonia.jpg",
       "alt": "História de Tia Sônia",
       "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
-    },
-    {
-      "type": "custom-html",
-      "html": "[estilos-de-alimentacao]"
     },
     {
       "type": "responsive-banner",
