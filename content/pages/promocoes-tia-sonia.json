@@ -4,14 +4,15 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
           "start": "2022-02-02T12:05:08.898Z",
           "end": "",
           "img": "/img/uploads/granola-leve6.jpg",
           "mobile_img": "/img/uploads/granola-leve6-1080.jpg",
-          "alt": "granola"
+          "alt": "granola",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia"
         }
       ]
     },
