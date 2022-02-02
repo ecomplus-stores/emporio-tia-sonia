@@ -17,7 +17,8 @@
       "limit": 12,
       "page": 1,
       "title": "Confira os produtos mais vendidos!",
-      "sort": "sales"
+      "sort": "sales",
+      "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col"
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
