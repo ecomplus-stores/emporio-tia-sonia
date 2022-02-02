@@ -88,19 +88,19 @@
       "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-blog-500.jpg",
-      "mobile_img": "/img/uploads/banner-blog-1080.jpg",
-      "link": "https://emporiotiasonia.com.br/blog",
-      "alt": "blog"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
       "title": "Separamos para Você",
       "sort": "views",
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-blog-500.jpg",
+      "mobile_img": "/img/uploads/banner-blog-1080.jpg",
+      "link": "https://emporiotiasonia.com.br/blog",
+      "alt": "blog"
     },
     {
       "type": "custom-html",
