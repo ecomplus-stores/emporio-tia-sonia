@@ -13,7 +13,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td align=\"center\"><img src=\"https://i.countdownmail.com/4a16f.gif?send_time=*|DATE:U|*\" style=\"display:inline-block!important;width:116px;\" border=\"0\" alt=\"countdownmail\"/></td></tr></tbody></table>"
+      "html": "<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td align=\"center\"><img src=\"https://i.countdownmail.com/4a16f.gif?send_time=*|DATE:U|*\" style=\"display:inline-block!important;\" border=\"0\" alt=\"countdownmail.com\"/></td></tr></tbody></table>"
     },
     {
       "type": "collection-shelf",
@@ -27,5 +27,5 @@
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<hr>\nPromoção Ativa: **Semana da Granola | LEVE 6 e Pague 5!**\n\nComo participar?\n\n* Comprando **6 granolas do mesmo tipo**, você paga apenas o valor referente a 5 unidades.\n* Na compra de **6 granolas diferentes**, o desconto será aplicado à granola de menor valor.\n* Ganhe **Frete Grátis** em compras acima de R$ 99.\n* Desconto **não acumulativo** com outras promoções ou cupons."
+  "body": "<hr>\nPromoção Ativa: Semana da Granola | LEVE 6 e Pague 5!\n\nComo participar?\n\n* Comprando **6 granolas do mesmo tipo**, você paga apenas o valor referente a 5 unidades.\n* Na compra de **6 granolas diferentes**, o desconto será aplicado à granola de menor valor.\n* Ganhe **Frete Grátis** em compras acima de R$ 99.\n* Desconto **não acumulativo** com outras promoções ou cupons."
 }
