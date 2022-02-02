@@ -96,7 +96,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
       "title": "Separamos para Você",
       "sort": "views",
