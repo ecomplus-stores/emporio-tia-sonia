@@ -19,6 +19,10 @@
       "title": "Confira os produtos mais vendidos!",
       "sort": "sales",
       "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col"
+    },
+    {
+      "type": "custom-html",
+      "html": "<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr><td align=\"center\"><img src=\"http://i.countdownmail.com/4a16f.gif?send_time=*|DATE:U|*\" style=\"display:inline-block!important;\" border=\"0\" alt=\"countdownmail.com\"/></td></tr></tbody></table>"
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
