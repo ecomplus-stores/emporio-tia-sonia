@@ -22,6 +22,11 @@
         "type": 301
       },
       {
+        "source": "/castanha-do-para-tia-sonia",
+        "destination": "/castanha-do-para",
+        "type": 301
+      },
+      {
         "source": "/display-coquinho-crocante-tia-sonia",
         "destination": "/coquinho-crocante-25g-10-unidades",
         "type": 301
