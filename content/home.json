@@ -96,13 +96,6 @@
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-blog-500.jpg",
-      "mobile_img": "/img/uploads/banner-blog-1080.jpg",
-      "link": "https://emporiotiasonia.com.br/blog",
-      "alt": "blog"
-    },
-    {
       "type": "custom-html",
       "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Milhares de Pessoas já provaram os Produtos Tia Sônia, confira as opiniões mais recentes:</a></h4>"
     },
@@ -112,10 +105,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banana-go-1920x500.jpg",
-      "mobile_img": "/img/uploads/banana-go-1080.jpg",
-      "alt": "banana",
-      "link": "https://www.emporiotiasonia.com.br/banana-go"
+      "img": "/img/uploads/banner-blog-500.jpg",
+      "mobile_img": "/img/uploads/banner-blog-1080.jpg",
+      "link": "https://emporiotiasonia.com.br/blog",
+      "alt": "blog"
     },
     {
       "type": "collection-shelf",
@@ -128,10 +121,10 @@
     },
     {
       "type": "responsive-banner",
-      "link": "https://lp.tiasonia.com.br/ebook",
-      "alt": "ebook",
-      "img": "/img/uploads/ebook-500.jpg",
-      "mobile_img": "/img/uploads/ebook-1080.jpg"
+      "img": "/img/uploads/banana-go-1920x500.jpg",
+      "mobile_img": "/img/uploads/banana-go-1080.jpg",
+      "alt": "banana",
+      "link": "https://www.emporiotiasonia.com.br/banana-go"
     },
     {
       "type": "collection-shelf",
@@ -141,6 +134,13 @@
       "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
       "sort": "sales",
       "title": "Granola Tia Sônia: Qualidade e Sabor Incomparável!"
+    },
+    {
+      "type": "responsive-banner",
+      "link": "https://lp.tiasonia.com.br/ebook",
+      "alt": "ebook",
+      "img": "/img/uploads/ebook-500.jpg",
+      "mobile_img": "/img/uploads/ebook-1080.jpg"
     }
   ]
 }
