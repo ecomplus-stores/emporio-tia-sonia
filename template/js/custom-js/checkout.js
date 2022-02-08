@@ -30,7 +30,7 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
     }, 800);
   });
 
-// BEE VIRAL
+/* BEE VIRAL
 import ecomPassport from '@ecomplus/passport-client'
 
 function initbvWidgetShared() {
@@ -93,3 +93,4 @@ window.addEventListener ? window.addEventListener("load", initiateCallbvWidgetSh
 
 
 
+*/
