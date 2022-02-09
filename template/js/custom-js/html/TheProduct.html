@@ -42,8 +42,13 @@
         </div>
       </slot>
       
+      
       <div
-        class="col-12 col-md-6"
+        class="col"
+        ref="actions"
+      >
+        <div
+        class="" id="frete-gratis-line"
         ref="actions"
       >
         <!-- tag -->
@@ -51,10 +56,6 @@
           <i class="fa fa-truck" aria-hidden="true"></i> <b>Frete Grátis</b> em compras acima de R$ 99</span>
     
       </div>
-      <div
-        class="col"
-        ref="actions"
-      >
         <slot
           v-if="!isSSR"
           name="heading"
