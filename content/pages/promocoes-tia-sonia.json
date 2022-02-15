@@ -5,16 +5,7 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
-      "slides": [
-        {
-          "start": "2022-02-02T12:05:08.898Z",
-          "end": "",
-          "img": "/img/uploads/granola-leve6.jpg",
-          "mobile_img": "/img/uploads/granola-leve6-1080.jpg",
-          "alt": "granola",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia"
-        }
-      ]
+      "slides": []
     },
     {
       "type": "custom-html",
@@ -36,5 +27,5 @@
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<b>Semana da Granola | LEVE 6 e Pague 5!</b>\n\nComo participar?\n\n* Comprando **6 granolas do mesmo tipo**, você paga apenas o valor referente a 5 unidades.\n* Na compra de **6 granolas diferentes**, o desconto será aplicado à granola de menor valor.\n* Ganhe **Frete Grátis** em compras acima de R$ 99.\n* Desconto **não acumulativo** com outras promoções ou cupons."
+  "body": "<b>Promoção: Esporte faz bem + Feliz!</b>\n\nComo participar?\n\n* Ganhe **Frete Grátis** em compras acima de R$ 99.\n* Produtos Selecionaos em **[Oferta (veja aqui).](https://www.emporiotiasonia.com.br/promocoes)**\n* Desconto **não acumulativo** com outras promoções ou cupons."
 }
