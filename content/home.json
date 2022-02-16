@@ -7,6 +7,14 @@
       "autoplay": 60000,
       "slides": [
         {
+          "start": "2021-06-14T12:33:47.518Z",
+          "end": "",
+          "img": "/img/uploads/1920esporte.jpg",
+          "mobile_img": "/img/uploads/esporete1080x1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/promocoes",
+          "alt": "promo"
+        },
+        {
           "start": "2021-08-17T13:26:49.727Z",
           "end": "",
           "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
@@ -21,14 +29,6 @@
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
           "alt": "Lata",
           "mobile_img": "/img/uploads/latatia-sonia-1080.jpg"
-        },
-        {
-          "start": "2021-06-14T12:33:47.518Z",
-          "end": "",
-          "img": "/img/uploads/bannernutri.jpg",
-          "mobile_img": "/img/uploads/feednutri.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
-          "alt": "nutri"
         },
         {
           "start": "2022-01-06T00:10:45.292Z",
