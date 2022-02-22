@@ -129,7 +129,7 @@ h1 {
 }
 
 .cart .row .col-md-7 .cart__list {
-  order: 1
+  order: -1
 }
 
 .cart .row .col-md-7 .cart__back {
@@ -1149,5 +1149,18 @@ footer .trustvox-certificate__fixed-seal{
 }
 .mb-3 button.share,
 .product__payment.card{display:none}
-
+#cashback {
+  padding: 15px;
+  width: 50%;
+  border-radius: 10px;
+  border-color:rgb(40, 167, 69);
+  border-width: 1px;
+  border-style: solid;
+  background-color:#e1ffce
+}
+#dinheiro-volta strong, .dinheiro {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(40, 167, 69);
+}
 

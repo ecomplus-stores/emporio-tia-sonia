@@ -5,29 +5,31 @@ const lessUnit = document.getElementById('lessUnit')
 const firstphrase = document.getElementById('lessSome')
 const lastphrase = document.getElementById('noMore')
 const lessQuantity = 150
-lessUnit.innerHTML = window.ecomUtils.formatMoney(lessQuantity, 'BRL', 'pt_br')
-ecomCart.on('change', ({ data }) => {
-  const cartCalc = document.querySelectorAll('#cart')
-  if (cartCalc.length) {
-    document.getElementById('containerCalc').style.display = 'block'
-    let percentBar
-    const countQuantity = data.subtotal
-    const evalQuantity = lessQuantity - countQuantity
-    if (evalQuantity > 0) {
-      lessUnit.innerHTML = window.ecomUtils.formatMoney(evalQuantity, 'BRL', 'pt_br')
-      percentBar = Math.round(countQuantity / lessQuantity * 100) + '%'
-      document.getElementById('lastUnitsBar').style.width = percentBar
-      document.getElementById('percentBar').innerHTML = percentBar
-      firstphrase.style.display = 'block'
-      lastphrase.style.display = 'none'
+if(lessUnit.length) {
+  lessUnit.innerHTML = window.ecomUtils.formatMoney(lessQuantity, 'BRL', 'pt_br')
+  ecomCart.on('change', ({ data }) => {
+    const cartCalc = document.querySelectorAll('#cart')
+    if (cartCalc.length) {
+      document.getElementById('containerCalc').style.display = 'block'
+      let percentBar
+      const countQuantity = data.subtotal
+      const evalQuantity = lessQuantity - countQuantity
+      if (evalQuantity > 0) {
+        lessUnit.innerHTML = window.ecomUtils.formatMoney(evalQuantity, 'BRL', 'pt_br')
+        percentBar = Math.round(countQuantity / lessQuantity * 100) + '%'
+        document.getElementById('lastUnitsBar').style.width = percentBar
+        document.getElementById('percentBar').innerHTML = percentBar
+        firstphrase.style.display = 'block'
+        lastphrase.style.display = 'none'
+      } else {
+        percentBar = '100%'
+        firstphrase.style.display = 'none'
+        lastphrase.style.display = 'block'
+        document.getElementById('lastUnitsBar').style.width = percentBar
+        document.getElementById('percentBar').innerHTML = percentBar
+      }
     } else {
-      percentBar = '100%'
-      firstphrase.style.display = 'none'
-      lastphrase.style.display = 'block'
-      document.getElementById('lastUnitsBar').style.width = percentBar
-      document.getElementById('percentBar').innerHTML = percentBar
+      document.getElementById('containerCalc').style.display = 'none'
     }
-  } else {
-    document.getElementById('containerCalc').style.display = 'none'
-  }
-})
+  })
+}
