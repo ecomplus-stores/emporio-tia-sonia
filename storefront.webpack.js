@@ -7,7 +7,7 @@ module.exports = () => ({
       './html/TheProduct.html': path.resolve(__dirname, 'template/js/custom-js/html/TheProduct.html'),
       './js/TheProduct.js': path.resolve(__dirname, 'template/js/custom-js/html/TheProduct.js'),
       './html/APrices.html': path.resolve(__dirname, 'template/js/custom-js/html/APrices.html'),
-      './html/PointsApplier.js': path.resolve(__dirname, 'template/js/custom-js/html/PointsApplier.js')
+      './html/PointsApplier.html': path.resolve(__dirname, 'template/js/custom-js/html/PointsApplier.html')
     }
   }
 })

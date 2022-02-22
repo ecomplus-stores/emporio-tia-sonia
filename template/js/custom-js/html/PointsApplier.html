@@ -1,0 +1,28 @@
+
+<div class="points-applier">
+    <div
+      v-for="({ name }, programId) in localPointsPrograms"
+      v-if="availablePoints[programId] >= 0.1"
+      class="custom-control custom-switch"
+    >
+      <input
+        type="checkbox"
+        class="custom-control-input"
+        :id="`points-applier-${programId}`"
+        :checked="pointsApplied[programId]"
+        @change="ev => togglePoints(programId, ev.target.checked)"
+      >
+  
+      <label
+        class="custom-control-label"
+        :for="`points-applier-${programId}`"
+      >
+        Usar
+        <span class="badge badge-info">
+          -{{ formatMoney(getPointsAmount(programId)) }}
+        </span>
+        {{ '($1 pontos) neste pedido'.replace('$1', availablePoints[programId].toFixed(1)) }}
+        
+      </label>
+    </div>
+  </div>
