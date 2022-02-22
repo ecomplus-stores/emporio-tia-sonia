@@ -1,4 +1,5 @@
 import {
+  i19addToFavorites,
   i19buy,
   i19close,
   i19days,
@@ -51,6 +52,8 @@ import ProductGallery from '@ecomplus/storefront-components/src/ProductGallery.v
 import QuantitySelector from '@ecomplus/storefront-components/src/QuantitySelector.vue'
 import ShippingCalculator from '@ecomplus/storefront-components/src/ShippingCalculator.vue'
 import PaymentOption from '@ecomplus/storefront-components/src/PaymentOption.vue'
+import ecomPassport from '@ecomplus/passport-client'
+import { toggleFavorite, checkFavorite } from '@ecomplus/storefront-components/src/js/helpers/favorite-products'
 
 const storefront = (typeof window === 'object' && window.storefront) || {}
 const getContextBody = () => (storefront.context && storefront.context.body) || {}
@@ -124,7 +127,17 @@ export default {
         return window.ecomPaymentApps || []
       }
     },
-    isSSR: Boolean
+    isSSR: Boolean,
+    ecomPassport: {
+      type: Object,
+      default () {
+        return ecomPassport
+      }
+    },
+    accountUrl: {
+      type: String,
+      default: '/app/#/account/'
+    }
   },
 
   data () {
@@ -135,6 +148,7 @@ export default {
       currentGalleyImg: 1,
       isOnCart: false,
       isStickyBuyVisible: false,
+      isFavorite: false,
       hasClickedBuy: false,
       hasLoadError: false,
       paymentOptions: [],
@@ -144,6 +158,7 @@ export default {
   },
 
   computed: {
+    i19addToFavorites: () => i18n(i19addToFavorites),
     i19close: () => i18n(i19close),
     i19days: () => i18n(i19days),
     i19discountOf: () => i18n(i19discountOf),
@@ -155,6 +170,10 @@ export default {
     i19perUnit: () => i18n(i19perUnit),
     i19productionDeadline: () => i18n(i19productionDeadline),
     i19retry: () => i18n(i19retry),
+    i19removeFromFavorites: () => i18n({
+      pt_br: 'Remover dos favoritos',
+      en_us: 'Remove from favorites'
+    }),
     i19selectVariationMsg: () => i18n(i19selectVariationMsg),
     i19unavailable: () => i18n(i19unavailable),
     i19units: () => i18n(i19units).toLowerCase(),
@@ -177,6 +196,10 @@ export default {
 
     isVariationInStock () {
       return checkInStock(this.selectedVariationId ? this.selectedVariation : this.body)
+    },
+
+    isLogged () {
+      return ecomPassport.checkAuthorization()
     },
 
     thumbnail () {
@@ -360,6 +383,12 @@ export default {
           body,
           quantity: newQnt
         })
+      }
+    },
+
+    toggleFavorite () {
+      if (this.isLogged) {
+        this.isFavorite = toggleFavorite(this.body._id, this.ecomPassport)
       }
     },
 

@@ -305,6 +305,25 @@
               </p>
             </template>-->
 
+            <slot name="favorite">
+              <div>
+                <a
+                  class="btn btn-sm product__favorite"
+                  @click="toggleFavorite"
+                  :href="isLogged ? null : accountUrl"
+                >
+                  <i 
+                    class="i-heart mr-1"
+                    :class="isFavorite ? 'active' : null"
+                  >
+                  </i>
+                  <span>
+                    {{ isFavorite ? i19removeFromFavorites : i19addToFavorites }}
+                  </span>
+                </a>
+              </div>
+            </slot>
+
             <slot name="share">
               <a-share
                 v-if="body.slug"
