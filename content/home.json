@@ -7,20 +7,20 @@
       "autoplay": 100000,
       "slides": [
         {
-          "start": "2021-08-17T13:26:49.727Z",
-          "end": "",
-          "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-          "alt": "fidelidade",
-          "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
-        },
-        {
           "start": "2021-11-27T15:19:04.603Z",
           "end": "",
           "img": "/img/uploads/lata-tia-sonia.jpg",
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
           "alt": "Lata",
           "mobile_img": "/img/uploads/latatia-sonia-1080.jpg"
+        },
+        {
+          "start": "2021-08-17T13:26:49.727Z",
+          "end": "",
+          "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
+          "alt": "fidelidade",
+          "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
         },
         {
           "start": "2022-01-06T00:10:45.292Z",
