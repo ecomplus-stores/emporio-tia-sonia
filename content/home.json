@@ -7,6 +7,14 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "2022-02-22T23:57:27.731Z",
+          "end": "2022-02-22T23:57:27.783Z",
+          "img": "/img/uploads/carnaval1920x500.jpg",
+          "mobile_img": "/img/uploads/carnaval1080x1080.jpg",
+          "alt": "carnaval",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia"
+        },
+        {
           "start": "2021-11-27T15:19:04.603Z",
           "end": "",
           "img": "/img/uploads/lata-tia-sonia.jpg",
@@ -45,14 +53,6 @@
           "link": "https://www.emporiotiasonia.com.br/tapioca-crocante",
           "alt": "tapioca",
           "mobile_img": "/img/uploads/tapi-1080.jpg"
-        },
-        {
-          "start": "2022-02-22T23:57:27.731Z",
-          "end": "2022-02-22T23:57:27.783Z",
-          "img": "/img/uploads/carnaval1920x500.jpg",
-          "mobile_img": "/img/uploads/carnaval1080x1080.jpg",
-          "alt": "carnaval",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia"
         }
       ],
       "full_width": true
