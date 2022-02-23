@@ -5,7 +5,15 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
-      "slides": []
+      "slides": [
+        {
+          "start": "2022-02-23T00:24:44.550Z",
+          "end": "",
+          "img": "/img/uploads/carnaval1920x500.jpg",
+          "mobile_img": "/img/uploads/carnaval1080x1080.jpg",
+          "alt": "carva"
+        }
+      ]
     },
     {
       "type": "custom-html",
@@ -27,5 +35,5 @@
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<b>Promoção: Esporte faz bem + Feliz!</b>\n\nComo participar?\n\n* Ganhe **Frete Grátis** em compras acima de R$ 99.\n* Produtos Selecionaos em **[Oferta (veja aqui).](https://www.emporiotiasonia.com.br/promocoes)**\n* Desconto **não acumulativo** com outras promoções ou cupons."
+  "body": "<b>Promoção de Carnaval!</b>\n\nComo participar?\n\n* **Frete Grátis** em compras acima de R$ 99.\n* 20% OFF em todo site. Use o cupom: **CUPOM20**\n* Promoção válida até 02/03/2022. Aproveite!"
 }
