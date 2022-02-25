@@ -104,6 +104,15 @@
       "page": ""
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
+      "sort": "sales",
+      "title": "Sinta+ | Pipocas Especiais"
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
       "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg",
@@ -115,9 +124,9 @@
       "shuffle": false,
       "limit": "",
       "page": "",
-      "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
+      "collection_id": "5d09315724607a6a42d714cc:categories:Granola:/granola-tia-sonia",
       "sort": "sales",
-      "title": "Granola Tia Sônia: Qualidade e Sabor Incomparável!"
+      "title": "A melhor Granola do Mundo!"
     },
     {
       "type": "responsive-banner",
