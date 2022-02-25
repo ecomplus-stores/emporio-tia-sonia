@@ -73,11 +73,11 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
-      "title": "Separamos para Você",
-      "sort": "views",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+      "title": "Esses são os Preferidos!",
+      "sort": "sales",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
     },
     {
       "type": "custom-html",
