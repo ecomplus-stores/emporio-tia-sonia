@@ -23,6 +23,14 @@
       "title": "Confira os produtos mais vendidos!",
       "sort": "sales",
       "collection_id": null
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
+      "title": "Confira os produtos ULTRABAR"
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
