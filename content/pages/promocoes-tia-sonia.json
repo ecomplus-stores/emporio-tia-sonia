@@ -10,7 +10,8 @@
           "start": "2022-03-04T18:56:18.290Z",
           "end": "",
           "img": "/img/uploads/consumidor-500.jpg",
-          "mobile_img": "/img/uploads/consumidor1080.jpg"
+          "mobile_img": "/img/uploads/consumidor1080.jpg",
+          "alt": "consumidor"
         }
       ]
     },
