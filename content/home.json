@@ -72,20 +72,20 @@
       "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "collection_id": "60478c4f6d50911b6059211a:categories:Todos os Produtos:/todos-os-produtos",
-      "title": "Esses são os Preferidos!",
-      "sort": "sales",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
-    },
-    {
       "type": "custom-html",
       "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Milhares de Pessoas já provaram os Produtos Tia Sônia, confira as opiniões mais recentes:</a></h4>"
     },
     {
       "type": "custom-html",
       "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '85317'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "collection_id": "60478c4f6d50911b6059211a:categories:Todos os Produtos:/todos-os-produtos",
+      "title": "Esses são os Preferidos!",
+      "sort": "sales",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
     },
     {
       "type": "responsive-banner",
