@@ -15,16 +15,12 @@
           "alt": "programa de pontos tia sonia",
           "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
         }
-      ]
+      ],
+      "full_width": true
     },
     {
       "type": "extra-page",
       "enabled": true
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "sales"
     }
   ]
 }
