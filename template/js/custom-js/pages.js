@@ -13,6 +13,15 @@ $('body').click(function(e){
     }
 });
 
+$('.header__toggler.new, .menu__ .menu-trigger').click(function(){
+    $('.menu__').toggleClass('isVisible');
+});
+$('.dropdown-menu-trigger').click(function(){
+    $(this).closest('li').toggleClass('dropdown-mobile-active')
+})
+
+
+
 // if($('#page-products').length){
 //     $('.shipping-calculator').insertAfter('#product-actions .product__buy');
 // }
