@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
-    "text": "MARÇO + FELIZ! 💛 (Clique aqui!) ",
-    "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+    "text": "",
+    "link": "",
     "background": "#0a59a8",
     "color": "#ffffff"
   },
@@ -19,5 +19,6 @@
     "random": 0,
     "full_width": false
   },
-  "search_input": true
+  "search_input": true,
+  "desktop_megamenu": true
 }
