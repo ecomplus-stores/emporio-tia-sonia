@@ -3,17 +3,19 @@
   "socials": true,
   "sort_categories": [
     "estilos-de-alimentacao",
-    "kits-tia-sonia",
+    
     "granola-tia-sonia",
     "snacks",
     "integrais",
     "cookies",
     "pastas-tia-sonia",
-    "barras",
-    "acucares",
-    "bebidas-em-po",
-    "naturais",
+    "barras",    
+    "bebidas-em-po",    
+    "acucares",    
     "produtos-parceiros",
+    "kits-tia-sonia",
+    "ultrabar",
+    "naturais",
     "todos-os-produtos"
   ],
   "alphabetical_order": true

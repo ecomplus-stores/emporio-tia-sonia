@@ -33,8 +33,6 @@ export default {
   computed: {
     deadlineStr () {
       const shipping = this.shippingLine
-      console.log(shipping)
-      
       const isWorkingDays = (shipping.posting_deadline && shipping.posting_deadline.working_days) ||
         (shipping.delivery_time && shipping.delivery_time.working_days)
       let days = shipping.posting_deadline ? shipping.posting_deadline.days : 0
@@ -42,7 +40,6 @@ export default {
         days += shipping.delivery_time.days
       }
       days += this.productionDeadline
-      console.log(days)
       let date = new Date()
       let today = date.getDay()
       const rota = window.storefrontApp && window.storefrontApp.router && window.storefrontApp.router.currentRoute && window.storefrontApp.router.currentRoute.name

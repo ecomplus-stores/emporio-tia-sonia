@@ -7,12 +7,11 @@
       "full_width": true,
       "slides": [
         {
-          "start": "2022-02-02T12:05:08.898Z",
+          "start": "2022-03-04T18:56:18.290Z",
           "end": "",
-          "img": "/img/uploads/granola-leve6.jpg",
-          "mobile_img": "/img/uploads/granola-leve6-1080.jpg",
-          "alt": "granola",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia"
+          "img": "/img/uploads/consumidor-500.jpg",
+          "mobile_img": "",
+          "alt": "consumidor"
         }
       ]
     },
@@ -27,14 +26,22 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
-      "page": 1,
+      "limit": "",
+      "page": "",
       "title": "Confira os produtos mais vendidos!",
       "sort": "sales",
-      "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col"
+      "collection_id": null
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
+      "title": "Confira os produtos ULTRABAR"
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<b>Semana da Granola | LEVE 6 e Pague 5!</b>\n\nComo participar?\n\n* Comprando **6 granolas do mesmo tipo**, você paga apenas o valor referente a 5 unidades.\n* Na compra de **6 granolas diferentes**, o desconto será aplicado à granola de menor valor.\n* Ganhe **Frete Grátis** em compras acima de R$ 99.\n* Desconto **não acumulativo** com outras promoções ou cupons."
+  "body": "<h2>Março + Feliz!</h2>\n<p>A Tia Sônia preparou condições especiais para você:</p>\n\nEm compras **acima de 99 reais**, você ganha:\n\n* 🚚FRETE GRÁTIS!\n* ⭐ 10% OFF (Cupom: **QUERO10**)\n* **Cashback** (5% do valor total do pedido)\n\nEm compras **acima de 199 reais,** você ganha:\n\n* 🚚FRETE GRÁTIS!\n* **Cashback** (5% do valor total do pedido)\n* ⭐ 20% OFF (Cupom: **QUERO20**)\n\nEm compras **acima de 299 reais**, você ganha:\n\n* 🚚FRETE GRÁTIS!\n* **Cashback** (5% do valor total do pedido)\n* ⭐ 30% OFF (Cupom: **QUERO30**)\n\nAs condições dessa promoção são por tempo limitado, aproveite para fazer o seu pedido o quanto antes! **Boas compras!**"
 }

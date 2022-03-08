@@ -6,16 +6,17 @@
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 15px !important;
-  background: #0079a6 !important;
+  background: #1f69c1 !important;
 }
 
 #header {
     //background-color:#ffffff !important;     
 }
+
 .header__row .header__nav a {
     //color: #fff !important;
     text-transform: uppercase !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 // .top-bar, .top-bar__nav {
 //     background:#F8F9FA !important;
@@ -130,7 +131,7 @@ h1 {
 }
 
 .cart .row .col-md-7 .cart__list {
-  order: 1
+  order: -1
 }
 
 .cart .row .col-md-7 .cart__back {
@@ -717,7 +718,7 @@ h1{
   align-items:center;
 }
 #header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section .product-card__pictures{height:auto;}
-#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section picture{max-width:100px;height:75px;}
+#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section picture{max-width:100px;height:100%;}
 #header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card .product-card__name{
   padding:0 1rem;
   white-space: normal;
@@ -1440,3 +1441,18 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
     
   }
 }
+#cashback {
+  padding: 15px;
+  width: 50%;
+  border-radius: 10px;
+  border-color:rgb(40, 167, 69);
+  border-width: 1px;
+  border-style: solid;
+  background-color:#e1ffce
+}
+#dinheiro-volta strong, .dinheiro {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(40, 167, 69);
+}
+

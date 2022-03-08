@@ -4,23 +4,15 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 60000,
+      "autoplay": 100000,
       "slides": [
         {
-          "start": "2022-02-01T18:26:16.372Z",
+          "start": "2022-03-04T18:25:43.177Z",
           "end": "",
-          "img": "/img/uploads/granola-leve6.jpg",
-          "mobile_img": "/img/uploads/granola-leve6-1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "granola"
-        },
-        {
-          "start": "2021-08-17T13:26:49.727Z",
-          "end": "",
-          "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-          "alt": "fidelidade",
-          "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
+          "img": "/img/uploads/consumidor-500.jpg",
+          "mobile_img": "/img/uploads/consumidor1080.jpg",
+          "alt": "mes-consumidor",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia"
         },
         {
           "start": "2021-11-27T15:19:04.603Z",
@@ -31,20 +23,12 @@
           "mobile_img": "/img/uploads/latatia-sonia-1080.jpg"
         },
         {
-          "start": "2021-12-10T20:54:55.265Z",
+          "start": "2021-08-17T13:26:49.727Z",
           "end": "",
-          "img": "/img/uploads/kits-presents-500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=presente",
-          "alt": "presente",
-          "mobile_img": "/img/uploads/kits-presentes.jpg"
-        },
-        {
-          "start": "2021-06-14T12:33:47.518Z",
-          "end": "",
-          "img": "/img/uploads/bannernutri.jpg",
-          "mobile_img": "/img/uploads/feednutri.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista",
-          "alt": "nutri"
+          "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
+          "alt": "fidelidade",
+          "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
         },
         {
           "start": "2022-01-06T00:10:45.292Z",
@@ -88,12 +72,20 @@
       "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
     },
     {
+      "type": "custom-html",
+      "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Milhares de Pessoas já provaram os Produtos Tia Sônia, confira as opiniões mais recentes:</a></h4>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '85317'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
-      "collection_id": "5e04f9b1661b5405730b8040:categories:Kits:/kits-tia-sonia",
-      "title": "Separamos para Você",
-      "sort": "views",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+      "collection_id": "60478c4f6d50911b6059211a:categories:Todos os Produtos:/todos-os-produtos",
+      "title": "Esses são os Preferidos!",
+      "sort": "sales",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
     },
     {
       "type": "responsive-banner",
@@ -103,28 +95,38 @@
       "alt": "blog"
     },
     {
-      "type": "custom-html",
-      "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Milhares de Pessoas já provaram os Produtos Tia Sônia, confira as opiniões mais recentes:</a></h4>"
-    },
-    {
-      "type": "custom-html",
-      "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '85317'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banana-go-1920x500.jpg",
-      "mobile_img": "/img/uploads/banana-go-1080.jpg",
-      "alt": "banana",
-      "link": "https://www.emporiotiasonia.com.br/banana-go"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
+      "sort": "sales",
+      "title": "Cafés Especiais Orgânicos",
+      "limit": "",
+      "page": ""
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "collection_id": null,
-      "sort": "sales",
-      "title": "Os Preferidos!",
       "limit": "",
-      "page": ""
+      "page": "",
+      "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
+      "sort": "sales",
+      "title": "Sinta+ | Pipocas Especiais"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
+      "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg",
+      "alt": "pontos",
+      "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "5d09315724607a6a42d714cc:categories:Granola:/granola-tia-sonia",
+      "sort": "sales",
+      "title": "A melhor Granola do Mundo!"
     },
     {
       "type": "responsive-banner",
@@ -132,15 +134,6 @@
       "alt": "ebook",
       "img": "/img/uploads/ebook-500.jpg",
       "mobile_img": "/img/uploads/ebook-1080.jpg"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "5d09315724607a6a42d714cc:categories:Granolas:/granola-tia-sonia",
-      "sort": "sales",
-      "title": "Granola Tia Sônia: Qualidade e Sabor Incomparável!"
     }
   ]
 }
