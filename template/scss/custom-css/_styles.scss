@@ -1203,7 +1203,7 @@ footer .trustvox-certificate__fixed-seal{
   box-sizing: border-box;
   max-width: fit-content;
   width: fit-content;
-  gap:2rem;
+  gap:1rem;
 }
 
 // @font-face { font-family: 'AmaticSCBold'; src: url('/assets/fonts/AmaticSCBold.eot'); src: url('/assets/fonts/AmaticSCBold.eot') format('embedded-opentype'), url('/assets/fonts/AmaticSCBold.woff2') format('woff2'), url('/assets/fonts/AmaticSCBold.woff') format('woff'), url('/assets/fonts/AmaticSCBold.ttf') format('truetype'), url('/assets/fonts/AmaticSCBold.svg#AmaticSCBold') format('svg'); }
@@ -1219,6 +1219,7 @@ footer .trustvox-certificate__fixed-seal{
   text-align:left;
   display:block;
 }
+#apx_menu .dropdown.nossos-produtos ul{margin:0}
 #apx_menu .dropdown.nossos-produtos .dropdown-menu-custom a .menu__item-icon{
   display: inline-block;
   vertical-align: middle;
@@ -1456,3 +1457,10 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
   color: rgb(40, 167, 69);
 }
 
+#apx_menu .produtos-parceiros.dropdown .dropdown-menu-custom{
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  max-width: unset;
+}
+#apx_menu .produtos-parceiros.dropdown .dropdown-menu-custom a{white-space:nowrap;    font-size: 14px!important;}

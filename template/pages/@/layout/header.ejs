@@ -45,7 +45,9 @@ if (mainCategories) {
     }
   }
 }
+
 let categories = mainCategories
+//console.log(categories)
 
 let isCategoriesNavFull
 
@@ -331,7 +333,7 @@ let isCategoriesNavFull
           <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
             <ul id="apx_menu">
               <li class="dropdown nossos-produtos">
-                <a href="#">
+                <a href="/search">
                   Nossos produtos
                 </a>
                 <button class="d-block d-sm-none dropdown-menu-trigger" type="button">
@@ -340,6 +342,7 @@ let isCategoriesNavFull
                 <ul class="dropdown-menu-custom full row mx-0">
                    
                   <% categories.forEach(({ slug, name, icon }) => { %>
+                    <% if (menu.sort_categories.includes(slug)){%>
                     <li class="<%- slug %> ">
                       <strong>
                         <a href="/<%- slug %>">
@@ -368,9 +371,38 @@ let isCategoriesNavFull
                         </ul>
                       <% } %>
                     </li>
+                    <% } %>
                   <% }) %>
                  
                 </ul>
+              </li>
+              <li class="produtos-parceiros dropdown">
+                <strong>
+                  <a href="/produtos-parceiros">
+                    Marcas Parceiras
+                  </a>
+                </strong>
+                <% if (categoryParents['produtos-parceiros']) { %>
+                  <ul class="dropdown-menu-custom">
+                    <% categoryParents['produtos-parceiros'].forEach(subcategory => { %>
+                      <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
+                      <li>
+                        <a href="/<%= subcategory.slug %>">
+                          <% if (subcategory.icon) { %>
+                            <span class="menu__item-icon">
+                              <img
+                                src="<%= subcategory.icon.url %>"
+                                alt="<%= subcategory.icon.alt || subcategory.name %>"
+                                onerror="this.style ='display:none';"
+                              >
+                            </span>
+                          <% } %>
+                          <%= subcategory.name %>                            
+                        </a>
+                      </li>
+                    <% }) %> 
+                  </ul>
+                <% } %>
               </li>
               <li class="ganhe-pontos dropdown d-none d-md-block"><a href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade">Ganhe Pontos</a>
                 <ul class="dropdown-menu-custom ganhe-pontos">
@@ -381,7 +413,7 @@ let isCategoriesNavFull
                   </li>
                 </ul>
               </li>                
-              <li class="ganhe-pontos dropdown d-block d-md-none"><a href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade">Sua compra vale pontos!</a><li>              
+              <li class="ganhe-pontos dropdown d-block d-md-none"><a href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade">Sua compra vale pontos!</a></li>              
               <li><a href="https://www.emporiotiasonia.com.br/blog">Dicas e Receitas</a></li>
               <li><a href="https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista">Clube Nutri</a></li>
               <li><a href="https://compre.tiasonia.com.br/" target="_blank">Área do Lojista (CNPJ)</a></li>
