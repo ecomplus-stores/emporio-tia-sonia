@@ -88,12 +88,19 @@
       "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '85317'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-desktop-1920x500-barras-min-1-.jpg",
+      "link": "https://www.emporiotiasonia.com.br/ultrabar",
+      "alt": "ultrabar-2",
+      "mobile_img": "/img/uploads/600-proteina.jpg"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
-      "collection_id": "60478c4f6d50911b6059211a:categories:Todos os Produtos:/todos-os-produtos",
-      "title": "Esses são os Preferidos!",
+      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
+      "title": "Ultrabar é aquela energia extra quando você mais precisa!",
       "sort": "sales",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
+      "link": ""
     },
     {
       "type": "responsive-banner",
