@@ -376,14 +376,17 @@ let isCategoriesNavFull
                  
                 </ul>
               </li>
-              <li class="produtos-parceiros dropdown">
-                <strong>
+              <li class="nossos-produtos produtos-parceiros dropdown">
+                
                   <a href="/produtos-parceiros">
                     Marcas Parceiras
                   </a>
-                </strong>
+                
+                <button class="d-block d-sm-none dropdown-menu-trigger" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Chevron Down</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></svg>
+                </button>
                 <% if (categoryParents['produtos-parceiros']) { %>
-                  <ul class="dropdown-menu-custom">
+                  <ul class="dropdown-menu-custom full">
                     <% categoryParents['produtos-parceiros'].forEach(subcategory => { %>
                       <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
                       <li>
