@@ -16,10 +16,6 @@
       ]
     },
     {
-      "type": "custom-html",
-      "html": "<!--\n    <img src=\"http://gen.sendtric.com/countdown/uv5tyoxxdf\" style=\"display: block;\" />\n-->"
-    },
-    {
       "type": "extra-page",
       "enabled": true
     },
