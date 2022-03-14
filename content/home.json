@@ -7,6 +7,14 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "2022-03-14T15:24:33.791Z",
+          "end": "2022-03-14T15:24:33.852Z",
+          "img": "/img/uploads/semana-consumidor15.jpg",
+          "mobile_img": "/img/uploads/semana-consumidor151080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "semana-consumidor"
+        },
+        {
           "start": "2022-03-09T23:50:20.642Z",
           "end": "",
           "img": "/img/uploads/banner-desktop-1920x500-barras-min-1-.jpg",
