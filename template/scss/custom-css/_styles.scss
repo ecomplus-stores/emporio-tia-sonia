@@ -1462,5 +1462,12 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
   flex-direction: column;
   white-space: nowrap;
   max-width: unset;
+  width:275px
 }
 #apx_menu .produtos-parceiros.dropdown .dropdown-menu-custom a{white-space:nowrap;    font-size: 14px!important;}
+
+@media(max-width:990px){
+  #apx_menu .produtos-parceiros.dropdown .dropdown-menu-custom{
+    width:100%;
+  }
+}
