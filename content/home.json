@@ -96,7 +96,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<h4 class=\"products-carousel__title\"><a style=\"color: #705a3d;\" target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Fala Gente! Veja os comentários de quem já experimentou:</a></h4>"
+      "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Fala Gente! Veja os comentários de quem já experimentou:</a></h4>"
     },
     {
       "type": "custom-html",
