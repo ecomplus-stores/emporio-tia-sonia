@@ -1512,7 +1512,7 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
     color: #FFFFFF;
     text-transform: uppercase;
     padding: 5px 40px;;
-    width: 58%;
+    width: 60%;
 }
 }
 .sobre_cell_video {
@@ -1534,7 +1534,7 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
 }
 @media (max-width: 767px) {
   .custom-html.my-4.my-lg-5:last-child .html-clearfix {
-    overflow-x: hidden
+    overflow: hidden
   }
   .sobre_cell_text p, .celltronics-deskonly {
     display: none !important;
