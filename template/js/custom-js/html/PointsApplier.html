@@ -9,7 +9,7 @@
         type="checkbox"
         class="custom-control-input"
         :id="`points-applier-${programId}`"
-        :checked="pointsApplied[programId]"
+        checked
         @change="ev => togglePoints(programId, ev.target.checked)"
       >
   

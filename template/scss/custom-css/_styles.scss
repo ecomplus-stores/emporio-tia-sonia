@@ -41,6 +41,7 @@
     color: #f8f9fa;
 }
   
+  
 }
 
 @media (min-width: 992px){
@@ -1468,5 +1469,91 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
 @media(max-width:990px){
   #apx_menu .produtos-parceiros.dropdown .dropdown-menu-custom{
     width:100%;
+  }
+}
+/* Bloco sobre nos */
+.sobre_cell_title h4 {
+  margin-bottom: 20px;
+  font: normal normal 300 30px/40px Open Sans;
+  letter-spacing: 0px;
+  color: #365b80;
+  &::after {
+    content: "";
+    background: #eee;
+    height: 1px;
+    width: 100%;
+    display: block;
+  }
+  span {
+    border-bottom: 2px solid #365b80;
+  }
+}
+.sobre_cell_text {
+  display: flex;
+  flex-direction: column;
+  h5 {
+    font: normal normal bold 20px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #333333;
+    margin: 20px 0px;
+  }
+  p {
+    font: normal normal 300 18px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  a {
+    background: #365b80 0% 0% no-repeat padding-box;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font: normal normal bold 18px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 5px 40px;;
+    width: 58%;
+}
+}
+.sobre_cell_video {
+  .celltronics-mobileonly {
+    display: none;
+    background: #365b80 0% 0% no-repeat padding-box;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font: normal normal bold 18px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 5px 40px;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .custom-html.my-4.my-lg-5:last-child .html-clearfix {
+    overflow-x: hidden
+  }
+  .sobre_cell_text p, .celltronics-deskonly {
+    display: none !important;
+  }
+  .sobre_cell_text {
+    flex-direction: column;
+  } 
+  .celltronics-mobileonly {
+    display: flex !important;
+    margin-top: 7%;
+  }
+  .sobre_cell_video {
+    width: 100%;
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .sobre_cell_container {
+    text-align: center;
   }
 }

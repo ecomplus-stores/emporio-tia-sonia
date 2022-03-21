@@ -142,6 +142,10 @@
       "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg",
       "alt": "pontos",
       "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"sobre_cell_container row\"><div class=\"sobre_cell_title col-12\"><h4><span>Sobre a <b>Tia Sônia</b></span></h4></div><div class=\"sobre_cell_text col-md-7 col-12\"><h5>Sim, ela é de verdade!</h5><p>Tia Sônia é uma mãe dedicada e cuidadosa.</p><p>A famosa receita de granola caseira foi criada para Marcos, seu filho, levar para a sua viagem nas trilhas de Machu Picchu. Nessa caminhada, a granola foi compartilhada entre amigos, que começaram a incentivar a venda dos produtos...</p><a href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\" class=\"celltronics-deskonly\">CONHEÇA MAIS SOBRE NÓS</a></div><div class=\"sobre_cell_video col-md-5 col-12\"><iframe src=\"https://www.youtube.com/embed/xyFDnMAjjNc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowtransparency=\"true\"></iframe><a href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\" class=\"celltronics-mobileonly\">CONHEÇA MAIS SOBRE NÓS</a></div></div>"
     }
   ]
 }
