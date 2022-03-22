@@ -231,13 +231,8 @@ body {
 //fonte title colecoes
 .products-carousel__title {font-size: 1rem;}
 
-// ver mais
-.products-carousel__title a::after {
-  content: ' ( Ver + )';
-  font-size: 0.80rem;
-  font-weight: bold;
-  padding:  0.5rem;
-}
+// ver mais .products-carousel__title a::after {  content: ' ( Ver + )';  font-size: 0.80rem;  font-weight: bold;  padding:  0.5rem;}
+
 .products-carousel h3, .products-carousel strong, .products-carousel .product-card__prices, .product-card h3, .product-card .product-card__prices,.product-card .prices__discount{
   text-align: center;
 }
