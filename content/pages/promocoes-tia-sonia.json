@@ -27,14 +27,6 @@
       "title": "Confira os produtos mais vendidos!",
       "sort": "sales",
       "collection_id": null
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "623887f52e405e04ffee4b5f:collections:Tá Valendo!:/ta-valendo",
-      "title": "30% OFF em produtos Selecionados"
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
