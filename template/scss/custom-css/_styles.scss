@@ -80,7 +80,7 @@ blockquote {
 //size h1
 h1 {
     font-size: 1.5rem !important;
-    color: #365b80 !important;
+    color: #705a3d !important;
 }
 
 //texto menu
@@ -158,7 +158,7 @@ h1 {
 
 // font style
 body {
-  font-family: 'Averta', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 // header
 #header {  
@@ -466,7 +466,7 @@ body{
   font-family: "PT Sans";
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.0;
+  line-height: 1.68;
   color: #6A6A57;
 }
 .top-bar a.top-bar__countdown{padding:0.3rem 0;font-size:12px;}
@@ -1469,7 +1469,7 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
 /* Bloco sobre nos */
 .sobre_cell_title h4 {
   margin-bottom: 20px;
-  font: normal normal 400 30px/40px Averta;
+  font: normal normal 300 30px/40px Open Sans;
   letter-spacing: 0px;
   color: #365b80;
   &::after {
@@ -1487,40 +1487,40 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
   display: flex;
   flex-direction: column;
   h5 {
-    font: normal normal bold 20px/40px Averta;
+    font: normal normal bold 20px/40px Open Sans;
     letter-spacing: 0px;
     color: #333333;
     margin: 20px 0px;
   }
   p {
-    font: normal normal 300 18px/36px Averta;
+    font: normal normal 300 18px/36px Open Sans;
     letter-spacing: 0px;
     color: #333333;
     margin-bottom: 30px;
   }
   a {
-    background: #4698ca 0% 0% no-repeat padding-box;
+    background: #365b80 0% 0% no-repeat padding-box;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    font: normal normal bold 18px/40px Averta;
+    font: normal normal bold 18px/40px Open Sans;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 5px 110px;;
+    padding: 5px 40px;;
     width: 60%;
 }
 }
 .sobre_cell_video {
-  .celltronics-mobileonly{
+  .celltronics-mobileonly {
     display: none;
-    background: #4698ca 0% 0% no-repeat padding-box;
+    background: #365b80 0% 0% no-repeat padding-box;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    font: normal normal bold 18px/40px Averta;
+    font: normal normal bold 18px/40px Open Sans;
     letter-spacing: 0px;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 5px 110px;
+    padding: 5px 40px;
   }
   iframe {
     width: 100%;
