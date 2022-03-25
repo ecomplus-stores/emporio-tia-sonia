@@ -3,6 +3,10 @@
     {
       "type": "search-engine",
       "enabled": true
+    },
+    {
+      "type": "custom-content",
+      "markdown": "Não encontrou o produto que gostaria no Empório Tia Sônia?<b> [Deixe aqui a sua sugestão](https://docs.google.com/forms/d/e/1FAIpQLSdqN2lBs-8j9unNmzzctdbSYc8wIok4V-E3DcZl57_9jgcTIw/viewform?usp=sf_link)</b>"
     }
   ]
 }
