@@ -13,9 +13,23 @@
       "title": "Confira os produtos mais vendidos!",
       "sort": "sales",
       "collection_id": null
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2022-03-31T12:03:57.573Z",
+          "end": "",
+          "img": "/img/uploads/saudenutri500.webp",
+          "mobile_img": "",
+          "alt": "nutri"
+        }
+      ]
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "Em breve..."
+  "body": "<center><h2>Semana 💚 Saúde e Nutrição!</h2></a>\n<p>Alimentação Saudável para o seu dia a dia! </p></center><hr>\n\nEm compras **acima de R$ 99**, você ganha:\n\n* FRETE GRÁTIS!\n* **10% OFF** (Use o Cupom: **SAUDE10**)\n\nComprando **acima de R$ 199,** você leva também:\n\n* **Granola Low Carb (180g)**\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
