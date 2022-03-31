@@ -7,6 +7,14 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "2022-03-31T12:31:05.229Z",
+          "end": "",
+          "img": "/img/uploads/saudenutri500.webp",
+          "mobile_img": "/img/uploads/saudenutri1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "nutri"
+        },
+        {
           "start": "2022-03-09T23:50:20.642Z",
           "end": "",
           "img": "/img/uploads/banner-desktop-1920x500-barras-min-1-.jpg",
@@ -29,30 +37,6 @@
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "fidelidade",
           "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
-        },
-        {
-          "start": "2022-01-06T00:10:45.292Z",
-          "end": "",
-          "img": "/img/uploads/granola-1920-2-.jpg",
-          "mobile_img": "/img/uploads/granola-1080-1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/tradicional",
-          "alt": "granola"
-        },
-        {
-          "start": "2022-01-06T00:12:37.627Z",
-          "end": "",
-          "img": "/img/uploads/coquinho-1920.jpg",
-          "link": "https://www.emporiotiasonia.com.br/coquinho",
-          "alt": "coquinho",
-          "mobile_img": "/img/uploads/coquinho-1080.jpg"
-        },
-        {
-          "start": "2022-01-06T00:13:40.511Z",
-          "end": "",
-          "img": "/img/uploads/tapi-1920.jpg",
-          "link": "https://www.emporiotiasonia.com.br/tapioca-crocante",
-          "alt": "tapioca",
-          "mobile_img": "/img/uploads/tapi-1080.jpg"
         }
       ],
       "full_width": true
