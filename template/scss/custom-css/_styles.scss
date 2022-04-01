@@ -8,10 +8,11 @@
   background: #1f69c1 !important;
 }
 
-@media (min-width: 992px)
-.glide__bullets {
+@media (min-width: 992px) {
+  .glide__bullets {
     bottom: 1.75rem;
     display: none;
+  }
 }
 
 #header {
