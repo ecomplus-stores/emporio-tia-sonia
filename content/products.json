@@ -37,7 +37,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"whatsapp-chat\">\n    <a class=\"hide-web\" href=\"https://api.whatsapp.com/send?phone=5577999074455\" target=\"_blank\">\n        <img title=\"Contato via Whatsapp\" src=\"https://www.emporiotiasonia.com.br/img/uploads/whats.png\">\n    </a>\n\n    <a class=\"hide-mobile\" href=\"https://api.whatsapp.com/send?phone=5577999074455\" target=\"_blank\">\n        <img title=\"Contato via Whatsapp\" src=\"https://www.emporiotiasonia.com.br/img/uploads/whats.png\">\n    </a>\n</div>\n\n<style>\n    @media only screen and (min-width: 768px){\n        .whatsapp-chat .hide-mobile {\n            display: none\n        }\n    }\n\n    @media only screen and (max-width: 767px){\n        .whatsapp-chat .hide-web {\n            display: none;\n        }\n    }\n\n    .whatsapp-chat {\n        position: fixed;\n        z-index: 999;\n        bottom: 50px;\n        right: 20px;\n    }\n\n    .whatsapp-chat img {\n        height: 55px;\n        width: auto;\n    }\n\n</style>\n\n"
+      "html": "<script>\n(function(h,i,b,o,t) {\nh.onload = function() {\nif(window.HiBot !== undefined) return true;\nvar s = i.createElement('script');\ns.src = b + o;\ns.async = true;\ns.id = t;\ni.body.appendChild(s);\n};\n})(window, document, '//cdn-bot.hiplatform.com/dtbot.js?token=7e98918c-f1ed-4c44-9ad7-facbe4979847', '&widget=true&tab=true&top=40&from=bottomright&widgetType=circle&iconId=&text=Posso%20te%20ajudar%3F&textcolor=ffffff&bgcolor=00AEEF', 'dtbot-script');\n</script>"
     }
   ]
 }
