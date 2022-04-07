@@ -34,10 +34,6 @@
       "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
       "alt": "pontos",
       "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
-    },
-    {
-      "type": "custom-html",
-      "html": "<script>\n(function(h,i,b,o,t) {\nh.onload = function() {\nif(window.HiBot !== undefined) return true;\nvar s = i.createElement('script');\ns.src = b + o;\ns.async = true;\ns.id = t;\ni.body.appendChild(s);\n};\n})(window, document, '//cdn-bot.hiplatform.com/dtbot.js?token=7e98918c-f1ed-4c44-9ad7-facbe4979847', '&widget=true&tab=true&top=40&from=bottomright&widgetType=circle&iconId=&text=Posso%20te%20ajudar%3F&textcolor=ffffff&bgcolor=00AEEF', 'dtbot-script');\n</script>"
     }
   ]
 }
