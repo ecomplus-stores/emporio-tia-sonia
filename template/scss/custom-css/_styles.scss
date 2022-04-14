@@ -1566,3 +1566,74 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
     text-align: center;
   }
 }
+
+.product-card .product-card__buy{
+  opacity: 1!important;
+  position: relative;
+  top: auto;
+  margin: 0;
+  bottom: auto;
+  display: block;
+  left: auto;
+  transform: unset;
+  background: transparent!important;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.qtde-adicionar-carrinho{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #f4f4f4;
+  line-height: 36px!important;
+  border-radius: 36px!important;
+  width: auto!important;
+  padding: 0 10px;
+}
+
+.qtde-adicionar-carrinho > input{
+  -moz-appearance:textfield; /* Firefox */
+  height: 36px;
+  padding: 0;
+  width:40px;
+  border: 0!important;
+  text-align:center
+}
+.qtde-adicionar-carrinho > button{
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+.qtde-adicionar-carrinho > button > svg{
+  height: 16px;
+  margin: 0;
+  display: block;
+  width: 16px;
+}
+
+.qtde-adicionar-carrinho > input::-webkit-outer-spin-button,
+.qtde-adicionar-carrinho > input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+.product-card__buy{margin-top:1rem!important}
+.product-card__buy .btn-primary{
+  padding: 0px;
+  width: auto;
+  min-width: unset;
+  line-height: 36px;
+}
+.product-card__buy .btn-primary div{padding: 0 15px}
+
+@media(max-width:990px){
+  .product-card .product-card__buy{flex-direction: column;}
+  .product-card .product-card__buy > *{width:100%!important;justify-content: space-between;}
+}
