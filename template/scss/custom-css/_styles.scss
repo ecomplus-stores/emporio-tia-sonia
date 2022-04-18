@@ -1637,3 +1637,14 @@ input[type=number] {
   .product-card .product-card__buy{flex-direction: column;}
   .product-card .product-card__buy > *{width:100%!important;justify-content: space-between;}
 }
+
+.recommended-items .product-card__buy{
+  display:flex!important;
+  position:relative!important;
+  flex-direction: column!important;
+  transform: unset;
+  width: auto;
+  left: auto;
+  right: auto;
+}
+.recommended-items .product-card__buy .btn-primary div{padding:0}
