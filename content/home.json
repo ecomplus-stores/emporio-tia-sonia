@@ -7,20 +7,20 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "2022-03-31T12:31:05.229Z",
+          "end": "",
+          "img": "/img/uploads/semanamaisfeliz500.png",
+          "mobile_img": "/img/uploads/semanamaisfeliz1080.png",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "maisfeliz"
+        },
+        {
           "start": "2022-04-22T23:38:24.873Z",
           "end": "",
           "img": "/img/uploads/donasonia1920x500.jpg",
           "mobile_img": "/img/uploads/donasonia.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/nossa-amada-tia-sonia",
           "alt": "dona-sonia"
-        },
-        {
-          "start": "2022-03-31T12:31:05.229Z",
-          "end": "",
-          "img": "/img/uploads/semanamaisfeliz500.png",
-          "mobile_img": "/img/uploads/semanamaisfeliz1080.png",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "nutri"
         },
         {
           "start": "2022-03-09T23:50:20.642Z",
