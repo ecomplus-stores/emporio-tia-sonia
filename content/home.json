@@ -7,6 +7,14 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "2022-04-28T13:34:38.323Z",
+          "end": "",
+          "img": "/img/uploads/cady1920.png",
+          "mobile_img": "/img/uploads/cady1080x1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/snacks",
+          "alt": "snacks"
+        },
+        {
           "start": "2022-03-31T12:31:05.229Z",
           "end": "",
           "img": "/img/uploads/semanamaisfeliz500.png",
