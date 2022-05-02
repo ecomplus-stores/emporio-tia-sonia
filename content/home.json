@@ -15,14 +15,6 @@
           "alt": "snacks"
         },
         {
-          "start": "2022-03-31T12:31:05.229Z",
-          "end": "",
-          "img": "/img/uploads/semanamaisfeliz500.png",
-          "mobile_img": "/img/uploads/semanamaisfeliz1080.png",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "maisfeliz"
-        },
-        {
           "start": "2022-03-09T23:50:20.642Z",
           "end": "",
           "img": "/img/uploads/banner-desktop-1920x500-barras-min-1-.jpg",
@@ -45,6 +37,14 @@
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "fidelidade",
           "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
+        },
+        {
+          "start": "2022-05-02T11:22:40.225Z",
+          "end": "",
+          "img": "/img/uploads/mae1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "mae",
+          "mobile_img": "/img/uploads/mae1080x1080.webp"
         }
       ],
       "full_width": true
