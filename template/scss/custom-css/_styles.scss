@@ -1648,3 +1648,27 @@ input[type=number] {
   right: auto;
 }
 .recommended-items .product-card__buy .btn-primary div{padding:0}
+
+/* SEARCH BY VOICE */
+#search-bar form > button:first-child{
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  padding: 6px 10px 10px 10px;
+  outline:none
+}
+#search-bar form > button + input{padding-left:35px;}
+@keyframes flickerAnimation { /* flame pulses */
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.fa-microphone-slash{
+  opacity:1;  
+  animation: flickerAnimation 1s infinite;
+}
+@media(max-width:990px){
+  #search-bar form>button:first-child{padding:0px 10px;line-height: initial;}
+}
