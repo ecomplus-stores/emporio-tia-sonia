@@ -63,6 +63,21 @@
       "title": "A melhor Granola do Mundo!"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/cady1080x1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/snacks",
+          "alt": "cady"
+        },
+        {
+          "img": "/img/uploads/fidelidade-tia-sonia-1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
+          "alt": "pontos"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
@@ -125,21 +140,6 @@
       "alt": "ebook",
       "img": "/img/uploads/ebook-500.jpg",
       "mobile_img": "/img/uploads/ebook-1080.jpg"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/cady1080x1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/snacks",
-          "alt": "cady"
-        },
-        {
-          "img": "/img/uploads/fidelidade-tia-sonia-1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-          "alt": "pontos"
-        }
-      ]
     }
   ]
 }
