@@ -21,6 +21,14 @@
     {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
+      "title": "Confira os Produtos mais Vendidos"
     }
   ]
 }
