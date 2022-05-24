@@ -45,6 +45,14 @@
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "fidelidade",
           "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
+        },
+        {
+          "start": "2022-05-24T11:42:29.335Z",
+          "end": "2022-05-24T11:42:29.425Z",
+          "img": "/img/uploads/leve5-500-1-.jpg",
+          "mobile_img": "/img/uploads/leve5-1080-1-.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search",
+          "alt": "levemais"
         }
       ],
       "full_width": true
