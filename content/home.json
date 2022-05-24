@@ -7,6 +7,14 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "2022-05-24T11:16:40.000Z",
+          "end": "",
+          "img": "/img/uploads/cafe-24-1920x500.jpg",
+          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
+          "alt": "cafe",
+          "mobile_img": "/img/uploads/cafe-24-1080x1080.jpg"
+        },
+        {
           "start": "2022-04-28T13:34:38.323Z",
           "end": "",
           "img": "/img/uploads/cady1920.png",
