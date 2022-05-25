@@ -7,14 +7,6 @@
       "autoplay": 100000,
       "slides": [
         {
-          "start": "2022-05-24T11:16:40.000Z",
-          "end": "",
-          "img": "/img/uploads/cafe-24-1920x500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
-          "alt": "cafe",
-          "mobile_img": "/img/uploads/cafe-24-1080x1080.jpg"
-        },
-        {
           "start": "2022-05-24T11:42:29.335Z",
           "end": "",
           "img": "/img/uploads/leve5-500-1-.jpg",
@@ -60,15 +52,6 @@
     {
       "type": "custom-html",
       "html": "[estilos-de-alimentacao]"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
-      "sort": "sales",
-      "title": "Cafés Especiais Orgânicos",
-      "limit": "",
-      "page": ""
     },
     {
       "type": "collection-shelf",
@@ -127,6 +110,15 @@
       "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
       "sort": "sales",
       "title": "Sinta+ | Pipocas Especiais"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
+      "sort": "sales",
+      "title": "Cafés Especiais Orgânicos",
+      "limit": "",
+      "page": ""
     },
     {
       "type": "custom-html",
