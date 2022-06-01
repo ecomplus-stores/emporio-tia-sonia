@@ -37,6 +37,14 @@
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "fidelidade",
           "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
+        },
+        {
+          "start": "2022-06-01T17:56:59.786Z",
+          "end": "2022-06-01T17:56:59.844Z",
+          "img": "/img/uploads/organico-sem-500.avif",
+          "mobile_img": "/img/uploads/organico-sem-1080.avif",
+          "link": "https://www.emporiotiasonia.com.br/organico",
+          "alt": "organico"
         }
       ],
       "full_width": true
