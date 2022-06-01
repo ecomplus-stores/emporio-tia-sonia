@@ -2,25 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-05-17T00:05:59.660Z",
-          "end": "",
-          "img": "/img/uploads/leve5-500-1-.jpg",
-          "mobile_img": "",
-          "alt": "leve5",
-          "link": ""
-        }
-      ]
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
