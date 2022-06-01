@@ -2,6 +2,10 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
