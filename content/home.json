@@ -56,7 +56,9 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/daniel1920x500.jpg",
-      "mobile_img": "/img/uploads/daniel1080x1080.jpg"
+      "mobile_img": "/img/uploads/daniel1080x1080.jpg",
+      "link": "https://naturaltech.com.br/credenciamento/",
+      "alt": "naturaltech"
     },
     {
       "type": "collection-shelf",
