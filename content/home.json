@@ -7,6 +7,14 @@
       "autoplay": 5000,
       "slides": [
         {
+          "start": "2022-06-14T12:16:03.068Z",
+          "end": "",
+          "img": "/img/uploads/saojoao1920x500.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "saojao",
+          "mobile_img": "/img/uploads/saojoao1080x1080.jpg"
+        },
+        {
           "start": "2021-11-27T15:19:04.603Z",
           "end": "",
           "img": "/img/uploads/lata-tia-sonia.jpg",
