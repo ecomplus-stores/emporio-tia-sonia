@@ -2,6 +2,18 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2022-06-16T19:58:46.580Z",
+          "end": "",
+          "img": "/img/uploads/saojao500.jpg"
+        }
+      ]
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
