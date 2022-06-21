@@ -7,20 +7,20 @@
       "autoplay": 10000,
       "slides": [
         {
-          "start": "2022-06-14T12:16:03.068Z",
-          "end": "2022-06-21T14:12:56.939Z",
-          "img": "/img/uploads/saojoao1920x500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "saojao",
-          "mobile_img": "/img/uploads/saojoao1080x1080.jpg"
-        },
-        {
           "start": "2022-06-17T12:35:15.506Z",
           "end": "",
           "img": "/img/uploads/soajoao21920x500.jpg",
           "mobile_img": "/img/uploads/saojoao21080x1080.jpg",
           "alt": "sj",
           "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia"
+        },
+        {
+          "start": "2022-06-14T12:16:03.068Z",
+          "end": "",
+          "img": "/img/uploads/leite1920x500.jpg",
+          "link": "https://www.emporiotiasonia.com.br/leite-de-coco-em-po-180g",
+          "alt": "saojao",
+          "mobile_img": "/img/uploads/leite1080x1080.jpg"
         },
         {
           "start": "2021-11-27T15:19:04.603Z",
