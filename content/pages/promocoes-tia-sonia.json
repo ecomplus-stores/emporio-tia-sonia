@@ -9,7 +9,9 @@
         {
           "start": "2022-06-16T19:58:46.580Z",
           "end": "",
-          "img": "/img/uploads/soajoao21920x500.jpg"
+          "img": "/img/uploads/soajoao21920x500.jpg",
+          "alt": "promo",
+          "link": "https://www.emporiotiasonia.com.br/search?term="
         }
       ]
     },
@@ -29,5 +31,5 @@
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<center><h2>São João na Tia Sônia!</h2></a>\n<p></center><hr>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 99!\n* Cupom com **15% de desconto** em compras acima de R$ 200. \\\n  Use o código: **MAIS15**\n* Cupom com **20% de desconto** em compras acima de R$ 300. \\\n  Use o código: **MAIS20**\n* Ganhe **Brinde** em compras acima de R$ 300.\n* Ganhe pontos no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "<center><h2>São João na Tia Sônia!</h2></a>\n<p></center><hr>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* Cupom com **15% de desconto** em compras acima de R$ 200. \\\n  Use o código: **MAIS15**\n* Cupom com **20% de desconto** em compras acima de R$ 300. \\\n  Use o código: **MAIS20**\n* Ganhe **Brinde** em compras acima de R$ 300.\n* Ganhe pontos no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
