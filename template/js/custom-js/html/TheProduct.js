@@ -225,9 +225,29 @@ export default {
 
     discount () {
       const { body } = this
-      return checkOnPromotion(body)
-        ? Math.round(((body.base_price - getPrice(body)) * 100) / body.base_price)
+      const priceValue = this.fixedPrice || getPrice(body)
+      const basePrice = body.base_price || body.price
+      return checkOnPromotion(body) || (body.price > priceValue)
+        ? Math.round(((basePrice - priceValue) * 100) / basePrice)
         : 0
+    },
+
+    mockNewPromoDate () {
+      const { body } = this
+      const newPromoDate = { ...body }
+      const tomorrow = new Date(new Date().getTime() + 86400000).setHours(0, 0, 0, 0)
+      newPromoDate.price_effective_date = {}
+      newPromoDate.price_effective_date.end = new Date(tomorrow).toISOString()
+      return newPromoDate
+    },
+
+    isOnSale () {
+      const { mockNewPromoDate } = this
+      return this.hasPromotionTimer &&
+        (checkOnPromotion(mockNewPromoDate) || this.body.price > this.fixedPrice) &&
+        mockNewPromoDate.price_effective_date &&
+        mockNewPromoDate.price_effective_date.end &&
+        Date.now() < new Date(mockNewPromoDate.price_effective_date.end).getTime()
     },
 
     ghostProductForPrices () {
@@ -563,6 +583,40 @@ export default {
         obs.observe()
       }
       setStickyBuyObserver()
+    }
+    if (this.isOnSale) {
+      const promotionDate = new Date(this.mockNewPromoDate.price_effective_date.end)
+      const now = Date.now()
+      if (promotionDate.getTime() > now) {
+        let targetDate
+        const dayMs = 24 * 60 * 60 * 1000
+        const daysBetween = Math.floor((promotionDate.getTime() - now) / dayMs)
+        if (daysBetween > 2) {
+          targetDate = new Date()
+          targetDate.setHours(23, 59, 59, 999)
+        } else {
+          targetDate = promotionDate
+        }
+        const formatTime = (number) => number < 10 ? `0${number}` : number
+        const getRemainingTime = () => {
+          const distance = targetDate.getTime() - Date.now()
+          const days = Math.floor(distance / dayMs)
+          const hours = Math.floor((distance % dayMs) / (1000 * 60 * 60))
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000)
+          return (days > 0 ? `${formatTime(days)}:` : '') +
+            `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`
+        }
+        this.currentTimer = setInterval(() => {
+          this.$refs.timer.innerHTML = getRemainingTime()
+        }, 1000)
+      }
+    }
+  },
+
+  destroyed () {
+    if (this.currentTimer) {
+      clearInterval(this.currentTimer)
     }
   }
 }
