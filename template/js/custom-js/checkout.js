@@ -23,7 +23,6 @@ routerToLink.afterEach(({ name }) => {
 })
 
 /* BEE VIRAL*/
-<div id="app_cw_widget"></div>
 import ecomPassport from '@ecomplus/passport-client'
 function initbvWidgetShared() {
     const router = window.storefrontApp && window.storefrontApp.router
