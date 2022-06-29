@@ -103,10 +103,12 @@ export default {
       type: String,
       default: 'col-12 col-md-6'
     },
+    hasPromotionTimer: Boolean,
     hasStickyBuyButton: {
       type: Boolean,
       default: true
     },
+    hasQuantitySelector: Boolean,
     canAddToCart: {
       type: Boolean,
       default: true
