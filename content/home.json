@@ -59,14 +59,6 @@
       ]
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
-      "title": "Ultrabar: aquela energia extra quando você mais precisa!",
-      "sort": "sales",
-      "link": ""
-    },
-    {
       "type": "custom-html",
       "html": "<h4 class=\"products-carousel__title\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/emporiotiasonia\">Fala Gente! Veja os comentários de quem já experimentou:</a></h4>"
     },
