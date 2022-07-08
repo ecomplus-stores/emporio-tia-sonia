@@ -13,6 +13,14 @@
           "mobile_img": "/img/uploads/1080-bahiabrasil.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
           "alt": "bahia"
+        },
+        {
+          "start": "2022-07-08T11:27:57.988Z",
+          "end": "",
+          "img": "/img/uploads/ultrabar1920.jpg",
+          "mobile_img": "/img/uploads/ultrabar1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/ultrabar",
+          "alt": "ultrabar"
         }
       ],
       "full_width": true
