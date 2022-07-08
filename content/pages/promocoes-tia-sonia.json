@@ -2,6 +2,23 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "custom-html",
+      "html": "<br>"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "title": "Confira os produtos mais vendidos!",
+      "sort": "sales",
+      "collection_id": null
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": false,
@@ -14,19 +31,6 @@
           "link": "https://www.emporiotiasonia.com.br/search"
         }
       ]
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "title": "Confira os produtos mais vendidos!",
-      "sort": "sales",
-      "collection_id": null
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
