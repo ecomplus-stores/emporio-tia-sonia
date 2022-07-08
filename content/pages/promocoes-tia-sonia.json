@@ -2,10 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<br>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
