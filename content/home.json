@@ -7,6 +7,14 @@
       "autoplay": 10000,
       "slides": [
         {
+          "start": "2022-07-11T11:30:36.600Z",
+          "end": "",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "30off",
+          "img": "/img/uploads/30off1920x736.jpg",
+          "mobile_img": "/img/uploads/30off1080x1080.jpg"
+        },
+        {
           "start": "2022-07-08T11:27:57.988Z",
           "end": "",
           "img": "/img/uploads/ultrabar1920.jpg",
