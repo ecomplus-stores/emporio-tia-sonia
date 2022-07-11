@@ -6,9 +6,10 @@
       "shuffle": false,
       "limit": "",
       "page": "",
-      "title": "Da Bahia para você em todo Brasil!",
-      "sort": "sales",
-      "collection_id": null
+      "title": "Até 30% de desconto em Produtos Selecionados (Ver Mais)",
+      "sort": "offers",
+      "collection_id": null,
+      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
     {
       "type": "extra-page",
@@ -22,14 +23,14 @@
         {
           "start": "2022-06-16T19:58:46.580Z",
           "end": "",
-          "img": "/img/uploads/500-bahiabrasil.jpg",
+          "img": "/img/uploads/30off1920x736.jpg",
           "alt": "promo",
-          "link": "https://www.emporiotiasonia.com.br/search"
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
         }
       ]
     }
   ],
   "meta_title": "Promoções Alimentos Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<center><p>Ainda dá tempo aproveitar!!</p><img src=\"https://gen.sendtric.com/countdown/1rzlg3n8iz\" style=\"display: block;\" /></center><hr>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* 15% de desconto (Use o cupom: **BAHIABRASIL**)\n* Leve de brinde Coquinho em compras acima de R$ 199\n* Ganhe pontos no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "<center><p>Promoção por tempo limitado!</p><img src=\"https://gen.sendtric.com/countdown/4pun6rojha\" style=\"display: block;\" /></center><hr>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* Até 30% de desconto em **[produtos selecionados!](https://www.emporiotiasonia.com.br/search?sort=offers)**\n* Ganhe pontos no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
