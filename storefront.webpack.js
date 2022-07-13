@@ -10,6 +10,7 @@ module.exports = () => ({
       './html/PointsApplier.html': path.resolve(__dirname, 'template/js/custom-js/html/PointsApplier.html'),
       './html/ProductCard.html': path.resolve(__dirname, 'template/js/custom-js/html/ProductCard.html'),
       './js/ProductCard.js': path.resolve(__dirname, 'template/js/custom-js/html/ProductCard.js')
+      //'./js/LoginBlock.js': path.resolve(__dirname, 'template/js/custom-js/js/LoginBlock.js')
     }
   }
 })

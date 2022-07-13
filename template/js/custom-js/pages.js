@@ -111,3 +111,20 @@ else {
   console.log("Your Browser does not support speech Recognition");
   info.textContent = "Your Browser does not support Speech Recognition";
 }
+
+if (window.storefront && window.storefront.context && window.storefront.context.resource === 'products') {
+  storefront.on('widget:@ecomplus/widget-tag-manager', function () {
+    setTimeout(function () {
+      const $points = document.querySelector('.prices__points')
+      let points = document.querySelector('.prices__points span').innerText.replace('+', '').trim()
+      let transformToMoney = (Number(points) * 0.05).toFixed(2)
+      console.log(transformToMoney)
+      const $money =  `<div id="dinheiro-volta"><span>Ganhe <span class="dinheiro">R$ <strong id="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(transformToMoney)}</strong></span> na próxima compra</span></div>`
+      const $div = document.createElement('div')
+      $div.id = 'cashback'
+      $div.insertAdjacentHTML('afterbegin', $money)
+      console.log($div)
+      $('.prices__points').after(`<div id="dinheiro-volta"><span>Ganhe <span class="dinheiro"><strong id="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(100.80)}</strong></span> na próxima compra</span></div>`)
+    }, 800);
+  });
+}
