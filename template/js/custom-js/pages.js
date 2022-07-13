@@ -20,6 +20,11 @@ $('.dropdown-menu-trigger').click(function(){
     $(this).closest('li').toggleClass('dropdown-mobile-active')
 })
 
+$('.ppts-faq-list button').click(function(){
+  $(this).toggleClass('active');
+  $(this).closest('li').find('.response').toggle();
+})
+
 
 
 // if($('#page-products').length){
