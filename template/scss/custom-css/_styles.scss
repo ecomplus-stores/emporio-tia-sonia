@@ -1679,3 +1679,275 @@ input[type=number] {
 #dinheiro-volta + .prices__points, .product__prices .prices__points {
   display: none;
 }
+
+/* PROGRAMA DE PONTOS TIA SONIA */
+[class="page page--pages/programa-de-fidelidade"] > .sections{padding-bottom:0!important;background:#F5F5F5}
+.justify-content-between{justify-content: space-between;}
+.justify-content-center{justify-content: center;}
+.align-items-center{align-items: center;}
+.text-center{text-align:center}
+#ppts{}
+#ppts ul{list-style-type:none;}
+#ppts .container{width:1360px;max-width:100%}
+#ppts .ppts-title{
+  font-weight: 900;
+  font-size: 48.83px;
+  color: #365B80;
+}
+#ppts .ppts-compare{}
+#ppts .ppts-divider h1.ppts-title{
+  font-weight: 900;
+  font-size: 73.245px!important;
+  line-height:initial;
+  color: #005AA7!important;
+  text-align:center;
+  margin:0;
+}
+#ppts .ppts-imageCrop{
+  position: relative;
+  height: 635px;
+  width: fit-content;
+  overflow: hidden;
+  margin-bottom: -6rem;
+  margin-top: -7rem;
+  margin-left: -10rem;
+}
+#ppts .ppts-imageCrop img{
+  position: relative;
+  margin: -82px 0 0 0;
+}
+#ppts .ppts-divider .ppts-title + p{
+  font-weight: 400;
+font-size: 39.06px;
+
+color: #646457;
+text-align:center;
+}
+#ppts .ppts-compare .detail svg{
+  position:absolute;
+}
+#ppts .ppts-compare .detail{
+  position:relative;
+  background: #C20840;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 900;
+  font-size: 61.04px;
+  line-height: initial;
+  color: #FFFFFF;
+  width:fit-content;
+  padding:.5rem 1.5rem;
+  margin:1rem auto;
+}
+#ppts .ppts-compare span{
+  display:block;
+  text-align:center;
+  font-size: 36px;
+  line-height: 47px;
+  color: #646457;
+  font-weight:400;
+
+}
+#ppts .ppts-compare small{
+  font-size: 36px;
+  line-height: 42px;
+  color: #005AA7;
+  display:block;
+  text-align:center;
+  font-weight:600;
+}
+
+#ppts .ppts-divider{
+  border-bottom: 5px solid #4698ca;
+  // box-shadow: 0px 10px 20px #4698ca6b;
+  
+}
+
+#ppts .ppts-como_participar-bg{
+  background: #4698CA;
+}
+#ppts .ppts-como_participar .ppts-title{
+  font-weight: 900;
+  font-size: 61.04px;
+  line-height: 73px;
+  color: #FFBF3F;
+  margin:3rem 0;
+}
+
+#ppts .ppts-como_participar ul{
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  margin: 3rem 0 1.5rem -10rem;
+}
+#ppts .ppts-como_participar ul li{
+  background: #FFFFFF;
+  padding:20px;
+  width: 33.33333333%;
+}
+#ppts .ppts-como_participar ul li strong{
+  font-weight: 900;
+  font-size: 48.83px;
+  line-height: 59px;
+  display:block;
+  color: #4698CA;
+}
+#ppts .ppts-como_participar ul li b{
+  font-size: 19px;
+  line-height: 23px;
+  color: #4698CA;
+}
+#ppts .ppts-como_participar ul li p{
+  font-size: 14px;
+  line-height: 22px;
+  color: #6A6A57;
+}
+
+#ppts .ppts-info{
+  font-weight: 900;
+  font-size: 19.2px;
+  line-height: 23px;
+  color: #4698CA;
+}
+#ppts .ppts-info small{
+  font-weight: 400;
+  font-size: 15.36px;
+  line-height: 20px;
+  color: #646457;
+}
+
+#ppts .ppts-benefits{}
+#ppts .ppts-benefits img{display:block;margin:0 auto 1rem auto}
+#ppts .ppts-benefits strong{
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  max-width:100%;
+  display:block;
+  width:220px;
+  color: #4698CA;
+  margin:0 auto;
+}
+
+#ppts .ppts-steps{}
+#ppts .ppts-steps img{margin-bottom:3rem}
+#ppts .ppts-steps p{
+  font-weight: 400;
+  font-size: 31.25px;
+  line-height: 40px;
+  margin-bottom:1.5rem;
+  color: #646457;
+  width:1000px;
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#ppts .ppts-cta .ppts-title{margin:0}
+#ppts .ppts-cta p{
+  font-weight: 400;
+  font-size: 25px;
+  margin:2rem auto;
+  text-align:center;
+  color: #646457;
+  width:1000px;
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#ppts .ppts-cta a{
+  background: #FFBF3F;
+  border-radius: 40px;
+  font-weight: 900;
+  font-size: 25px;
+    line-height: 17px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color:#fff;
+  padding:1.5rem 2rem;
+  display:block;
+  width:fit-content;
+  margin:0 auto
+}
+#ppts .ppts-faq{
+  background:#03257E;
+}
+
+#ppts .ppts-faq .ppts-faq-list{
+  display:flex;
+  flex-direction: column;
+  gap:1rem;
+}
+#ppts .ppts-faq .ppts-faq-list li{
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding:1.5rem; 
+
+}
+#ppts .ppts-faq .ppts-faq-list li .question{
+  
+}
+#ppts .ppts-faq .ppts-faq-list li .question > p{
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  margin:0
+}
+#ppts .ppts-faq .ppts-faq-list li .question > button.active{
+  transform: rotate(-180deg);
+}
+#ppts .ppts-faq .ppts-faq-list li .question > button{
+  background: #ffbf3f;
+  border: 0;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ppts .ppts-faq .ppts-faq-list li .response{margin-top:2rem;display:none}
+#ppts .ppts-faq .ppts-faq-list li .response p{}
+#ppts .ppts-faq .ppts-title{color:#fff}
+
+#ppts .ppts-faq .ppts-faq-list li .question{gap:15px;}
+@media(max-width:990px){
+  #ppts .ppts-compare .detail svg{top:0}
+  #ppts .ppts-divider h1.ppts-title{font-size:53px!important}
+  #ppts .ppts-divider .ppts-title+p{font-size:29px}
+  #ppts .ppts-compare .detail{font-size:41px}
+  #ppts .ppts-compare span{font-size:26px;line-height:initial;}
+
+  #ppts .ppts-como_participar .ppts-title{
+    font-size:51px;
+    text-align:center;
+    padding:3rem 0 5rem 0
+  }
+  #ppts .ppts-como_participar ul{
+    flex-direction: column;
+    width: 100%;
+    margin: -6rem 0 0 0;
+    padding:0 2rem
+  }
+  #ppts .ppts-como_participar ul li{width:100%}
+  #ppts .ppts-info{
+    margin: 2rem auto 0 0;
+    text-align: center;
+  }
+  #ppts .ppts-title{font-size:38px}
+
+  #ppts .ppts-steps{padding:0}
+  #ppts .ppts-cta p,
+  #ppts .ppts-steps p{font-size:21px;line-height:initial;}
+  #ppts .ppts-steps img{max-width:100%;}
+
+  #ppts .ppts-cta a{
+    font-size:18px;
+  }
+  #ppts .ppts-faq .ppts-title{font-size:28px;}
+  #ppts .ppts-faq .ppts-faq-list li .question>p{font-size:14px;line-height:initial}
+  #ppts .ppts-faq .ppts-faq-list li .question>button{min-width:36px;width:36px;height:36px}
+  #ppts .ppts-faq .ppts-faq-list li{padding:1rem}
+  #ppts .ppts-divider{border-bottom:0}
+}
