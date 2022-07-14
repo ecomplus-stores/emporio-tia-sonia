@@ -129,7 +129,7 @@ if (window.storefront && window.storefront.context && window.storefront.context.
       $div.id = 'cashback'
       $div.insertAdjacentHTML('afterbegin', $money)
       console.log($div)
-      $('.prices__points').after(`<div id="dinheiro-volta"><span>Ganhe <span class="dinheiro"><strong id="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(100.80)}</strong></span> na próxima compra</span></div>`)
+      //$('.prices__points').after(`<div id="dinheiro-volta"><span>Ganhe <span class="dinheiro"><strong id="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(100.80)}</strong></span> na próxima compra</span></div>`)
     }, 800);
   });
 }
