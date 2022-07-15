@@ -41,7 +41,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"container steps\">\n  <p>No resumo do seu pedido será exibido seu saldo total de pontos. Caso queira utilizálos em sua compra, clique em <b>Utilizar Pontos Tia Sônia</b></p>\n</div>"
+      "html": "<div class=\"container steps\">\n  <p>No resumo do seu pedido será exibido seu saldo total de pontos. Caso queira utilizá-los em sua compra, clique em <b>Utilizar Pontos Tia Sônia</b></p>\n</div>"
     },
     {
       "type": "responsive-banner",
