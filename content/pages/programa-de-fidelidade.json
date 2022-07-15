@@ -25,7 +25,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div id=\"ppts\">\n  <div class=\"container\">\n    <div class=\"row pt-5\">\n          <div class=\"col-12\">\n            <h3 class=\"ppts-title text-center\">\n              Veja como é fácil de usar\n            </h3>\n            <p>Adicione os produtos em seu carrinho e clique em <b>Finalizar Compra</b></p>\n      </div>\n    </div>\n  </div>\n</div>"
+      "html": "<div id=\"ppts\">\n  <div class=\"container steps\">\n    <div class=\"row pt-5\">\n          <div class=\"col-12\">\n            <h3 class=\"ppts-title text-center\">\n              Veja como é fácil de usar\n            </h3>\n            <p>Adicione os produtos em seu carrinho e clique em <b>Finalizar Compra</b></p>\n      </div>\n    </div>\n  </div>\n</div>"
     },
     {
       "type": "responsive-banner",
@@ -33,7 +33,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"container\">\n  <p>Informe seu e-mail ou faça login e informe seus dados para prosseguir com seu pedido</p>\n</div>\n"
+      "html": "<div class=\"container steps\">\n  <p>Informe seu e-mail ou faça login e informe seus dados para prosseguir com seu pedido</p>\n</div>\n"
     },
     {
       "type": "responsive-banner",
@@ -41,7 +41,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"container\">\n  <p>No resumo do seu pedido será exibido seu saldo total de pontos. Caso queira utilizálos em sua compra, clique em <b>Utilizar Pontos Tia Sônia</b></p>\n</div>"
+      "html": "<div class=\"container steps\">\n  <p>No resumo do seu pedido será exibido seu saldo total de pontos. Caso queira utilizálos em sua compra, clique em <b>Utilizar Pontos Tia Sônia</b></p>\n</div>"
     },
     {
       "type": "responsive-banner",
