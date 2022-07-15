@@ -1723,7 +1723,7 @@ font-size: 39.06px;
 color: #646457;
 text-align:center;
 }
-#ppts .ppts-compare .detail svg{
+#ppts .ppts-compare .detail img{
   position:absolute;
 }
 #ppts .ppts-compare .detail{
@@ -1941,8 +1941,8 @@ text-align:center;
 
   .steps{padding:0}
   #ppts .ppts-cta p,
-  .steps p{font-size:21px;line-height:initial;}
-  #ppts .ppts-steps img{max-width:100%;}
+  .steps p{font-size:21px;line-height:initial;margin:3rem auto 1rem auto!important}
+  // #ppts .ppts-steps img{max-width:100%;margin-bottom:5rem}
 
   #ppts .ppts-cta a{
     font-size:18px;
@@ -1962,3 +1962,5 @@ text-align:center;
 [class="page page--pages/programa-de-fidelidade"]  .responsive-baner *{
   text-align:center
 }
+[class="page page--pages/programa-de-fidelidade"] .custom-html,
+[class="page page--pages/programa-de-fidelidade"] .custom-html .html-clearfix{margin:0!important}
