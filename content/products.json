@@ -30,10 +30,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/fidelidade-500-tiasonia.jpg",
+      "img": "/img/uploads/cashback500.webp",
       "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
       "alt": "pontos",
-      "mobile_img": "/img/uploads/fidelidade-tia-sonia-1080.jpg"
+      "mobile_img": "/img/uploads/cashback1080.png"
     }
   ]
 }
