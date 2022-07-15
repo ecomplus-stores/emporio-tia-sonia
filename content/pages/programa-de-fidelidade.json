@@ -44,6 +44,10 @@
       "html": "<div class=\"container\">\n  <p>No resumo do seu pedido será exibido seu saldo total de pontos. Caso queira utilizálos em sua compra, clique em <b>Utilizar Pontos Tia Sônia</b></p>\n</div>"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/apx_step3.png"
+    },
+    {
       "type": "custom-html",
       "html": "<div id=\"ppts\">\n  <div class=\"container\">\n    <div class=\"row ppts-cta my-md-5 py-md-5 mb-4\">\n          <div class=\"col-12\">\n            <h3 class=\"ppts-title text-center\">Viu como é fácil?</h3>\n            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>\n            <a href=\"/\">Comprar Agora</a>\n          </div>\n        </div>\n  </div>\n</div>"
     },
