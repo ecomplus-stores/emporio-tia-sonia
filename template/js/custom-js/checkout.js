@@ -52,7 +52,8 @@ function initbvWidgetShared() {
                     valorconversao: `${order.amount.total}`,
                     sendreferralrequest: "N",
                     content: "",
-                    status: "Convertido"
+                    status: "Indicado",
+                    contentsale: `{"ORDER_ID_ECOMPLUS":"${order._id}"}`
                 });
             }
         }
