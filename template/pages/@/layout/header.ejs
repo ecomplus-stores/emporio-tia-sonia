@@ -222,19 +222,6 @@ let isCategoriesNavFull
           role="group"
           aria-label="<%= _.dictionary('myAccount') %>"
         >
-          <button
-            class="d-lg-none btn btn-lg"
-            id="mobile-search-btn"
-            type="button"
-            data-toggle="collapse"
-            data-target="#search-bar"
-            aria-expanded="true"
-            aria-controls="search-bar"
-            aria-controls="search-bar"
-            title="<%= _.dictionary('searchProducts') %>"
-          >
-            <i class="i-search"></i>
-          </button>
 
           <a
             id="user-button"
@@ -275,7 +262,7 @@ let isCategoriesNavFull
         const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
         %>
         <div
-          class="d-none d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
+          class="d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
           id="search-bar"
         >
           <form
