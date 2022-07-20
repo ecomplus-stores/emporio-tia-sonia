@@ -1968,13 +1968,11 @@ text-align:center;
 [class="page page--pages/programa-de-fidelidade"] .custom-html,
 [class="page page--pages/programa-de-fidelidade"] .custom-html .html-clearfix{margin:0!important}
 //minha conta
-@media(max-width: 767px) {
-  #user-button:after {
+#user-button:after {
   content: "Minha Conta";
   font-size: 11px;
   position: absolute;
-  top: 35px;
+  top: 35.5px;
   left: -15px;
   width: 60px;
-}
 }
