@@ -125,6 +125,9 @@ if (window.storefront && window.storefront.context && window.storefront.context.
       let transformToMoney = (Number(points) * 0.05).toFixed(2)
       const $money =  `<div id="dinheiro-volta"><a href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"><span>Ganhe <span class="dinheiro"><strong nid="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(transformToMoney)}</strong></span> na próxima compra</span></a></div>`
       $('.product__buy').after($money)
+      if ($('.product__kit').length) {
+        $('.product__kit').after($money)
+      }
     }, 800);
   });
 }
