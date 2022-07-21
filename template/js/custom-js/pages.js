@@ -1,4 +1,19 @@
 // Add your custom JavaScript for storefront pages here.
+if (window.storefront && window.storefront.context && window.storefront.context.resource === 'products') {
+  storefront.on('widget:@ecomplus/widget-tag-manager', function () {
+    setTimeout(function () {
+      const $points = document.querySelector('.product__prices .prices__points')
+      let points = document.querySelector('.product__prices .prices__points span').innerText.replace('+', '').trim()
+      let transformToMoney = (Number(points) * 0.05).toFixed(2)
+      const $money =  `<div id="dinheiro-volta"><a href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"><span>Ganhe <span class="dinheiro"><strong nid="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(transformToMoney)}</strong></span> na próxima compra</span></a></div>`
+      $('.product__buy').after($money)
+      if ($('.product__kit').length) {
+        $('.product__kit').after($money)
+      }
+    }, 800);
+  });
+}
+
 !function(a){a.fn.equalHeights=function(){var b=0,c=a(this);return c.each(function(){var c=a(this).innerHeight();c>b&&(b=c)}),c.css("height",b)},a("[data-equal]").each(function(){var b=a(this),c=b.data("equal");b.find(c).equalHeights()})}(jQuery);
 
 $('.header__search-input').keyup(function(){
@@ -117,17 +132,3 @@ else {
   info.textContent = "Your Browser does not support Speech Recognition";
 }
 
-if (window.storefront && window.storefront.context && window.storefront.context.resource === 'products') {
-  storefront.on('widget:@ecomplus/widget-tag-manager', function () {
-    setTimeout(function () {
-      const $points = document.querySelector('.product__prices .prices__points')
-      let points = document.querySelector('.product__prices .prices__points span').innerText.replace('+', '').trim()
-      let transformToMoney = (Number(points) * 0.05).toFixed(2)
-      const $money =  `<div id="dinheiro-volta"><a href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"><span>Ganhe <span class="dinheiro"><strong nid="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(transformToMoney)}</strong></span> na próxima compra</span></a></div>`
-      $('.product__buy').after($money)
-      if ($('.product__kit').length) {
-        $('.product__kit').after($money)
-      }
-    }, 800);
-  });
-}
