@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<p>Essa promoção encerra em:</p>\n<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/57uziyi678\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
+      "html": "<table align=\"center\"><tbody><tr><td><p>Essa promoção encerra em:</p><img src=\"https://gen.sendtric.com/countdown/57uziyi678\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
     },
     {
       "type": "collection-shelf",
