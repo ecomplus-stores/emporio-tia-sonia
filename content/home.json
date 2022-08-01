@@ -7,22 +7,6 @@
       "autoplay": 10000,
       "slides": [
         {
-          "start": "2022-07-11T11:30:36.600Z",
-          "end": "",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "amizade",
-          "img": "/img/uploads/amizade1920x736.jpg",
-          "mobile_img": "/img/uploads/amizade1080x1080.jpg"
-        },
-        {
-          "start": "2022-07-08T11:27:57.988Z",
-          "end": "",
-          "img": "/img/uploads/ultrabar1920.jpg",
-          "mobile_img": "/img/uploads/ultrabar1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/ultrabar",
-          "alt": "ultrabar"
-        },
-        {
           "start": "2022-07-13T14:34:23.834Z",
           "end": "",
           "img": "/img/uploads/cashback500.webp",
@@ -37,6 +21,14 @@
           "mobile_img": "/img/uploads/daniel1080x1080.jpg",
           "alt": "daniel",
           "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+        },
+        {
+          "start": "2022-07-08T11:27:57.988Z",
+          "end": "",
+          "img": "/img/uploads/ultrabar1920.jpg",
+          "mobile_img": "/img/uploads/ultrabar1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/ultrabar",
+          "alt": "ultrabar"
         }
       ],
       "full_width": true
