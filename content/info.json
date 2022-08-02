@@ -1,14 +1,14 @@
 {
   "shipping": {
     "show": true,
-    "text": "Em compras a partir de R$ 100",
+    "text": "Em compras acima de R$ 100",
     "title": "Entrega Grátis"
   },
   "installments": {
     "show": true,
-    "text": "Esta empresa atende os mais altos padrões de impacto socioambiental",
-    "title": "Empresa B Certificada",
-    "link": "https://www.sistemab.org/empresasb/alimentos-tia-sonia/"
+    "text": "Em até 3x no Cartão",
+    "title": "Parcelamento Sem Juros",
+    "link": ""
   },
   "exchange": {
     "show": true,
@@ -18,7 +18,7 @@
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!",
-    "title": "5% de Desconto no PIX"
+    "text": "5% de Desconto",
+    "title": "Pague com PIX"
   }
 }
