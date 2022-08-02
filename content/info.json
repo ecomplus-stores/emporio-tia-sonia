@@ -1,18 +1,24 @@
 {
   "shipping": {
-    "show": false,
-    "text": "Entregamos para todo o Brasil"
+    "show": true,
+    "text": "Em compras a partir de R$ 100",
+    "title": "Entrega Grátis"
   },
   "installments": {
-    "show": false,
-    "text": "Parcele sem juros"
+    "show": true,
+    "text": "Cuidado e confiança por meio de alimentos saudáveis",
+    "title": "Empresa B Certificada",
+    "link": "https://www.sistemab.org/empresasb/alimentos-tia-sonia/"
   },
   "exchange": {
-    "show": false,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "show": true,
+    "text": "Compre, ganhe e resgate!",
+    "title": "Cashback",
+    "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"
   },
   "promo": {
-    "show": false,
-    "text": "Diferentes promoções ao longo do ano!"
+    "show": true,
+    "text": "Diferentes promoções ao longo do ano!",
+    "title": "5% de Desconto no PIX"
   }
 }
