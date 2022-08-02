@@ -47,10 +47,6 @@
       "title": "A melhor Granola do Mundo!"
     },
     {
-      "type": "custom-html",
-      "html": "[estilos-de-alimentacao]"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -69,6 +65,10 @@
           "alt": "pontos"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "[estilos-de-alimentacao]"
     },
     {
       "type": "custom-html",
