@@ -1,13 +1,13 @@
 {
   "shipping": {
     "show": true,
-    "text": "Em compras acima de R$ 100",
+    "text": "Compras acima de R$ 100",
     "title": "Entrega Grátis"
   },
   "installments": {
     "show": true,
     "text": "Em até 3x no Cartão",
-    "title": "Parcelamento Sem Juros",
+    "title": "Parcele Sem Juros",
     "link": ""
   },
   "exchange": {
