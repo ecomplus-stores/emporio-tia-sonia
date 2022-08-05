@@ -197,22 +197,7 @@ let isCategoriesNavFull
 
       <div class="col col-lg-auto pl-1 pl-md-2 pl-lg-3">
         <a href="/">
-          <% if (logo && logo.url) {
-            const { width, height } = _.tryImageSize(logo.url)
-            %>
-            <img
-              id="logo"
-              class="header__logo"
-              src="<%= logo.url %>"
-              alt="<%= logo.alt %>"
-              <% if (width) { %>
-                width="<%= width %>"
-                height="<%= height %>"
-              <% } %>
-            >
-          <% } else { %>
-            <%= _.settings.name || _.store.name %>
-          <% } %>
+          <%- await include('@/layout/inc/logo', { _ }) %>
         </a>
       </div>
 
@@ -257,61 +242,6 @@ let isCategoriesNavFull
           -->
         </div>
       </div>
-
-      <% if (header.search_input) {
-        const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
-        %>
-        <div
-          class="d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
-          id="search-bar"
-        >
-          <form
-            class="header__search mt-2 mt-md-3 mt-lg-0"
-            id="search-form"
-            action="/search"
-            method="get"
-          >
-            <input
-              type="search"
-              name="term"
-              placeholder="Buscar"
-              aria-label="<%= _.dictionary('searchProducts') %>"
-              class="header__search-input form-control"
-              id="search-input"
-            >
-            <button
-              type="submit"
-              class="header__search-btn"
-              aria-label="<%= _.dictionary('searchProducts') %>"
-            >
-              <i class="i-search"></i>
-            </button>
-            <div id="instant-search">
-              <!--
-                `InstantSearch` should be open on input focus:
-                https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/InstantSearch.html
-              -->
-            </div>
-          </form>
-
-          <% if (_.settings.domain) { %>
-            <script type="application/ld+json"><%-
-              JSON.stringify({
-                '@context': 'http://schema.org',
-                '@type': 'WebSite',
-                url: `https://${_.settings.domain}/`,
-                potentialAction: {
-                  '@type': 'SearchAction',
-                  target: `https://${_.settings.domain}/search?term={search_term_string}`,
-                  'query-input': 'required name=search_term_string'
-                }
-              })
-            %></script>
-          <% } %>
-        </div>
-      <% } %>
-
-      
 
       <%
       
@@ -419,6 +349,60 @@ let isCategoriesNavFull
           </nav>
         </div>
       <% } %>
+
+      <% if (header.search_input) {
+        const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
+        %>
+        <div
+          class="d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
+          id="search-bar"
+        >
+          <form
+            class="header__search mt-2 mt-md-3 mt-lg-0"
+            id="search-form"
+            action="/search"
+            method="get"
+          >
+            <input
+              type="search"
+              name="term"
+              placeholder="Buscar"
+              aria-label="<%= _.dictionary('searchProducts') %>"
+              class="header__search-input form-control"
+              id="search-input"
+            >
+            <button
+              type="submit"
+              class="header__search-btn"
+              aria-label="<%= _.dictionary('searchProducts') %>"
+            >
+              <i class="i-search"></i>
+            </button>
+            <div id="instant-search">
+              <!--
+                `InstantSearch` should be open on input focus:
+                https://developers.e-com.plus/storefront/@ecomplus/storefront-components/docs/InstantSearch.html
+              -->
+            </div>
+          </form>
+
+          <% if (_.settings.domain) { %>
+            <script type="application/ld+json"><%-
+              JSON.stringify({
+                '@context': 'http://schema.org',
+                '@type': 'WebSite',
+                url: `https://${_.settings.domain}/`,
+                potentialAction: {
+                  '@type': 'SearchAction',
+                  target: `https://${_.settings.domain}/search?term={search_term_string}`,
+                  'query-input': 'required name=search_term_string'
+                }
+              })
+            %></script>
+          <% } %>
+        </div>
+      <% } %>
+
     </div>
   </div>
 </header>

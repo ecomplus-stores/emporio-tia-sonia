@@ -53,7 +53,7 @@ const searchFormInput = searchForm.querySelector("input"); // <=> document.query
 const info = document.querySelector(".info");
 
 // The speech recognition interface lives on the browser’s window object
-const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition; // if none exists -> undefined
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || false; // if none exists -> undefined
 
 if(SpeechRecognition) {
   console.log("Your Browser supports speech Recognition");
@@ -129,6 +129,6 @@ if(SpeechRecognition) {
 }
 else {
   console.log("Your Browser does not support speech Recognition");
-  info.textContent = "Your Browser does not support Speech Recognition";
+  //info.textContent = "Your Browser does not support Speech Recognition";
 }
 
