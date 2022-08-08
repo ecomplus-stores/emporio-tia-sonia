@@ -25,7 +25,8 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "5fc144a569274c73fcdd8893:categories:Mercearia:/naturais"
+      "collection_id": "5fc144a569274c73fcdd8893:categories:Mercearia:/naturais",
+      "sort": "sales"
     }
   ]
 }
