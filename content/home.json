@@ -63,14 +63,14 @@
           "alt": "granola200"
         },
         {
-          "img": "/img/uploads/granola-tia-sonia.jpg",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-200g",
-          "alt": "granola200g"
-        },
-        {
           "img": "/img/uploads/cashback1080.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "pontos"
+        },
+        {
+          "img": "/img/uploads/daniel1080x1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "danielcday"
         }
       ]
     },
