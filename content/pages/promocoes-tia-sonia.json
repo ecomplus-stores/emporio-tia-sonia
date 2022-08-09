@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<table align=\"center\">\n<tbody>\n<tr>\n<td>Essa promoção encerra em:<img src=\"https://gen.sendtric.com/countdown/57uziyi678\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
+      "html": "<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/hmjcq1a05d\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
     },
     {
       "type": "collection-shelf",
@@ -18,23 +18,9 @@
     {
       "type": "extra-page",
       "enabled": true
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-06-16T19:58:46.580Z",
-          "end": "",
-          "img": "/img/uploads/amizade1920x736.jpg",
-          "alt": "promo",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
-        }
-      ]
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<center><p>Promoção por tempo limitado!</p></center><hr>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* 20% de desconto usando o cupom: **AMIGO20**\n* Ganhe pontos no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "<center><p>Promoção por tempo limitado!</p></center><hr>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* Ganhe pontos no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
