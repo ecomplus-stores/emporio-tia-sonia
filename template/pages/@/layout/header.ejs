@@ -283,13 +283,20 @@ let isCategoriesNavFull
                       </strong>
                       <% if (categoryParents[slug]) { %>
                         <ul class="">
-                          <% categoryParents[slug].forEach((subcategory, _id) => { %>
+                          <% categoryParents[slug].forEach((subcategory, i) => { %>
                             <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
-                            <li id="tb-<%- _id %>" >
+                            <li id="tb-<%- subcategory._id %>" >
                               <a href="/<%= subcategory.slug %>">
                                 <%= subcategory.name %>                            
                               </a>
                             </li>
+                            <% if (categoryParents[slug].length === i + 1) { %>
+                              <li id="tb-ver" >
+                                <a href="/<%= slug %>">
+                                  Ver Todos                           
+                                </a>
+                            </li>
+                           <% } %>
                           <% }) %> 
                         </ul>
                       <% } %>
@@ -312,7 +319,7 @@ let isCategoriesNavFull
                   <ul class="dropdown-menu-custom full">
                     <% categoryParents['produtos-parceiros'].forEach(subcategory => { %>
                       <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
-                      <li>
+                      <li id="tb-<%- subcategory._id %>">
                         <a href="/<%= subcategory.slug %>">
                           <% if (subcategory.icon) { %>
                             <span class="menu__item-icon">
