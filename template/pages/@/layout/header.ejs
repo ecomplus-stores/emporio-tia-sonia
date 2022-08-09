@@ -264,9 +264,9 @@ let isCategoriesNavFull
                 </button>
                 <ul class="dropdown-menu-custom full row mx-0">
                    
-                  <% categories.forEach(({ slug, name, icon }) => { %>
+                  <% categories.forEach(({ slug, name, icon, _id }) => { %>
                     <% if (menu.sort_categories.includes(slug)){%>
-                    <li class="<%- slug %> ">
+                    <li id="sb-<%- _id %>" class="<%- slug %>">
                       <strong>
                         <a href="/<%- slug %>">
                           <% if (icon) { %>
@@ -283,9 +283,9 @@ let isCategoriesNavFull
                       </strong>
                       <% if (categoryParents[slug]) { %>
                         <ul class="">
-                          <% categoryParents[slug].forEach(subcategory => { %>
+                          <% categoryParents[slug].forEach((subcategory, _id) => { %>
                             <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
-                            <li>
+                            <li id="tb-<%- _id %>" >
                               <a href="/<%= subcategory.slug %>">
                                 <%= subcategory.name %>                            
                               </a>
