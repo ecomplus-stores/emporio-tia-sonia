@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><p>Promoção por tempo limitado!</p></center><hr>\n<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/hmjcq1a05d\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
+      "html": "<center><p>Promoção por tempo limitado!</p></center>\n<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/hmjcq1a05d\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
     },
     {
       "type": "collection-shelf",
@@ -14,6 +14,12 @@
       "sort": "offers",
       "collection_id": null,
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/pais1920x736.jpg",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+      "alt": "pais"
     },
     {
       "type": "extra-page",
