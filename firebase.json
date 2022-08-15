@@ -2,6 +2,11 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/granola-tia-sonia-x-pin-200g",
+        "destination": "/granola-zero-acucar-tia-sonia-x-pin",
+        "type": 301
+      },
+      {
         "source": "/coquinho-crocante",
         "destination": "/coquinho",
         "type": 301
