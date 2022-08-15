@@ -7,6 +7,14 @@
       "autoplay": 10000,
       "slides": [
         {
+          "start": "2022-08-15T15:08:01.337Z",
+          "end": "",
+          "img": "/img/uploads/leve51920.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "leve5",
+          "mobile_img": "/img/uploads/leve5-10803.jpg"
+        },
+        {
           "start": "2022-07-13T14:34:23.834Z",
           "end": "",
           "img": "/img/uploads/cashback500.webp",
@@ -29,14 +37,6 @@
           "mobile_img": "/img/uploads/ultrabar1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/ultrabar",
           "alt": "ultrabar"
-        },
-        {
-          "start": "2022-08-15T15:08:01.337Z",
-          "end": "2022-08-15T15:08:01.533Z",
-          "img": "/img/uploads/leve51920.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "leve5",
-          "mobile_img": "/img/uploads/leve5-10803.jpg"
         }
       ],
       "full_width": true
