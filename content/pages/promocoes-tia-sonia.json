@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": "",
       "page": "",
       "title": "Leve 5, Pague 4 + Frete Grátis acima de R$ 100",
