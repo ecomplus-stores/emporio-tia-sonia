@@ -16,12 +16,6 @@
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/pais1920x736.jpg",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
-      "alt": "pais"
-    },
-    {
       "type": "extra-page",
       "enabled": true
     }
