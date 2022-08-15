@@ -2,16 +2,12 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<center><p>Promoção por tempo limitado!</p></center>\n<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/hmjcq1a05d\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
       "page": "",
-      "title": "Até 30% OFF e Frete Grátis acima de R$ 100",
-      "sort": "offers",
+      "title": "Leve 5, Pague 4 + Frete Grátis acima de R$ 100",
+      "sort": "sales",
       "collection_id": null,
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
