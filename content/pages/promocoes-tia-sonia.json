@@ -14,6 +14,12 @@
     {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/leve51920.jpg",
+      "link": "https://www.emporiotiasonia.com.br/search?term=sales",
+      "alt": "mais"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
