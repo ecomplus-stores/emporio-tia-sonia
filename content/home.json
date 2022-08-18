@@ -37,6 +37,14 @@
           "mobile_img": "/img/uploads/ultrabar1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/ultrabar",
           "alt": "ultrabar"
+        },
+        {
+          "start": "2022-08-18T13:37:12.381Z",
+          "end": "",
+          "img": "/img/uploads/cafe500.jpg",
+          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
+          "alt": "cafe",
+          "mobile_img": "/img/uploads/cafe1080.jpg"
         }
       ],
       "full_width": true
