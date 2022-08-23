@@ -2,15 +2,11 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/b3a20lioh6\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
       "page": "",
-      "title": "Leve 5, Pague 4 + Frete Grátis acima de R$ 100",
+      "title": "20% de desconto! Cupom: NUTRI20  + Frete Grátis acima de R$ 100",
       "sort": "sales",
       "collection_id": null,
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
@@ -21,7 +17,7 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/leve51920.jpg",
+      "img": "/img/uploads/semana-nutri20.jpg",
       "link": "https://www.emporiotiasonia.com.br/search?term=sales",
       "alt": "mais"
     }
