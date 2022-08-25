@@ -2,6 +2,10 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "custom-html",
+      "html": "<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/wokkbmvw3n\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
