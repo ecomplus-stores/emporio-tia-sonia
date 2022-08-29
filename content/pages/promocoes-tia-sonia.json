@@ -32,6 +32,11 @@
           "alt": "nutri20"
         }
       ]
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
