@@ -18,6 +18,10 @@
       "limit": 12,
       "page": 1,
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos"
+    },
+    {
+      "type": "custom-html",
+      "html": "<style>.breadcrumb * {\n  display: inline-flex !important;\n  align-items: center\n}</style>"
     }
   ]
 }
