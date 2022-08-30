@@ -21,7 +21,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<style>.breadcrumb * {\n  display: inline-flex !important;\n  align-items: center\n}</style>"
+      "html": "<style>\n  .breadcrumb * {display: inline-flex !important;\n  align-items: center;}\n</style>"
     }
   ]
 }
