@@ -16,6 +16,20 @@
       "enabled": true
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2022-09-01T11:41:29.480Z",
+          "end": "",
+          "img": "/img/uploads/brazil-semana22.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "brazil"
+        }
+      ]
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "sales"
