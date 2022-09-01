@@ -2,6 +2,10 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "sales"
