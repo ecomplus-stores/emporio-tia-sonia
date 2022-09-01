@@ -2,6 +2,16 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "60478c4f6d50911b6059211a:categories:Todos os Produtos:/todos-os-produtos",
+      "sort": "offers",
+      "title": "Até 30% de Desconto na Semana do Brasil (Ver todos os Produtos)",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
