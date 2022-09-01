@@ -7,6 +7,14 @@
       "autoplay": 10000,
       "slides": [
         {
+          "start": "2022-09-01T13:09:40.508Z",
+          "end": "",
+          "img": "/img/uploads/brazil-semana22.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "brazil",
+          "mobile_img": "/img/uploads/brazil-semana225.jpg"
+        },
+        {
           "start": "2022-07-13T14:34:23.834Z",
           "end": "",
           "img": "/img/uploads/cashback500.webp",
