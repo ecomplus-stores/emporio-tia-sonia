@@ -2,38 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/wokkbmvw3n\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": "",
-      "page": "",
-      "title": "20% de desconto em compras acima de R$ 150. Use o Cupom: NUTRI20",
-      "sort": "sales",
-      "collection_id": null,
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-08-23T11:53:39.455Z",
-          "end": "",
-          "img": "/img/uploads/semana-nutri20.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "nutri20"
-        }
-      ]
-    },
-    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "sales"
