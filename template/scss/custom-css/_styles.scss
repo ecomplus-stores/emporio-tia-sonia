@@ -2048,3 +2048,8 @@ text-align:center;
     color: #fff
   }
 }
+@media(max-width: 767px) {
+  #apx_menu a > svg.ionicon {
+    display: none !important;
+  }
+}
