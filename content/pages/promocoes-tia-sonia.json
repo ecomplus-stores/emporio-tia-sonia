@@ -32,7 +32,7 @@
     {
       "type": "dynamic-showcase",
       "load_more": true,
-      "sort": "sales"
+      "sort": "lowest_price"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
