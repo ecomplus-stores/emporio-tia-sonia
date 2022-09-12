@@ -2,18 +2,14 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<center><h1>Ainda dá tempo, aproveite!</h1><table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/wn89jt2mfn\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "60478c4f6d50911b6059211a:categories:Todos os Produtos:/todos-os-produtos",
-      "sort": "offers",
-      "title": "Até 30% de Desconto na Semana do Brasil (Ver todos os Produtos)",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+      "sort": null,
+      "title": "Os Mais Vendidos",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
     },
     {
       "type": "extra-page",
