@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center>\n  <h2>Semana do Cliente 💙 Feita para você!</h2>\n  <table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/3mqt968q2k\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>\n    </center>"
+      "html": "<center>\n  <h4>Semana do Cliente! Feita para você!</h4>\n  <table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/3mqt968q2k\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>\n    </center>"
     },
     {
       "type": "collection-shelf",
