@@ -2,10 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<center>\n  <h1>Semana do Cliente! Feita para você!</h1>\n  <table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/3mqt968q2k\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>\n    </center>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
@@ -41,5 +37,5 @@
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **1﻿0% OFF**  em compras em compras a partir de R$ 100! Use o cupom: **QUERO10**\n* ﻿**20% OFF**  em compras em compras a partir de R$ 200! Use o cupom: **QUERO20**\n* **3﻿0% OFF**  em compras em compras a partir de R$ 300! Use o cupom: **QUERO30**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "C﻿onfira as condições especiais dessa Semana!\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **1﻿0% OFF**  em compras em compras a partir de R$ 100! Use o cupom: **QUERO10**\n* ﻿**20% OFF**  em compras em compras a partir de R$ 200! Use o cupom: **QUERO20**\n* **3﻿0% OFF**  em compras em compras a partir de R$ 300! Use o cupom: **QUERO30**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
