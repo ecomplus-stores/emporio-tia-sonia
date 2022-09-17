@@ -2,6 +2,10 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "custom-html",
+      "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/3ikspxhgbv\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>\n"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
