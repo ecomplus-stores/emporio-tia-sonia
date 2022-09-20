@@ -216,6 +216,6 @@ if (_.state.gtin && _.state.gtin[0]) {
   productJsonLd.gtin = _.state.gtin[0]
 }
 %>
-<script type="application/ld+json"><%-
+<script id="product-info" type="application/ld+json"><%-
   JSON.stringify(productJsonLd)
 %></script>
