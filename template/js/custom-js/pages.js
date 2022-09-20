@@ -10,6 +10,21 @@ if (window.storefront && window.storefront.context && window.storefront.context.
       if ($('.product__kit').length) {
         $('.product__kit').after($money)
       }
+      if (storefront && storefront.context && storefront.context.resource === 'products') {
+        const aggregate = document.querySelector('#trustvox-rating').innerText.split(' ')[0]
+        const totalReview = document.querySelector('#trustvox-rating').innerText.split(' ')[4].replace('(', '').replace(')', '').replace('\n', '')
+        console.log(aggregate || 0)
+        console.log(totalReview)
+        let jsonLdScript = document.getElementById('product-info');
+        let jsonld = JSON.parse(jsonLdScript.innerText); 
+        jsonld.aggregateRating = {
+          "@type": "AggregateRating",
+          "ratingValue": aggregate,
+          "ratingCount": totalReview
+        }
+        let newJson = JSON.stringify(jsonld)
+        jsonLdScript.innerText = newJson
+      }
     }, 800);
   });
 }
