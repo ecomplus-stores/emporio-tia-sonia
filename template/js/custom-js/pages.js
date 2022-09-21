@@ -29,10 +29,7 @@ if (window.storefront && window.storefront.context && window.storefront.context.
         const bodyProduct = storefront.context.body
         if (reviewList.length) {
           reviewList.forEach(review => {
-            review.insertAdjacentHTML('afterbegin', `<div style="display:none" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Product">
-            <img itemprop="image" src="${bodyProduct.pictures[0].big.url}" alt="${bodyProduct.name}"/>
-            <span itemprop="name">${bodyProduct.name}</span>
-          </div>`)
+            review.insertAdjacentHTML('afterbegin', `<meta itemprop="itemReviewed" content="${bodyProduct.name}">`)
           })
         }
       }
