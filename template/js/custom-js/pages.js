@@ -24,6 +24,17 @@ if (window.storefront && window.storefront.context && window.storefront.context.
         }
         let newJson = JSON.stringify(jsonld)
         jsonLdScript.innerText = newJson
+        const reviewList = document.querySelectorAll('.ts-product-reviews-list-item')
+        console.log(reviewList)
+        const bodyProduct = storefront.context.body
+        if (reviewList.length) {
+          reviewList.forEach(review => {
+            review.insertAdjacentHTML('afterbegin', `<div style="display:none" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Product">
+            <img itemprop="image" src="${bodyProduct.pictures[0].big.url}" alt="${bodyProduct.name}"/>
+            <span itemprop="name">${bodyProduct.name}</span>
+          </div>`)
+          })
+        }
       }
     }, 500);
   });
