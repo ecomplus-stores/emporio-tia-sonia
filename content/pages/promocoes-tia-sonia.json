@@ -2,20 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
-      "sort": null,
-      "title": "Use o Cupom: PRIMAVERA20",
-      "link": "#cliente"
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": false,
@@ -28,6 +14,20 @@
           "alt": "brazil"
         }
       ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+      "sort": null,
+      "title": "Use o Cupom: PRIMAVERA20",
+      "link": "#cliente"
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     },
     {
       "type": "dynamic-showcase",
