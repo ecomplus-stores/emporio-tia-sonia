@@ -11,7 +11,7 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+      "collection_id": "5ed92bce14ff772fde777274:collections:Compre e Ganhe!:/amor-sabor-e-qualidade-",
       "sort": null,
       "title": "Use o Cupom: PRIMAVERA20",
       "link": "#cliente"
@@ -37,7 +37,7 @@
     {
       "type": "dynamic-showcase",
       "load_more": true,
-      "sort": "lowest_price"
+      "sort": "sales"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
