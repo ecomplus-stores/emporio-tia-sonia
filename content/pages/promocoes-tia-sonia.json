@@ -2,17 +2,9 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-09-23T11:41:58.755Z",
-          "end": "",
-          "img": "/img/uploads/prima1920x100.jpg",
-          "alt": "prima"
-        }
-      ]
+      "type": "responsive-banner",
+      "img": "/img/uploads/prima1920x100.jpg",
+      "alt": "prima"
     },
     {
       "type": "collection-shelf",
