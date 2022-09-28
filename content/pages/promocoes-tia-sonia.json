@@ -3,12 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<img src=\"https://gifcdn.com/d1l68s30b9h6gojacpl.gif\" alt=\"mailtimers.com\">"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/prima1080x1080-3-.jpg",
-      "alt": "prima"
+      "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<img src=\"https://gifcdn.com/d1l68s30b9h6gojacpl.gif\" alt=\"com\">"
     },
     {
       "type": "collection-shelf",
