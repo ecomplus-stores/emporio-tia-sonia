@@ -2,6 +2,10 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "custom-html",
+      "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/hpgljgez6u\" style=\"display: block;max-width:100%\" /></td></tr></tbody></table>"
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/prima1080x1080-3-.jpg",
       "alt": "prima"
