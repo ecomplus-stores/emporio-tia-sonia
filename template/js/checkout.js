@@ -56,8 +56,5 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
             }, 800)
           })
       }
-    if (document.getElementById('account')) {
-      document.getElementById('account').insertAdjacentHTML('beforebegin', '<center>Em função de alterações em nosso processo logístico, alguns pedidos de setembro estão sofrendo atrasos na entrega.<br>Pedimos desculpa pelo transtorno. Nossa equipe está trabalhando para ajustar todas as entregas.<br>Estamos avaliando cada pedido com esse problema para dar um retorno sobre a nova data de entrega.</center>')
-    }
   }, 800);
 });
