@@ -56,5 +56,8 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
             }, 800)
           })
       }
+    if (document.querySelector('.order-info__number')) {
+      document.querySelector('.order-info__number').insertAdjacentElement('afterend', document.querySelector('.order-info__shipping-freight.card'))
+    }
   }, 800);
 });
