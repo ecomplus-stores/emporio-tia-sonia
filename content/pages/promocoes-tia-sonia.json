@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<img src=\"https://gifcdn.com/d1l68s30b9h6gojacpl.gif\" alt=\"com\">"
+      "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4342615\" frameborder=\"0\"></iframe>"
     },
     {
       "type": "collection-shelf",
