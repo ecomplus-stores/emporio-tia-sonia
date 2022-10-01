@@ -6,6 +6,12 @@
       "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4342615\" frameborder=\"0\"></iframe>"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/prima1080x1080-3-.jpg",
+      "link": "#cliente",
+      "alt": "primavera"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
