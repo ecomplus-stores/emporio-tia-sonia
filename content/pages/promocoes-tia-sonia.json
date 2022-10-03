@@ -2,46 +2,18 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<center><h1>Ainda dá tempo, aproveite!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4342615\" frameborder=\"0\"></iframe>"
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/prima1080x1080-3-.jpg",
-      "link": "#cliente",
-      "alt": "primavera"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "5ed92bce14ff772fde777274:collections:Compre e Ganhe!:/amor-sabor-e-qualidade-",
+      "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
       "sort": null,
-      "title": "Use o Cupom: PRIMAVERA20",
+      "title": "",
       "link": "#cliente"
     },
     {
       "type": "extra-page",
       "enabled": true
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-09-01T11:41:29.480Z",
-          "end": "",
-          "img": "/img/uploads/prima1080x1080-3-.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "brazil"
-        }
-      ]
     },
     {
       "type": "dynamic-showcase",
@@ -51,5 +23,5 @@
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "C﻿onfira as condições especiais dessa Semana!<a id=\"cliente\"></a>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **2﻿0% de Desconto!**  Use o cupom: **PRIMAVERA20**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "C﻿onfira as condições especiais dessa Semana!<a id=\"cliente\"></a>\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
