@@ -37,6 +37,14 @@
           "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
           "alt": "cafe",
           "mobile_img": "/img/uploads/cafe1080.jpg"
+        },
+        {
+          "start": "2022-10-04T18:38:11.379Z",
+          "end": "",
+          "img": "/img/uploads/brazil1920x736.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/assinatura-tia-sonia#assine",
+          "alt": "assine",
+          "mobile_img": "/img/uploads/brazil1080x1080.webp"
         }
       ],
       "full_width": true
