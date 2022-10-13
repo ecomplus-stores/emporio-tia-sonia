@@ -2,14 +2,14 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "Até 30% OFF em produtos selecionados, Aproveite!",
-      "link": "#cliente"
+      "type": "custom-html",
+      "html": "<center><h1>Oferta Relâmpago!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4368075\" frameborder=\"0\"></iframe>\n\n"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/leve51920x736.jpg",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "leve5"
     },
     {
       "type": "extra-page",
@@ -23,5 +23,5 @@
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "C﻿onfira as condições especiais dessa Semana!<a id=\"cliente\"></a> \n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* P﻿rodutos Selecionados com **[até 30% de Desconto.](https://www.emporiotiasonia.com.br/search?sort=offers)**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "<a id=\"cliente\"></a> Oferta Imperdível para você!\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* P﻿rodutos Selecionados com **[até 30% de Desconto.](https://www.emporiotiasonia.com.br/search?sort=offers)**L﻿eve 5 unidades e pague apenas 4. *Em caso de produtos diferentes o desconto será aplicado no produto de menor valor.\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
