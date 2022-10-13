@@ -3,11 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>Oferta Relâmpago!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4368075\" frameborder=\"0\"></iframe>\n\n\n  <style>\n    .banner picture img{border-radius=\"10px\";}\n  </style>"
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
+      "html": "<center><h1>Oferta Relâmpago!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4368075\" frameborder=\"0\"></iframe>\n"
     },
     {
       "type": "responsive-banner",
