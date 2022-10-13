@@ -6,6 +6,10 @@
       "html": "<center><h1>Oferta Relâmpago!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4368075\" frameborder=\"0\"></iframe>\n\n\n  <style>.img{border-radius=\"10px\";}</style>"
     },
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/leve51920x736.jpg",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
