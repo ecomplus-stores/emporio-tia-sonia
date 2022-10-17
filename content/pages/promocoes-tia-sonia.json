@@ -3,13 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>Oferta Relâmpago!</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4368075\" frameborder=\"0\"></iframe>\n"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/leve51920x736.jpg",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-      "alt": "leve5"
+      "html": "<center><h1>Kits e Combos com até 30% OFF</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4372781\" frameborder=\"0\"></iframe>\n\n\n"
     },
     {
       "type": "extra-page",
@@ -19,9 +13,19 @@
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "sales"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": 1,
+      "collection_id": "5dfb92855cdf932a9836d9ac:collections:Kits:/kits-tia-sonias",
+      "sort": "offers",
+      "title": "Aproveite e Faça seu Pedido hoje!",
+      "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<a id=\"cliente\"></a> Oferta Imperdível para você!\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **L﻿eve 5 unidades e pague apenas 4.** *Desconto será aplicado no Carrinho de Compras.* *Em caso de produtos diferentes o desconto será aplicado no produto de menor valor. \n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "<a id=\"cliente\"></a> Oferta Imperdível para você!\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* K﻿its e Combos Tia Sônia com até **30% de desconto! [Clique aqui.](https://www.emporiotiasonia.com.br/kits-tia-sonia)**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
