@@ -6,15 +6,6 @@
       "html": "<center><h1>Kits e Combos com até 30% OFF</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4372781\" frameborder=\"0\"></iframe>\n\n\n"
     },
     {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "sales"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -23,6 +14,16 @@
       "sort": "offers",
       "title": "Aproveite e Faça seu Pedido hoje!",
       "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/kits.combs1920x736.jpg",
+      "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia",
+      "alt": "kits"
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
