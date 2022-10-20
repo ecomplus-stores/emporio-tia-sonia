@@ -11,13 +11,13 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/nibs-de-cacau.jpg"
-    },
-    {
       "type": "page-title",
       "title": "Nibs de cacau: conheça os benefícios ",
       "description": "Retirado da semente, o nibs de cacau é considerado uma ótima substituição para  sobremesas, por conter bons nutrientes para o organismo"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/nibs-de-cacau.jpg"
     },
     {
       "type": "blog-post",
