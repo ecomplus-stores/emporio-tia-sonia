@@ -17,7 +17,9 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/nibs-de-cacau.jpg"
+      "img": "/img/uploads/nibs-de-cacau.jpg",
+      "link": "#",
+      "alt": "nibs"
     },
     {
       "type": "blog-post",
