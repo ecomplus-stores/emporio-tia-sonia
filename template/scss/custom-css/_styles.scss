@@ -2054,3 +2054,26 @@ text-align:center;
     display: none !important;
   }
 }
+
+.quantity-selector__btn-container {
+  input {
+    background: #f7f7f7;
+    border: none;
+    height: 49px;
+    border-radius: 0;
+  }
+
+  .btn {
+    background: #f7f7f7;
+
+    &:first-of-type {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &:last-of-type {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
