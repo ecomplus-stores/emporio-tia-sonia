@@ -1,7 +1,7 @@
 {
   "pkg": "@ecomplus/widget-compre-confie",
-  "active": true,
-  "desktopOnly": true,
+  "active": false,
+  "desktopOnly": false,
   "enableCheckout": true,
   "disablePages": true,
   "options": {
