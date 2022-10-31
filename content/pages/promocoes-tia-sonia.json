@@ -2,10 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<center><h1>Kits e Combos com até 30% OFF</h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4372781\" frameborder=\"0\"></iframe>\n\n\n"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -16,17 +12,11 @@
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/kits.combs1920x736.jpg",
-      "link": "https://www.emporiotiasonia.com.br/kits-tia-sonia",
-      "alt": "kits"
-    },
-    {
       "type": "extra-page",
       "enabled": true
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<a id=\"cliente\"></a> Oferta Imperdível para você!\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* K﻿its e Combos Tia Sônia com até **30% de desconto! [Clique aqui.](https://www.emporiotiasonia.com.br/kits-tia-sonia)**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "<a id=\"cliente\"></a> Oferta Imperdível para você!\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
 }
