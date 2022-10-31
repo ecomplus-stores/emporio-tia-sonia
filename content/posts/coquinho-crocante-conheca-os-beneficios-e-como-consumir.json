@@ -17,14 +17,14 @@
       "description": "Composto por apenas dois ingredientes, o coquinho crocante pode ser uma deliciosa opção para complementar refeições no dia a dia "
     },
     {
-      "type": "blog-post",
-      "enabled": true
-    },
-    {
       "type": "responsive-banner",
       "img": "/img/uploads/coquinho-1920.jpg",
       "link": "https://www.emporiotiasonia.com.br/coquinho",
       "alt": "coquinho"
+    },
+    {
+      "type": "blog-post",
+      "enabled": true
     },
     {
       "type": "collection-shelf",
