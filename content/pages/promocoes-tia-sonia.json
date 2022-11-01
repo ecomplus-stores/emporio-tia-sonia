@@ -2,6 +2,10 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "custom-html",
+      "html": "<center><h1>Leve 6 e Pague 5!></h1>"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -14,6 +18,12 @@
     {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/copa.1-2-.jpg",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+      "alt": "leve6"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
