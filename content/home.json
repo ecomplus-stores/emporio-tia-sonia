@@ -46,6 +46,15 @@
       "enabled": true
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
+      "sort": "sales",
+      "title": "Os Mais Vendidos"
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
@@ -59,15 +68,6 @@
           "mobile_img": "/img/uploads/copa.1-1-.jpg"
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
-      "sort": "sales",
-      "title": "Os Mais Vendidos"
     },
     {
       "type": "banners-grid",
