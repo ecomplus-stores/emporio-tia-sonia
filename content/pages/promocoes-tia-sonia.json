@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>Leve 6 e Pague 5!</h1>"
+      "html": "<center><h1>Leve 6 e Pague 5!</h1>\n  <p>FRETE GRÁTIS em compras a partir de R$ 100 + Cashback!</p>"
     },
     {
       "type": "collection-shelf",
@@ -18,7 +18,7 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
           "start": "2022-11-01T14:15:04.716Z",
