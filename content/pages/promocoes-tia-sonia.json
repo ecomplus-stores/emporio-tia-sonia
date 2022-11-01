@@ -3,15 +3,15 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>Leve 6 e Pague 5!></h1>"
+      "html": "<center><h1>Leve 6 e Pague 5!</h1>"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
       "page": 1,
-      "collection_id": "5dfb92855cdf932a9836d9ac:collections:Kits:/kits-tia-sonias",
-      "sort": "offers",
+      "collection_id": null,
+      "sort": "sales",
       "title": "Aproveite e Faça seu Pedido hoje!",
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
