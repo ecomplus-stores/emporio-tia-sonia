@@ -6,12 +6,6 @@
       "html": "<center><h1>Leve 6 e Pague 5!</h1>"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/copa.1-2-.jpg",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
-      "alt": "leve6"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -20,6 +14,20 @@
       "sort": "sales",
       "title": "Aproveite e Faça seu Pedido hoje!",
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2022-11-01T14:15:04.716Z",
+          "end": "",
+          "img": "/img/uploads/copa.1-2-.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "lve6"
+        }
+      ]
     },
     {
       "type": "extra-page",
