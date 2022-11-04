@@ -7,6 +7,14 @@
       "autoplay": 10000,
       "slides": [
         {
+          "start": "2022-11-04T14:45:23.045Z",
+          "end": "",
+          "img": "/img/uploads/copa.1-2-.jpg",
+          "mobile_img": "/img/uploads/copa.1-1-.jpg",
+          "alt": "copa",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia"
+        },
+        {
           "start": "2022-10-04T18:38:11.379Z",
           "end": "",
           "img": "/img/uploads/brazil1920x736.webp",
@@ -53,21 +61,6 @@
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
       "sort": "sales",
       "title": "Os Mais Vendidos"
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
-        {
-          "start": "2022-11-01T17:56:53.061Z",
-          "end": "",
-          "img": "/img/uploads/copa.1-2-.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "leve6",
-          "mobile_img": "/img/uploads/copa.1-1-.jpg"
-        }
-      ]
     },
     {
       "type": "banners-grid",
