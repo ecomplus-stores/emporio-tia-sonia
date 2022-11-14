@@ -17,6 +17,10 @@
       ]
     },
     {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -25,10 +29,6 @@
       "sort": "sales",
       "title": "Aproveite e Faça seu Pedido hoje!",
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
