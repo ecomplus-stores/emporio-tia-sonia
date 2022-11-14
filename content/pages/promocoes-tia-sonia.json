@@ -2,6 +2,21 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "2022-11-14T11:51:20.111Z",
+          "end": "",
+          "img": "/img/uploads/esquenta1920x736.jpg",
+          "mobile_img": "/img/uploads/esquenta1080x1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "esquenta"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
