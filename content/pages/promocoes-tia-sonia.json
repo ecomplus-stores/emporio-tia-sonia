@@ -12,20 +12,6 @@
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
-        {
-          "start": "2022-11-01T14:15:04.716Z",
-          "end": "",
-          "img": "/img/uploads/copa.1-2-.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "lve6"
-        }
-      ]
-    },
-    {
       "type": "extra-page",
       "enabled": true
     }
