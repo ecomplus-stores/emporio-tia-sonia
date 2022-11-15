@@ -92,6 +92,32 @@
           </div>
 
           <template v-else>
+            <div
+              v-if="kitCta.qnt > 1"
+              class="product__ct my-2"
+            >
+              <button
+                class="btn btn-light"
+                type="button"
+                :class="qntCt === 1 ? 'active' : null"
+                @click.prevent="qntCt = 1"
+              >
+                Unidade
+              </button>
+              <button
+                class="btn btn-light"
+                type="button"
+                :class="qntCt === kitCta.qnt ? 'active' : null"
+                @click.prevent="qntCt = 3"
+              >
+                Kit com {{ kitCta.qnt }}
+                <small
+                  v-if="kitCta.discount"
+                  class="badge badge-primary"
+                >{{ kitCta.discount }}% OFF</small>
+              </button>
+            </div>
+
             <slot name="prices">
               <p class="product__prices">
                 <a-prices
@@ -105,6 +131,14 @@
                   name="discount-tag"
                   v-bind="{ discount }"
                 >
+                  <span
+                    v-if="fixedPrice > 100"
+                    class="product__discount"
+                  >
+                    <i class="i-history mr-1"></i>
+                    Assine por
+                    <b>{{ formatMoney(fixedPrice - getPrice(body) * (qntToBuy * qntCt) * 0.1) }}</b>
+                  </span>
                   <span
                     v-if="discount > 0"
                     class="product__discount"

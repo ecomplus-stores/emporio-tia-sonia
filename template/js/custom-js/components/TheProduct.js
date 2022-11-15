@@ -154,6 +154,8 @@ export default {
       currentGalleyImg: 1,
       isOnCart: false,
       qntToBuy: 1,
+      qntCt: 1,
+      kitCta: window.productKitCta || {},
       isStickyBuyVisible: false,
       isFavorite: false,
       hasClickedBuy: false,
@@ -258,8 +260,10 @@ export default {
             }
           })
         }
+        price *= this.qntCt
         prices[field] = price
       })
+      prices.price = this.addProgressiveDiscount(prices.price)
       const ghostProduct = { ...this.body }
       if (this.selectedVariationId) {
         Object.assign(ghostProduct, this.selectedVariation)
@@ -281,6 +285,8 @@ export default {
   },
 
   methods: {
+    formatMoney,
+    getPrice,
     getVariationsGrids,
     getSpecValueByText,
 
@@ -382,6 +388,16 @@ export default {
       }
     },
 
+    addProgressiveDiscount (price) {
+      const { kitCta } = this
+      const progressiveDiscount =  kitCta.qnt > 1 && this.qntToBuy * this.qntCt >= kitCta.qnt
+        ? kitCta.discount : 0
+      if (progressiveDiscount) {
+        return price * ((100 - progressiveDiscount) / 100)
+      }
+      return price
+    },
+
     buy () {
       this.hasClickedBuy = true
       const product = sanitizeProductBody(this.body)
@@ -396,7 +412,12 @@ export default {
       const customizations = [...this.customizations]
       this.$emit('buy', { product, variationId, customizations })
       if (this.canAddToCart) {
-        ecomCart.addProduct({ ...product, customizations }, variationId, this.qntToBuy)
+        ecomCart.addProduct({
+          ...product,
+          customizations,
+          min_quantity: this.qntCt,
+          price: this.addProgressiveDiscount(product.price)
+        }, variationId, this.qntToBuy * this.qntCt)
       }
       this.isOnCart = true
     },
