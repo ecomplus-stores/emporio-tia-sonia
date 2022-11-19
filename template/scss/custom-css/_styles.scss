@@ -2008,37 +2008,10 @@ text-align:center;
 .direita, .direita1, .direita2 {
   display: none;
 }
-.payment__gateway--123188[data-label="Assinatura Trimestral Cartão de crédito"] .payment__title {
-  font-size: 0
-}
-.payment__gateway--123188[data-label="Assinatura Trimestral Cartão de crédito"] .payment__title::after {
-  font-size: 1rem !important;
-  content: "Assinatura Trimestral"
-}
-.payment__gateway--123188[data-label="Assinatura Mensal Cartão de crédito"] .payment__title {
-  font-size: 0
-}
-.payment__gateway--123188[data-label="Assinatura Mensal Cartão de crédito"] .payment__title::after {
-  font-size: 1rem !important;
-  content: "Assinatura Mensal"
-}
-.payment__gateway--123188[data-label="Assinatura Bimestral Cartão de crédito"] .payment__title {
-  font-size: 0
-}
-.payment__gateway--123188[data-label="Assinatura Bimestral Cartão de crédito"] .payment__title::after {
-  font-size: 1rem !important;
-  content: "Assinatura Bimestral"
-}
+
 /* .payment__intermediator, .payment__gateway--123188, .prices__discount{
   display:none;
 } */
-.payment__recurrence::after {
-  content: url(/img/uploads/sync.png);
-}
-.payment__recurrence {
-  font-size: 0;
-  background-color: #fff;
-}
 .payment__gateway--123188:last-child {
   border-bottom: 2px solid #002053;
 }
