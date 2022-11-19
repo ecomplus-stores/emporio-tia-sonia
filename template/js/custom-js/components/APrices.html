@@ -41,21 +41,34 @@
 
     <div
       key="installments"
-      v-if="installmentsNumber > 1 && installmentValue"
+      v-if="installmentsNumber > 1 && installmentValue && isLiteral && price >= 50"
       class="prices__installments"
     >
-      <small v-if="isLiteral">
+      <small>
         {{ i19upTo }}
       </small>
       {{ installmentsNumber }}x
-      <small v-if="isLiteral">
+      <small>
         {{ i19of }}
       </small>
       <span>
         {{ formatMoney(installmentValue) }}
       </span>
-      <small v-if="!monthlyInterest && isLiteral">
+      <small v-if="!monthlyInterest">
         {{ i19interestFree }}
+      </small>
+    </div>
+
+    <div
+      key="discount-subscription"
+      class="prices__discount prices__discount--subscription"
+      style="color: var(--success);"
+    >
+      <span>
+        {{ formatMoney(price * 0.9) }}
+      </span>
+      <small>
+        para assinantes
       </small>
     </div>
 
@@ -65,6 +78,9 @@
       class="prices__discount"
     >
       <template v-if="typeof discountLabel === 'string' && discountLabel">
+        <small>
+          ou
+        </small>
         <span>
           {{ formatMoney(priceWithDiscount) }}
         </span>

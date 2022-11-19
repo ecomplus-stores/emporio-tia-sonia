@@ -126,27 +126,6 @@
                   :is-big="true"
                   @fix-price="price => fixedPrice = price"
                 />
-
-                <slot
-                  name="discount-tag"
-                  v-bind="{ discount }"
-                >
-                  <span
-                    v-if="fixedPrice > 100"
-                    class="product__discount"
-                  >
-                    <i class="i-history mr-1"></i>
-                    Assine por
-                    <b>{{ formatMoney(fixedPrice - getPrice(body) * (qntToBuy * qntCt) * 0.1) }}</b>
-                  </span>
-                  <span
-                    v-if="discount > 0"
-                    class="product__discount"
-                  >
-                    {{ i19discountOf }}
-                    <strong>{{ discount }}%</strong>
-                  </span>
-                </slot>
               </p>
             </slot>
 
