@@ -29,6 +29,14 @@
           "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
           "alt": "cafe",
           "mobile_img": "/img/uploads/cafe1080.jpg"
+        },
+        {
+          "start": "2022-11-21T13:50:05.469Z",
+          "end": "",
+          "img": "/img/uploads/happy1920.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "happy",
+          "mobile_img": "/img/uploads/happy1080.jpg"
         }
       ],
       "full_width": true
