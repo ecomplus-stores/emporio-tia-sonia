@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center>\n<h1>Happy Friday!</h1>\n<h1>Aproveite 30% de Desconto em todo site!</h1>\n</center>"
+      "html": "<center><h1>😀 Happy Friday </h1>\n<h3 style=\"color: #2d507a;\">30% de Desconto em todo site!</h3>\n<h5 style=\"color: #333;\">Frete Grátis acima de R$ 100</h5>\n</center>"
     },
     {
       "type": "dynamic-showcase",
