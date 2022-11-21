@@ -1,32 +1,13 @@
 {
-  "body": "A Black Friday de 2022 será no dia 25 de novembro. Aqui no Empório Tia Sônia teremos ofertas imperdíveis para você. Aproveite!",
+  "body": "**30% de desconto** em todo site e **Frete Grátis** em compras acima de R$ 100",
   "title": "Black Friday - Tia Sônia",
   "meta_title": "Black Friday - Tia Sônia",
-  "meta_description": "A Black Friday de 2022 será no dia 25 de novembro. Aqui no Empório Tia Sônia teremos ofertas imperdíveis para você. Aproveite!",
+  "meta_description": "30% de desconto em todo site e Frete Grátis em compras acima de R$ 100",
   "sections": [
     {
-      "type": "breadcrumbs",
-      "enabled": true
-    },
-    {
-      "type": "page-title",
-      "title": "Black Friday - Tia Sônia",
-      "description": "A Black Friday de 2022 será no dia 25 de novembro. Aqui no Empório Tia Sônia teremos ofertas imperdíveis para você. Aproveite!"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "sort": "offers"
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
-      "type": "blog",
-      "enabled": true
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
     }
   ]
 }
