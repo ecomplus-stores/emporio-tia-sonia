@@ -2,21 +2,20 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "extra-page",
-      "enabled": true
+      "type": "custom-html",
+      "html": "<center>\n<h1>Happy Friday!</h1>\n<h1>Aproveite 30% de Desconto em todo site!</h1>\n</center>"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": 1,
-      "collection_id": null,
-      "sort": "sales",
-      "title": "Aproveite e Faça seu Pedido hoje!",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "<a id=\"cliente\"></a> Oferta Imperdível para você!\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **Ganhe CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**)."
+  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **Ganhe CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
 }
