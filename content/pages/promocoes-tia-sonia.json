@@ -12,6 +12,16 @@
       "alt": "bf"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/premium540.png",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-premium-pote-450g",
+          "alt": "premium"
+        }
+      ]
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "sales"
