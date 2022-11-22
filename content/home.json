@@ -42,6 +42,10 @@
       "full_width": true
     },
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -60,10 +64,6 @@
           "alt": "coquinho"
         }
       ]
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
     },
     {
       "type": "collection-shelf",
