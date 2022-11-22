@@ -42,6 +42,21 @@
       "full_width": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/premium540.png",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-premium-pote-450g",
+          "alt": "premium"
+        },
+        {
+          "img": "/img/uploads/sempassa5400.png",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-1kg-sem-uva-passa",
+          "alt": "sempassa"
+        }
+      ]
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
