@@ -32,6 +32,15 @@
       ]
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 24,
+      "page": 4,
+      "collection_id": null,
+      "sort": "sales",
+      "title": "30% de Desconto e Frete Grátis acima de R$ 100"
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "sales"
