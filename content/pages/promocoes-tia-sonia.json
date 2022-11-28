@@ -3,7 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>😀 Cyber Monday!  </h1>\n<h3 style=\"color: #2d507a;\">30% de Desconto em todo site!</h3>\n<h5 style=\"color: #333;\">Frete Grátis acima de R$ 100</h5>\n</center>"
+      "html": "<center><h1>😀 Cyber Monday!  </h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4372781\" frameborder=\"0\"></iframe>\n<h3 style=\"color: #2d507a;\">30% de Desconto em todo site!</h3>\n<h5 style=\"color: #333;\">Frete Grátis acima de R$ 100</h5>\n</center>"
     },
     {
       "type": "responsive-banner",
