@@ -46,26 +46,6 @@
       "enabled": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/premium540.png",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-premium-pote-450g",
-          "alt": "premium"
-        },
-        {
-          "img": "/img/uploads/sempassa5400.png",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-1kg-sem-uva-passa",
-          "alt": "sempassa"
-        },
-        {
-          "img": "/img/uploads/coquinho540.png",
-          "link": "https://www.emporiotiasonia.com.br/coquinho-crocante-tia-sonia-120g",
-          "alt": "coquinho"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
