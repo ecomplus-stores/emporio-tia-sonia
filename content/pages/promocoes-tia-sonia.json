@@ -6,32 +6,6 @@
       "html": "<center><h1>😀 Cyber Monday!  </h1>\n<h3 style=\"color: #2d507a;\">30% de Desconto em todo site!</h3>\n<h5 style=\"color: #333;\">Frete Grátis acima de R$ 100</h5>\n</center>"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/happy1920.jpg",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-      "alt": "bf"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/premium540.png",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-premium-pote-450g",
-          "alt": "premium"
-        },
-        {
-          "img": "/img/uploads/coquinho540.png",
-          "link": "https://www.emporiotiasonia.com.br/coquinho-crocante-tia-sonia-120g",
-          "alt": "coq"
-        },
-        {
-          "img": "/img/uploads/sempassa5400.png",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-1kg-sem-uva-passa",
-          "alt": "passa"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
