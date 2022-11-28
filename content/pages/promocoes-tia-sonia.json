@@ -6,6 +6,12 @@
       "html": "<center><h1>😀 Cyber Monday!  </h1>\n<h3 style=\"color: #2d507a;\">30% de Desconto em todo site!</h3>\n<h5 style=\"color: #333;\">Frete Grátis acima de R$ 100</h5>\n</center>"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/cyber1920.jpeg",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "monday"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
