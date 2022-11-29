@@ -7,12 +7,12 @@
       "autoplay": 10000,
       "slides": [
         {
-          "start": "2022-11-28T11:49:28.430Z",
+          "start": "2022-07-08T11:27:57.988Z",
           "end": "",
-          "img": "/img/uploads/cyber1920.jpeg",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "happy",
-          "mobile_img": "/img/uploads/cyber1080.jpeg"
+          "img": "/img/uploads/ultrabar1920.jpg",
+          "mobile_img": "/img/uploads/ultrabar1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/ultrabar",
+          "alt": "ultrabar"
         },
         {
           "start": "2022-07-13T14:34:23.834Z",
@@ -21,14 +21,6 @@
           "mobile_img": "/img/uploads/cashback-ana1080x1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "cashback"
-        },
-        {
-          "start": "2022-07-08T11:27:57.988Z",
-          "end": "",
-          "img": "/img/uploads/ultrabar1920.jpg",
-          "mobile_img": "/img/uploads/ultrabar1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/ultrabar",
-          "alt": "ultrabar"
         },
         {
           "start": "2022-08-18T13:37:12.381Z",
