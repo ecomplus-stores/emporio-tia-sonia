@@ -7,6 +7,11 @@
   "meta_description": "Saiba como encontrar trocas conscientes para fazer do seu café da manhã sem glúten mais saudável e completo de nutrientes",
   "sections": [
     {
+      "type": "page-title",
+      "title": "Café da manhã sem glúten: conheça as opções",
+      "description": "Saiba como encontrar trocas conscientes para fazer do seu café da manhã sem glúten mais saudável e completo de nutrientes"
+    },
+    {
       "type": "blog-post",
       "enabled": true
     },
