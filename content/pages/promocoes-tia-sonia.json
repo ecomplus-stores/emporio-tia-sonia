@@ -3,13 +3,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<center><h1>😀 Cyber Monday!  </h1>\n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4372781\" frameborder=\"0\"></iframe>\n</center>"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/cyber1920.jpeg",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-      "alt": "monday"
+      "html": "<center><h1>⏳ Últimas horas!  </h1>  \n<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4372781\" frameborder=\"0\"></iframe>\n</center>"
     },
     {
       "type": "collection-shelf",
