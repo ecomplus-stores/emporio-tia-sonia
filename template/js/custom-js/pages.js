@@ -1,6 +1,8 @@
-if (new URLSearchParams(window.location.search).get('lpcid')) {
+const urlParams = new URLSearchParams(window.location.search)
+if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
   // livelo
   document.body.appendChild(document.getElementById('cart-quickview'))
+  window.sessionStorage.setItem('_lpcid', urlParams.get('lpcid'))
 }
 
 // Add your custom JavaScript for storefront pages here.
