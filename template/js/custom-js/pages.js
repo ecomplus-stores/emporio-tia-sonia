@@ -1,3 +1,8 @@
+if (new URLSearchParams(window.location.search).get('lpcid')) {
+  // livelo
+  document.body.appendChild(document.getElementById('cart-quickview'))
+}
+
 // Add your custom JavaScript for storefront pages here.
 if (window.storefront && window.storefront.context && window.storefront.context.resource === 'products') {
   storefront.on('widget:@ecomplus/widget-tag-manager', function () {
