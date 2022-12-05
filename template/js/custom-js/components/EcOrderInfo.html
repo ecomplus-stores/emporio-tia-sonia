@@ -53,6 +53,60 @@
             </p>
           </transition>
 
+          <div
+            v-for="shippingLine in localOrder.shipping_lines"
+            :key="`s-${shippingLine._id}`"
+            class="order-info__shipping-freight card mt-3"
+          >
+            <div class="card-header">
+              <span
+                v-if="fulfillmentStatus"
+                class="order-info__fulfillment-status"
+                :class="`order-info__fulfillment-status--${fulfillmentStatus}`"
+              >
+                <i class="i-truck mr-1"></i>
+                {{ i19FulfillmentStatus(fulfillmentStatus) }}
+              </span>
+              <template v-else>
+                <i class="i-truck mr-1"></i>
+                {{ i19freight }}
+              </template>
+            </div>
+
+            <div class="card-body">
+              <span v-if="shippingLine.app">
+                {{ shippingLine.app.label }}
+              </span>
+              <shipping-line :shipping-line="shippingLine"/>
+
+              <div
+                v-if="shippingLine.tracking_codes"
+                class="order-info__shipping-tracking"
+              >
+                <hr>
+                <div class="text-muted">
+                  {{ i19trackDelivery }}:
+                </div>
+
+                <samp
+                  v-for="(tracking, i) in shippingLine.tracking_codes"
+                  :key="`track-${i}`"
+                >
+                  <a
+                    v-if="tracking.link"
+                    :href="`${tracking.link}`"
+                    target="_blank"
+                  >
+                    {{ tracking.code }}
+                  </a>
+                  <span v-else>
+                    {{ tracking.code }}
+                  </span>
+                </samp>
+              </div>
+            </div>
+          </div>
+
           <ul
             v-if="statusEntries.length"
             class="order-info__timeline"
@@ -249,60 +303,6 @@
                     }"
                   >
                     <div class="order-info__shipping">
-                      <div
-                        v-for="shippingLine in localOrder.shipping_lines"
-                        :key="`s-${shippingLine._id}`"
-                        class="order-info__shipping-freight card"
-                      >
-                        <div class="card-header">
-                          <span
-                            v-if="fulfillmentStatus"
-                            class="order-info__fulfillment-status"
-                            :class="`order-info__fulfillment-status--${fulfillmentStatus}`"
-                          >
-                            <i class="i-truck mr-1"></i>
-                            {{ i19FulfillmentStatus(fulfillmentStatus) }}
-                          </span>
-                          <template v-else>
-                            <i class="i-truck mr-1"></i>
-                            {{ i19freight }}
-                          </template>
-                        </div>
-
-                        <div class="card-body">
-                          <span v-if="shippingLine.app">
-                            {{ shippingLine.app.label }}
-                          </span>
-                          <shipping-line :shipping-line="shippingLine"/>
-
-                          <div
-                            v-if="shippingLine.tracking_codes"
-                            class="order-info__shipping-tracking"
-                          >
-                            <hr>
-                            <div class="text-muted">
-                              {{ i19trackDelivery }}:
-                            </div>
-
-                            <samp
-                              v-for="(tracking, i) in shippingLine.tracking_codes"
-                              :key="`track-${i}`"
-                            >
-                              <a
-                                v-if="tracking.link"
-                                :href="`${tracking.link}`"
-                                target="_blank"
-                              >
-                                {{ tracking.code }}
-                              </a>
-                              <span v-else>
-                                {{ tracking.code }}
-                              </span>
-                            </samp>
-                          </div>
-                        </div>
-                      </div>
-
                       <div
                         v-if="canShowShippingAddress"
                         class="order-info__shipping-address card"
