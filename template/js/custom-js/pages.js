@@ -2,14 +2,12 @@ const urlParams = new URLSearchParams(window.location.search)
 if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
   // livelo
   document.getElementById('content').appendChild(document.getElementById('cart-quickview'))
+  window.ecomCart.on('change', () => {
+    const $cartAside = document.querySelector('#cart-quickview > aside')
+    $cartAside.style.maxWidth = 'calc(100vw - 30px)'
+    $cartAside.style.maxHeight = 'calc(100vh - 30px)'
+  })
   window.sessionStorage.setItem('_lpcid', urlParams.get('lpcid'))
-  setTimeout(() => {
-    window.ecomCart.on('addItem', () => {
-      if (window.confirm('Ir para o checkout?')) {
-        window.location = '/app/'
-      }
-    }) 
-  }, 1000)
 }
 
 // Add your custom JavaScript for storefront pages here.
