@@ -3,18 +3,18 @@
   "sections": [
     {
       "type": "page-title",
-      "title": "Cupom de Desconto e Frete Grátis",
-      "description": "Aproveite para fazer seu pedido hoje com Frete Grátis em compras acima de R$ 100"
+      "title": "Para ser bem + Feliz!",
+      "description": "15% de desconto e Frete Grátis em compras acima de R$ 100. Use o cupom: MAIS15"
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     },
     {
       "type": "responsive-banner",
       "img": "/img/uploads/mais151920x736.jpg",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
       "alt": "maisvendidos"
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
     },
     {
       "type": "dynamic-showcase",
