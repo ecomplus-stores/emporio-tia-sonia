@@ -7,6 +7,12 @@
       "description": "Aproveite para fazer seu pedido hoje com Frete Grátis em compras acima de R$ 100"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/mais151920x736.jpg",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "maisvendidos"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
@@ -18,5 +24,5 @@
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com um preço super especial.",
-  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* C﻿upom de desconto na primeira compra: **MAISTIASONIA**\n* **Ganhe CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
+  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100! \n* **15% OFF**! Use o C﻿upom de desconto: **MAIS15**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
 }
