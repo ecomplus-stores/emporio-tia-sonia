@@ -1,8 +1,15 @@
 const urlParams = new URLSearchParams(window.location.search)
 if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
   // livelo
-  document.body.appendChild(document.getElementById('cart-quickview'))
+  document.getElementById('content').appendChild(document.getElementById('cart-quickview'))
   window.sessionStorage.setItem('_lpcid', urlParams.get('lpcid'))
+  setTimeout(() => {
+    window.ecomCart.on('addItem', () => {
+      if (window.confirm('Ir para o checkout?')) {
+        window.location = '/app/'
+      }
+    }) 
+  }, 1000)
 }
 
 // Add your custom JavaScript for storefront pages here.
