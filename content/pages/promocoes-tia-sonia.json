@@ -2,11 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "page-title",
-      "title": "Para ser bem + Feliz!",
-      "description": "15% de desconto e Frete Grátis em compras acima de R$ 100. Use o cupom: MAIS15"
-    },
-    {
       "type": "extra-page",
       "enabled": true
     },
@@ -24,5 +19,5 @@
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com uma condição super especial.",
-  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100! \n* **15% OFF**! Use o C﻿upom de desconto: **MAIS15**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
+  "body": "<h1>Para ser bem + Feliz!</h1><p>15% de desconto e Frete Grátis em compras acima de R$ 100. Use o cupom: <b>MAIS15</b>\n\nEm todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100! \n* **15% OFF**! Use o C﻿upom de desconto: **MAIS15**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
 }
