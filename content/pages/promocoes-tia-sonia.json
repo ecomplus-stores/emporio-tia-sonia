@@ -2,6 +2,10 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "breadcrumbs",
+      "enabled": true
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
