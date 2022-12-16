@@ -120,12 +120,29 @@
 
             <slot name="prices">
               <p class="product__prices">
+                <div v-if="qntCt > 1" class="mb-2">
+                  <a-prices
+                    :product="{ price: ghostProductForPrices.price / qntCt }"
+                    :can-show-price-options="false"
+                    style="display: inline-block"
+                  />
+                  <span style="color: #4698ca">/unidade</span>
+                </div>
                 <a-prices
                   :product="ghostProductForPrices"
                   :is-literal="true"
                   :is-big="true"
                   @fix-price="price => fixedPrice = price"
-                />
+                >
+                  <template #from>
+                    <span v-if="qntCt > 1">
+                      kit com {{ qntCt }} de
+                    </span>
+                    <span v-else>
+                      de
+                    </span>
+                  </template>
+                </a-prices>
               </p>
             </slot>
 

@@ -8,7 +8,9 @@
   >
     <template v-if="isLiteral">
       <small>
-        {{ i19from }}
+        <slot name="from">
+          {{ i19from }}
+        </slot>
       </small>
       <s>{{ formatMoney(comparePrice) }}</s>
       <small>
@@ -61,6 +63,7 @@
 
     <div
       key="discount-subscription"
+      v-if="canShowPriceOptions"
       class="prices__discount prices__discount--subscription"
       style="color: var(--success);"
     >
