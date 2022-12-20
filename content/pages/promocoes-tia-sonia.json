@@ -10,6 +10,20 @@
       "enabled": true
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2022-12-20T00:35:15.026Z",
+          "end": "",
+          "img": "/img/uploads/fimdeano1920x736.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "quero"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
@@ -30,5 +44,5 @@
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com uma condição super especial.",
-  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100! \n* D﻿esconto em sua primeira compra. Use o cupom: **MAISTIASONIA**\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
+  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100! \n* G\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
 }
