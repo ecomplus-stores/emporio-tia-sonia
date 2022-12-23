@@ -38,9 +38,8 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
   setTimeout(() => {
       if($('#cart').length) {
         const $points = document.querySelector('.prices__points')
-        let points = document.querySelector('.prices__points span').innerText.replace('+', '').trim()
-        let transformToMoney = (Number(points) * 0.05).toFixed(2)
-        const $money =  `<div id="dinheiro-volta"><span><strong>Cashback! GANHE </strong> <span class="dinheiro"> <strong id="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(transformToMoney)}</strong></span> em sua próxima compra!</span></div>`
+        let cashback = document.querySelector('.prices__points span').innerText.trim()
+        const $money =  `<div id="dinheiro-volta"><span><strong>Cashback! GANHE </strong> <span class="dinheiro"> <strong id="changeMoney">${cashback}</strong></span> em sua próxima compra!</span></div>`
         const $div = document.createElement('div')
         $div.id = 'cashback'
         $div.insertAdjacentElement('afterbegin', $points)
@@ -48,10 +47,8 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
         $('.cart__list').after($div)
         ecomCart.on('change', ({ data }) => {
           setTimeout(() => {
-            points = document.querySelector('.prices__points span').innerText.replace('+', '').trim()
-            transformToMoney = (Number(points) * 0.05).toFixed(2)
-            document.getElementById('changeMoney').innerText = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(transformToMoney)
-            document.getElementById('pontoschange').innerText = points
+            let cashback = document.querySelector('.prices__points span').innerText.trim()
+            document.getElementById('changeMoney').innerText = cashback
           }, 800)
         })
         if (window.innerWidth < 767) {
