@@ -34,11 +34,8 @@
       class="prices__points"
     >
       <i class="i-check-circle"></i>
-      {{ i19youEarn }}
-      <a target="_blank" href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"><span>
-        +{{ (earnPointsFactor * price).toFixed(1) }}
-      </span>
-      <em>{{ pointsProgramName }}</em> (ver mais)</a>
+      <a target="_blank" href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade">
+        Cashback <span>{{ formatMoney(price / 20) }}</span> (ver mais)</a>
     </div>
 
     <div
