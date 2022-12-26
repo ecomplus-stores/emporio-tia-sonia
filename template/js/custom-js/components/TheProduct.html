@@ -93,7 +93,7 @@
 
           <template v-else>
             <div
-              v-if="kitCta.qnt > 1"
+              v-if="!isKit && kitCta.qnt > 1"
               class="product__ct my-2"
             >
               <button
