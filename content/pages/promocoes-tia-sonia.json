@@ -10,20 +10,6 @@
       "enabled": true
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-12-20T00:35:15.026Z",
-          "end": "",
-          "img": "/img/uploads/fimdeano1920x736.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "quero"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
