@@ -6,6 +6,10 @@
       "enabled": true
     },
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
