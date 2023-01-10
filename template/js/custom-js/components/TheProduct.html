@@ -108,7 +108,7 @@
                 class="btn btn-light"
                 type="button"
                 :class="qntCt === kitCta.qnt ? 'active' : null"
-                @click.prevent="qntCt = 3"
+                @click.prevent="qntCt = (kitCta.qnt || 3)"
               >
                 Kit com {{ kitCta.qnt }}
                 <small
