@@ -2,8 +2,19 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "breadcrumbs",
-      "enabled": true
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2023-01-23T13:14:00.096Z",
+          "end": "",
+          "img": "/img/uploads/leve3-1920x736.jpg",
+          "mobile_img": "/img/uploads/leve3-1080x1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
+          "alt": "leve3"
+        }
+      ]
     },
     {
       "type": "info-bar",
@@ -16,23 +27,14 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": null,
-      "sort": "sales",
-      "title": "Aqui estão os queridinhos da Tia Sônia, aproveite!"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
       "limit": 24,
       "page": 1,
-      "collection_id": null,
-      "sort": "news",
-      "title": "Você curte novidades? Veja o que temos para você!"
+      "collection_id": "5d09315724607a6a42d714cc:categories:Granola:/granola-tia-sonia",
+      "sort": null,
+      "title": "Leve 3, Pague 2!"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com uma condição super especial.",
-  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
+  "body": "Em todos pedidos você [ganha pontos (saiba mais)](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade) que podem ser usados em sua próxima compra (**cashback**).\n\n* Ganhe **FRETE GRÁTIS** em compras a partir de R$ 100!\n* L﻿EVE 3 Granolas e Pague apenas 2! [Veja aqui](https://www.emporiotiasonia.com.br/granola-tia-sonia)\n* **CASHBACK** no [programa de Fidelidade](https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade)!"
 }
