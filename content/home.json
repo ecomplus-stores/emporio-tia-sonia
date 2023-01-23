@@ -29,6 +29,14 @@
           "mobile_img": "/img/uploads/cashback-ana1080x1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "cashback"
+        },
+        {
+          "start": "2023-01-23T12:52:22.017Z",
+          "end": "2023-01-23T12:52:22.423Z",
+          "img": "/img/uploads/leve3-1920x736.jpg",
+          "mobile_img": "/img/uploads/leve3-1080x1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
+          "alt": "leve3"
         }
       ],
       "full_width": true
