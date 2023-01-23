@@ -7,12 +7,12 @@
       "autoplay": 10000,
       "slides": [
         {
-          "start": "2022-12-20T00:43:40.458Z",
-          "end": "2023-02-01T00:44:07.323Z",
-          "img": "/img/uploads/sousaudavel1920x1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "Verao",
-          "mobile_img": "/img/uploads/sousaudavel1080x1080.jpg"
+          "start": "2022-08-18T13:37:12.381Z",
+          "end": "",
+          "img": "/img/uploads/cafe500.jpg",
+          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
+          "alt": "cafe",
+          "mobile_img": "/img/uploads/cafe1080.jpg"
         },
         {
           "start": "2022-07-08T11:27:57.988Z",
@@ -29,14 +29,6 @@
           "mobile_img": "/img/uploads/cashback-ana1080x1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "cashback"
-        },
-        {
-          "start": "2022-08-18T13:37:12.381Z",
-          "end": "",
-          "img": "/img/uploads/cafe500.jpg",
-          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
-          "alt": "cafe",
-          "mobile_img": "/img/uploads/cafe1080.jpg"
         }
       ],
       "full_width": true
