@@ -46,6 +46,10 @@
       "enabled": true
     },
     {
+      "type": "custom-html",
+      "html": "<h4 class=\"products-carousel__title\"><a href=\"/mais-vendidos\">Promoção: Leve 3 e Pague 2!</a></h4>\n<center><iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4372781\" frameborder=\"0\"></iframe></center>\n\n\n"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
