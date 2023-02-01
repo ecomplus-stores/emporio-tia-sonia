@@ -2,21 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2023-01-23T13:14:00.096Z",
-          "end": "",
-          "img": "/img/uploads/leve3-1920x736.jpg",
-          "mobile_img": "/img/uploads/leve3-1080x1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
-          "alt": "leve3"
-        }
-      ]
-    },
-    {
       "type": "info-bar",
       "enabled": true
     },
@@ -29,9 +14,9 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "collection_id": "5d09315724607a6a42d714cc:categories:Granola:/granola-tia-sonia",
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "sort": null,
-      "title": "Leve 3, Pague 2!"
+      "title": ""
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
