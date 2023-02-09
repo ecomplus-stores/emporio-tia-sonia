@@ -8,6 +8,10 @@
   "meta_description": "Quer saber como montar um café da manhã saudável e saboroso todos os dias? Confira as dicas da Tia Sônia e aproveite a primeira refeição do dia!",
   "sections": [
     {
+      "type": "breadcrumbs",
+      "enabled": true
+    },
+    {
       "type": "blog-post",
       "enabled": true
     },
