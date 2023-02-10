@@ -7,6 +7,14 @@
       "autoplay": 10000,
       "slides": [
         {
+          "start": "2023-02-10T13:04:48.147Z",
+          "end": "",
+          "img": "/img/uploads/semana-esporte-1920-.jpg",
+          "mobile_img": "/img/uploads/semana-esporte-1080-.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "esporte"
+        },
+        {
           "start": "2022-08-18T13:37:12.381Z",
           "end": "",
           "img": "/img/uploads/cafe500.jpg",
