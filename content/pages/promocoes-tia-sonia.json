@@ -17,6 +17,20 @@
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "sort": null,
       "title": "Os mais procurados"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2023-02-10T13:10:09.812Z",
+          "end": "",
+          "img": "/img/uploads/semana-esporte-1920-.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "esporte"
+        }
+      ]
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
