@@ -66,14 +66,14 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/nutsbar1080.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?term=nutsbar",
+          "alt": "nutsbar"
+        },
+        {
           "img": "/img/uploads/ultrabar.jpg",
           "link": "https://www.emporiotiasonia.com.br/ultrabar",
           "alt": "ultrabar"
-        },
-        {
-          "img": "/img/uploads/cash-ana-tiasonia-2-.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-          "alt": "pontos"
         },
         {
           "img": "/img/uploads/granolalatatiasonia.jpg",
