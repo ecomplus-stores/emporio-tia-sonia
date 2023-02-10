@@ -4,8 +4,16 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 10000,
+      "autoplay": 5000,
       "slides": [
+        {
+          "start": "2023-02-10T14:58:35.140Z",
+          "end": "",
+          "img": "/img/uploads/nutsbar1920.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?term=nutsbar",
+          "alt": "nutsbar",
+          "mobile_img": "/img/uploads/nutsbar1080.jpg"
+        },
         {
           "start": "2023-02-10T13:04:48.147Z",
           "end": "",
