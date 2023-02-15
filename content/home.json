@@ -4,8 +4,16 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 5000,
+      "autoplay": 15000,
       "slides": [
+        {
+          "start": "2023-02-15T12:26:12.016Z",
+          "end": "",
+          "img": "/img/uploads/carnaval1920x736.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "carnaval",
+          "mobile_img": "/img/uploads/carnaval1080x1080.jpg"
+        },
         {
           "start": "2023-02-10T14:58:35.140Z",
           "end": "",
@@ -21,14 +29,6 @@
           "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
           "alt": "cafe",
           "mobile_img": "/img/uploads/cafe1080.jpg"
-        },
-        {
-          "start": "2022-07-08T11:27:57.988Z",
-          "end": "",
-          "img": "/img/uploads/ultrabar1920.jpg",
-          "mobile_img": "/img/uploads/ultrabar1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/ultrabar",
-          "alt": "ultrabar"
         },
         {
           "start": "2022-07-13T14:34:23.834Z",
