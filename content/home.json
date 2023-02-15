@@ -88,15 +88,6 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 24,
-      "page": "",
-      "collection_id": "5d09315724607a6a42d714cc:categories:Granola:/granola-tia-sonia",
-      "sort": "sales",
-      "title": "Granola é Tia Sônia!"
-    },
-    {
-      "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
       "page": "",
@@ -109,7 +100,7 @@
       "shuffle": false,
       "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
       "sort": "sales",
-      "title": "Cafés Especiais Orgânicos",
+      "title": "Marca Parceira: Colheita das Alegrias",
       "limit": "",
       "page": ""
     },
