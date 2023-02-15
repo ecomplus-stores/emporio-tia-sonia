@@ -55,6 +55,10 @@
       "title": "Os queridinhos da Tia Sônia"
     },
     {
+      "type": "custom-html",
+      "html": "[estilos-de-alimentacao]"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -73,10 +77,6 @@
           "alt": "lata"
         }
       ]
-    },
-    {
-      "type": "custom-html",
-      "html": "[estilos-de-alimentacao]"
     },
     {
       "type": "custom-html",
@@ -102,7 +102,7 @@
       "page": "",
       "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
       "sort": "sales",
-      "title": "Sinta+ | Pipocas Especiais"
+      "title": "Marca Parceira: Pipocas Sinta+ "
     },
     {
       "type": "collection-shelf",
