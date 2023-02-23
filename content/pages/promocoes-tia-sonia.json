@@ -17,6 +17,20 @@
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "sort": null,
       "title": "Os queridinhos da Tia Sônia"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2023-02-23T11:11:21.390Z",
+          "end": "",
+          "img": "/img/uploads/1920x736-niver-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "niver"
+        }
+      ]
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
