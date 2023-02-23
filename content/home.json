@@ -7,12 +7,12 @@
       "autoplay": 15000,
       "slides": [
         {
-          "start": "2023-02-15T12:26:12.016Z",
-          "end": "2023-02-23T10:34:04.351Z",
-          "img": "/img/uploads/carnaval1920x736.jpg",
+          "start": "2023-02-23T10:56:22.704Z",
+          "end": "",
+          "img": "/img/uploads/1920x736-niver-.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "carnaval",
-          "mobile_img": "/img/uploads/carnaval1080x1080.jpg"
+          "alt": "niver",
+          "mobile_img": "/img/uploads/1080x1080-niver-.webp"
         },
         {
           "start": "2023-02-10T14:58:35.140Z",
@@ -57,26 +57,6 @@
     {
       "type": "custom-html",
       "html": "[estilos-de-alimentacao]"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/nutsbar1080.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=nutsbar",
-          "alt": "nutsbar"
-        },
-        {
-          "img": "/img/uploads/ultrabar.jpg",
-          "link": "https://www.emporiotiasonia.com.br/ultrabar",
-          "alt": "ultrabar"
-        },
-        {
-          "img": "/img/uploads/granolalatatiasonia.jpg",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
-          "alt": "lata"
-        }
-      ]
     },
     {
       "type": "custom-html",
