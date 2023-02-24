@@ -58,7 +58,7 @@ export default {
       if (freight) {
         return formatMoney(freight)
       } else {
-        return i18n(shippingLine.pick_up ? i19free : i19freeShipping)
+        return i18n(i19free)
       }
     }
   }
