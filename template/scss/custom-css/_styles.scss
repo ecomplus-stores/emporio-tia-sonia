@@ -89,6 +89,10 @@ blockquote {
 
 //botao cancelar
 .order-info__toggle.btn-danger, .ts-featured-negative {display:none;}
+// assinaturas
+.order-info__unsubscribe {
+  display: none !important;
+}
 
 //size h1
 h1 {
