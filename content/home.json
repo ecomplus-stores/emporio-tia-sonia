@@ -7,6 +7,14 @@
       "autoplay": 15000,
       "slides": [
         {
+          "start": "2023-03-03T15:45:09.261Z",
+          "end": "",
+          "img": "/img/uploads/sabor1920x736.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "sabor",
+          "mobile_img": "/img/uploads/sabor1080x1080.webp"
+        },
+        {
           "start": "2023-02-10T14:58:35.140Z",
           "end": "2023-03-31T20:56:30.535Z",
           "img": "/img/uploads/nutsbar1920.jpg",
