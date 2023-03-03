@@ -17,6 +17,12 @@
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "sort": null,
       "title": "Os queridinhos da Tia Sônia"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/sabor1920x736.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "sabor"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
