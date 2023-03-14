@@ -7,6 +7,14 @@
       "autoplay": 15000,
       "slides": [
         {
+          "start": "2023-03-14T14:55:31.022Z",
+          "end": "2023-03-14T14:55:42.191Z",
+          "img": "/img/uploads/consumidor1920x736-2-.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "promo",
+          "mobile_img": "/img/uploads/consumidor1080x1080.webp"
+        },
+        {
           "start": "2023-02-10T14:58:35.140Z",
           "end": "2023-05-20T15:51:28.490Z",
           "img": "/img/uploads/nutsbar1920.jpg",
@@ -29,14 +37,6 @@
           "mobile_img": "/img/uploads/cashback-ana1080x1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "cashback"
-        },
-        {
-          "start": "2023-03-14T14:55:31.022Z",
-          "end": "2023-03-14T14:55:42.191Z",
-          "img": "/img/uploads/consumidor1920x736-2-.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
-          "alt": "promo",
-          "mobile_img": "/img/uploads/consumidor1080x1080.webp"
         }
       ],
       "full_width": true
