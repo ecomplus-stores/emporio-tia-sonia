@@ -2,6 +2,18 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/consumidor1920x736-2-.webp"
+        }
+      ]
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
@@ -21,5 +33,5 @@
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com uma condição super especial. ",
-  "body": "Os produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade. Foram preparados com muito carinho, com ingredientes integrais e saudáveis. Todo esse cuidado com o objetivo de oferecer os nutrientes e energia que você precisa em todos os momentos do seu dia."
+  "body": "<h1>Uma semana feita para você! </h1> Aproveite as condições especiais que preparamos para você! Promoção Válida até 20/03/2023 ou até durarem os estoques.\n\n* **Ganhe 1 Granola versão em Lata** em compras acima de R$ 200.\n* **Ganhe 1 Tigela exclusiva em** compras acima de R$ 300.\n* Ainda tem **Frete Grátis** acima de R$ 100 e **descontos exclusivos** em produtos selecionados!"
 }
