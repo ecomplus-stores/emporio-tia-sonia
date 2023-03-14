@@ -2,20 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/consumidor1920x736-2-.webp",
-          "link": "#cupom",
-          "alt": "cupom"
-        }
-      ]
-    },
-    {
       "type": "info-bar",
       "enabled": true
     },
@@ -31,6 +17,20 @@
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "sort": null,
       "title": "Os queridinhos da Tia Sônia"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/consumidor1920x736-2-.webp",
+          "link": "#cupom",
+          "alt": "cupom"
+        }
+      ]
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
