@@ -2,6 +2,20 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/consumidor1920x736-2-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "cupom"
+        }
+      ]
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
@@ -17,20 +31,6 @@
       "collection_id": null,
       "sort": "offers",
       "title": "Os queridinhos da Tia Sônia"
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/consumidor1920x736-2-.webp",
-          "link": "#cupom",
-          "alt": "cupom"
-        }
-      ]
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
