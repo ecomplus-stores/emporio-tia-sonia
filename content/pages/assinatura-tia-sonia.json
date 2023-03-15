@@ -28,6 +28,10 @@
       "enabled": true
     },
     {
+      "type": "custom-html",
+      "html": "<center>\n  <a href=\"https://www.emporiotiasonia.com.br/search?sort=sales\" class=\"btn btn-primary btn-block\">Selecionar Produtos para Assinatura</a>\n</center>\n"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
