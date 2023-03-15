@@ -36,7 +36,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<style>\n  .breadcrumb * {display: inline-flex !important;\n  align-items: center;}\n</style>"
+      "html": "<style>\n  .breadcrumb * {display: inline-flex !important;\n  align-items: center;}\n  #topSlide{display:none;}\n  #header{display:none;}\n</style>"
     }
   ]
 }
