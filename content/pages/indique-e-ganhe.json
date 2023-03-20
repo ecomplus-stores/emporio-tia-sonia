@@ -12,6 +12,10 @@
     {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "custom-content",
+      "markdown": "Como funciona o programa de indicação?\n\n\nIndiquei alguém, como e quando posso resgatar minha recompensa?\n\n\nPara indicar alguém eu preciso ter uma conta?\n\n\nPosso indicar a mim mesmo?\n\n\nQuantas recompensas posso receber, e elas são cumulativas?\n\n\nOnde posso acompanhar o status de minhas recompensas?\n\n\nPor que não recebi minha recompensa?\n\n\nIndiquei um amigo e recebi minha recompensa de R$25,00, posso usar ainda um cupom de desconto?\n\n\nCliquei no link compartilhado por alguém, como ativo o desconto de 15%?\n\n\nO desconto de 15% pode ser utilizado em períodos promocionais?"
     }
   ]
 }
