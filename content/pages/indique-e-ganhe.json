@@ -5,6 +5,11 @@
   "body": "Indique os deliciosos produtos Tia Sônia e ganhe descontos exclusivos no site! Compartilhe saúde e sabor com seus amigos e economize nas suas compras online.",
   "sections": [
     {
+      "type": "page-title",
+      "title": "Indique os Produtos Tia Sônia e Ganhe descontos no site",
+      "description": "Indique os deliciosos produtos Tia Sônia e ganhe descontos exclusivos no site! Compartilhe saúde e sabor com seus amigos e economize nas suas compras online."
+    },
+    {
       "type": "extra-page",
       "enabled": true
     }
