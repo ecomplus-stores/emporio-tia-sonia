@@ -2,5 +2,11 @@
   "title": "Indique e Ganhe",
   "meta_title": "Indique os Produtos Tia Sônia e Ganhe descontos no site",
   "meta_description": "Indique os deliciosos produtos Tia Sônia e ganhe descontos exclusivos no site! Compartilhe saúde e sabor com seus amigos e economize nas suas compras online.",
-  "body": "Indique os deliciosos produtos Tia Sônia e ganhe descontos exclusivos no site! Compartilhe saúde e sabor com seus amigos e economize nas suas compras online."
+  "body": "Indique os deliciosos produtos Tia Sônia e ganhe descontos exclusivos no site! Compartilhe saúde e sabor com seus amigos e economize nas suas compras online.",
+  "sections": [
+    {
+      "type": "extra-page",
+      "enabled": true
+    }
+  ]
 }
