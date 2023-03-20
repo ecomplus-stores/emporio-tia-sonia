@@ -5,6 +5,18 @@
   "body": "Compartilhe um link com seu código de **15% desconto** para primeiras compras no Empório Tia Sônia!\n\nA gente vai te dar **R$25 por cada indicação** bem-sucedida. **Clique no botão abaixo e cadastre-se para começar.**\n\n<a href=\"https://webapp.brandlovrs.com/intro\" target=\"blank\" class=\"btn product-card__buy btn-primary\">Compartilhe e Ganhe</a>",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2023-03-20T18:00:47.162Z",
+          "end": "",
+          "img": "/img/uploads/four-people-dancing-background-bright-sunset.webp"
+        }
+      ]
+    },
+    {
       "type": "page-title",
       "title": "Indique amigos para conhecer a Tia Sônia: Dê 15% off e ganhe R$25",
       "description": ""
