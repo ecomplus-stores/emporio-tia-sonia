@@ -29,6 +29,14 @@
           "mobile_img": "/img/uploads/cashback-ana1080x1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "cashback"
+        },
+        {
+          "start": "2023-03-21T20:21:21.998Z",
+          "end": "2023-03-21T20:23:49.731Z",
+          "img": "/img/uploads/nutri1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "promo",
+          "mobile_img": "/img/uploads/nutri1080x1080.webp"
         }
       ],
       "full_width": true
