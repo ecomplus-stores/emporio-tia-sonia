@@ -2,6 +2,18 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/nutri1920x500.webp"
+        }
+      ]
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
@@ -17,6 +29,10 @@
       "collection_id": null,
       "sort": "sales",
       "title": "Os queridinhos da Tia Sônia"
+    },
+    {
+      "type": "custom-html",
+      "html": "<style> #topSlide, #header {display:none;} </style>"
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
