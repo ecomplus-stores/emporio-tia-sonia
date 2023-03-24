@@ -5,6 +5,10 @@
   background-color:#333333;
 }
 
+.buy-together__item .product-card__buy {
+  display: none !important;
+}
+
 @media (min-width: 992px) {
   .glide__bullets {
     bottom: 1.75rem;
