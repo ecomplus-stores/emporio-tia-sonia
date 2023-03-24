@@ -64,7 +64,7 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/tstorytiasonia.jpg",
+      "img": "/img/uploads/tstorytiasonia.webp",
       "alt": "História de Tia Sônia",
       "link": "https://www.emporiotiasonia.com.br/pages/sobre-nos"
     },
@@ -106,10 +106,10 @@
         {
           "start": "2022-08-15T15:21:43.945Z",
           "end": "",
-          "img": "/img/uploads/ebook-500.jpg",
+          "img": "/img/uploads/ebook-500.webp",
           "link": "https://lp.tiasonia.com.br/ebook",
           "alt": "ebook",
-          "mobile_img": "/img/uploads/ebook-1080.jpg"
+          "mobile_img": "/img/uploads/ebook-1080.webp"
         }
       ]
     }
