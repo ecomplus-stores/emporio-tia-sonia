@@ -8,6 +8,34 @@
 .buy-together__item .product-card__buy {
   display: none !important;
 }
+.buy-together__title {
+  position: relative;
+  color: #365b80;
+  font-family: Averta;
+  line-height: 1.22;
+  text-decoration: none;
+  margin-bottom: 1.25rem;
+  > div {
+    padding: 0 var(--spacer-3);
+    margin: 0 auto;
+    display: inline-block;
+    background: #fff;
+    font-size: 1.375rem;
+    font-weight: 700;
+    z-index: 2;
+    position: relative;
+  }
+  &::before {
+    background: var(--border-color);
+    content: " ";
+    height: var(--border-width);
+    left: 15%;
+    margin-top: -.05rem;
+    position: absolute;
+    top: 50%;
+    width: 70%;
+  }
+}
 
 @media (min-width: 992px) {
   .glide__bullets {
