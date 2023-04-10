@@ -418,9 +418,9 @@ h1 {
 .prices__discount{
   //display:none;
 }
-.discount-applier .alert::after{
+/* .discount-applier .alert::after{
  content: '*O valor do desconto não é cumulativo com outras promoções';
-}
+} */
 //remover status pedido aberto
 .order-info__status--open {
   display: none
