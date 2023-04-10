@@ -14,8 +14,8 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "collection_id": null,
-      "sort": "sales",
+      "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
+      "sort": "highest_price",
       "title": "Os queridinhos da Tia Sônia"
     },
     {
