@@ -417,6 +417,7 @@ h1 {
 .discount-applier .alert::after{
  content: '*O valor do desconto não é cumulativo com outras promoções';
 }
+.cart__summary-row[data-discount^="0.0"],
 .summary__amount__row[data-discount^="0.0"] {
   display: none;
 }
