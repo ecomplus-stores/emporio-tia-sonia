@@ -93,7 +93,8 @@
       :variant="alertVariant"
       @dismiss="alertText = null"
     >
-      {{ alertText }}
+      {{ localCouponCode.toLowerCase() === 'livelo'
+        ? 'Você ganha pontos LIVELO nessa compra.' : alertText }}
     </a-alert>
   </div>
   

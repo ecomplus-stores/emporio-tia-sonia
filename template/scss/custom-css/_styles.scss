@@ -414,12 +414,11 @@ h1 {
   //display: none !important
 }
 
-//não mostrar preço com desconto
-.prices__discount{
-  //display:none;
-}
 .discount-applier .alert::after{
  content: '*O valor do desconto não é cumulativo com outras promoções';
+}
+.summary__amount__row[data-discount^="0.0"] {
+  display: none;
 }
 //remover status pedido aberto
 .order-info__status--open {
@@ -429,17 +428,6 @@ h1 {
 .summary__item img {
   width: 50px;
 }
-
-.product-item
-
-// aumentar botao comprar
-.product__buy button {
-    padding: .5rem 4rem;
-}
-// esconder pessoa jurídica
-/*#account-form-type-j, #account-form-type-j + label {
-display: none !important;
-} */
 
 //bt comprar busca
 .product-card__buy .btn-primary {
@@ -1054,7 +1042,10 @@ footer .trustvox-certificate__fixed-seal{
   position: absolute!important;
   width: 100%;
 }
-#checkout .product-card .product-card__buy > button{margin:0 auto}
+#checkout .product-card .product-card__buy > button {
+  min-width: 70%;
+  margin: 0 auto;
+}
 #checkout .product-card .product-card__buy > button{font-size:0;line-height:0}
 #checkout .product-card .product-card__buy > button:after{
   font-size: 14px;
