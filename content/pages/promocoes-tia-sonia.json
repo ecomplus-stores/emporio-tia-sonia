@@ -25,6 +25,15 @@
     {
       "type": "custom-html",
       "html": "<!-- <style> #topSlide, #header {display:none;} </style> -->\n\n"
+    },
+    {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2023-04-20T18:38:12.640Z",
+      "end": "2023-04-23T18:38:12.685Z",
+      "offers": [
+        "5d09191c24607a6a42d7135f"
+      ]
     }
   ],
   "meta_title": "Cupom de Desconto e Frete Grátis - Tia Sônia",
