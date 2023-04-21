@@ -8,36 +8,28 @@
     "title": "Informações ",
     "list": [
       {
-        "text": "Fale com a Tia Sônia",
-        "url": "/pages/contato"
-      },
-      {
         "text": "Sobre a Tia Sônia",
         "url": "/pages/sobre-nos"
-      },
-      {
-        "text": "Condições de entrega",
-        "url": "/pages/entrega"
-      },
-      {
-        "text": "Onde encontrar",
-        "url": "/pages/onde-encontrar"
       },
       {
         "text": "Seja um Distribuidor",
         "url": "https://api.whatsapp.com/send?phone=5577999028293&text=Ol%C3%A1,%20gostaria%20de%20ser%20um%20distribuidor%20Tia%20S%C3%B4nia."
       },
       {
-        "text": "Área do Lojista",
-        "url": "https://tiasonia.meuspedidos.com.br/entrar"
+        "text": "Compras em Atacado",
+        "url": "https://compre.tiasonia.com.br/"
+      },
+      {
+        "text": "Fale com a Tia Sônia",
+        "url": "/pages/contato"
+      },
+      {
+        "text": "Onde encontrar",
+        "url": "/pages/onde-encontrar"
       },
       {
         "text": "Cadastro Nutricionista",
         "url": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista"
-      },
-      {
-        "text": "Política de privacidade",
-        "url": "/pages/privacidade"
       },
       {
         "text": "Termos de serviço",
@@ -54,6 +46,10 @@
       {
         "text": "Assinatura (Compra Recorrente)",
         "url": "https://www.emporiotiasonia.com.br/pages/assinatura-tia-sonia"
+      },
+      {
+        "text": "Política de privacidade",
+        "url": "/pages/privacidade"
       }
     ]
   },
