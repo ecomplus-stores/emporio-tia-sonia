@@ -389,8 +389,8 @@ export default {
     },
 
     addProgressiveDiscount (price) {
-      const { kitCta } = this
-      const progressiveDiscount =  kitCta.qnt > 1 && this.qntToBuy * this.qntCt >= kitCta.qnt
+      const { kitCta, isKit } = this
+      const progressiveDiscount =  !isKit && kitCta.qnt > 1 && this.qntToBuy * this.qntCt >= kitCta.qnt
         ? kitCta.discount : 0
       if (progressiveDiscount) {
         return price * ((100 - progressiveDiscount) / 100)
