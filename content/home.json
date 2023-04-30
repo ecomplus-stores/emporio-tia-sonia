@@ -112,6 +112,16 @@
           "mobile_img": "/img/uploads/ebook-1080.webp"
         }
       ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/kit-mais-vendidos.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
+          "alt": "kitmaisvendidos"
+        }
+      ]
     }
   ]
 }
