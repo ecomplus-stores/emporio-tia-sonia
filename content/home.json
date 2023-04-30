@@ -46,6 +46,26 @@
       "enabled": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/kit-mais-vendidos.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
+          "alt": "kitmaisvendidos"
+        },
+        {
+          "img": "/img/uploads/kit-mais-feliz.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
+          "alt": "maisfeliz"
+        },
+        {
+          "img": "/img/uploads/kit-sem-acucar.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---zero-adicao-de-acucar---tia-sonia",
+          "alt": "semacucar"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -110,26 +130,6 @@
           "link": "https://lp.tiasonia.com.br/ebook",
           "alt": "ebook",
           "mobile_img": "/img/uploads/ebook-1080.webp"
-        }
-      ]
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/kit-mais-vendidos.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
-          "alt": "kitmaisvendidos"
-        },
-        {
-          "img": "/img/uploads/kit-mais-feliz.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
-          "alt": "maisfeliz"
-        },
-        {
-          "img": "/img/uploads/kit-sem-acucar.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---zero-adicao-de-acucar---tia-sonia",
-          "alt": "semacucar"
         }
       ]
     }
