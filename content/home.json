@@ -120,6 +120,11 @@
           "img": "/img/uploads/kit-mais-vendidos.webp",
           "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
           "alt": "kitmaisvendidos"
+        },
+        {
+          "img": "/img/uploads/kit-mais-feliz.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
+          "alt": "maisfeliz"
         }
       ]
     }
