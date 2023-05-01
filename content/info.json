@@ -1,7 +1,7 @@
 {
   "shipping": {
     "show": true,
-    "text": "Compras acima de R$ 79",
+    "text": "Compras acima de R$ 100",
     "title": "Entrega Grátis"
   },
   "installments": {
