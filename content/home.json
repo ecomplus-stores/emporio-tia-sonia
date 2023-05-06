@@ -7,8 +7,16 @@
       "autoplay": 15000,
       "slides": [
         {
+          "start": "2023-05-06T12:57:34.955Z",
+          "end": "",
+          "img": "/img/uploads/banner-desktop_dia-das-maes-1-.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/promocoes-tia-sonia",
+          "alt": "maes",
+          "mobile_img": "/img/uploads/banner-celular_dia-das-maes.webp"
+        },
+        {
           "start": "2023-04-30T09:26:24.323Z",
-          "end": "2023-05-31T11:45:53.950Z",
+          "end": "2023-05-06T12:56:57.142Z",
           "img": "/img/uploads/nutsbar1920.jpg",
           "link": "https://www.emporiotiasonia.com.br/nutsbar-tia-sonia",
           "alt": "nutsbar",
