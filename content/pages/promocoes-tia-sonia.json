@@ -2,6 +2,20 @@
   "title": "Promoções",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "2023-05-06T12:55:17.636Z",
+          "end": "",
+          "img": "/img/uploads/banner-desktop_dia-das-maes-1-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "maes"
+        }
+      ]
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
@@ -14,9 +28,9 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "sort": "highest_price",
-      "title": "G﻿ranola é Tia Sônia!"
+      "title": "Dia das Mães Tia Sônia"
     },
     {
       "type": "custom-html",
@@ -25,5 +39,5 @@
   ],
   "meta_title": "Desconto e Frete Grátis - Promoções Tia Sônia",
   "meta_description": "Encontre aqui os melhores produtos da Tia Sônia com uma condição super especial. ",
-  "body": "* **F﻿rete Grátis** em compras acima de R$ 100\n* **C﻿ashback** em sua próxima compra.\n\nOs produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade. Foram preparados com muito carinho, com ingredientes integrais e saudáveis. Todo esse cuidado com o objetivo de oferecer os nutrientes e energia que você precisa em todos os momentos do seu dia."
+  "body": "### Dia das Mães recheado de amor e promoções: celebre com as delícias saudáveis da Tia Sônia!\n\n* **F﻿rete Grátis** em compras acima de R$ 80\n* **2﻿0% OFF** em produtos selecionados! Use o cupom: **DIADASMAES**\n* **C﻿ashback** em sua próxima compra.\n\nA história da Tia Sônia começou com uma preocupação materna e uma receita de granola caseira. Dona Sônia, mãe de Marcos, fez uma grande quantidade de granola para seu filho levar em sua viagem a Machu Picchu. A granola fez tanto sucesso entre os amigos de Marcos que, após retornarem da viagem, eles insistiram para que ele começasse a vendê-la.\n\nHoje, mais de 25 anos depois, a Tia Sônia é uma marca reconhecida por sua qualidade em mais de 100 produtos de alimentação saudável e natural."
 }
