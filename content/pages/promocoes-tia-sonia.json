@@ -11,7 +11,8 @@
           "end": "",
           "img": "/img/uploads/banner-desktop_dia-das-maes-1-.webp",
           "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "maes"
+          "alt": "maes",
+          "mobile_img": "/img/uploads/banner-mini-1-.webp"
         }
       ]
     },
