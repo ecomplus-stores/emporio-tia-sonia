@@ -10,6 +10,7 @@
           class="form-control"
           readonly
           :value="link"
+          @focus="$event.target.select()"
         />
       </div>
       <button
