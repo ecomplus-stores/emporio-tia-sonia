@@ -3,13 +3,23 @@
     <a-alert v-if="!isLogged">
       Faça login em sua conta da loja para acessar seu link indicação
     </a-alert>
-    <button
-      v-else
-      class="btn btn-link"
-      @click="share"
-    >
-      <mark>{{ link }}</mark>
-    </button>
+    <template v-else>
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          readonly
+          :value="link"
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        @click="share"
+      >
+        <i class="i-chevron-right mr-1"></i>
+        Compartilhe seu link
+      </button>
+    </template>
   </div>
 </template>
 
@@ -35,7 +45,7 @@ export default {
     setLink () {
       const customer = ecomPassport.getCustomer()
       this.link = `https://${window.location.host}/` +
-        `?coupon=CONVITE_ESPECIAL&referral=${customer._id}`
+        `?coupon=CONVITEESPECIAL&referral=${customer._id}`
     },
 
     share () {
