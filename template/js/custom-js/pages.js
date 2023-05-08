@@ -1,3 +1,6 @@
+import Vue from 'vue'
+import AffiliateLink from './components/AffiliateLink.vue'
+
 const urlParams = new URLSearchParams(window.location.search)
 if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
   // livelo
@@ -9,6 +12,11 @@ if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
     })
   }, 1000)
   window.sessionStorage.setItem('_lpcid', urlParams.get('lpcid'))
+}
+
+const affiliateLinkDiv = document.getElementById('affiliate-link')
+if (affiliateLinkDiv) {
+  new Vue(AffiliateLink).$mount(affiliateLinkDiv)
 }
 
 // Add your custom JavaScript for storefront pages here.
