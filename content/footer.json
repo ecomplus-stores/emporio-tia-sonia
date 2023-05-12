@@ -109,37 +109,53 @@
   "stamps": [
     {
       "src": "/img/uploads/organico-120-80.png",
-      "alt": "Produto Orgânico"
+      "alt": "Produto Orgânico",
+      "width": 120,
+      "height": 80
     },
     {
       "src": "/img/uploads/vegano-120-80.png",
-      "alt": "Produto Vegano"
+      "alt": "Produto Vegano",
+      "width": 120,
+      "height": 80
     },
     {
       "src": "/img/uploads/ibd-120-80.png",
-      "alt": "Certificado Orgânico IBD"
+      "alt": "Certificado Orgânico IBD",
+      "width": 120,
+      "height": 80
     },
     {
       "src": "/img/uploads/usda-120-80.png",
-      "alt": "USDA Organic"
+      "alt": "USDA Organic",
+      "width": 120,
+      "height": 80
     },
     {
       "src": "/img/uploads/eu-reciclo-120-80.png",
       "link": "",
-      "alt": "Selo Tia Sônia Eureciclo"
+      "alt": "Selo Tia Sônia Eureciclo",
+      "width": 120,
+      "height": 80
     },
     {
       "src": "/img/uploads/fabrinq.jpg",
-      "alt": "abrinq"
+      "alt": "abrinq",
+      "width": 120,
+      "height": 80
     },
     {
       "src": "/img/uploads/capitalismo.jpg",
-      "alt": "capitalismo"
+      "alt": "capitalismo",
+      "width": 120,
+      "height": 80
     },
     {
       "src": "/img/uploads/empresab-1-.jpg",
       "alt": "EMPRESAB",
-      "link": "https://www.sistemab.org/empresasb/alimentos-tia-sonia/"
+      "link": "https://www.sistemab.org/empresasb/alimentos-tia-sonia/",
+      "width": 120,
+      "height": 80
     }
   ],
   "payment_methods": {
