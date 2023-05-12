@@ -2,21 +2,6 @@
   "title": "Promoções",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": true,
-      "slides": [
-        {
-          "start": "2023-05-12T11:05:20.155Z",
-          "end": "",
-          "img": "/img/uploads/diadasmaes_tiasonia_bannerdesktop.webp",
-          "link": "https://www.emporiotiasonia.com.br/dia-das-maes-mais-feliz-com-tia-sonia",
-          "alt": "maes",
-          "mobile_img": "/img/uploads/diadasmaes_tiasonia_feed.webp"
-        }
-      ]
-    },
-    {
       "type": "info-bar",
       "enabled": true
     },
