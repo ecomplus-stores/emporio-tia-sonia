@@ -6,6 +6,11 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/diadasmaes_tiasonia_bannerdesktop.webp",
+      "alt": "maes"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
