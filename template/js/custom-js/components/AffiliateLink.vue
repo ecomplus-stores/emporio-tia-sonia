@@ -1,7 +1,8 @@
 <template>
   <div id="affiliate-link">
     <a-alert v-if="!isLogged">
-      Faça login em sua conta da loja para acessar seu link indicação
+      <a href="#" @click.prevent="login" class="alert-link">Faça login</a>
+      em sua conta da loja para acessar seu link indicação
     </a-alert>
     <template v-else>
       <div class="form-group">
@@ -63,6 +64,15 @@ export default {
   },
 
   methods: {
+    login () {
+      const loginButton = document.getElementById('user-button')
+      if (loginButton) {
+        loginButton.click()
+      } else {
+        window.location = '/app/#/account/'
+      }
+    },
+
     setLink () {
       const customer = ecomPassport.getCustomer()
       this.link = `https://${window.location.host}/` +
