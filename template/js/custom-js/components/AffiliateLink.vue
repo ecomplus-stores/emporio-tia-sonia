@@ -5,13 +5,28 @@
     </a-alert>
     <template v-else>
       <div class="form-group">
-        <input
-          type="text"
-          class="form-control"
-          readonly
-          :value="link"
-          @focus="$event.target.select()"
-        />
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <button
+              :class="`btn btn-outline-${(copyIconClass === 'i-check' ? 'success' : 'secondary')}`"
+              :disabled="copyIconClass === 'i-check'"
+              type="button"
+              @click="() => toClipboard(link)"
+            >
+              <span class="d-inline-block" style="width: 26px">
+                <i :class="copyIconClass"></i>
+              </span>
+              Copiar
+            </button>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            readonly
+            :value="link"
+            @focus="$event.target.select()"
+          />
+        </div>
       </div>
       <button
         class="btn btn-primary"
@@ -25,8 +40,12 @@
 </template>
 
 <script>
+import Vue from 'vue'
 import ecomPassport from '@ecomplus/passport-client'
+import VueClipboard from 'vue-clipboard2'
 import AAlert from '@ecomplus/storefront-components/src/AAlert.vue'
+
+Vue.use(VueClipboard)
 
 export default {
   name: 'AffiliateLink',
@@ -38,7 +57,8 @@ export default {
   data () {
     return {
       isLogged: false,
-      link: ''
+      link: '',
+      copyIconClass: 'i-copy'
     }
   },
 
@@ -58,15 +78,28 @@ export default {
             title: 'Tia Sônia - Convite especial: Ganhe R$ 25,00',
             text,
             url: this.link
-          });
+          })
         } catch (err) {
           console.error(err)
-          const wppLink = 'https://web.whatsapp.com/send?text=' +
-            encodeURIComponent(text + ' ' + this.link)
-          window.open(wppLink, '_blank')
+          if (typeof navigator.share !== 'function') {
+            const wppLink = 'https://web.whatsapp.com/send?text=' +
+              encodeURIComponent(text + ' ' + this.link)
+            window.open(wppLink, '_blank')
+          }
         }
       }
       share()
+    },
+
+    toClipboard (text) {
+      this.$copyText(text).then(() => {
+        this.copyIconClass = 'i-check'
+        setTimeout(() => {
+          this.copyIconClass = 'i-copy'
+        }, 3000)
+      }, err => {
+        console.error(err)
+      })
     }
   },
 
