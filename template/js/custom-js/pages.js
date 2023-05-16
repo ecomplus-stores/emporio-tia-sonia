@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import AffiliateLink from './components/AffiliateLink.vue'
 
 const urlParams = new URLSearchParams(window.location.search)
 if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
@@ -16,7 +15,9 @@ if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
 
 const affiliateLinkDiv = document.getElementById('affiliate-link')
 if (affiliateLinkDiv) {
-  new Vue(AffiliateLink).$mount(affiliateLinkDiv)
+  import('./components/AffiliateLink.vue').then(({ default: AffiliateLink }) => {
+    new Vue(AffiliateLink).$mount(affiliateLinkDiv)
+  })
 }
 
 // Add your custom JavaScript for storefront pages here.
