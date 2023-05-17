@@ -10,7 +10,7 @@ import {
   i19invalidCouponMsg
 } from '@ecomplus/i18n'
 
-import { i18n } from '@ecomplus/utils'
+import { i18n, formatMoney } from '@ecomplus/utils'
 import { store, modules } from '@ecomplus/client'
 import ecomCart from '@ecomplus/shopping-cart'
 import ecomPassport from '@ecomplus/passport-client'
@@ -119,7 +119,7 @@ export default {
     parseDiscountOptions (listResult = []) {
       let extraDiscountValue = 0
       if (listResult.length) {
-        let discountRule, invalidCouponMsg
+        let discountRule, invalidCouponMsg, additionalCouponMsg
         listResult.forEach(appResult => {
           const { validated, error, response } = appResult
           if (validated && !error) {
@@ -135,6 +135,8 @@ export default {
               }
             } else if (response.invalid_coupon_message) {
               invalidCouponMsg = response.invalid_coupon_message
+            } else if (this.localCouponCode && response.available_extra_discount && response.available_extra_discount.min_amount) {
+              additionalCouponMsg = `Adicione mais ${formatMoney(response.available_extra_discount.min_amount - this.amount.subtotal)} para validar o cupom ${this.localCouponCode}`
             }
             if (this.canAddFreebieItems) {
               addFreebieItems(this.ecomCart, response.freebie_product_ids)
@@ -157,6 +159,9 @@ export default {
         } else {
           if (this.localCouponCode) {
             this.alertText = invalidCouponMsg || this.i19invalidCouponMsg
+            if (this.localCouponCode.toLowerCase() === 'tiasoniavik02') { 
+              this.alertText = additionalCouponMsg
+            }
             this.alertVariant = 'warning'
           } else {
             this.alertText = null
