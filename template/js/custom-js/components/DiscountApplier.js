@@ -155,10 +155,11 @@ import {
           } else {
             if (this.localCouponCode) {
               this.alertText = invalidCouponMsg || this.i19invalidCouponMsg
+              this.alertVariant = 'warning'
               if (this.localCouponCode.toLowerCase() === 'tiasoniavik02') { 
                 this.alertText = additionalCouponMsg
+                this.alertVariant = 'info'
               }
-              this.alertVariant = 'warning'
             } else {
               this.alertText = null
             }
