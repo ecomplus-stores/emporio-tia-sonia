@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import EcomSearch from '@ecomplus/search-engine'
 
 const urlParams = new URLSearchParams(window.location.search)
 if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
@@ -17,6 +18,25 @@ const affiliateLinkDiv = document.getElementById('affiliate-link')
 if (affiliateLinkDiv) {
   import('./components/AffiliateLink.vue').then(({ default: AffiliateLink }) => {
     new Vue(AffiliateLink).$mount(affiliateLinkDiv)
+  })
+}
+
+if (window.location.pathname === '/pages/ofertas') {
+  const timestamp = Date.now()
+  EcomSearch.dslMiddlewares.push((dsl) => {
+    dsl.query.bool.filter.push({
+      script: {
+        script: {
+          lang: 'painless',
+          source: "doc['price'].value > 0 && doc['base_price'].value > 0" +
+            " && (doc['price_effective_date.start'].empty || " +
+              `doc['price_effective_date.start'].date.millis <= ${timestamp}L)` +
+            " && (doc['price_effective_date.end'].empty || " +
+              `doc['price_effective_date.end'].date.millis >= ${timestamp}L)` +
+            " ? doc['base_price'].value > doc['price'].value : false"
+        }
+      }
+    })
   })
 }
 

@@ -65,6 +65,8 @@ if (!opt.items) {
             </div>
           </article>
         </div>
+      <% } else if (opt.items) { %>
+        <%- await include('@/sections/inc/loading') %>
       <% } %>
     </div>
 

@@ -3,7 +3,8 @@
     _, opt: {
       sort: opt.sort,
       disable_filters: true,
-      disable_load_more: !opt.load_more
+      disable_load_more: !opt.load_more,
+      items: _.pageName === 'pages/ofertas' ? [] : undefined
     }
   }) %>
 </div>
