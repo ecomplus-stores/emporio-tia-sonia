@@ -13,17 +13,6 @@
         </li>
       <% } %>
     <% }) %>
-    <script type="text/javascript">
-      (function () {
-          var yvs = document.createElement("script");
-          yvs.type = "text/javascript";
-          yvs.async = true;
-          yvs.id = "_yvsrc";
-          yvs.src = "//service.yourviews.com.br/script/789f2809-7947-4b6e-bf0f-211b9f9ef83e/yvapi.js";
-          var yvs_script = document.getElementsByTagName("script")[0];
-          yvs_script.parentNode.insertBefore(yvs, yvs_script);
-      })();
-  </script>
 
     <%- await include('@/helpers/widgets-append', {
       _, opt: {}, field: 'stampsAppend'
