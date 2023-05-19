@@ -5,10 +5,6 @@
   "body": "# Ofertas Tia Sônia \n\n### Nossos produtos deliciosos e saudáveis com **descontos especiais**",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<div></div>"
-    },
-    {
       "type": "extra-page",
       "enabled": true
     },
