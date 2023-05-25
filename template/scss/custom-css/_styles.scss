@@ -51,7 +51,7 @@
   color: var(--secondary-lighter);
 }
 .order-info__valid-thru {
-  color: #fff;
+  color: #fff !important;
   > div {
     font-weight: 700;
   }
