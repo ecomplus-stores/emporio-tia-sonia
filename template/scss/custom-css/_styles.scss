@@ -2,7 +2,7 @@
   display:none;
 }
 .product__sale-timer {
-  background-color:#333333;
+  background-color: #333333;
 }
 .buy-together__item .product-card__buy {
   display: none !important;
@@ -38,6 +38,17 @@
 
 .dynamic-showcase {
   min-height: 500px;
+}
+
+.order-info__transaction-code code {
+  display: -webkit-box;
+  line-height: 12.5px;
+  font-size: 11px;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 3px;
+  color: var(--secondary-lighter);
 }
 
 @media (min-width: 992px) {
