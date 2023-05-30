@@ -178,11 +178,6 @@ h1 {
     display: none;
 }
 
-//tag oferta %
-.product-card__offer-stamp {
-    display: none;
-}
-
 //menu ofertas back
 /*
 .header__row .header__nav a:last-child {    
@@ -2102,4 +2097,9 @@ text-align:center;
       border-bottom-left-radius: 0;
     }
   }
+}
+
+//tag oferta %
+.product-card__offer-stamp {
+    display: none;
 }
