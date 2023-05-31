@@ -2,6 +2,11 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/promocoes",
+        "destination": "/pages/ofertas",
+        "type": 301
+      },
+      {
         "source": "/granola-tia-sonia-x-pin-200g",
         "destination": "/granola-zero-acucar-tia-sonia-x-pin",
         "type": 301
