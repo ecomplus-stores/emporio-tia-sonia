@@ -527,6 +527,9 @@ export default {
   },
 
   created () {
+    if (this.kitCta.qnt > 3 && this.product.sku === 'PA081') {
+      this.kitCta.qnt -= 1
+    }
     const presetQntToBuy = () => {
       this.qntToBuy = this.body.min_quantity || 1
     }
