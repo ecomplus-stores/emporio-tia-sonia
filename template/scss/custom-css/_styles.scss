@@ -51,7 +51,7 @@
   color: var(--secondary-lighter);
 }
 .order-info__valid-thru {
-  color: #fff;
+  color: #fff !important;
   > div {
     font-weight: 700;
   }
@@ -176,11 +176,6 @@ h1 {
 //remover parcelas
 .payment__badges {
     display: none;
-}
-
-//tag oferta %
-.product-card__offer-stamp {
-    //display: none;
 }
 
 //menu ofertas back
@@ -2102,4 +2097,9 @@ text-align:center;
       border-bottom-left-radius: 0;
     }
   }
+}
+
+//tag oferta %
+.product-card__offer-stamp {
+    display: none;
 }

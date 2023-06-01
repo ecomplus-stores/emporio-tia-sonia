@@ -1,7 +1,7 @@
 {
   "shipping": {
     "show": true,
-    "text": "Compras acima de R$ 100",
+    "text": "Compras acima de R$ 120",
     "title": "Entrega Grátis"
   },
   "installments": {
@@ -18,7 +18,7 @@
   },
   "promo": {
     "show": true,
-    "text": "5% de Desconto",
+    "text": "Aprovação imediata!",
     "title": "Pague com PIX"
   }
 }

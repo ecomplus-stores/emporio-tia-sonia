@@ -11,17 +11,10 @@
       "slides": [
         {
           "start": "",
-          "end": "",
+          "end": "2023-05-30T00:38:44.859Z",
           "img": "/img/uploads/prancheta-1.webp",
           "link": "https://www.emporiotiasonia.com.br/kit-aromas-e-delicias-tapioca-cafe",
           "alt": "kit"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/1920-kits.jpg",
-          "link": "https://www.emporiotiasonia.com.br/search?term=kit",
-          "alt": "kits"
         }
       ]
     },
@@ -32,6 +25,15 @@
     {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 4,
+      "page": 1,
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+      "sort": "sales",
+      "link": "Os queridinhos da Tia Sônia!"
     },
     {
       "type": "dynamic-showcase",

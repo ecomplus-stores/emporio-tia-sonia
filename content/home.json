@@ -7,16 +7,8 @@
       "autoplay": 15000,
       "slides": [
         {
-          "start": "2023-05-06T12:57:34.955Z",
-          "end": "2023-05-24T11:16:36.016Z",
-          "img": "/img/uploads/banner-3-desktop_dia-das-ma-aes.webp",
-          "link": "https://www.emporiotiasonia.com.br/dia-das-maes-mais-feliz-com-tia-sonia",
-          "alt": "maes",
-          "mobile_img": "/img/uploads/banner-3-celular_dia-das-ma-aes.webp"
-        },
-        {
           "start": "2023-04-30T09:26:24.323Z",
-          "end": "2023-05-06T12:56:57.142Z",
+          "end": "",
           "img": "/img/uploads/nutsbar1920.jpg",
           "link": "https://www.emporiotiasonia.com.br/nutsbar-tia-sonia",
           "alt": "nutsbar",
@@ -40,7 +32,7 @@
         },
         {
           "start": "2023-05-11T15:02:38.215Z",
-          "end": "",
+          "end": "2023-05-27T01:52:48.639Z",
           "img": "/img/uploads/prancheta-1.webp",
           "mobile_img": "/img/uploads/kit-tapioca-e-cafe.jpg",
           "link": "https://www.emporiotiasonia.com.br/kit-aromas-e-delicias-tapioca-cafe",
@@ -113,9 +105,9 @@
       "shuffle": false,
       "limit": "",
       "page": "",
-      "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
+      "collection_id": "5ef2982614ff772fde7ae3a2:collections:Orgânico:/organico-col",
       "sort": "sales",
-      "title": "Marca Parceira: Pipocas Sinta+ "
+      "title": "Produtos Orgânicos"
     },
     {
       "type": "collection-shelf",
