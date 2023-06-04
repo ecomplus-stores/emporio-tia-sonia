@@ -5,22 +5,23 @@
   "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
         {
-          "start": "",
-          "end": "2023-05-30T00:38:44.859Z",
-          "img": "/img/uploads/prancheta-1.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit-aromas-e-delicias-tapioca-cafe",
+          "img": "/img/uploads/banner_mini_dia-dos-namorados.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/Os%20queridinhos%20da%20Tia%20S%C3%B4nia!",
+          "alt": "mais"
+        },
+        {
+          "img": "/img/uploads/kit-mais-feliz.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
           "alt": "kit"
         }
       ]
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
     },
     {
       "type": "extra-page",
