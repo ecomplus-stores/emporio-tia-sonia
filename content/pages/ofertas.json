@@ -9,23 +9,14 @@
       "enabled": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/banner_mini_dia-dos-namorados.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/Os%20queridinhos%20da%20Tia%20S%C3%B4nia!",
-          "alt": "mais"
-        },
-        {
-          "img": "/img/uploads/kit-mais-feliz.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
-          "alt": "kit"
-        }
-      ]
-    },
-    {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner_desktop_dia-dos-namorados.webp",
+      "link": "https://www.emporiotiasonia.com.br/search",
+      "alt": "produtos"
     },
     {
       "type": "collection-shelf",
