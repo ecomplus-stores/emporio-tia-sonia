@@ -13,6 +13,11 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner_desktop_dia-dos-namorados.webp",
+      "alt": "namorados"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
