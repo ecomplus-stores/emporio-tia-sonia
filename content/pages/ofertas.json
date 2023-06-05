@@ -13,12 +13,6 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner_desktop_dia-dos-namorados.webp",
-      "link": "https://www.emporiotiasonia.com.br/search",
-      "alt": "produtos"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
