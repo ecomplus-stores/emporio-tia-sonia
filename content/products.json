@@ -1,6 +1,10 @@
 {
   "sections": [
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "type": "breadcrumbs",
       "enabled": true
     },
@@ -13,18 +17,6 @@
       }
     },
     {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
-      "type": "buy-together",
-      "enabled": true
-    },
-    {
-      "type": "recommended-products",
-      "title": "Quem comprou este produto, também comprou:"
-    },
-    {
       "type": "related-products",
       "title": "Você também pode gostar"
     },
@@ -35,13 +27,6 @@
     {
       "type": "product-specifications",
       "enabled": true
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/cash-ana-tiasonia-3-.webp",
-      "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-      "alt": "pontos",
-      "mobile_img": "/img/uploads/cash-ana-tiasonia-2-.webp"
     }
   ]
 }
