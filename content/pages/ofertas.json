@@ -18,6 +18,10 @@
       "alt": "namorados"
     },
     {
+      "type": "custom-html",
+      "html": "<iframe width=\"300\" height=\"68\" src=\"https://w2.countingdownto.com/4806960\" frameborder=\"0\"></iframe>\n\n"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
