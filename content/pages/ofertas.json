@@ -1,7 +1,7 @@
 {
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia",
-  "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
+  "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais",
   "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
   "sections": [
     {
@@ -16,10 +16,6 @@
       "type": "responsive-banner",
       "img": "/img/uploads/banner_desktop_dia-dos-namorados.webp",
       "alt": "namorados"
-    },
-    {
-      "type": "custom-html",
-      "html": "<iframe src=\"https://countingdownto.com/w4/Dt2a2jf9\" frameborder=\"0\" style=\"position:fixed;left:0;top:0;margin:0!important;width:100%;height:3.5rem;z-index:1;background-color:#FFFFFF;\"></iframe> <style>body{padding-top:3.5rem!important;}</style>"
     },
     {
       "type": "collection-shelf",
