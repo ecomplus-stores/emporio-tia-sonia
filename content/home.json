@@ -21,6 +21,14 @@
           "mobile_img": "/img/uploads/kit-cafe-comunidade.webp",
           "link": "https://www.emporiotiasonia.com.br/kit-aromas-e-delicias-tapioca-cafe",
           "alt": "kit"
+        },
+        {
+          "start": "",
+          "end": "2023-06-13T19:26:32.207Z",
+          "img": "/img/uploads/saojoao23desk.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "ofertas",
+          "mobile_img": "/img/uploads/saojoao23mobile.webp"
         }
       ],
       "full_width": true
