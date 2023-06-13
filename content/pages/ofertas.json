@@ -13,15 +13,6 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner_desktop_dia-dos-namorados.webp",
-      "alt": "namorados"
-    },
-    {
-      "type": "custom-html",
-      "html": "<iframe width=\"100%\" height=\"68\" src=\"https://w2.countingdownto.com/4806960\" frameborder=\"0\"></iframe>\n\n"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
