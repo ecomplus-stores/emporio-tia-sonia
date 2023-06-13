@@ -527,8 +527,19 @@ export default {
   },
 
   created () {
-    if (this.kitCta.qnt > 3 && this.product.sku === 'PA081') {
-      this.kitCta.qnt -= 1
+    const { productKitCtas } = window
+    if (Array.isArray(productKitCtas)) {
+      let kitCta = this.product.sku && productKitCtas.find(({ skus }) => {
+        return skus && skus.includes(this.product.sku)
+      })
+      if (!kitCta) {
+        kitCta = this.product.sku && productKitCtas.find(({ skus }) => {
+          return !skus
+        })
+      }
+      if (kitCta) {
+        this.kitCta = kitCta
+      }
     }
     const presetQntToBuy = () => {
       this.qntToBuy = this.body.min_quantity || 1
