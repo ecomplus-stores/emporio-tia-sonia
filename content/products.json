@@ -1,10 +1,6 @@
 {
   "sections": [
     {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
       "type": "breadcrumbs",
       "enabled": true
     },
@@ -15,6 +11,10 @@
         "image": "",
         "title": ""
       }
+    },
+    {
+      "type": "info-bar",
+      "enabled": true
     },
     {
       "type": "related-products",
