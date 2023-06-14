@@ -41,6 +41,11 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/saojoao233.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "oferta"
+        },
+        {
           "img": "/img/uploads/saojoao231.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "pix"
@@ -49,11 +54,6 @@
           "img": "/img/uploads/saojoao232.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "cash"
-        },
-        {
-          "img": "/img/uploads/saojoao233.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "oferta"
         }
       ]
     },
