@@ -47,6 +47,10 @@
       "title": "Os queridinhos da Tia Sônia"
     },
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -65,10 +69,6 @@
           "alt": "semacucar"
         }
       ]
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
     },
     {
       "type": "custom-html",
