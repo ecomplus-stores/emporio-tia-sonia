@@ -19,6 +19,17 @@
       "alt": "mais"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/saojoao231.webp"
+        },
+        {
+          "img": "/img/uploads/saojoao232.webp"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
