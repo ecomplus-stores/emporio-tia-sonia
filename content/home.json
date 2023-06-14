@@ -38,6 +38,16 @@
       "enabled": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/saojoao231.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "pix"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
