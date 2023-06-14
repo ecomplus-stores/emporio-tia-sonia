@@ -528,7 +528,7 @@ export default {
 
   created () {
     const { productKitCtas } = window
-    if (Array.isArray(productKitCtas)) {
+    if (this.product && Array.isArray(productKitCtas)) {
       let kitCta = this.product.sku && productKitCtas.find(({ skus }) => {
         return skus && skus.includes(this.product.sku)
       })
