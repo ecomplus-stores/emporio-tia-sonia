@@ -17,12 +17,12 @@
       "enabled": true
     },
     {
-      "type": "related-products",
-      "title": "Dê uma olhada nestas outras opções..."
-    },
-    {
       "type": "product-description",
       "enabled": true
+    },
+    {
+      "type": "related-products",
+      "title": "Dê uma olhada nestas outras opções..."
     },
     {
       "type": "product-specifications",
