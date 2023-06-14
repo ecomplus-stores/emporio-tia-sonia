@@ -7,6 +7,14 @@
       "autoplay": 15000,
       "slides": [
         {
+          "start": "",
+          "end": "2023-07-01T19:26:32.207Z",
+          "img": "/img/uploads/saojoao23desk.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "ofertas",
+          "mobile_img": "/img/uploads/saojoao23mobile.webp"
+        },
+        {
           "start": "2022-07-13T14:34:23.834Z",
           "end": "2023-06-13T12:02:14.909Z",
           "img": "/img/uploads/cashback-ana1920x736.jpg",
@@ -21,14 +29,6 @@
           "mobile_img": "/img/uploads/kit-cafe-comunidade.webp",
           "link": "https://www.emporiotiasonia.com.br/kit-aromas-e-delicias-tapioca-cafe",
           "alt": "kit"
-        },
-        {
-          "start": "",
-          "end": "2023-06-13T19:26:32.207Z",
-          "img": "/img/uploads/saojoao23desk.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "ofertas",
-          "mobile_img": "/img/uploads/saojoao23mobile.webp"
         }
       ],
       "full_width": true
@@ -36,6 +36,26 @@
     {
       "type": "info-bar",
       "enabled": true
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/saojoao233.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "oferta"
+        },
+        {
+          "img": "/img/uploads/saojoao231.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "pix"
+        },
+        {
+          "img": "/img/uploads/saojoao232.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
+          "alt": "cash"
+        }
+      ]
     },
     {
       "type": "collection-shelf",

@@ -1,7 +1,7 @@
 {
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia",
-  "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais",
+  "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
   "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
   "sections": [
     {
@@ -13,6 +13,12 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/saojoao23desk.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "mais"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
@@ -20,6 +26,20 @@
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "sort": "sales",
       "link": "Os queridinhos da Tia Sônia!"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/saojoao231.webp"
+        },
+        {
+          "img": "/img/uploads/saojoao232.webp"
+        },
+        {
+          "img": "/img/uploads/saojoao233.webp"
+        }
+      ]
     },
     {
       "type": "dynamic-showcase",
