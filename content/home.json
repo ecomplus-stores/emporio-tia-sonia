@@ -38,10 +38,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -69,6 +65,10 @@
           "alt": "semacucar"
         }
       ]
+    },
+    {
+      "type": "info-bar",
+      "enabled": true
     },
     {
       "type": "custom-html",
