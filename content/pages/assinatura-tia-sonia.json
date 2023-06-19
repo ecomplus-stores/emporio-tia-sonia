@@ -37,10 +37,6 @@
       "limit": 12,
       "page": 1,
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos"
-    },
-    {
-      "type": "custom-html",
-      "html": "<style>\n  .breadcrumb * {display: inline-flex !important;\n  align-items: center;}\n  #topSlide{display:none;}\n  #header{display:none;}\n</style>"
     }
   ]
 }
