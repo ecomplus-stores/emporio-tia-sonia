@@ -28,20 +28,6 @@
       "link": "Os queridinhos da Tia Sônia!"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/saojoao231.webp"
-        },
-        {
-          "img": "/img/uploads/saojoao232.webp"
-        },
-        {
-          "img": "/img/uploads/saojoao233.webp"
-        }
-      ]
-    },
-    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
