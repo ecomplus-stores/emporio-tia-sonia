@@ -24,6 +24,11 @@
           "img": "/img/uploads/kit-mais-feliz.webp",
           "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
           "alt": "feliz"
+        },
+        {
+          "img": "/img/uploads/kit-sem-acucar.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---zero-adicao-de-acucar---tia-sonia",
+          "alt": "zero"
         }
       ]
     },
