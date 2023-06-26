@@ -7,12 +7,12 @@
       "autoplay": 30000,
       "slides": [
         {
-          "start": "",
-          "end": "2023-07-01T19:26:32.207Z",
-          "img": "/img/uploads/saojoao23desk.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "ofertas",
-          "mobile_img": "/img/uploads/saojoao23mobile.webp"
+          "start": "2023-05-11T15:02:38.215Z",
+          "end": "",
+          "img": "/img/uploads/cafe-prancheta-1.webp",
+          "mobile_img": "/img/uploads/kit-cafe-comunidade.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit-aromas-e-delicias-tapioca-cafe",
+          "alt": "kit"
         },
         {
           "start": "2022-07-13T14:34:23.834Z",
@@ -21,14 +21,6 @@
           "mobile_img": "/img/uploads/cashback-ana1080x1080.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "cashback"
-        },
-        {
-          "start": "2023-05-11T15:02:38.215Z",
-          "end": "",
-          "img": "/img/uploads/cafe-prancheta-1.webp",
-          "mobile_img": "/img/uploads/kit-cafe-comunidade.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit-aromas-e-delicias-tapioca-cafe",
-          "alt": "kit"
         }
       ],
       "full_width": true
