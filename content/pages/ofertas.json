@@ -13,6 +13,16 @@
       "enabled": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/kit-mais-vendidos.webp",
+          "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
+          "alt": "mais"
+        }
+      ]
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/saojoao23desk.webp",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
