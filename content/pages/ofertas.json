@@ -2,14 +2,14 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais! Válidas até 26/06/2023.**",
+  "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
   "sections": [
     {
-      "type": "info-bar",
+      "type": "extra-page",
       "enabled": true
     },
     {
-      "type": "extra-page",
+      "type": "info-bar",
       "enabled": true
     },
     {
