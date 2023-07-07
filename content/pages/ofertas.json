@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
+  "body": "# <div class=\"info-bar__nav row\"><div class=\"col-auto col-sm-6 col-lg\"><a class=\"info-bar__item\" href=\"javascript:;\"><span class=\"rounded-icon\"><i class=\"i-shipping-fast\"></i></span><div class=\"ml-2 ml-md-3\"><div class=\"info-bar__title\">Entrega Grátis</div><div class=\"info-bar__text\">Compras acima de R$ 120</div></div></a></div><div class=\"col-auto col-sm-6 col-lg\"><a class=\"info-bar__item\" href=\"javascript:;\"><span class=\"rounded-icon\"><i class=\"i-credit-card\"></i></span><div class=\"ml-2 ml-md-3\"><div class=\"info-bar__title\">Parcele Sem Juros</div><div class=\"info-bar__text\">Em até 3x no Cartão</div></div></a></div><div class=\"col-auto col-sm-6 col-lg\"><a class=\"info-bar__item\" href=\"https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade\"><span class=\"rounded-icon\"><i class=\"i-exchange\"></i></span><div class=\"ml-2 ml-md-3\"><div class=\"info-bar__title\">Cashback</div><div class=\"info-bar__text\">Compre, ganhe e resgate!</div></div></a></div><div class=\"col-auto col-sm-6 col-lg\"><a class=\"info-bar__item\" href=\"javascript:;\"><span class=\"rounded-icon\"><i class=\"i-percent\"></i></span><div class=\"ml-2 ml-md-3\"><div class=\"info-bar__title\">Pague com PIX</div><div class=\"info-bar__text\">Aprovação imediata!</div></div></a></div></div>Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
   "sections": [
     {
       "type": "info-bar",
@@ -13,6 +13,11 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner_desktop_semana-do-chocolate-2-.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
@@ -21,6 +26,14 @@
       "sort": "offers",
       "link": "",
       "title": "Semana do Chocolate"
+    },
+    {
+      "type": "banners-grid"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
     },
     {
       "type": "banners-grid",
@@ -43,18 +56,8 @@
       ]
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "sales"
-    },
-    {
       "type": "custom-content",
       "markdown": "🚚 **FRETE GRÁTIS** - Para tornar sua experiência de compra ainda mais conveniente, oferecemos frete grátis em todas as compras acima de R$120. Aproveite para encher seu carrinho com seus produtos favoritos!\n\n🎁 **CASHBACK** - Queremos agradecer por escolher a Tia Sônia, por isso a cada compra que você faz, uma parte do valor volta para você. Quanto mais você compra, mais você ganha!\n\n💳 **PARCELAMENTO SEM JUROS** - Agora você pode parcelar suas compras em até 3x sem juros no cartão. Compre agora e pague no seu tempo!\n\n💰 **PAGUE COM PIX** - Facilitamos ainda mais o pagamento para você. Agora você pode pagar com PIX para uma aprovação imediata!"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner_desktop_semana-do-chocolate-2-.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     }
   ]
 }
