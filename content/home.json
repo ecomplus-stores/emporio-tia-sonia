@@ -40,7 +40,7 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 4,
+      "limit": "",
       "page": "",
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais vendidos:/mais-vendidos",
       "sort": "offers",
