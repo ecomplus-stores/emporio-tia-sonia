@@ -20,7 +20,7 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 4,
+      "limit": 2,
       "page": 1,
       "collection_id": null,
       "sort": "offers",
