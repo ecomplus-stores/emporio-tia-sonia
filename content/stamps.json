@@ -2,9 +2,12 @@
   "stamps_list": [
     {
       "skus": [
-        "PA001"
+        "PA001",
+        "PA606",
+        "PA520",
+        "RV0010"
       ],
-      "img": "/img/uploads/design-sem-nome.png",
+      "img": "/img/uploads/asset-12-1-.webp",
       "id": "Chocolate"
     }
   ]
