@@ -28,7 +28,12 @@
       "title": "Semana do Chocolate"
     },
     {
-      "type": "banners-grid"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/banner_mini_semana-do-chocolate_1-1-.webp"
+        }
+      ]
     },
     {
       "type": "dynamic-showcase",
