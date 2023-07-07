@@ -2104,7 +2104,7 @@ text-align:center;
   }
 }
 .product-card__stamps {
-    left: unset;
-    right: -8px;
-    top: 0px;
+    left: unset !important;
+    right: -8px !important;
+    top: 0px !important;
 }
