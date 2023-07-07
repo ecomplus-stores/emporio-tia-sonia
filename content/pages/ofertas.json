@@ -31,7 +31,17 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/banner_mini_semana-do-chocolate_1-1-.webp"
+          "img": "/img/uploads/banner_mini_semana-do-chocolate_1-1-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+        },
+        {
+          "img": "/img/uploads/banner_mini_semana-do-chocolate_2-2-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
+        },
+        {
+          "img": "/img/uploads/banner_mini_semana-do-chocolate_3-1-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "choco"
         }
       ]
     },
