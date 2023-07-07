@@ -50,6 +50,11 @@
     {
       "type": "custom-content",
       "markdown": "🚚 **FRETE GRÁTIS** - Para tornar sua experiência de compra ainda mais conveniente, oferecemos frete grátis em todas as compras acima de R$120. Aproveite para encher seu carrinho com seus produtos favoritos!\n\n🎁 **CASHBACK** - Queremos agradecer por escolher a Tia Sônia, por isso a cada compra que você faz, uma parte do valor volta para você. Quanto mais você compra, mais você ganha!\n\n💳 **PARCELAMENTO SEM JUROS** - Agora você pode parcelar suas compras em até 3x sem juros no cartão. Compre agora e pague no seu tempo!\n\n💰 **PAGUE COM PIX** - Facilitamos ainda mais o pagamento para você. Agora você pode pagar com PIX para uma aprovação imediata!"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner_desktop_semana-do-chocolate-2-.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
     }
   ]
 }
