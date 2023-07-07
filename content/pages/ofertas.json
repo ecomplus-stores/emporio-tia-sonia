@@ -20,8 +20,8 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 2,
-      "page": 1,
+      "limit": "",
+      "page": "",
       "collection_id": null,
       "sort": "offers",
       "link": "",
