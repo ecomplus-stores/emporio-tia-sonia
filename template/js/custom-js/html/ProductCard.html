@@ -22,6 +22,14 @@
         </span>
       </slot>
 
+      <slot name="stamps">
+        <div v-if="stamps.length" class="product-card__stamps">
+          <span v-for="stamp in stamps">
+            <img :src="stamp.img" loading="lazy" :alt="stamp.id">
+          </span>
+        </div>
+      </slot>
+
       <slot name="body">
         <a-link
           class="product-card__link"

@@ -142,6 +142,16 @@ export default {
       return checkOnPromotion(body)
         ? Math.round(((body.base_price - getPrice(body)) * 100) / body.base_price)
         : 0
+    },
+
+    stamps () {
+      const allStamps = (typeof window === 'object' && window.productCardStamps)
+      if (Array.isArray(allStamps)) {
+        return allStamps.filter(({ skus }) => {
+          return skus.includes(this.body.sku)
+        })
+      }
+      return []
     }
   },
 

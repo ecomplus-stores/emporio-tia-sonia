@@ -36,6 +36,11 @@
   }
 }
 
+.product-card--small .product-card__stamps img {
+  margin-left: 10px;
+  max-width: 40px;
+}
+
 .dynamic-showcase {
   min-height: 500px;
 }
