@@ -354,7 +354,9 @@ body {
 .btn-primary {
     background-color: rgb(40, 167, 69);
     border-color: rgb(40, 167, 69);
-    padding: 0.5rem 5rem;
+    @media  screen and (min-width: 1024px) {
+      padding: 0.5rem 5rem;
+    }
 }
 .product-card__buy.fade {
   opacity: 1 !important;
@@ -365,10 +367,6 @@ body {
 .product-card__buy {
   display: flex;
   justify-content: center;
-}
-// desktop acima de 14 polegadas
-@media  screen and (min-width: 1368px) {
-
 }
 
 //desktop normal size
@@ -2107,4 +2105,8 @@ text-align:center;
     left: unset !important;
     right: -8px !important;
     top: 0px !important;
+}
+
+.sections .info-bar:first-child {
+  display: block;
 }
