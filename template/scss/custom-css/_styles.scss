@@ -62,12 +62,78 @@
   }
 }
 
+.product-card__picture:first-child:not(:last-child) {
+  background-color: #fff;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#instant-search {
+  .search {
+    &__count .btn {
+      margin-top: .25rem;
+    }
+    &__history {
+      overflow-y: hidden;
+      line-height: 1.23;
+      font-size: 1rem;
+    }
+  }
+
+  .product-card {
+    > section,
+    &__link {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: .75rem;
+    }
+    &__link {
+      flex-basis: 74%;
+      flex-grow: 1;
+    }
+    &__pictures {
+      flex-basis: 40%;
+      aspect-ratio: 1;
+    }
+    &__name {
+      flex-basis: 60%;
+      font-size: .9rem;
+      text-align: left;
+    }
+    .prices {
+      display: block;
+      text-align: left;
+      height: auto !important;
+      flex-basis: 25%;
+      flex-shrink: 1;
+      &__compare,
+      &__value {
+        display: inline-block;
+      }
+      &__compare {
+        margin-right: .5rem;
+      }
+      &__discount {
+        text-align: left;
+        @media (max-width: 700px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .glide__bullets {
     bottom: 1.75rem;
     display: none;
   }
 }
+
+// -------//-------- //
 
 //img formas de pagamento
 .payment__stamp {
@@ -762,29 +828,8 @@ h1{
 
 #header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card .product-card__buy,
 #header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card .product-card__offer-stamp{display:none}
-
-#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section,
-#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section .product-card__link{
-  display:flex;
-  align-items:center;
-}
-#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section .product-card__pictures{height:auto;}
-#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card section picture{max-width:100px;height:100%;}
-#header #instant-search .search__box.card .search-engine__results .search-engine__retail > .row > div .product-card .product-card__name{
-  padding:0 1rem;
-  white-space: normal;
-  width: 350px;
-  text-align: left;
-  font-size:12px;
-}
 #header #instant-search .search__box.card .search-engine .lead{font-size:14px;margin-top:.5rem}
 #header #instant-search .search__box.card .search-engine h4{font-size:18px;}
-#header #instant-search .search__box.card .search-engine__results .prices{
-text-align: right;
-align-items: center;
-display: flex;
-}
-#header #instant-search .search__box.card .search-engine__results .prices > *{margin:0;display:block;text-align:right;    font-size: 18px;}
 #header #instant-search .product-card{box-shadow:unset!important;}
 .search__footer{
   font-size: 12px;
@@ -794,7 +839,7 @@ display: flex;
 }
 .search__history,
 .search__history a,
-.search__count{color:#fff;font-size:12px;white-space:normal}
+.search__count{color:#fff;white-space:normal}
 
 
 .footer{
@@ -951,7 +996,6 @@ font-family:PT Sans;
   #header #instant-search .search__box.card{
       max-width:100%;
   }
-  #header #instant-search .search__box.card .product-card__pictures{display:none;}
   #header #instant-search .search__box.card .search-engine__results .search-engine__retail>.row>div .product-card .product-card__name{padding-left:0;width: 100%;font-size:.7rem;}
   #header #instant-search .search-engine__item{padding:0;}
   #header #instant-search .search-engine__info{padding-bottom:0;}
