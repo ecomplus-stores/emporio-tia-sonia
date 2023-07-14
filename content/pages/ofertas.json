@@ -13,37 +13,14 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner_desktop_semana-do-chocolate-2-.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
       "page": "",
-      "collection_id": null,
-      "sort": "offers",
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+      "sort": null,
       "link": "",
-      "title": "Semana do Chocolate"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/banner_mini_semana-do-chocolate_1-1-.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
-        },
-        {
-          "img": "/img/uploads/banner_mini_semana-do-chocolate_2-2-.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=offers"
-        },
-        {
-          "img": "/img/uploads/banner_mini_semana-do-chocolate_3-1-.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
-          "alt": "choco"
-        }
-      ]
+      "title": "Os Queridinhos da Tia Sônia"
     },
     {
       "type": "dynamic-showcase",
