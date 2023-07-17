@@ -5,20 +5,6 @@
   "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-ofertas-1-.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "ofertas"
-        }
-      ]
-    },
-    {
       "type": "info-bar",
       "enabled": true
     },
@@ -35,6 +21,20 @@
       "sort": "offers",
       "link": "",
       "title": "Os Queridinhos da Tia Sônia"
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-ofertas-1-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "ofertas"
+        }
+      ]
     },
     {
       "type": "dynamic-showcase",
