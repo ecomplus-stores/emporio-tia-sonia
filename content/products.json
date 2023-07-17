@@ -13,6 +13,10 @@
       }
     },
     {
+      "type": "buy-together",
+      "enabled": false
+    },
+    {
       "type": "related-products",
       "title": "Você também vai gostar de"
     },
