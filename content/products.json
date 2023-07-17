@@ -17,6 +17,10 @@
       "enabled": false
     },
     {
+      "type": "recommended-products",
+      "title": "Você também vai gostar "
+    },
+    {
       "type": "related-products",
       "title": "Você também vai gostar de"
     },
