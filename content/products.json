@@ -13,16 +13,16 @@
       }
     },
     {
+      "type": "related-products",
+      "title": "Você também vai gostar de"
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
     {
       "type": "product-description",
       "enabled": true
-    },
-    {
-      "type": "related-products",
-      "title": "Dê uma olhada nestas outras opções..."
     },
     {
       "type": "product-specifications",
