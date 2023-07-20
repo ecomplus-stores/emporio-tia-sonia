@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "# Ofertas Tia Sônia\n\nNossos produtos deliciosos e saudáveis com **descontos especiais!**",
+  "body": "# 🎁 Super Ofertas Tia Sônia\n\n**Desfrute de produtos deliciosos e saudáveis da Tia Sônia com descontos especiais!** Aproveite o Frete Grátis em compras acima de R$120, ganhe cashback em cada compra, parcele em até 3x sem juros e pague com PIX para aprovação imediata. Compre agora e economize!\"",
   "sections": [
     {
       "type": "info-bar",
@@ -21,20 +21,6 @@
       "sort": "offers",
       "link": "",
       "title": "Os Queridinhos da Tia Sônia"
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-ofertas-1-.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "ofertas"
-        }
-      ]
     },
     {
       "type": "dynamic-showcase",
