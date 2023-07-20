@@ -4,8 +4,16 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 30000,
+      "autoplay": 40000,
       "slides": [
+        {
+          "start": "2023-07-20T19:34:14.314Z",
+          "end": "",
+          "img": "/img/uploads/sabores-1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "sabores",
+          "mobile_img": "/img/uploads/sabores1080x1080.webp"
+        },
         {
           "start": "2023-05-11T15:02:38.215Z",
           "end": "",
