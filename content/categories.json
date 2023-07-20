@@ -8,16 +8,16 @@
       "type": "page-title"
     },
     {
+      "type": "breadcrumbs",
+      "enabled": true
+    },
+    {
       "type": "category-retail",
       "enabled": true,
       "sort": "sales"
     },
     {
       "type": "document-description",
-      "enabled": true
-    },
-    {
-      "type": "breadcrumbs",
       "enabled": true
     }
   ]
