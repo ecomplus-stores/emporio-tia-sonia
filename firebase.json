@@ -1,6 +1,16 @@
 {
   "hosting": {
     "redirects": [
+        {
+        "source": "granola-tia-sonia-organica-pote-460g",
+        "destination": "granola-tia-sonia-organica-pote",
+        "type": 301
+      },
+       {
+        "source": "granola-tia-sonia-organica-pote-460g",
+        "destination": "granola-tia-sonia-organica-pote",
+        "type": 301
+      },
       {
         "source": "/granola-tia-sonia-sem-gluten-pote-420g",
         "destination": "/granola-tia-sonia-sem-gluten-pote",
