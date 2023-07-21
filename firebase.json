@@ -2,6 +2,11 @@
   "hosting": {
     "redirects": [
         {
+        "source": "granola-tia-sonia-premium-pote-450g",
+        "destination": "granola-tia-sonia-premium-pote",
+        "type": 301
+      },
+      {
         "source": "granola-tia-sonia-organica-pote-460g",
         "destination": "granola-tia-sonia-organica-pote",
         "type": 301
