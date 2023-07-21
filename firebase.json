@@ -2,6 +2,11 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/granola-tia-sonia-sem-gluten-pote-420g",
+        "destination": "/granola-tia-sonia-sem-gluten-pote",
+        "type": 301
+      },
+      {
         "source": "/promocoes",
         "destination": "/pages/ofertas",
         "type": 301
