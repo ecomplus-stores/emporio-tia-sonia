@@ -13,6 +13,20 @@
       }
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2023-07-29T14:37:54.620Z",
+          "end": "2023-08-06T14:37:59.751Z",
+          "img": "/img/uploads/brindecafe1920x500-1-.webp",
+          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
+          "alt": "cafe"
+        }
+      ]
+    },
+    {
       "type": "buy-together",
       "enabled": false
     },
