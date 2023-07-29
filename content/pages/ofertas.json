@@ -19,6 +19,11 @@
           "img": "/img/uploads/brindecafe1080x1080.webp",
           "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
           "alt": "colheita-das-alegrias"
+        },
+        {
+          "img": "/img/uploads/sabores1080x1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
+          "alt": "granola"
         }
       ]
     },
