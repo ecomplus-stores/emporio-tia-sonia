@@ -135,7 +135,9 @@ export default {
       paymentGateways: [],
       loyaltyPointsApplied: {},
       loyaltyPointsAmount: 0,
-      hasMoreOffers: false
+      hasMoreOffers: false,
+      nextPaymentAppId: null,
+      discountApplierKey: 1
     }
   },
 
@@ -252,6 +254,10 @@ export default {
         }
       })
       return key
+    },
+
+    isRecurrentPayment () {
+      return Boolean(this.paymentGateway && this.paymentGateway.type === 'recurrence')
     }
   },
 
@@ -311,7 +317,16 @@ export default {
     },
 
     selectPaymentGateway (gateway) {
-      this.$emit('update:payment-gateway', gateway)
+      if (gateway.type === 'recurrence' && this.localDiscountCoupon) {
+        this.localDiscountCoupon = ''
+        this.$nextTick(() => {
+          this.discountApplierKey++
+        })
+        this.$emit('set-discount-rule', {})
+        this.nextPaymentAppId = gateway.app_id
+      } else {
+        this.$emit('update:payment-gateway', gateway)
+      }
       if (this.checkoutStep === 2 && !this.paymentGateway) {
         this.goToTop()
       }
@@ -378,6 +393,20 @@ export default {
         this.paymentGateways = window.ecomPaymentGateways || []
       },
       immediate: true
+    },
+
+    paymentGateways () {
+      if (this.nextPaymentAppId && this.paymentGateways.length) {
+        this.$nextTick(() => {
+          const gateway = this.paymentGateways.find((gateway) => {
+            return gateway.app_id === this.nextPaymentAppId
+          })
+          if (gateway) {
+            this.selectPaymentGateway(gateway)
+          }
+          this.nextPaymentAppId = null
+        })
+      }
     }
   },
 

@@ -160,16 +160,25 @@
             </div>
           </div>
 
-          <discount-applier
-            v-if="canHideSummary && enabledCheckoutStep > 1"
-            class="checkout__discount mt-4"
-            :amount="amount"
-            :coupon-code.sync="localDiscountCoupon"
-            @set-discount-rule="discountRule => $emit('set-discount-rule', discountRule)"
-            :modules-payload="modulesPayload"
-            :customer="customer"
-            is-attention-wanted
-          />
+          <template v-if="canHideSummary && enabledCheckoutStep > 1">
+            <template v-if="isRecurrentPayment">
+              <div v-if="discountApplierKey > 1" class="alert alert-info my-3">
+                <small>O desconto da assinatura não é cumulativo,
+                cupom de desconto adicional não poderá ser aplicado.</small>
+              </div>
+            </template>
+            <discount-applier
+              v-else
+              :key="discountApplierKey"
+              class="checkout__discount mt-4"
+              :amount="amount"
+              :coupon-code.sync="localDiscountCoupon"
+              @set-discount-rule="discountRule => $emit('set-discount-rule', discountRule)"
+              :modules-payload="modulesPayload"
+              :customer="customer"
+              is-attention-wanted
+            />
+          </template>
         </div>
 
         <div
@@ -210,7 +219,15 @@
               </template>
 
               <template v-if="enabledCheckoutStep > 1">
+                <template v-if="isRecurrentPayment">
+                  <div v-if="discountApplierKey > 1" class="alert alert-info my-3">
+                    <small>O desconto da assinatura não é cumulativo,
+                    cupom de desconto adicional não poderá ser aplicado.</small>
+                  </div>
+                </template>
                 <discount-applier
+                  v-else
+                  :key="discountApplierKey"
                   class="checkout__discount"
                   :amount="amount"
                   :coupon-code.sync="localDiscountCoupon"
