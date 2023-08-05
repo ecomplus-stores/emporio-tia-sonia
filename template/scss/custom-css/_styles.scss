@@ -177,8 +177,12 @@
     border: none;
     color: #f8f9fa;
 }
-#search-bar {
-  display: block !important;
+@media (max-width: 575.98px) {
+  #search-bar {
+    display: block !important;
+    height: 46px !important;
+    transition: none;
+  }
 }
   
   
