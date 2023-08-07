@@ -7,6 +7,14 @@
       "autoplay": 40000,
       "slides": [
         {
+          "start": "2023-08-07T21:43:09.864Z",
+          "end": "",
+          "img": "/img/uploads/banner_desktop_dia-dos-pais_tia-sonia-5-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?term=Promo%C3%A7%C3%A3o+Dia+dos+Pais",
+          "alt": "Dia dos Pais",
+          "mobile_img": "/img/uploads/banner_mobile_dia-dos-pais_tia-sonia-4-.webp"
+        },
+        {
           "start": "2023-07-29T14:09:33.238Z",
           "end": "",
           "img": "/img/uploads/granolaehtia1920.webp",
