@@ -5,6 +5,20 @@
   "body": "Desfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_desktop_dia-dos-pais_tia-sonia-5-.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?term=Promo%C3%A7%C3%A3o+Dia+dos+Pais",
+          "alt": "diadospais"
+        }
+      ]
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
