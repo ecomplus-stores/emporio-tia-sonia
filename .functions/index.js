@@ -25,7 +25,3 @@ exports.reverseproxy = onRequest({
   minInstances: 0,
   memory: '1GiB',
 }, ssr)
-
-const { ssr } = require('@ecomplus/storefront-renderer/functions/')
-
-exports.ssr = functions.https.onRequest((req, res) => ssr(req, res))
