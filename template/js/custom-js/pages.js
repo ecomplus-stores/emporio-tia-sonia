@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import EcomSearch from '@ecomplus/search-engine'
+import './tags'
 
 const urlParams = new URLSearchParams(window.location.search)
 if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
