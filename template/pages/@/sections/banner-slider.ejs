@@ -42,7 +42,7 @@ if (slides && slides.length) {
           <% for (let i = 0; i < slides.length; i++) { %>
             <li class="glide__slide">
               <%- await include('@/sections/inc/banner', {
-                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0 }
+                _, opt: { ...slides[i], height_auto: true, sync_load: i === 0 && sectionIndex === 0 }
               }) %>
             </li>
           <% } %>
