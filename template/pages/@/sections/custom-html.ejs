@@ -83,7 +83,7 @@
       </div>
       <% } else { %>
       <div class="html-clearfix">
-        <%- opt.html %>
+        <%- opt.html.replace(/<iframe src="([^"]+)"/, '<iframe class="lozad" data-src="$1"') %>
       </div>
       <% } %>
     </div>
