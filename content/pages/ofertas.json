@@ -23,9 +23,16 @@
       "title": "Os Queridinhos da Tia Sônia"
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
+      "type": "shelfs-nav",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_ids": [
+        "5d8b6a31f11b5b64ea01d201:brands:Tia Sonia:/marca/tia-sonia"
+      ],
+      "sort": "offers",
+      "autoplay": 7,
+      "shelfs_title": "Ofertas de Hoje para Você!"
     },
     {
       "type": "banners-grid",
