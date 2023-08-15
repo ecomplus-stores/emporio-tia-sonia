@@ -85,7 +85,9 @@
               :class="`embed-responsive-${videoAspectRatio}`"
             >
               <iframe
+                v-if="activeIndex === localPictures.length"
                 class="embed-responsive-item"
+                loading="lazy"
                 :src="videoSrc"
                 allowfullscreen
               ></iframe>

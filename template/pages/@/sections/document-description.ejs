@@ -6,7 +6,7 @@ if (_.state.body_html) {
   <section class="<%= className %>-description my-4 my-lg-5">
     <div class="container">
       <div class="html-clearfix">
-        <%- _.state.body_html %>
+        <%- _.state.body_html.replace(/<iframe src="([^"]+)"/g, '<iframe class="lozad" data-src="$1"') %>
       </div>
     </div>
   </section>
