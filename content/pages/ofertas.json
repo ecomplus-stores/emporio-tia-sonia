@@ -13,11 +13,25 @@
       "enabled": true
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-tia-sonia-computador.webp",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-200g",
+          "alt": "compre 120 e ganhe granola"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
       "page": "",
-      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+      "collection_id": null,
       "sort": "offers",
       "link": "",
       "title": "Os Queridinhos da Tia Sônia"
