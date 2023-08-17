@@ -7,6 +7,14 @@
       "autoplay": 40000,
       "slides": [
         {
+          "start": "2023-08-17T13:55:54.156Z",
+          "end": "",
+          "img": "/img/uploads/banner-tia-sonia-computador.webp",
+          "mobile_img": "/img/uploads/banner-tia-sonia-celular.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "compre 120 e ganhe granola tia sonia"
+        },
+        {
           "start": "2023-07-29T14:09:33.238Z",
           "end": "",
           "img": "/img/uploads/granolaehtia1920.webp",
