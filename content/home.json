@@ -31,16 +31,16 @@
         {
           "img": "/img/uploads/banner_mini_dia-dos-pais_tia-sonia_01-4-.webp",
           "link": "https://www.emporiotiasonia.com.br/search",
-          "alt": "diadospais"
+          "alt": "freteGratis"
         },
         {
           "img": "/img/uploads/banner_mini_dia-dos-pais_tia-sonia_02-4-.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?term=Promo%C3%A7%C3%A3o+Dia+dos+Pais",
-          "alt": "diadospais2"
+          "link": "https://www.emporiotiasonia.com.br/search",
+          "alt": "cashback"
         },
         {
           "img": "/img/uploads/banner_mini_dia-dos-pais_tia-sonia_03-4-.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?term=Promo%C3%A7%C3%A3o+Dia+dos+Pais",
+          "link": "https://www.emporiotiasonia.com.br/search",
           "alt": "pix"
         }
       ]
