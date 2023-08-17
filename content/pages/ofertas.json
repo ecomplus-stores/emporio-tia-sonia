@@ -9,10 +9,6 @@
       "enabled": true
     },
     {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": false,
@@ -25,6 +21,10 @@
           "alt": "compre 120 e ganhe granola"
         }
       ]
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     },
     {
       "type": "collection-shelf",
