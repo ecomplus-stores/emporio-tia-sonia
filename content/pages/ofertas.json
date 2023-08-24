@@ -23,24 +23,6 @@
       "title": "Os Queridinhos da Tia Sônia"
     },
     {
-      "type": "banner-slider",
-      "autoplay": 90000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-tia-sonia-computador.webp",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-200g",
-          "alt": "compre 120 e ganhe granola"
-        }
-      ]
-    },
-    {
-      "type": "custom-content",
-      "markdown": "**Um motivo para ser saudável** - Nossa [Granola Low Carb com Xylitol](https://www.emporiotiasonia.com.br/granola-tia-sonia-low-carb-180g) é ideal para dietas com baixo consumo de carboidratos e é rica em gorduras do bem. Hoje, você pode aproveitar um desconto de 10%!\n\n**Leve mais e economize** - Compre um kit com 3 da nossa [Granola Tradicional Sem Uva Passa](https://www.emporiotiasonia.com.br/granola-tia-sonia-tradicional-1kg-sem-uva-passa) e economize 10%, além de receber frete grátis!\n\n**Um presente inesquecível** - Nossa [Granola Edição Especial Limitada](https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial) é o presente perfeito. Hoje, você pode aproveitar 50% de desconto na segunda unidade!\n\n**A favorita dos amantes de chocolate** - Nossa [Granola com Chocolate](https://www.emporiotiasonia.com.br/granola-com-chocolate-tiasonia) é irresistível e incomparável. Hoje, você pode aproveitar um desconto total de 10% no pagamento via PIX!"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
