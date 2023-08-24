@@ -278,6 +278,19 @@
             "value": "0"
           }
         ]
+      },
+      {
+        "source": "/pages/**",
+        "headers": [
+          {
+            "key": "cache-control",
+            "value": "public, max-age=300, stale-while-revalidate=2592000"
+          },
+          {
+            "key": "x-load-took",
+            "value": "0"
+          }
+        ]
       }
     ],
     "cleanUrls": true
