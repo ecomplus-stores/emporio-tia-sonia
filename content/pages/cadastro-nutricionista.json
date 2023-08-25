@@ -20,7 +20,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<a class=\"btn btn-primary ml-3\" type=\"button\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform\" target=\"blank\">\n  Cadastre-se aqui</a>"
+      "html": "Clique no link abaixo, cadastre-se e aguarde o retorno da nossa equipe.\n<a class=\"btn btn-primary ml-3\" type=\"button\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform\" target=\"blank\">\n  Cadastre-se aqui</a>"
     }
   ]
 }
