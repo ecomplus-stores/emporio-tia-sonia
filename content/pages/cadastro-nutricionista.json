@@ -18,7 +18,7 @@
     },
     {
       "type": "custom-content",
-      "markdown": "## **Olá, Nutri!**\n\nHá mais de 27 anos, a Tia Sônia oferece alimentos saudáveis e saborosos, inspirando uma vida equilibrada. Nossa história começou com Dona Sônia, criando uma deliciosa Granola caseira para o filho Marcos levar em suas trilhas à Machu Picchu. \n\nHoje, esse cuidado de mãe resultou em uma linha completa com mais de 50 produtos, incluindo Granolas, Snacks, Barras e Cookies feitos com carinho e ingredientes selecionados. \n\nValorizamos cada detalhe, desde a escolha dos ingredientes até o cuidado com a embalagem buscando oferecer o melhor para você e sua família."
+      "markdown": "**Olá, Nutri!** Há mais de 27 anos, a Tia Sônia oferece alimentos saudáveis e saborosos, inspirando uma **vida equilibrada**. Nossa história começou com Dona Sônia, criando uma deliciosa **Granola** caseira para o filho Marcos levar em suas trilhas à Machu Picchu. \n\nHoje, esse cuidado de mãe resultou em uma linha completa com mais de 50 produtos, incluindo Granolas, Snacks, Barras e Cookies feitos com **carinho** e ingredientes selecionados. \n\nValorizamos cada detalhe, desde a escolha dos ingredientes até o cuidado com a embalagem buscando oferecer o melhor para você e sua família."
     },
     {
       "type": "responsive-banner",
