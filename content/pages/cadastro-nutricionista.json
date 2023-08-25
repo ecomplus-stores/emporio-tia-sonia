@@ -10,7 +10,9 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/clube-nutri-tiasonia.jpg"
+      "img": "/img/uploads/granolanutri1920x500.webp",
+      "mobile_img": "/img/uploads/granolanutri1080x1080.webp",
+      "alt": "granola é Tia Sonia"
     },
     {
       "type": "extra-page",
