@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import EcomSearch from '@ecomplus/search-engine'
+import ecomCart from '@ecomplus/shopping-cart'
 import './tags'
 
 const urlParams = new URLSearchParams(window.location.search)
@@ -20,6 +21,42 @@ if (affiliateLinkDiv) {
   import('./components/AffiliateLink.vue').then(({ default: AffiliateLink }) => {
     new Vue(AffiliateLink).$mount(affiliateLinkDiv)
   })
+}
+
+const freeShippingProgress = document.getElementById('free-shipping-progress')
+if (freeShippingProgress) {
+  const freeShippingFrom = Number(freeShippingProgress.innerHTML.replace(/.*R\$\s?(\d+).*/, '$1'))
+  if (freeShippingFrom) {
+    const updateFreeShippingProgress = ({ data }) => {
+      const freeFromPercentage = Math.round(data.subtotal * 100 / freeShippingFrom)
+      freeShippingProgress.innerHTML = String.raw`
+      <div class="free-shipping-progress">
+        <div>
+          ${data.subtotal >= freeShippingFrom
+            ? 'Você ganhou frete grátis'
+            : `Falta <b>R$ ${Math.round(freeShippingFrom - data.subtotal)}</b> para frete grátis`}
+        </div>
+        <div class="progress">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: ${freeFromPercentage}%"
+            aria-valuenow="${freeFromPercentage}"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+          </div>
+        </div>
+      </div>`
+    }
+    ecomCart.on('change', updateFreeShippingProgress)
+    setTimeout(() => {
+      const { data } = ecomCart
+      if (data.subtotal) {
+        updateFreeShippingProgress({ data })
+      }
+    }, 1000)
+  }
 }
 
 if (window.location.pathname === '/pages/ofertas') {

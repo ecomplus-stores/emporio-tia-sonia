@@ -137,6 +137,40 @@
   width: 100%;
 }
 
+.top-bar {
+  min-height: 32px;
+  .free-shipping-progress {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  .progress {
+    flex-grow: 1;
+    &-bar {
+      background-color: #18a662;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .top-bar {
+    position: fixed;
+    top: 0;
+    z-index: 901;
+  }
+  #header {
+    margin-top: 10px;
+    padding-top: 22px;
+    padding-bottom: 0;
+    aside {
+      margin-top: 30px;
+      max-height: calc(100vh - 30px);
+    }
+  }
+}
+
 // -------//-------- //
 
 //img formas de pagamento
@@ -307,7 +341,6 @@ body {
 #header {  
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   border-width: 0px;
-  padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -600,7 +633,6 @@ body{
   line-height: 1.68;
   color: #6A6A57;
 }
-.top-bar a.top-bar__countdown{padding:0.3rem 0;font-size:12px;}
 .top-bar__page-links a{
   color:var(--apx_cinza);
   font-size:12px;
