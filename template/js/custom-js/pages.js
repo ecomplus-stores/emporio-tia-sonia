@@ -34,7 +34,7 @@ if (freeShippingProgress) {
         <div>
           ${data.subtotal >= freeShippingFrom
             ? 'Você ganhou frete grátis'
-            : `Falta <b>R$ ${Math.round(freeShippingFrom - data.subtotal)}</b> para frete grátis`}
+            : `Faltam <b>R$ ${Math.round(freeShippingFrom - data.subtotal)}</b> para frete grátis`}
         </div>
         <div class="progress">
           <div
