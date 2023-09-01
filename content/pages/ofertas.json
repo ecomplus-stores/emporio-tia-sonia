@@ -9,6 +9,21 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-tia-soo-oonnia-computador.webp",
+      "mobile_img": "/img/uploads/banner-tia-soo-oonnia-celular-1-.webp",
+      "link": "",
+      "alt": "Granola"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/mini-banner-tia-soo-oonnia-01.png"
+        }
+      ]
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
@@ -21,6 +36,11 @@
       "sort": "sales",
       "link": "",
       "title": "Os Queridinhos da Tia Sônia"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     },
     {
       "type": "banners-grid",
@@ -41,11 +61,6 @@
           "alt": "zero"
         }
       ]
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
     }
   ]
 }
