@@ -7,12 +7,12 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/granolaehtia1920.webp"
+          "img": "/img/uploads/01-bem-vindo.png"
         }
       ]
     },
