@@ -57,6 +57,20 @@
       ]
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/07-cadastre-se.png",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform",
+          "alt": "cadastro"
+        }
+      ]
+    },
+    {
       "type": "custom-html",
       "html": "Clique no link abaixo, cadastre-se e aguarde o retorno da nossa equipe.\n<br><a class=\"btn btn-primary\" type=\"button\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform\" target=\"blank\">Cadastre-se aqui</a>"
     }
