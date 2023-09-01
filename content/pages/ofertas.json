@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## A﻿mor, sabor e promoção!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
+  "body": "## Sabores do Brasil!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
   "sections": [
     {
       "type": "info-bar",
@@ -44,11 +44,6 @@
       "title": "Os Queridinhos da Tia Sônia"
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -67,6 +62,11 @@
           "alt": "zero"
         }
       ]
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     }
   ]
 }
