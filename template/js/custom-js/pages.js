@@ -33,20 +33,27 @@ if (freeShippingProgress) {
       <div class="free-shipping-progress">
         <div>
           ${data.subtotal >= freeShippingFrom
-            ? 'Você ganhou frete grátis'
+            ? 'VOCÊ GANHOU FRETE GRÁTIS!'
             : `Faltam <b>R$ ${Math.round(freeShippingFrom - data.subtotal)}</b> para frete grátis`}
         </div>
-        <div class="progress">
-          <div
-            class="progress-bar"
-            role="progressbar"
-            style="width: ${freeFromPercentage}%"
-            aria-valuenow="${freeFromPercentage}"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-          </div>
-        </div>
+        ${freeFromPercentage < 100
+            ? String.raw`
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: ${freeFromPercentage}%"
+                aria-valuenow="${freeFromPercentage}"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+              </div>
+            </div>`
+            : String.raw`
+            <div>
+              <i class="i-shipping-fast mr-1"></i>
+              <i class="i-check" style="color: #18a662"></i>
+            </div>`}
       </div>`
     }
     ecomCart.on('change', updateFreeShippingProgress)
