@@ -2,15 +2,18 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## A﻿mor, sabor e promoção!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
+  "body": "## Sabores do Brasil!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
   "sections": [
     {
       "type": "info-bar",
       "enabled": true
     },
     {
-      "type": "extra-page",
-      "enabled": true
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-tia-soo-oonnia-computador.webp",
+      "mobile_img": "",
+      "link": "",
+      "alt": "Granola"
     },
     {
       "type": "collection-shelf",
@@ -21,6 +24,24 @@
       "sort": "sales",
       "link": "",
       "title": "Os Queridinhos da Tia Sônia"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/mini-banner-tia-soo-oonnia-01.png"
+        },
+        {
+          "img": "/img/uploads/mini-banner-tia-soo-oonnia-02.png"
+        },
+        {
+          "img": "/img/uploads/mini-banner-tia-soo-oonnia-03.png"
+        }
+      ]
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     },
     {
       "type": "banners-grid",

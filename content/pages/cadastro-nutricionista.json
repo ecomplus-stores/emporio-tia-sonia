@@ -1,38 +1,78 @@
 {
   "title": "Cadastro Nutricionista",
-  "body": "**Olá, Nutri!** \n\nHá mais de 27 anos, a Tia Sônia oferece alimentos saudáveis e saborosos, inspirando uma **vida equilibrada**. Nossa história começou com Dona Sônia, criando uma deliciosa **Granola** caseira para o filho Marcos levar em suas trilhas à Machu Picchu. \n\nHoje, esse cuidado de mãe resultou em uma linha completa com mais de 50 produtos, incluindo Granolas, Snacks, Barras e Cookies feitos com **carinho** e ingredientes selecionados. \n\nValorizamos cada detalhe, desde a escolha dos ingredientes até o cuidado com a embalagem buscando oferecer o melhor para você e sua família.",
+  "body": "<div class=\"container\" style=\"padding: unset;margin-top: -5px;\">\n\n<iframe width=\"100%\" height=\"400\" src=\"https://www.youtube-nocookie.com/embed/mjRhgH0rfrE?si=Z4sMmOZ_wGLPPcw7&amp;controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>\n\n</div>",
   "meta_title": "Cadastro Nutricionista - Tia Sônia",
   "meta_description": "É nutricionista, e quer fazer parte do nosso Clube Nutri? Junte-se a nós e inspire cada vez mais pessoas a ter uma alimentação saudável. Inscreva-se!",
   "sections": [
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/granolaehtia1920.webp"
+          "img": "/img/uploads/01-bem-vindo.png",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/04-video-produto.png",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/03-conheca-nossa-nutri.png",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/05-beneficios-do-clube-nutri.png",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/07-cadastre-se.png",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform",
+          "alt": "cadastro"
         }
       ]
     },
     {
       "type": "extra-page",
       "enabled": true
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/granolanutri1920x500.webp",
-      "mobile_img": "/img/uploads/granolanutri1080x1080.webp",
-      "alt": "granola é Tia Sonia"
-    },
-    {
-      "type": "custom-content",
-      "markdown": "**C﻿onheça nossa Nutri - [Betina Santos](https://www.emporiotiasonia.com.br/pages/betina-santos-nutricionista)**\n\n> Beti é apaixonada pelo estilo de vida saudável e encantada com a forma que o corpo responde aos diferentes estímulos recebidos.  \n\n<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/wyQlCuVHDbs?si=-vumptHBOdKVpYzr&amp;controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n\n**Benefícios do Clube Nutri**\n\n* Receber visitas\n* Ter acesso a notícias exclusivas e lançamentos antes do público geral. \n* Realizar collab de conteúdos nas nossas redes sociais e blog, aumentando o alcance da sua mensagem.\n* Cupons de desconto para você. \n* Cupom de desconto para paciente."
-    },
-    {
-      "type": "custom-html",
-      "html": "Clique no link abaixo, cadastre-se e aguarde o retorno da nossa equipe.\n<br><a class=\"btn btn-primary\" type=\"button\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeW7uL1hgxUN0_gQCoiO-UQABhZix4cQ1Sb7HALFEix_Fnt0Q/viewform\" target=\"blank\">Cadastre-se aqui</a>"
     }
   ]
 }
