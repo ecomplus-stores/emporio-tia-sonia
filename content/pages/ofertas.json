@@ -2,18 +2,11 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Sabores do Brasil!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
+  "body": "## Amor, sabor e promoção!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
   "sections": [
     {
       "type": "info-bar",
       "enabled": true
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-tia-soo-oonnia-computador.webp",
-      "mobile_img": "",
-      "link": "",
-      "alt": "Granola"
     },
     {
       "type": "collection-shelf",
