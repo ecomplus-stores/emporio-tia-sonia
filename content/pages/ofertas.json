@@ -9,18 +9,13 @@
       "enabled": true
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": null,
-      "sort": "sales",
-      "link": "",
-      "title": "Os Queridinhos da Tia Sônia"
-    },
-    {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     },
     {
       "type": "banners-grid",
@@ -43,9 +38,14 @@
       ]
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": null,
+      "sort": "sales",
+      "link": "",
+      "title": "Os Queridinhos da Tia Sônia"
     }
   ]
 }
