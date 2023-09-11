@@ -43,26 +43,6 @@
       "enabled": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/kit-mais-vendidos.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
-          "alt": "kitmaisvendidos"
-        },
-        {
-          "img": "/img/uploads/kit-mais-feliz.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
-          "alt": "maisfeliz"
-        },
-        {
-          "img": "/img/uploads/kit-sem-acucar.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---zero-adicao-de-acucar---tia-sonia",
-          "alt": "semacucar"
-        }
-      ]
-    },
-    {
       "type": "custom-html",
       "html": "<a style=\"text-align: center; color: #204294; text-decoration: none;\" href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\">\n<h1>Conheça a história da melhor Granola do Brasil!</h1>\n</a>"
     },
