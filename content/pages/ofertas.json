@@ -13,9 +13,29 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/semanabemfeliz-3-.webp",
+      "alt": "+feliz",
+      "mobile_img": "/img/uploads/semanabemfeliz-2-.webp"
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/semanabemfeliz-1-.webp"
+        },
+        {
+          "img": "/img/uploads/semanabemfeliz-5-.webp"
+        },
+        {
+          "img": "/img/uploads/semanabemfeliz-6-.webp"
+        }
+      ]
     },
     {
       "type": "banners-grid",
@@ -46,26 +66,6 @@
       "sort": "sales",
       "link": "",
       "title": "Os Queridinhos da Tia Sônia"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/semanabemfeliz-1-.webp"
-        },
-        {
-          "img": "/img/uploads/semanabemfeliz-5-.webp"
-        },
-        {
-          "img": "/img/uploads/semanabemfeliz-6-.webp"
-        }
-      ]
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/semanabemfeliz-3-.webp",
-      "alt": "+feliz",
-      "mobile_img": "/img/uploads/semanabemfeliz-2-.webp"
     }
   ]
 }
