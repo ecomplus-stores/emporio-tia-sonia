@@ -54,6 +54,12 @@
           "img": "/img/uploads/semanabemfeliz-1-.webp"
         }
       ]
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/semanabemfeliz-3-.webp",
+      "alt": "+feliz",
+      "mobile_img": "/img/uploads/semanabemfeliz-2-.webp"
     }
   ]
 }
