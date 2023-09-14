@@ -4,7 +4,7 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 40000,
+      "autoplay": 5000,
       "slides": [
         {
           "start": "2023-09-11T19:59:19.271Z",
@@ -17,10 +17,10 @@
         {
           "start": "2023-07-20T19:34:14.314Z",
           "end": "",
-          "img": "/img/uploads/sabores-1920x500.webp",
+          "img": "/img/uploads/semanabemfeliz-3-.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "sabores",
-          "mobile_img": "/img/uploads/sabores1080x1080.webp"
+          "alt": "Ofertas",
+          "mobile_img": "/img/uploads/semanabemfeliz-2-.webp"
         }
       ],
       "full_width": true
