@@ -46,6 +46,14 @@
       "sort": "sales",
       "link": "",
       "title": "Os Queridinhos da Tia Sônia"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/semanabemfeliz-1-.webp"
+        }
+      ]
     }
   ]
 }
