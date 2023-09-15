@@ -31,7 +31,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<a style=\"text-align: center; color: #204294; text-decoration: none;\" href=\"https://docs.google.com/forms/d/1e8PaEeXcxKOkqswG4KaVkYOMAK1h27FMPKS7V4vqAFQ/edit\">\n<h1>Você merece um ano de Tia Sônia - Descubra como ganhar!</h1>\n</a>"
+      "html": "<a style=\"text-align: center; color: #204294; text-decoration: none;\" href=\"https://docs.google.com/forms/d/1e8PaEeXcxKOkqswG4KaVkYOMAK1h27FMPKS7V4vqAFQ/edit\">\n<h2>Você merece um ano de Tia Sônia - Descubra como ganhar!</h2>\n</a>"
     },
     {
       "type": "responsive-banner",
