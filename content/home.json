@@ -7,20 +7,20 @@
       "autoplay": 5000,
       "slides": [
         {
-          "start": "2023-09-11T19:59:19.271Z",
-          "end": "",
-          "img": "/img/uploads/cashbackdiogo1920.webp",
-          "mobile_img": "/img/uploads/cashbackdiogo1080.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-          "alt": "Cashback"
-        },
-        {
           "start": "2023-07-20T19:34:14.314Z",
           "end": "",
           "img": "/img/uploads/semanabemfeliz-3-.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "Ofertas",
           "mobile_img": "/img/uploads/semanabemfeliz-2-.webp"
+        },
+        {
+          "start": "2023-09-11T19:59:19.271Z",
+          "end": "",
+          "img": "/img/uploads/cashbackdiogo1920.webp",
+          "mobile_img": "/img/uploads/cashbackdiogo1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
+          "alt": "Cashback"
         }
       ],
       "full_width": true
