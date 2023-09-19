@@ -8,23 +8,11 @@
     "title": "Informações ",
     "list": [
       {
-        "text": "Sobre a Tia Sônia",
-        "url": "/pages/sobre-nos"
-      },
-      {
-        "text": "Seja um Distribuidor",
-        "url": "https://api.whatsapp.com/send?phone=5577999028293&text=Ol%C3%A1,%20gostaria%20de%20ser%20um%20distribuidor%20Tia%20S%C3%B4nia."
-      },
-      {
-        "text": "Compras em Atacado",
-        "url": "https://compre.tiasonia.com.br/"
-      },
-      {
         "text": "Fale com a Tia Sônia",
         "url": "/pages/contato"
       },
       {
-        "text": "Onde encontrar",
+        "text": "Onde Encontrar",
         "url": "/pages/onde-encontrar"
       },
       {
@@ -32,28 +20,36 @@
         "url": "https://www.emporiotiasonia.com.br/pages/cadastro-nutricionista"
       },
       {
-        "text": "Termos de serviço",
-        "url": "/pages/termos"
-      },
-      {
-        "text": "Trocas e devoluções",
-        "url": "/pages/trocas"
-      },
-      {
-        "url": "/pages/programa-de-fidelidade",
-        "text": "Cashback (Compre e Ganhe)"
+        "text": "Seja um Revendedor (CNPJ)",
+        "url": "https://compre.tiasonia.com.br/"
       },
       {
         "text": "Assinatura (Compra Recorrente)",
         "url": "https://www.emporiotiasonia.com.br/pages/assinatura-tia-sonia"
       },
       {
-        "text": "Política de privacidade",
+        "url": "/pages/programa-de-fidelidade",
+        "text": "Cashback (Compre e Ganhe)"
+      },
+      {
+        "text": "Termos de Serviço",
+        "url": "/pages/termos"
+      },
+      {
+        "text": "Política de Privacidade",
         "url": "/pages/privacidade"
       },
       {
         "url": "https://www.emporiotiasonia.com.br/pages/politica-de-qualidade",
         "text": "Política de Qualidade"
+      },
+      {
+        "text": "Trocas e Devoluções",
+        "url": "/pages/trocas"
+      },
+      {
+        "text": "Sobre a Tia Sônia",
+        "url": "/pages/sobre-nos"
       }
     ]
   },
