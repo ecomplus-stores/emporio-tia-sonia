@@ -12,6 +12,10 @@
       "enabled": true
     },
     {
+      "type": "blog-post",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
@@ -19,10 +23,6 @@
       "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
       "sort": "sales",
       "title": "Granola é Tia Sônia!"
-    },
-    {
-      "type": "blog-post",
-      "enabled": true
     },
     {
       "type": "custom-html",
