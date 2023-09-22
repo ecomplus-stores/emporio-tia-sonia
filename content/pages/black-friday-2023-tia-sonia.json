@@ -17,6 +17,11 @@
       ]
     },
     {
+      "type": "page-title",
+      "title": "Black Friday 2023 - Tia Sônia",
+      "description": "Preencha seu e-mail e receba nossas promoções de Black Friday em primeira mão!"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     }
