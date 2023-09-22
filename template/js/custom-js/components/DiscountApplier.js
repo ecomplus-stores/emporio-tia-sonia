@@ -159,6 +159,7 @@ export default {
               this.alertVariant = invalidAlertVariant || 'warning'
             } else {
               this.$emit('update:coupon-code', this.localCouponCode)
+              document.body.classList.add('__discount-coupon-applied')
               this.alertText = this.i19couponAppliedMsg
               this.alertVariant = 'info'
             }
