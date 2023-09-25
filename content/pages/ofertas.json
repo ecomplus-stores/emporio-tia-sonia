@@ -5,15 +5,6 @@
   "body": "## A﻿mor, sabor e ofertas para você!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!\n\nO﻿fertas exclusivas todos os dias, aproveite!",
   "sections": [
     {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -32,6 +23,15 @@
           "alt": "zero"
         }
       ]
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     },
     {
       "type": "collection-shelf",
