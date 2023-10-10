@@ -5,6 +5,14 @@
   "body": "## Use o cupom: PREMIUM15 e economize 15% em seu pedido.\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!\n\nO﻿fertas exclusivas todos os dias, aproveite!",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/premium15.webp"
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -23,10 +31,6 @@
           "alt": "zero"
         }
       ]
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
     },
     {
       "type": "dynamic-showcase",
