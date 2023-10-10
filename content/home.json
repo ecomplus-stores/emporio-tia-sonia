@@ -7,6 +7,14 @@
       "autoplay": 5000,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/premium15.webp",
+          "mobile_img": "/img/uploads/premium15-1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "Premium"
+        },
+        {
           "start": "2023-09-11T19:59:19.271Z",
           "end": "",
           "img": "/img/uploads/cashbackdiogo1920.webp",
