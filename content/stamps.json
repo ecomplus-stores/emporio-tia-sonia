@@ -1,3 +1,11 @@
 {
-  "stamps_list": []
+  "stamps_list": [
+    {
+      "skus": [
+        "RV0012"
+      ],
+      "id": "leve3",
+      "img": "/img/uploads/leve3.png"
+    }
+  ]
 }
