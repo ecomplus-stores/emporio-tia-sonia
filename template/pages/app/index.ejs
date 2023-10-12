@@ -4,7 +4,7 @@ const footer = _.cms('footer') || {}
 const header = _.cms('header') || {}
 
 const logo = _.settings.logo
-  ? { url: _.settings.logo, alt: _.settings.name }
+  ? { url: (_.assetsPrefix || '') + _.settings.logo, alt: _.settings.name }
   : _.store.logo
 %>
 
