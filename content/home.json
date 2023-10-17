@@ -21,6 +21,14 @@
           "mobile_img": "/img/uploads/cashbackdiogo1080.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "Cashback"
+        },
+        {
+          "start": "",
+          "end": "2023-10-17T23:11:54.214Z",
+          "img": "/img/uploads/ultrabar1920.webp",
+          "mobile_img": "/img/uploads/ultrabar1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/ultrabar",
+          "alt": "ultrabar"
         }
       ],
       "full_width": true
