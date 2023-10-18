@@ -148,7 +148,7 @@ export default {
       const allStamps = (typeof window === 'object' && window.productCardStamps)
       if (Array.isArray(allStamps)) {
         return allStamps.filter(({ skus }) => {
-          return skus.includes(this.body.sku)
+          return skus && skus.includes(this.body.sku)
         })
       }
       return []
