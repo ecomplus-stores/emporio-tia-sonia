@@ -16,6 +16,17 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/banner-tia-sonia-celular-02.webp"
+        },
+        {
+          "img": "/img/uploads/banner-tia-sonia-celular-01.webp"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
           "img": "/img/uploads/kit-mais-vendidos.webp",
           "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
           "alt": "mais"
