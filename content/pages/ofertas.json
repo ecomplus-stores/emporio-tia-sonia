@@ -6,7 +6,8 @@
   "sections": [
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/ultrabar1920.webp"
+      "img": "/img/uploads/ultrabar1920.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
     },
     {
       "type": "extra-page",
@@ -16,10 +17,12 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/banner-tia-sonia-celular-02.webp"
+          "img": "/img/uploads/banner-tia-sonia-celular-02.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
         },
         {
-          "img": "/img/uploads/banner-tia-sonia-celular-01.webp"
+          "img": "/img/uploads/banner-tia-sonia-celular-01.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
         }
       ]
     },
