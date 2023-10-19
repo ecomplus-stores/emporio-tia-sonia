@@ -84,21 +84,6 @@
       "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
       "sort": "sales",
       "title": "Marca Parceira: Ultrabar"
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-08-15T15:21:43.945Z",
-          "end": "",
-          "img": "/img/uploads/ebook-500.webp",
-          "link": "https://lp.tiasonia.com.br/ebook",
-          "alt": "ebook",
-          "mobile_img": "/img/uploads/ebook-1080.webp"
-        }
-      ]
     }
   ]
 }
