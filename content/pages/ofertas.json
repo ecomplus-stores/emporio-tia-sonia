@@ -2,13 +2,8 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Comprou, ganhou!\n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!\n\n+5% extra com um cupom: **ULTRABAR**",
+  "body": "## Amor, sabor e promoção! \n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
   "sections": [
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/ultrabar1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
-    },
     {
       "type": "extra-page",
       "enabled": true
@@ -18,23 +13,10 @@
       "shuffle": false,
       "limit": "",
       "page": "",
-      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
+      "collection_id": null,
       "sort": "sales",
       "link": "",
-      "title": "Ultrabar com 10% OFF!"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-tia-sonia-celular-02.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
-        },
-        {
-          "img": "/img/uploads/banner-tia-sonia-celular-01.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
-        }
-      ]
+      "title": "Os mais vendidos são esses:"
     },
     {
       "type": "banners-grid",
