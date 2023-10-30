@@ -5,6 +5,12 @@
   "body": "## Amor, sabor e promoção! \n\nDesfrute de produtos **deliciosos e saudáveis** da Tia Sônia com **descontos** especiais! Aproveite o **Frete Grátis** em compras acima de R$120, ganhe cashback em cada compra!",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/cashbackdiogo1920.webp",
+      "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
+      "alt": "fidelidade"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
