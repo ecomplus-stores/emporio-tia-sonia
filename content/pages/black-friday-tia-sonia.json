@@ -1,8 +1,8 @@
 {
-  "body": "**30% de desconto** em todo site e **Frete Grátis** em compras acima de R$ 100",
+  "body": "<div class=\"o-form\"><div class=\"o-form-header\"><h2 id=\"o-form-title\">Cadastre-se e receba as ofertas Black Friday primeiro!</h2><p id=\"o-form-description\">Preencha seu e-mail e receba nossas promoções de Black Friday em primeira mão!</p></div><form action=\"https://mbiz.mailclick.me/subscribe.php\" method=\"post\" accept-charset=\"UTF-8\"><div class=\"o-form-row\"><label for=\"FormValue_EmailAddress\">Email</label><input type=\"email\" name=\"FormValue_Fields[EmailAddress]\" value=\"\" id=\"FormValue_EmailAddress\"></div><div class=\"o-form-row\"><label for=\"FormValue_CustomField13013\">Nome</label><input type=\"text\" name=\"FormValue_Fields[CustomField13013]\" value=\"\" id=\"FormValue_CustomField13013\" class=\"text\"></div><input type=\"submit\" name=\"FormButton_Subscribe\" value=\"Cadastrar\" id=\"FormButton_Subscribe\"><input type=\"hidden\" name=\"FormValue_ListID\" value=\"9552\"><input type=\"hidden\" name=\"FormValue_Command\" value=\"Subscriber.Add\" id=\"FormValue_Command\"></form><style type=\"text/css\" media=\"screen\">.o-form{background-color:#fff;border:1px solid #f2f2f2;}\n.o-form form{margin:0px;padding:0px;}\n.o-form .o-form-header{background-color:#f2f2f2;padding:9px;}\n.o-form h2{font-family:Arial,sans-serif;font-size:18px;line-height:27px;margin:0px;padding:0px;}\n.o-form p{font-family:Arial,sans-serif;font-size:12px;line-height:18px;margin:0px;padding:0px;}\n.o-form .o-form-row{margin-top:9px;padding:0 9px;}\n.o-form .o-form-row label{font-family:Arial,sans-serif;font-size:12px;display:block;font-weight:bold;}\n.o-form input[type=\"submit\"]{margin:20px 9px 18px 9px;}\n</style></div>",
   "title": "Black Friday - Tia Sônia",
   "meta_title": "Black Friday - Tia Sônia",
-  "meta_description": "30% de desconto em todo site e Frete Grátis em compras acima de R$ 100",
+  "meta_description": "Cadastre-se e receba as ofertas Black Friday primeiro!",
   "sections": [
     {
       "type": "dynamic-showcase",
