@@ -30,6 +30,16 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/1080banner-chocolate.webp",
+          "link": "https://www.emporiotiasonia.com.br/granola-com-chocolate-tiasonia",
+          "alt": "Chocolate"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
