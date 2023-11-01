@@ -28,19 +28,19 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/kit-mais-vendidos.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---mais-vendidos---tia-sonia",
-          "alt": "mais"
+          "img": "/img/uploads/1080banner-low-carb.webp",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-low-carb-180g",
+          "alt": "Low Carb"
         },
         {
-          "img": "/img/uploads/kit-mais-feliz.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---mais-feliz---tia-sonia",
-          "alt": "feliz"
+          "img": "/img/uploads/1080banner-chocolate.webp",
+          "link": "https://www.emporiotiasonia.com.br/granola-com-chocolate-tiasonia",
+          "alt": "Chocolate"
         },
         {
-          "img": "/img/uploads/kit-sem-acucar.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit---zero-adicao-de-acucar---tia-sonia",
-          "alt": "zero"
+          "img": "/img/uploads/1080banner-castanha-do-para.webp",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-castanha-do-para-200g",
+          "alt": "Pará"
         }
       ]
     },
