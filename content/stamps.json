@@ -9,6 +9,13 @@
         "PA338",
         "PA002"
       ]
+    },
+    {
+      "id": "Premium",
+      "img": "/img/uploads/premium-removebg-preview.png",
+      "skus": [
+        "PA314"
+      ]
     }
   ]
 }
