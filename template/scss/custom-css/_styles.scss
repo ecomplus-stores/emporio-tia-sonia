@@ -662,7 +662,7 @@ body{
   color: #365b80;
 }
 .header__container{margin:0 auto;padding:15px}
-.badge-primary{background:var(--apx_laranja2_h)}
+.badge-primary{background:#333333}
 .header__nav{
   display:flex;
   justify-content:space-between;
@@ -1450,7 +1450,7 @@ body #apx_menu .dropdown .dropdown-menu-custom.full > li > ul > li > a{
 #apx_menu > li{margin:-15px 0}
 
 #topSlide{
-  background: linear-gradient(90deg, rgb(54 91 128) 0%, rgb(3 183 254) 100%) 0% 0% no-repeat padding-box padding-box transparent !important;
+  background: linear-gradient(90deg, #333333, rgb(3 183 254) 100%) 0% 0% no-repeat padding-box padding-box transparent !important;
   color:#fff;
   line-height: 15px;
 }
