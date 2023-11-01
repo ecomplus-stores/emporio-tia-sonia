@@ -3,11 +3,5 @@
   "title": "Black Friday - Tia Sônia",
   "meta_title": "Black Friday - Tia Sônia",
   "meta_description": "Cadastre-se e receba as ofertas Black Friday primeiro!",
-  "sections": [
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "sales"
-    }
-  ]
+  "sections": []
 }
