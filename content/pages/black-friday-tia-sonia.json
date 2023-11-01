@@ -3,5 +3,22 @@
   "title": "Black Friday - Tia Sônia",
   "meta_title": "Black Friday - Tia Sônia",
   "meta_description": "Cadastre-se e receba as ofertas Black Friday primeiro!",
-  "sections": []
+  "sections": [
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/mercadolivre-tiasonia.webp"
+        }
+      ]
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
+    }
+  ]
 }
