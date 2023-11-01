@@ -17,6 +17,11 @@
       ]
     },
     {
+      "type": "page-title",
+      "description": "Preencha seu e-mail e receba nossas promoções de Black Friday em primeira mão!",
+      "title": "Black Friday - Tia Sônia"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     }
