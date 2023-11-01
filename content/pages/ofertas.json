@@ -6,9 +6,9 @@
   "sections": [
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/cashbackdiogo1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-      "alt": "fidelidade"
+      "img": "/img/uploads/nov-feliz1920.webp",
+      "link": "",
+      "alt": "Novembro + Feliz"
     },
     {
       "type": "extra-page",
@@ -19,10 +19,10 @@
       "shuffle": false,
       "limit": "",
       "page": "",
-      "collection_id": null,
+      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
       "sort": "sales",
       "link": "",
-      "title": "Os mais vendidos são esses:"
+      "title": "Leve 4 e Pague 3!"
     },
     {
       "type": "banners-grid",
