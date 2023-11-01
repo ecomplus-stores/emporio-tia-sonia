@@ -1,3 +1,14 @@
 {
-  "stamps_list": []
+  "stamps_list": [
+    {
+      "id": "Leve 4 Pague 3",
+      "img": "/img/uploads/leve4.png",
+      "skus": [
+        "PA001",
+        "PA285",
+        "PA338",
+        "PA002"
+      ]
+    }
+  ]
 }
