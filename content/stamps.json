@@ -23,6 +23,13 @@
       "skus": [
         "PA309"
       ]
+    },
+    {
+      "id": "gluten",
+      "img": "/img/uploads/levesemgluten200.png",
+      "skus": [
+        "PA319"
+      ]
     }
   ]
 }
