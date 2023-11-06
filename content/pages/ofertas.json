@@ -66,6 +66,11 @@
           "img": "/img/uploads/1080banner-feed-tapioca.jpg",
           "link": "https://www.emporiotiasonia.com.br/sublime-tia-sonia-tapioca-crocante-pote-290g",
           "alt": "Tapioca"
+        },
+        {
+          "img": "/img/uploads/1080banner-feed-sem-gluten.jpg",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-sem-gluten-pote",
+          "alt": "Sem Gluten"
         }
       ]
     },
