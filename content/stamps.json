@@ -16,6 +16,13 @@
       "skus": [
         "PA314"
       ]
+    },
+    {
+      "id": "organica",
+      "img": "/img/uploads/leveorganica200.png",
+      "skus": [
+        "PA309"
+      ]
     }
   ]
 }
