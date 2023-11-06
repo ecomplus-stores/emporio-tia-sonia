@@ -61,6 +61,11 @@
           "img": "/img/uploads/1080banner-granola-lata.jpg",
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
           "alt": "Lata"
+        },
+        {
+          "img": "/img/uploads/1080banner-feed-tapioca.jpg",
+          "link": "https://www.emporiotiasonia.com.br/sublime-tia-sonia-tapioca-crocante-pote-290g",
+          "alt": "Tapioca"
         }
       ]
     },
