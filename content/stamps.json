@@ -30,6 +30,13 @@
       "skus": [
         "PA319"
       ]
+    },
+    {
+      "id": "lata",
+      "img": "/img/uploads/lve200.png",
+      "skus": [
+        "PA744"
+      ]
     }
   ]
 }
