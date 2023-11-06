@@ -37,6 +37,13 @@
       "skus": [
         "PA744"
       ]
+    },
+    {
+      "id": "tapioca",
+      "img": "/img/uploads/tapioca180g.png",
+      "skus": [
+        "PA120"
+      ]
     }
   ]
 }
