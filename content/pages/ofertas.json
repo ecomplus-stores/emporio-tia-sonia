@@ -56,6 +56,11 @@
           "img": "/img/uploads/1080banner-feed-organica.jpg",
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-organica-pote",
           "alt": "organica"
+        },
+        {
+          "img": "/img/uploads/1080banner-granola-lata.jpg",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
+          "alt": "Lata"
         }
       ]
     },
