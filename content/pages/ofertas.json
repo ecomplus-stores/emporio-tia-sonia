@@ -50,6 +50,16 @@
       ]
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/1080banner-feed-organica.jpg",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-organica-pote",
+          "alt": "organica"
+        }
+      ]
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
