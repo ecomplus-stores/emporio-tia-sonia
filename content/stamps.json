@@ -44,6 +44,13 @@
       "skus": [
         "PA120"
       ]
+    },
+    {
+      "id": "light",
+      "img": "/img/uploads/light.png",
+      "skus": [
+        "PA003"
+      ]
     }
   ]
 }
