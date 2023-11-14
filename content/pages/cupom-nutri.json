@@ -2,6 +2,18 @@
   "title": "Cupom Nutri",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/01-bem-vindo.png"
+        }
+      ]
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
