@@ -2,14 +2,8 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Novembro + Feliz!\n\nDelicie-se com os produtos irresistivelmente saborosos e saudáveis da Tia Sônia, tudo isso com descontos imperdíveis! Compras acima de R$120 garantem **Frete Grátis**, além de ganhar cashback para a sua próxima compra! Promoções não acumulativas.",
+  "body": "## Frete Grátis e Cashback!\n\nDelicie-se com os produtos irresistivelmente saborosos e saudáveis da Tia Sônia, tudo isso com descontos imperdíveis! Compras acima de R$120 garantem **Frete Grátis**, além de ganhar cashback para a sua próxima compra! Promoções não acumulativas.",
   "sections": [
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/nov-feliz1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/novidades-da-tia-sonia",
-      "alt": "Novembro + Feliz"
-    },
     {
       "type": "extra-page",
       "enabled": true
@@ -22,7 +16,7 @@
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
       "sort": "sales",
       "link": "",
-      "title": "Compre e Ganhe!"
+      "title": "Os mais vendidos"
     },
     {
       "type": "banners-grid",
