@@ -13,7 +13,7 @@
       "shuffle": false,
       "limit": "",
       "page": 1,
-      "sort": "sales",
+      "sort": null,
       "title": "Os mais vendidos!"
     },
     {
