@@ -9,16 +9,6 @@
       "enabled": true
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Novidades da Tia Sônia:/novidades-da-tia-sonia",
-      "sort": "sales",
-      "link": "",
-      "title": "Os mais vendidos"
-    },
-    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
