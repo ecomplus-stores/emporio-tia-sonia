@@ -19,8 +19,9 @@
       "shuffle": false,
       "limit": "",
       "page": 1,
-      "sort": null,
-      "title": "Os mais vendidos!"
+      "sort": "sales",
+      "title": "Os mais vendidos!",
+      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
     },
     {
       "type": "dynamic-showcase",
