@@ -1,20 +1,6 @@
 {
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/fitabf.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "Black"
-        }
-      ]
-    },
-    {
       "type": "breadcrumbs",
       "enabled": true
     },
@@ -32,11 +18,12 @@
       "full_width": false,
       "slides": [
         {
-          "start": "2023-07-29T14:37:54.620Z",
-          "end": "2023-08-06T14:37:59.751Z",
+          "start": "2023-11-17T23:42:07.013Z",
+          "end": "",
           "img": "/img/uploads/granolaehtia1920.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "granola"
+          "alt": "granola",
+          "mobile_img": "/img/uploads/black20231920.webp"
         }
       ]
     },
