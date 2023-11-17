@@ -12,7 +12,7 @@
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
-      "page": 3,
+      "page": 1,
       "sort": "sales",
       "title": "Os mais vendidos!"
     },
