@@ -1,7 +1,12 @@
 {
   "hosting": {
     "redirects": [
-        {
+         {
+        "source": "/pages/black-friday-tia-sonia",
+        "destination": "/pages/ofertas",
+        "type": 301
+      },
+      {
         "source": "granola-tia-sonia-premium-pote-450g",
         "destination": "granola-tia-sonia-premium-pote",
         "type": 301
