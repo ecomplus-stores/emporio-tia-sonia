@@ -10,10 +10,10 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": "",
       "page": 3,
-      "sort": "offers",
+      "sort": "sales",
       "title": "Os mais vendidos!"
     },
     {
