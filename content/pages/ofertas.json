@@ -9,17 +9,17 @@
       "enabled": true
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
       "page": 3,
       "sort": "offers",
       "title": "Os mais vendidos!"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     }
   ]
 }
