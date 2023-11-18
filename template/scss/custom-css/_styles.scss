@@ -2203,8 +2203,18 @@ text-align:center;
 .sections .info-bar:first-child {
   display: block;
 }
-.product__ct .btn-light .active{
-    background-color: #333;
-    border-color: #333;
-    color: #fff;
+.product__ct .btn-light.active{
+    background-color: #333 !important;
+    border-color: #333 !important;
+    color: #fff !important;
+}
+
+.product__ct .btn-light:last-child {
+  background: #333333;
+  color: #F7D102;
+}
+
+.product__ct .btn-light .badge-primary {
+  background: #F7D102;
+  color: black
 }
