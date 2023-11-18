@@ -5,18 +5,6 @@
   "body": "## Frete Grátis e Cashback!\n\nDelicie-se com os produtos irresistivelmente saborosos e saudáveis da Tia Sônia, tudo isso com descontos imperdíveis! \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* **C﻿ashback** na sua próxima compra!\n* A﻿té **50% OFF** em produtos selecionados.",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/fitabf.webp"
-        }
-      ]
-    },
-    {
       "type": "responsive-banner",
       "img": "/img/uploads/black20231920.jpg",
       "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
@@ -27,6 +15,11 @@
       "enabled": true
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -34,11 +27,6 @@
       "sort": "sales",
       "title": "As melhores Ofertas",
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
     }
   ]
 }
