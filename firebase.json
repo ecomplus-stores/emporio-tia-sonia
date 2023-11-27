@@ -2,6 +2,21 @@
   "hosting": {
     "redirects": [
          {
+        "source": "/leite-de-coco-em-po-180g",
+        "destination": "/pages/ofertas",
+        "type": 301
+      },
+      {
+        "source": "/leite-de-coco-em-po-180g",
+        "destination": "/pages/ofertas",
+        "type": 301
+      },
+       {
+        "source": "/leite-de-coco-em-po",
+        "destination": "/pages/ofertas",
+        "type": 301
+      },
+       {
         "source": "/pages/black-friday-tia-sonia",
         "destination": "/pages/ofertas",
         "type": 301
