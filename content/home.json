@@ -7,20 +7,12 @@
       "autoplay": 5000,
       "slides": [
         {
-          "start": "2023-11-17T23:28:48.332Z",
-          "end": "2023-11-17T23:50:05.225Z",
+          "start": "",
+          "end": "",
           "img": "/img/uploads/cashbackdiogo1920.webp",
           "mobile_img": "/img/uploads/cashbackdiogo1080.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
           "alt": "Cashback"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-1920x500.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "Black",
-          "mobile_img": "/img/uploads/banner_640x500px_tia_so-nia.webp"
         }
       ],
       "full_width": true
