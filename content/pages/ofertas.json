@@ -2,13 +2,16 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Frete Grátis e Cashback (Encerra hoje!)\n\nDelicie-se com os produtos irresistivelmente saborosos e saudáveis da Tia Sônia, tudo isso com descontos imperdíveis! \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* **C﻿ashback** na sua próxima compra!\n* A﻿té **50% OFF** em produtos selecionados.",
+  "body": "## 💙 Frete Grátis e Cashback!\n\nDelicie-se com os produtos irresistivelmente saborosos e saudáveis da Tia Sônia, tudo isso com ofertas imperdíveis! \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* **C﻿ashback** na sua próxima compra!",
   "sections": [
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-1920x500.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
-      "alt": "Ofertas"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": 1,
+      "sort": "sales",
+      "title": "Os Queridinhos da Tia Sônia!",
+      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
     },
     {
       "type": "extra-page",
@@ -18,15 +21,6 @@
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": 1,
-      "sort": "sales",
-      "title": "As melhores Ofertas",
-      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
     }
   ]
 }
