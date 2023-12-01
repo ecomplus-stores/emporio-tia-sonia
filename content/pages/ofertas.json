@@ -6,10 +6,10 @@
   "sections": [
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": "",
       "page": 1,
-      "sort": "sales",
+      "sort": "offers",
       "title": "Os Queridinhos da Tia Sônia!",
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
     },
