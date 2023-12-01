@@ -1,18 +1,3 @@
 {
-  "stamps_list": [
-    {
-      "img": "/img/uploads/bf-selo.png",
-      "id": "BF",
-      "skus": [
-        "PA230",
-        "PA744",
-        "PA311",
-        "PA306",
-        "PA338",
-        "PA001",
-        "PA002",
-        "PA081"
-      ]
-    }
-  ]
+  "stamps_list": []
 }
