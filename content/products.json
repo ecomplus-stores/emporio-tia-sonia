@@ -13,21 +13,6 @@
       }
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2023-11-17T23:42:07.013Z",
-          "end": "",
-          "img": "/img/uploads/black20231920.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "black",
-          "mobile_img": ""
-        }
-      ]
-    },
-    {
       "type": "buy-together",
       "enabled": false
     },
