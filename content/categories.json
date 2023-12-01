@@ -17,21 +17,6 @@
       "sort": "sales"
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/black20231920.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "Black",
-          "mobile_img": ""
-        }
-      ]
-    },
-    {
       "type": "document-description",
       "enabled": true
     }
