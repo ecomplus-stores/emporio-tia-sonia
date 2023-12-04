@@ -5,6 +5,17 @@
   "body": "## 💙 Frete Grátis e Cashback!\n\nDelicie-se com os produtos irresistivelmente saborosos e saudáveis da Tia Sônia, tudo isso com ofertas imperdíveis! \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* **C﻿ashback** na sua próxima compra!",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/ganhecookies1920x500.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "cookies",
+      "mobile_img": "/img/uploads/cookiesgranola1080x1080.webp"
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
@@ -12,10 +23,6 @@
       "sort": "offers",
       "title": "Os Queridinhos da Tia Sônia!",
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
     },
     {
       "type": "dynamic-showcase",
