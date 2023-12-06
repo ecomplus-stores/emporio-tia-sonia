@@ -6,10 +6,10 @@
   "sections": [
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/ganhecookies1920x500.webp",
+      "img": "/img/uploads/cookies1920x500.webp",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
       "alt": "cookies",
-      "mobile_img": "/img/uploads/cookiesgranola1080x1080.webp"
+      "mobile_img": "/img/uploads/cookies1080x1080.webp"
     },
     {
       "type": "extra-page",
