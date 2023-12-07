@@ -5,11 +5,21 @@ if (Array.isArray(_.state.pictures) && _.state.pictures.length) {
   %>
   <div class="hero-banner <%= className %>-banner">
     <% if (_.state.pictures.length === 1) { %>
-      <img
-        class="img-fluid lozad fade"
-        data-src="<%= _.state.pictures[0].url %>"
-        alt="<%= _.state.pictures[0].alt %>"
-      >
+      <% if (_.state.pictures[0].url === 'https://ecoms1.com/1024/@v3/1701980828995-1920x500.jpg') { %>
+        <a href="https://www.amazon.com.br/s?me=A286RSTASACTBT&marketplaceID=A2Q3Y263D00KWC" target="_blank">
+          <img
+            class="img-fluid lozad fade"
+            data-src="<%= _.state.pictures[0].url %>"
+            alt="<%= _.state.pictures[0].alt %>"
+          >
+        </a>
+      <% } else { %>
+        <img
+          class="img-fluid lozad fade"
+          data-src="<%= _.state.pictures[0].url %>"
+          alt="<%= _.state.pictures[0].alt %>"
+        >
+      <% } %>
     <% } else { %>
       <%- await include('@/sections/banner-slider', {
         _, opt: {
