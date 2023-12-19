@@ -11,7 +11,8 @@ import {
   name as getName,
   inStock as checkInStock,
   onPromotion as checkOnPromotion,
-  price as getPrice
+  price as getPrice,
+  randomObjectId as genRandomObjectId,
 } from '@ecomplus/utils'
 
 import Vue from 'vue'
@@ -22,6 +23,7 @@ import APicture from '@ecomplus/storefront-components/src/APicture.vue'
 import APrices from '@ecomplus/storefront-components/src/APrices.vue'
 import ecomPassport from '@ecomplus/passport-client'
 import { toggleFavorite, checkFavorite } from '@ecomplus/storefront-components/src/js/helpers/favorite-products'
+import EcomSearch from '@ecomplus/search-engine'
 
 // const sanitizeProductBody = body => {
 //   const product = Object.assign({}, body)
@@ -94,7 +96,8 @@ export default {
       isWaitingBuy: false,
       isHovered: false,
       isFavorite: false,
-      error: ''
+      error: '',
+      kitItems: []
     }
   },
 
@@ -209,7 +212,7 @@ export default {
         this.isWaitingBuy = true
         store({ url: `/products/${product._id}.json` })
           .then(({ data }) => {
-            const selectFields = ['variations', 'customizations', 'kit_composition']
+            const selectFields = ['variations', 'customizations']
             for (let i = 0; i < selectFields.length; i++) {
               const selectOptions = data[selectFields[i]]
               if (selectOptions && selectOptions.length) {
@@ -225,9 +228,65 @@ export default {
                   })
               }
             }
-            const { quantity, price } = data
-            //ecomCart.addProduct({ ...product, quantity : parseInt($("[product_quantity='"+ product._id +"']")), price })
-            ecomCart.addProduct({ ...product }, '', parseInt(document.querySelector("[product_quantity='"+ product._id +"']").value))
+            if (data['kit_composition']) {
+              const kitComposition = data.kit_composition
+              const ecomSearch = new EcomSearch()
+              ecomSearch
+                .setPageSize(kitComposition.length)
+                .setProductIds(kitComposition.map(({ _id }) => _id))
+                .fetch(true)
+                .then(() => {
+                  ecomSearch.getItems().forEach(product => {
+                    const { quantity } = kitComposition.find(({ _id }) => _id === product._id)
+                    const item = ecomCart.parseProduct(product, undefined, quantity)
+                    if (quantity) {
+                      item.min_quantity = item.max_quantity = quantity
+                    } else {
+                      item.quantity = 0
+                    }
+                    this.kitItems.push({
+                      ...item,
+                      _id: genRandomObjectId()
+                    })
+                  })
+                  if (this.kitItems && this.kitItems.length) {
+                    const composition = this.kitItems.map(item => ({
+                      _id: item.product_id,
+                      variation_id: item.variation_id,
+                      quantity: item.max_quantity || item.quantity
+                    }))
+                    this.kitItems.forEach(item => {
+                      const quantity = item.max_quantity || item.quantity
+                      if (quantity > 0) {
+                        const newItem = { ...item, quantity }
+                        delete newItem.customizations
+                        if (this.product && this.product._id) {
+                          newItem.kit_product = {
+                            _id: this.product._id,
+                            name: this.product.name,
+                            pack_quantity: this.kitItems.length,
+                            price: this.product.price,
+                            composition
+                          }
+                        }
+                        if (this.slug) {
+                          newItem.slug = this.slug
+                        }
+                        if (this.canAddToCart) {
+                          const repeat = parseInt(document.querySelector("[product_quantity='"+ product._id +"']").value)
+                          for (let index = 0; index < repeat; index++) {
+                            ecomCart.addItem(newItem) 
+                          }
+                        }
+                      }
+                    })
+                  }
+                })
+            } else {
+              const { quantity, price } = data
+              //ecomCart.addProduct({ ...product, quantity : parseInt($("[product_quantity='"+ product._id +"']")), price })
+              ecomCart.addProduct({ ...product }, '', parseInt(document.querySelector("[product_quantity='"+ product._id +"']").value))
+            }
           })
           .catch(err => {
             console.error(err)
