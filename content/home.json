@@ -7,6 +7,14 @@
       "autoplay": 5000,
       "slides": [
         {
+          "start": "2023-12-28T13:38:38.263Z",
+          "end": "",
+          "img": "/img/uploads/premium1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/premium",
+          "alt": "Premium",
+          "mobile_img": "/img/uploads/premium1080x1080.webp"
+        },
+        {
           "start": "",
           "end": "",
           "img": "/img/uploads/presentesb2b.webp",
