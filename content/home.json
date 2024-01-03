@@ -7,20 +7,20 @@
       "autoplay": 5000,
       "slides": [
         {
+          "start": "2024-01-03T12:21:20.778Z",
+          "end": "",
+          "img": "/img/uploads/verao2024.webp",
+          "mobile_img": "/img/uploads/verao2024-1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "verao"
+        },
+        {
           "start": "2023-12-28T13:38:38.263Z",
           "end": "",
           "img": "/img/uploads/premium1920x500.webp",
           "link": "https://www.emporiotiasonia.com.br/premium",
           "alt": "Premium",
           "mobile_img": "/img/uploads/premium1080x1080.webp"
-        },
-        {
-          "start": "",
-          "end": "2024-01-01T04:01:00.000Z",
-          "img": "/img/uploads/presentesb2b.webp",
-          "mobile_img": "/img/uploads/presentes1080.webp",
-          "link": "https://www.emporiotiasonia.com.br/presentes",
-          "alt": "Presentes"
         },
         {
           "start": "",
