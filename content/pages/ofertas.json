@@ -5,13 +5,6 @@
   "body": "## 🌞 Verão Saudável é com Tia Sônia!\n\nDelicie-se com os produtos irresistivelmente saborosos e saudáveis da Tia Sônia.\n\n* Compre R$120 e ganhe **Frete Grátis!**\n* A﻿té 20% OFF em produtos selecionados.\n* Receba **C﻿ashback** na sua próxima compra!",
   "sections": [
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/verao2024.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-      "alt": "verao",
-      "mobile_img": ""
-    },
-    {
       "type": "extra-page",
       "enabled": true
     },
