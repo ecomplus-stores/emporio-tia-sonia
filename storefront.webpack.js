@@ -4,6 +4,7 @@ module.exports = () => ({
   resolve: {
     alias: {
       './js/ShippingLine.js': path.resolve(__dirname, 'template/js/custom-js/js/ShippingLine.js'),
+      './js/QuantitySelector.js': path.resolve(__dirname, 'template/js/custom-js/js/QuantitySelector.js'),
       './html/APrices.html': path.resolve(__dirname, 'template/js/custom-js/components/APrices.html'),
       './html/DiscountApplier.html': path.resolve(__dirname, 'template/js/custom-js/components/DiscountApplier.html'),
       './js/DiscountApplier.js': path.resolve(__dirname, 'template/js/custom-js/components/DiscountApplier.js'),
