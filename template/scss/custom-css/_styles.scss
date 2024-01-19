@@ -2213,3 +2213,14 @@ text-align:center;
 .prices__discount{
   display: none !important;
 }
+
+.cart-item__price-kit {
+  color: var(--success);
+  float: right;
+  padding: 0 var(--spacer-2);
+}
+
+.summary__item-kit {
+  color: var(--success);
+  padding: 0 var(--spacer-2);
+}
