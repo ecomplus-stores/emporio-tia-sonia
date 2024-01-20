@@ -7,28 +7,12 @@
       "autoplay": 5000,
       "slides": [
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/1920leve5-verao24.webp",
-          "mobile_img": "/img/uploads/1080leve5-verao24.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "leve5"
-        },
-        {
           "start": "2023-12-28T13:38:38.263Z",
           "end": "",
           "img": "/img/uploads/premium1920x500.webp",
           "link": "https://www.emporiotiasonia.com.br/premium",
           "alt": "Premium",
           "mobile_img": "/img/uploads/premium1080x1080.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/cashbackdiogo1920.webp",
-          "mobile_img": "/img/uploads/cashbackdiogo1080.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade",
-          "alt": "Cashback"
         }
       ],
       "full_width": true
