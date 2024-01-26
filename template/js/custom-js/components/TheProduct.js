@@ -260,10 +260,12 @@ export default {
         Date.now() < new Date(mockNewPromoDate.price_effective_date.end).getTime()
     },
 
+    
+
     ghostProductForPrices () {
       const prices = {}
       ;['price', 'base_price'].forEach(field => {
-        let price = this.selectedVariation[field] || this.body[field]
+        let price = this.selectedVariation[field] || getPrice(this.body) || this.body[field]
         if (price !== undefined) {
           this.customizations.forEach(customization => {
             if (customization.add_to_price) {
@@ -276,6 +278,7 @@ export default {
       })
       prices.price = this.addProgressiveDiscount(prices.price)
       const ghostProduct = { ...this.body }
+      delete ghostProduct.price_effective_date
       if (this.selectedVariationId) {
         Object.assign(ghostProduct, this.selectedVariation)
         delete ghostProduct.variations
