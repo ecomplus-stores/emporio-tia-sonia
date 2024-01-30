@@ -2,8 +2,14 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Frete Grátis e Cashback!\n\nDesfrute dos produtos incrivelmente saborosos e saudáveis da Tia Sônia, tornando seu verão ainda mais especial. \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* Receba **C﻿ashback** na sua próxima compra.",
+  "body": "## Frete Grátis e Cashback!\n\nDesfrute dos produtos incrivelmente saborosos e saudáveis da Tia Sônia, tornando seu verão ainda mais especial. \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* Receba **C﻿ashback** na sua próxima compra.\n* **B﻿rinde** exclusivo em qualquer compra.",
   "sections": [
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner_folia_de_sabores-2.png",
+      "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales"
+    },
     {
       "type": "extra-page",
       "enabled": true
