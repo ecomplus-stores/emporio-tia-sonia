@@ -16,6 +16,11 @@
       "enabled": true
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
@@ -23,11 +28,6 @@
       "sort": "offers",
       "title": "Os Queridinhos da Tia Sônia!",
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
     }
   ]
 }
