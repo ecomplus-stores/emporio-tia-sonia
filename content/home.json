@@ -34,10 +34,13 @@
       "limit": 10,
       "page": 1,
       "collection_ids": [
-        "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
+        "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+        "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
+        "5d0931a124607a6a42d714d4:categories:Snacks:/snacks",
+        "5d0931ad24607a6a42d714d6:categories:Barras:/barras"
       ],
       "shelfs_title": "As Preferidas",
-      "sort": "sales"
+      "sort": null
     },
     {
       "type": "collection-shelf",
