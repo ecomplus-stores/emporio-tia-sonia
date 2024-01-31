@@ -34,10 +34,7 @@
       "limit": 10,
       "page": 1,
       "collection_ids": [
-        "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
-        "5fa09652b2161709fa47b105:collections:Café Orgânico:/cafe-organico",
-        "5f9c2780b2161709fa46a603:collections:Pipocas Sinta+:/pipocas-sinta",
-        "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar"
+        "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
       ],
       "shelfs_title": "",
       "sort": "sales"
