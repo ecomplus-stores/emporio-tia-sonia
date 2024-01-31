@@ -29,6 +29,17 @@
       "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png"
     },
     {
+      "type": "shelfs-nav",
+      "shuffle": false,
+      "limit": 10,
+      "page": 1,
+      "collection_ids": [
+        "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
+      ],
+      "shelfs_title": "As Preferidas",
+      "sort": "sales"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
