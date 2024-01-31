@@ -31,8 +31,8 @@
     {
       "type": "shelfs-nav",
       "shuffle": false,
-      "limit": 10,
-      "page": 1,
+      "limit": "",
+      "page": "",
       "collection_ids": [
         "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
       ],
