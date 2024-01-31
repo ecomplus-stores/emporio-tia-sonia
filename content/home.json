@@ -34,15 +34,10 @@
       "limit": 10,
       "page": 1,
       "collection_ids": [
-        "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
-        "5d0931a124607a6a42d714d4:categories:Snacks:/snacks",
-        "5d6d90b3f11b5b64ea01cc87:categories:Cookies:/cookies",
         "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
-        "5dea9618cea1b26d087dc1b3:categories:Pastas:/pastas-tia-sonia",
         "5fa09652b2161709fa47b105:collections:Café Orgânico:/cafe-organico",
         "5f9c2780b2161709fa46a603:collections:Pipocas Sinta+:/pipocas-sinta",
-        "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
-        "5d0931ad24607a6a42d714d6:categories:Barras:/barras"
+        "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar"
       ],
       "shelfs_title": "",
       "sort": "sales"
