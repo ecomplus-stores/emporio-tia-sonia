@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Folia de Sabores!\n\nAdicione um toque especial ao seu carnaval com os produtos da Tia Sônia, que combinam sabor incrível com benefícios saudáveis. \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* Receba **C﻿ashback** na sua próxima compra.\n* **B﻿rinde** exclusivo em qualquer compra.",
+  "body": "## Folia de Sabores!\n\nAdicione um toque especial ao seu carnaval com os produtos da Tia Sônia, que combinam sabor incrível com benefícios saudáveis. \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* Receba **C﻿ashback** na sua próxima compra.",
   "sections": [
     {
       "type": "responsive-banner",
@@ -16,18 +16,18 @@
       "enabled": true
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
       "page": 1,
-      "sort": "offers",
+      "sort": null,
       "title": "Os Queridinhos da Tia Sônia!",
-      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:Compre e Ganhe!:/novidades-da-tia-sonia"
+      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:As melhores Ofertas!:/novidades-da-tia-sonia"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     }
   ]
 }
