@@ -29,15 +29,12 @@
       "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png"
     },
     {
-      "type": "shelfs-nav",
-      "shuffle": false,
+      "type": "collection-shelf",
+      "shuffle": true,
       "limit": "",
       "page": "",
-      "collection_ids": [
-        "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
-      ],
-      "shelfs_title": "",
-      "sort": "sales"
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
+      "title": "Os Queridinhos da Tia Sônia!"
     },
     {
       "type": "collection-shelf",
