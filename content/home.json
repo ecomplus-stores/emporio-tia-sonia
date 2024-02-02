@@ -54,7 +54,14 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/bloco-dos-saudaooa-veis-640x500.png",
+          "link": "https://www.emporiotiasonia.com.br/kit---bloco-dos-saudaveis",
+          "alt": "saudaveis"
+        }
+      ]
     },
     {
       "type": "responsive-banner",
