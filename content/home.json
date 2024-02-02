@@ -7,6 +7,14 @@
       "autoplay": 5000,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_folia_de_sabores-2.png",
+          "link": "https://www.emporiotiasonia.com.br/",
+          "alt": "ofertras",
+          "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png"
+        },
+        {
           "start": "2023-12-28T13:38:38.263Z",
           "end": "",
           "img": "/img/uploads/premium1920x500.webp",
@@ -20,6 +28,9 @@
     {
       "type": "custom-html",
       "html": "[estilos-de-alimentacao]"
+    },
+    {
+      "type": "banners-grid"
     },
     {
       "type": "responsive-banner",
