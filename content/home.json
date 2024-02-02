@@ -57,6 +57,11 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/folia-zero-acooa-uooa-car-640x500.png",
+          "link": "https://www.emporiotiasonia.com.br/kit---folia-zero-acucar",
+          "alt": "folia"
+        },
+        {
           "img": "/img/uploads/bloco-dos-saudaooa-veis-640x500.png",
           "link": "https://www.emporiotiasonia.com.br/kit---bloco-dos-saudaveis",
           "alt": "saudaveis"
@@ -65,20 +70,8 @@
           "img": "/img/uploads/carnaval-de-sabores-640x500.png",
           "link": "https://www.emporiotiasonia.com.br/kit---carnaval-de-sabores",
           "alt": "sabores"
-        },
-        {
-          "img": "/img/uploads/folia-zero-acooa-uooa-car-640x500.png",
-          "link": "https://www.emporiotiasonia.com.br/kit---folia-zero-acucar",
-          "alt": "folia"
         }
       ]
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner_folia_de_sabores-2.png",
-      "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-      "alt": "folia",
-      "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png"
     },
     {
       "type": "collection-shelf",
@@ -88,6 +81,13 @@
       "collection_id": "5f43fb1bf023684cdbdc7aee:collections:As melhores Ofertas!:/novidades-da-tia-sonia",
       "sort": "sales",
       "title": "Celebre com Tia Sônia!"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner_folia_de_sabores-2.png",
+      "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+      "alt": "folia",
+      "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png"
     },
     {
       "type": "collection-shelf",
