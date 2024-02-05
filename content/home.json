@@ -45,6 +45,14 @@
           "link": "https://www.emporiotiasonia.com.br/premium",
           "alt": "Premium",
           "mobile_img": "/img/uploads/premium1080x1080.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/01-ultrabar1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/ultrabar",
+          "alt": "ultrabar",
+          "mobile_img": "/img/uploads/01-ultrabar1080x1080.webp"
         }
       ],
       "full_width": true
