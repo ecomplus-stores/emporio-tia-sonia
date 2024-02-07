@@ -47,8 +47,8 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "limit": 12,
-      "page": 1,
+      "limit": 1,
+      "page": "",
       "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
       "title": "Movimente-se com Ultrabar!"
     },
