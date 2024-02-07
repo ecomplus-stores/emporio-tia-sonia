@@ -91,13 +91,6 @@
       "title": "Celebre com Tia Sônia!"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/granolalata1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
-      "alt": "lata",
-      "mobile_img": "/img/uploads/granolalata1080.webp"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
