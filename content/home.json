@@ -92,10 +92,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banner_folia_de_sabores-2.png",
-      "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-      "alt": "folia",
-      "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png"
+      "img": "/img/uploads/granolalata1920.webp",
+      "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia-edicao-especial",
+      "alt": "lata",
+      "mobile_img": "/img/uploads/granolalata1080.webp"
     },
     {
       "type": "collection-shelf",
