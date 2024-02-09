@@ -25,14 +25,6 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-folia-zero-acooa-uooa-car.jpg",
-          "link": "https://www.emporiotiasonia.com.br/kit---folia-zero-acucar",
-          "alt": "kit2",
-          "mobile_img": "/img/uploads/folia-zero-acooa-uooa-car-1080x1080.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
           "img": "/img/uploads/banner_folia_de_sabores.jpg",
           "link": "https://www.emporiotiasonia.com.br/kit---bloco-dos-saudaveis",
           "alt": "kit3",
@@ -64,11 +56,6 @@
     {
       "type": "banners-grid",
       "banners": [
-        {
-          "img": "/img/uploads/folia-zero-acooa-uooa-car-640x500.png",
-          "link": "https://www.emporiotiasonia.com.br/kit---folia-zero-acucar",
-          "alt": "folia"
-        },
         {
           "img": "/img/uploads/bloco-dos-saudaooa-veis-640x500.png",
           "link": "https://www.emporiotiasonia.com.br/kit---bloco-dos-saudaveis",
