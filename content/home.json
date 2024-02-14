@@ -9,26 +9,10 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner_folia_de_sabores-2.png",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "ofertras",
-          "mobile_img": "/img/uploads/banner_1080x1080_folia_de_sabores_01_tia_so-enia.png"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-carnaval-de-sabores.jpg",
-          "link": "https://www.emporiotiasonia.com.br/kit---carnaval-de-sabores",
-          "alt": "kit1",
-          "mobile_img": "/img/uploads/carnaval-de-sabores-1080x1080.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner_folia_de_sabores.jpg",
-          "link": "https://www.emporiotiasonia.com.br/kit---bloco-dos-saudaveis",
-          "alt": "kit3",
-          "mobile_img": "/img/uploads/bloco-dos-saudaooa-veis-1080x1080.jpg"
+          "img": "/img/uploads/01-ultrabar1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/ultrabar",
+          "alt": "ultrabar",
+          "mobile_img": "/img/uploads/01-ultrabar1080x1080.webp"
         },
         {
           "start": "2023-12-28T13:38:38.263Z",
@@ -37,14 +21,6 @@
           "link": "https://www.emporiotiasonia.com.br/premium",
           "alt": "Premium",
           "mobile_img": "/img/uploads/premium1080x1080.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/01-ultrabar1920x500.webp",
-          "link": "https://www.emporiotiasonia.com.br/ultrabar",
-          "alt": "ultrabar",
-          "mobile_img": "/img/uploads/01-ultrabar1080x1080.webp"
         }
       ],
       "full_width": true
