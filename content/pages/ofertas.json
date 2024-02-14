@@ -20,16 +20,16 @@
       "shuffle": true,
       "limit": "",
       "page": "",
-      "sort": "sales",
+      "sort": null,
       "title": "Os mais vendidos!",
-      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:As melhores Ofertas!:/novidades-da-tia-sonia"
+      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
       "page": "",
-      "collection_id": "5ef2971214ff772fde7ae34f:collections:Zero Açúcar:/zero-acucar-col",
+      "collection_id": "609e7e5aaa82b4705e3e24df:categories:Sem Adição De Açúcar:/zero-adicao-de-acucar",
       "sort": "sales",
       "title": "Produtos sem Açúcar adicionado"
     },
