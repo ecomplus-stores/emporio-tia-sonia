@@ -30,30 +30,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/bloco-dos-saudaooa-veis-640x500.png",
-          "link": "https://www.emporiotiasonia.com.br/kit---bloco-dos-saudaveis",
-          "alt": "saudaveis"
-        },
-        {
-          "img": "/img/uploads/carnaval-de-sabores-640x500.png",
-          "link": "https://www.emporiotiasonia.com.br/kit---carnaval-de-sabores",
-          "alt": "sabores"
-        }
-      ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "5f43fb1bf023684cdbdc7aee:collections:As melhores Ofertas!:/novidades-da-tia-sonia",
-      "sort": "sales",
-      "title": "Celebre com Tia Sônia!"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
