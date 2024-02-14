@@ -26,6 +26,15 @@
     },
     {
       "type": "collection-shelf",
+      "shuffle": false,
+      "limit": "",
+      "page": "",
+      "collection_id": "5ef2971214ff772fde7ae34f:collections:Zero Açúcar:/zero-acucar-col",
+      "sort": "sales",
+      "title": "Produtos sem Açúcar adicionado"
+    },
+    {
+      "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
       "page": "",
