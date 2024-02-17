@@ -44,6 +44,11 @@
           "img": "/img/uploads/gridpresente2.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "ofertas"
+        },
+        {
+          "img": "/img/uploads/gridpresente1.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "ofertas2"
         }
       ]
     },
