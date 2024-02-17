@@ -9,6 +9,14 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/saborpresente1920.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "presente",
+          "mobile_img": "/img/uploads/presente1080.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/01-ultrabar1920x500.webp",
           "link": "https://www.emporiotiasonia.com.br/ultrabar",
           "alt": "ultrabar",
