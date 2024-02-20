@@ -5,6 +5,12 @@
   "body": "## Desfrute do sabor de ser presente!\n\nVenha celebrar o nosso aniversário e ganhe um brinde especial!\n\n* Compre R$120 e ganhe **Frete Grátis!**\n* Receba **C﻿ashback** na sua próxima compra.\n* C﻿ompre a partir de R$ 299 e ganhe uma Tigela Exclusiva Tia Sônia.",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/large-banner_1900x500_aniversa-rio_28_anos_tia_so-nia-recuperado.jpg",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "vendidos"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
