@@ -8,7 +8,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/saborpresente1920.jpg"
+          "img": "/img/uploads/saborpresente1920.jpg",
+          "mobile_img": "/img/uploads/presente1080.jpg"
         },
         {
           "img": "/img/uploads/presente2_banner_640x500_28_anos_tia_so-nia.webp",
