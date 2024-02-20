@@ -9,7 +9,9 @@
       "banners": [
         {
           "img": "/img/uploads/gridpresente1.jpg",
-          "mobile_img": ""
+          "mobile_img": "",
+          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
+          "alt": "granola"
         },
         {
           "img": "/img/uploads/presente2_banner_640x500_28_anos_tia_so-nia.webp",
