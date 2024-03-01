@@ -66,12 +66,6 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/large-banner_1900x500_aniversa-rio_28_anos_tia_so-nia-recuperado.jpg",
-      "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-      "alt": "ofertas"
-    },
-    {
       "type": "custom-html",
       "html": "<a style=\"text-align: center; color: #204294; text-decoration: none;\" href=\"https://www.emporiotiasonia.com.br/pages/sobre-nos\">\n<h1>Conheça a história da melhor Granola do Brasil!</h1>\n</a>"
     },
