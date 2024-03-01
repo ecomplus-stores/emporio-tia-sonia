@@ -24,6 +24,14 @@
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/marca-parceirabanner-640x500_02.webp"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
