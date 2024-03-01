@@ -6,25 +6,9 @@
   "sections": [
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/large-banner_1900x500_aniversa-rio_28_anos_tia_so-nia-recuperado.jpg",
+      "img": "/img/uploads/marca-parceira19201.webp",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-      "alt": "vendidos"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/presente1000012189.webp",
-          "mobile_img": "",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
-          "alt": "granola"
-        },
-        {
-          "img": "/img/uploads/presente2_banner_640x500_28_anos_tia_so-nia.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "ofertas"
-        }
-      ]
+      "alt": "ofertas"
     },
     {
       "type": "extra-page",
