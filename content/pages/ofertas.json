@@ -27,7 +27,9 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/marca-parceirabanner-640x500_02.webp"
+          "img": "/img/uploads/marca-parceirabanner-640x500_02.webp",
+          "link": "https://www.emporiotiasonia.com.br/produtos-parceiros",
+          "alt": "marcas"
         },
         {
           "img": "/img/uploads/marca-parceirabanner-640x500_03.webp",
