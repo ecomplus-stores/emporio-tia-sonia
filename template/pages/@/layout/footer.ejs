@@ -31,9 +31,6 @@ const networksWithColors = [
                 .then(data => {
                   console.log('sending with success')
                   document.querySelector('.ml-form-successBody.row-success').style.display = 'block'
-                  setTimeout(() => {
-                    document.querySelector('.ml-form-successBody.row-success').style.display = 'none'
-                  }, 2000)
                 })
                 .catch(error => console.error('Error:', error));
               }
