@@ -35,6 +35,15 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "5d09316924607a6a42d714ce:categories:Tradicional:/tradicional",
+      "sort": "sales",
+      "title": "Saudáveis e Saborosas"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
       "limit": 24,
       "page": "",
       "collection_id": "5f219047f023684cdbd51b28:categories:Marcas Parceiras:/produtos-parceiros",
