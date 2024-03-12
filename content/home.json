@@ -9,6 +9,14 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/ecobag1920.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "semana",
+          "mobile_img": "/img/uploads/ecobag1080.webp"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/01-ultrabar1920x500.webp",
           "link": "https://www.emporiotiasonia.com.br/ultrabar",
           "alt": "ultrabar",
