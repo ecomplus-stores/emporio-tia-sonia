@@ -1,3 +1,11 @@
 {
-  "stamps_list": []
+  "stamps_list": [
+    {
+      "id": "consumidor",
+      "skus": [
+        "RV0010"
+      ],
+      "img": "/img/uploads/consumidor.webp"
+    }
+  ]
 }
