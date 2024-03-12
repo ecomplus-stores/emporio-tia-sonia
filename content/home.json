@@ -38,6 +38,16 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/ecobagfrete.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "frete"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
