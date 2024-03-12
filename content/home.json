@@ -49,6 +49,11 @@
           "img": "/img/uploads/ecobagcash.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "cashback"
+        },
+        {
+          "img": "/img/uploads/ecobagpix.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "pix"
         }
       ]
     },
