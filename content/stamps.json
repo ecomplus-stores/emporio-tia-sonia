@@ -3,7 +3,9 @@
     {
       "id": "consumidor",
       "skus": [
-        "RV0010"
+        "RV0010",
+        "PA513",
+        "PA588"
       ],
       "img": "/img/uploads/seloconsumidor.png"
     }
