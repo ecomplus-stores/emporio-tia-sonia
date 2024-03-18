@@ -1,18 +1,3 @@
 {
-  "stamps_list": [
-    {
-      "id": "consumidor",
-      "skus": [
-        "RV0010",
-        "PA513",
-        "PA588",
-        "PA525",
-        "PA001",
-        "PA311",
-        "PA282",
-        "PA508"
-      ],
-      "img": "/img/uploads/seloconsumidor.png"
-    }
-  ]
+  "stamps_list": []
 }
