@@ -38,6 +38,13 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/granolaeh1920.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?term=Linha",
+      "alt": "granola",
+      "mobile_img": "/img/uploads/granolaeh1080.webp"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
