@@ -38,11 +38,24 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/granolaeh1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?term=Linha",
-      "alt": "granola",
-      "mobile_img": "/img/uploads/granolaeh1080.webp"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/tigela-granolaeh.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "tigela"
+        },
+        {
+          "img": "/img/uploads/granolaehkit2.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "kit1"
+        },
+        {
+          "img": "/img/uploads/granolaeh-kit1.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "kit2"
+        }
+      ]
     },
     {
       "type": "collection-shelf",
@@ -56,6 +69,13 @@
     {
       "type": "info-bar",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/granolaeh1920.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?term=Linha",
+      "alt": "granola",
+      "mobile_img": "/img/uploads/granolaeh1080.webp"
     },
     {
       "type": "custom-html",
