@@ -21,6 +21,16 @@
           "img": "/img/uploads/tigela-granolaeh.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "tigela"
+        },
+        {
+          "img": "/img/uploads/granolaeh-kit1.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?term=Linha",
+          "alt": "linhakit"
+        },
+        {
+          "img": "/img/uploads/granolaehkit2.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?term=Linha",
+          "alt": "kit"
         }
       ]
     },
