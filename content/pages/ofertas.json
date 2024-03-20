@@ -15,6 +15,16 @@
       "enabled": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/tigela-granolaeh.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "tigela"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
