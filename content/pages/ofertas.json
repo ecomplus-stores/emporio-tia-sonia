@@ -34,9 +34,9 @@
       "shuffle": true,
       "limit": "",
       "page": "",
-      "sort": null,
-      "title": "Os mais vendidos!",
-      "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos"
+      "sort": "offers",
+      "title": "Até 15% OFF nos Kits Especias",
+      "collection_id": "6446c1ca4bd2e929c1ddc69c:categories:Kits Especiais Tia Sônia:/kits-especiais-tia-sonia"
     },
     {
       "type": "collection-shelf",
