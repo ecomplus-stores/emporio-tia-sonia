@@ -57,3 +57,6 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
       }
   }, 800);
 });
+
+
+window.__sendGTMExtraPurchaseData = true
