@@ -1,6 +1,10 @@
 import '#template/js/checkout'
 import './custom-js/checkout'
 import ecomCart from '@ecomplus/shopping-cart'
+import {
+  nickname as getNickname,
+  phone as getPhone
+} from '@ecomplus/utils'
 const lessUnit = document.getElementById('lessUnit')
 const firstphrase = document.getElementById('lessSome')
 const lastphrase = document.getElementById('noMore')
@@ -60,3 +64,43 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () => {
 
 
 window.__sendGTMExtraPurchaseData = true
+
+if (window.ecomPassport.checkLogin()) {
+  const customer = ecomPassport.getCustomer()
+  const customerPurchaseData = {}
+  let shippingAddr
+  if (customer) {
+    customerPurchaseData.customerDisplayName = getNickname(customer)
+    if (customer.name) {
+      customerPurchaseData.customerGivenName = customer.name.given_name
+      customerPurchaseData.customerFamilyName = customer.name.family_name
+    }
+    customerPurchaseData.customerEmail = customer.main_email
+    customerPurchaseData.customerPhone = getPhone(customer)
+    shippingAddr = customer.addresses && customer.addresses[0]
+  }
+  try {
+    const sessionShippingAddr = JSON.parse(window.sessionStorage
+      .getItem('ecomCustomerAddress'))
+    if (typeof shippingAddr === 'object' && shippingAddr) {
+      Object.assign(shippingAddr, sessionShippingAddr)
+    } else {
+      shippingAddr = sessionShippingAddr
+    }
+  } catch {
+  }
+  if (shippingAddr && shippingAddr.zip) {
+    customerPurchaseData.shippingAddrZip = shippingAddr.zip
+    customerPurchaseData.shippingAddrStreet = shippingAddr.street
+    customerPurchaseData.shippingAddrNumber = shippingAddr.number
+    if (shippingAddr.street && shippingAddr.number) {
+      customerPurchaseData.shippingAddrStreet += `, ${shippingAddr.number}`
+    }
+    customerPurchaseData.shippingAddrCity = shippingAddr.city
+    customerPurchaseData.shippingAddrProvinceCode = shippingAddr.province_code
+  }
+  window.dataLayer.push({
+    event: 'customerExtraData',
+    ...customerPurchaseData
+  })
+}
