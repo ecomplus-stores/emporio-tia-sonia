@@ -1,4 +1,42 @@
 // Add your custom JavaScript for checkout here.
+import {
+  $ecomConfig,
+  name as getName,
+  price as getPrice,
+  nickname as getNickname
+} from '@ecomplus/utils'
+
+const currencyCode = $ecomConfig.get('currency') || 'BRL'
+
+const getProductData = item => {
+  const [name, ...variants] = getName(item).split(' / ')
+  const productData = {
+    name,
+    id: item.sku,
+    price: getPrice(item).toFixed(2)
+  }
+  if (variants && variants.length) {
+    productData.variant = variants.join(' / ')
+  } else if (item.variation_id) {
+    productData.name = name.replace(window.__customGTMVariantRegex || /\s[^\s]+$/, '')
+    productData.variant = name.replace(productData.name, '').trim()
+  }
+  if (item.quantity) {
+    productData.quantity = item.quantity
+  }
+  return productData
+}
+
+const getCartProductsList = () => {
+  const products = []
+  if (ecomCart.data && Array.isArray(ecomCart.data.items)) {
+    ecomCart.data.items.forEach(item => {
+      products.push(getProductData(item))
+    })
+  }
+  return products
+}
+
 const routerToLink = window.storefrontApp && window.storefrontApp.router
 routerToLink.afterEach(({ name }) => {
   if(name === 'order') {
@@ -19,5 +57,33 @@ routerToLink.afterEach(({ name }) => {
       }
     }
     const tryAppendInterval = setInterval(appendLink, 200)
+  } else if (name === 'checkout') {
+    console.log('chegamos')
+    const tryCustomerInterval = setInterval(() => {
+      const customer = JSON.parse(window.sessionStorage.getItem('ecomCustomerAccount'))
+      if (customer.main_email) {
+        const customerPurchaseData = {}
+        if (customer) {
+          customerPurchaseData.customerDisplayName = getNickname(customer)
+          if (customer.name) {
+            customerPurchaseData.customerGivenName = customer.name.given_name
+            customerPurchaseData.customerFamilyName = customer.name.family_name
+          }
+          customerPurchaseData.customerEmail = customer.main_email
+          customerPurchaseData.customerPhone = window.ecomUtils.phone(customer)
+          window.dataLayer.push({
+            event: 'customerExtraDataCheckout',
+            ...customerPurchaseData,
+            ecommerce: {
+              currencyCode,
+              checkout: {
+                products: getCartProductsList()
+              }
+            }
+          })
+          clearInterval(tryCustomerInterval)
+        }
+      }
+    }, 500)
   }
 })
