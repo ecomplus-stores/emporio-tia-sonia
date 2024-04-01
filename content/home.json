@@ -38,21 +38,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/tigela-granolaeh.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "tigela"
-        },
-        {
-          "img": "/img/uploads/granolaehkit2.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "kit1"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
