@@ -5,13 +5,6 @@
   "body": "## Granola é Tia Sônia!\n\nNossas granolas são perfeitas para começar o dia com um café da manhã nutritivo, dar aquele up na energia como lanche ou até mesmo adicionar um toque especial nas suas receitas favoritas. \n\n* Compre R$120 e ganhe **Frete Grátis!**\n* Ganhe uma **Tigela Exclusiva** em compras acima de R$ 299;\n* Até 15% OFF nos Kits de Granolas;\n* Receba **Cashback** em todos os pedidos!",
   "sections": [
     {
-      "type": "responsive-banner",
-      "img": "template/public/img/uploads/granolaeh1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/search",
-      "alt": "Kit",
-      "mobile_img": ""
-    },
-    {
       "type": "extra-page",
       "enabled": true
     },
