@@ -5,6 +5,12 @@
   "body": "## Tem Frete Grátis e Cashback!\n\nNossas granolas são perfeitas para começar o dia com um café da manhã nutritivo, dar aquele up na energia como lanche ou até mesmo adicionar um toque especial nas suas receitas favoritas. \n\n* Compre R$149 e ganhe **Frete Grátis!**\n* Receba **Cashback** em todos os pedidos!",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/1600x250.jpg",
+      "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
+      "alt": "granola"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
