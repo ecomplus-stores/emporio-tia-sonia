@@ -230,6 +230,7 @@ export default {
             }
             if (data['kit_composition']) {
               const kitComposition = data.kit_composition
+              console.log(window.location.pathname)
               const ecomSearch = new EcomSearch()
               ecomSearch
                 .setPageSize(kitComposition.length)
@@ -281,6 +282,19 @@ export default {
                       }
                     })
                   }
+                })
+                .catch(err => {
+                  window.location = '/' + this.product.slug
+                  /* return import('@ecomplus/storefront-components/src/ProductQuickview.vue')
+                    .then(quickview => {
+                      new Vue({
+                        render: h => h(quickview.default, {
+                          props: {
+                            product: data
+                          }
+                        })
+                      }).$mount(this.$refs.quickview)
+                    }) */
                 })
             } else {
               const { quantity, price } = data
