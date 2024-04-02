@@ -3,6 +3,46 @@ import EcomSearch from '@ecomplus/search-engine'
 import ecomCart from '@ecomplus/shopping-cart'
 import './tags'
 
+console.log('ola', window.ecomPassport.checkLogin())
+let customerPurchaseData = {}
+if (window.ecomPassport.checkLogin()) {
+  const customer = ecomPassport.getCustomer()
+  let shippingAddr
+  if (customer) {
+    customerPurchaseData.customerDisplayName = window.ecomUtils.nickname(customer)
+    if (customer.name) {
+      customerPurchaseData.customerGivenName = customer.name.given_name
+      customerPurchaseData.customerFamilyName = customer.name.family_name
+    }
+    customerPurchaseData.customerEmail = customer.main_email
+    customerPurchaseData.customerPhone = window.ecomUtils.phone(customer)
+    shippingAddr = customer.addresses && customer.addresses[0]
+    if (shippingAddr && shippingAddr.zip) {
+      customerPurchaseData.shippingAddrZip = shippingAddr.zip
+      customerPurchaseData.shippingAddrStreet = shippingAddr.street
+      customerPurchaseData.shippingAddrNumber = shippingAddr.number
+      if (shippingAddr.street && shippingAddr.number) {
+        customerPurchaseData.shippingAddrStreet += `, ${shippingAddr.number}`
+      }
+      customerPurchaseData.shippingAddrCity = shippingAddr.city
+      customerPurchaseData.shippingAddrProvinceCode = shippingAddr.province_code
+    }
+    window.dataLayer.push({
+      event: 'customerExtraData',
+      ...customerPurchaseData
+    })
+  }
+}
+
+ecomCart.on('addItem', ({ data, item }) => { 
+  if (window.ecomPassport.checkLogin()) {
+    window.dataLayer.push({
+      event: 'customerExtraData',
+      ...customerPurchaseData
+    })
+  }
+ })
+
 const urlParams = new URLSearchParams(window.location.search)
 if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
   // livelo
@@ -242,32 +282,3 @@ else {
   //info.textContent = "Your Browser does not support Speech Recognition";
 }
 
-if (window.ecomPassport.checkLogin()) {
-  const customer = ecomPassport.getCustomer()
-  const customerPurchaseData = {}
-  let shippingAddr
-  if (customer) {
-    customerPurchaseData.customerDisplayName = window.ecomUtils.nickname(customer)
-    if (customer.name) {
-      customerPurchaseData.customerGivenName = customer.name.given_name
-      customerPurchaseData.customerFamilyName = customer.name.family_name
-    }
-    customerPurchaseData.customerEmail = customer.main_email
-    customerPurchaseData.customerPhone = window.ecomUtils.phone(customer)
-    shippingAddr = customer.addresses && customer.addresses[0]
-    if (shippingAddr && shippingAddr.zip) {
-      customerPurchaseData.shippingAddrZip = shippingAddr.zip
-      customerPurchaseData.shippingAddrStreet = shippingAddr.street
-      customerPurchaseData.shippingAddrNumber = shippingAddr.number
-      if (shippingAddr.street && shippingAddr.number) {
-        customerPurchaseData.shippingAddrStreet += `, ${shippingAddr.number}`
-      }
-      customerPurchaseData.shippingAddrCity = shippingAddr.city
-      customerPurchaseData.shippingAddrProvinceCode = shippingAddr.province_code
-    }
-    window.dataLayer.push({
-      event: 'customerExtraData',
-      ...customerPurchaseData
-    })
-  }
-}
