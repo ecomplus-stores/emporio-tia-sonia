@@ -16,7 +16,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": "",
       "page": "",
       "sort": "offers",
