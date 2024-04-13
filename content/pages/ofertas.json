@@ -2,17 +2,26 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Seu café da manhã ainda mais especial com Tia Sônia!\n\nDescubra o sabor de um café da manhã especial com Tia Sônia. Produtos naturais e integrais para uma refeição deliciosa e nutritiva. Sua manhã merece esse cuidado! \n\n* Compre R$149 e ganhe **Frete Grátis!**\n* Use o Cupom: **CAFEDAMANHA** e leve mais!",
+  "body": "## Semana do café!\n\nEm parceria com a Colheita das Alegrias a Tia Sônia traz para você um café orgânico de verdade. O café Colheita das Alegrias é feito a partir de um blend de grãos selecionados combinados à perfeição, o que resulta em uma bebida marcante e equilibrada. \n\n* Use o Cupom: **ALEGRIA** e aproveite essa oferta exclusiva!\n* Compre R$149 e ganhe **Frete Grátis!**\n* Pague no PIX e ganhe +5% OFF.",
   "sections": [
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/cafedamanha1920.jpg",
+      "img": "/img/uploads/semanadocafe-3-.webp",
       "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
       "alt": "granola"
     },
     {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
+      "sort": "sales",
+      "title": "Use o cupom: ALEGRIA e aproveite!"
     },
     {
       "type": "collection-shelf",
