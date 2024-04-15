@@ -45,7 +45,7 @@ export default {
       const rota = window.storefrontApp && window.storefrontApp.router && window.storefrontApp.router.currentRoute && window.storefrontApp.router.currentRoute.name
       if ((rota !== 'order') && (rota !== 'confirmation')) {
         date.setDate(date.getDate() + days + (today === 6 ? 2 : +!today) + (Math.floor((days - 1 + (today % 6 || 1)) / 5) * 2));
-        return 'Até ' + date.toLocaleDateString();
+        return 'Até ' + date.toLocaleDateString('pt-br');
       }
       return 'Até ' + days + ' Dia(s) úteis';
     },
