@@ -38,21 +38,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/semanadocafe-5-.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "cafe2"
-        },
-        {
-          "img": "/img/uploads/02.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "cafe3"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
