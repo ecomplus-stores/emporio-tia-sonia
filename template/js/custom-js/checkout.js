@@ -6,6 +6,10 @@ import {
   nickname as getNickname
 } from '@ecomplus/utils'
 
+const urlParams = new URLSearchParams(window.location.search)
+const fbclid = urlParams.get('fbclid') || window.sessionStorage.getItem('fb_cookie')
+const sentMetafield = Number(window.sessionStorage.getItem('sent_metafield'))
+window.sessionStorage.setItem('fb_cookie', fbclid)
 const currencyCode = $ecomConfig.get('currency') || 'BRL'
 
 const getProductData = item => {
@@ -60,11 +64,14 @@ routerToLink.afterEach(({ name }) => {
   } else if (name === 'checkout') {
     console.log('chegamos')
     const tryCustomerInterval = setInterval(() => {
-      const customer = JSON.parse(window.sessionStorage.getItem('ecomCustomerAccount'))
+      const customer = {
+        ...JSON.parse(window.sessionStorage.getItem('ecomCustomerAccount')),
+        ...storefrontApp.customer
+      }
       if (customer.main_email) {
         const customerPurchaseData = {}
         if (customer) {
-          customerPurchaseData.customerDisplayName = getNickname(customer)
+          customerPurchaseData.customerDisplayName = getNickname(customer )
           if (customer.name) {
             customerPurchaseData.customerGivenName = customer.name.given_name
             customerPurchaseData.customerFamilyName = customer.name.family_name
@@ -85,5 +92,19 @@ routerToLink.afterEach(({ name }) => {
         }
       }
     }, 500)
+  } else if (name === 'confirmation') {
+    const orderId = routerToLink.currentRoute &&  routerToLink.currentRoute.params && routerToLink.currentRoute.params.id
+    console.log('enviado metafield', sentMetafield)
+    if (orderId && fbclid && !sentMetafield) {
+      console.log('cookie', fbclid, orderId)
+      window.ecomPassport.requestApi(`/orders/${orderId}/metafields.json`, 'POST', {
+        namespace: 'fb_cookie',
+        field: 'pixel:cookie',
+        value: fbclid
+      }).then(() => {
+        window.sessionStorage.setItem('sent_metafield', 1)
+      })
+    }
   }
 })
+

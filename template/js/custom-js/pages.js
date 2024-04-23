@@ -56,6 +56,9 @@ if (urlParams.get('lpcid') || window.sessionStorage.getItem('_lpcid')) {
   window.sessionStorage.setItem('_lpcid', urlParams.get('lpcid'))
 }
 
+const fbclid = urlParams.get('fbclid')
+window.sessionStorage.setItem('fb_cookie', fbclid)
+
 const affiliateLinkDiv = document.getElementById('affiliate-link')
 if (affiliateLinkDiv) {
   import('./components/AffiliateLink.vue').then(({ default: AffiliateLink }) => {
