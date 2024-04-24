@@ -90,6 +90,7 @@
   
     <a-alert
       :key="`alert-${alertVariant}`"
+      v-if="!isLoading && Boolean(alertText)"
       :can-show="!isLoading && Boolean(alertText)"
       :variant="alertVariant"
       @dismiss="alertText = null"
