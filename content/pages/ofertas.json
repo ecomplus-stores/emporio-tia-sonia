@@ -15,9 +15,13 @@
       "enabled": true
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "5d09316924607a6a42d714ce:categories:Tradicional:/tradicional",
+      "sort": "sales",
+      "title": "Saudáveis e Saborosas"
     },
     {
       "type": "collection-shelf",
@@ -43,15 +47,6 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "5d09316924607a6a42d714ce:categories:Tradicional:/tradicional",
-      "sort": "sales",
-      "title": "Saudáveis e Saborosas"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
       "collection_id": "63ed43d8f4167e223c90fb41:categories:Nutsbar:/nutsbar-tia-sonia",
       "title": "Nutsbar - Sem Glutén e Low carb",
       "link": "https://www.emporiotiasonia.com.br/nutsbar-tia-sonia"
@@ -65,6 +60,11 @@
       "title": "Conheça as Marcas Parceiras",
       "link": "https://www.emporiotiasonia.com.br/produtos-parceiros",
       "sort": "sales"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     }
   ]
 }
