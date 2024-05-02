@@ -67,6 +67,7 @@
         <div
           :title="i19quantity"
           class="cart-item__quantity"
+          v-if="!isFreebie"
         >
           <strong v-if="item.kit_product || item.keep_item_quantity">
             {{ quantity }}x
@@ -109,6 +110,17 @@
             @blur="updateInputType"
           >
         </div>
+
+        <div
+          :title="i19quantity"
+          class="cart-item__quantity"
+          v-if="isFreebie"
+        >
+          <strong>
+            {{ quantity }}
+          </strong>
+        </div>
+
 
         <div
           v-if="!isFreebie || price > 0"
