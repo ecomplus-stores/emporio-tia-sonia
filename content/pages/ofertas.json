@@ -15,6 +15,21 @@
       "enabled": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/mini_banner_03.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "pix"
+        },
+        {
+          "img": "/img/uploads/mini_banner_01.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "tigela"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
