@@ -2,11 +2,17 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Dia das Mães com Tia Sônia!\n\nCelebre o Dia das Mães com um presente especial da Tia Sônia! Nas compras acima de R$199, você ganha uma linda tigela para tornar cada momento ainda mais especial. Aproveite para expressar seu carinho com um toque de saúde e sabor!\n\n* Frete **Grátis** em compras acima de R$ 149\n* Pague no **PIX** e ganhe +5% OFF.\n* Ganhe **Cashback** na sua próxima compra!\n* G﻿anhe uma **Tigela** exclusiva em compras acima de R$ 199.",
+  "body": "## Granola é Tia Sônia!\n\nAproveite 15% de desconto em nossas deliciosas granolas, perfeitas para tornar seu dia mais saboroso e nutritivo. É saúde e sabor na medida certa, com um toque de amor e qualidade que só a Tia Sônia sabe oferecer. Venha celebrar o bem-estar e deixe sua rotina mais gostosa com a Tia Sônia!\n\n* Frete **Grátis** em compras acima de R$ 149\n* Pague no **PIX** e ganhe +5% OFF.\n* Use o cupom: **GRANOLA15** e aproveite.",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner_festival_granolas_tia_so-nia.webp",
+      "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
+      "alt": "granola"
+    },
+    {
       "type": "extra-page",
-      "enabled": false
+      "enabled": true
     },
     {
       "type": "collection-shelf",
