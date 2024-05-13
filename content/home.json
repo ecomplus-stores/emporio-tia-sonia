@@ -9,6 +9,14 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/banner_festival_granolas_tia_so-nia.webp",
+          "mobile_img": "/img/uploads/festivalfeed.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "granola"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/01-ultrabar1920x500.webp",
           "link": "https://www.emporiotiasonia.com.br/ultrabar",
           "alt": "ultrabar",
