@@ -12,7 +12,7 @@
     },
     {
       "type": "extra-page",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "banners-grid",
