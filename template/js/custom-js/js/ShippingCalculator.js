@@ -219,14 +219,14 @@ export default {
         setTimeout(() => {
           this.isScheduled = false
           const { storeId } = this
-          let url = '/calculate_shipping.json'
-          if (this.skipAppIds && this.skipAppIds.length) {
+          let url = '/calculate_shipping.json?skip_ids=129446'
+          /* if (this.skipAppIds && this.skipAppIds.length) {
             url += '?skip_ids='
             this.skipAppIds.forEach((appId, i) => {
               if (i > 0) url += ','
               url += `${appId}`
             })
-          }
+          } */
           const method = 'POST'
           const data = {
             ...this.shippingData,
