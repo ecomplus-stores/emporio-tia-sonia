@@ -1,5 +1,5 @@
 {
-  "meta_title": "Tia Sônia - Amor, Sabor e Qualidade",
+  "meta_title": "Tia Sônia | Loja Oficial | Granola é Tia Sônia",
   "meta_description": "Os produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade. Foram preparados com muito carinho, com ingredientes integrais e saudáveis. ",
   "sections": [
     {
@@ -9,10 +9,10 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/diadasmaes24banner_princdiaipal_01.jpg",
+          "img": "/img/uploads/banner_festival_granolas_tia_so-nia.webp",
+          "mobile_img": "/img/uploads/festivalfeed.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "diadasmaes",
-          "mobile_img": "/img/uploads/diadasmaesfeed_maooa-oes.jpg"
+          "alt": "granola"
         },
         {
           "start": "",
@@ -59,11 +59,19 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/granolaeh1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?term=Linha",
-      "alt": "granola",
-      "mobile_img": "/img/uploads/granolaeh1080.webp"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/mini_banner_03.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "pix"
+        },
+        {
+          "img": "/img/uploads/mini_banner_02.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "frete"
+        }
+      ]
     },
     {
       "type": "custom-html",
@@ -114,10 +122,6 @@
       "title": "Marca Parceira: Colheita das Alegrias",
       "limit": "",
       "page": ""
-    },
-    {
-      "type": "custom-html",
-      "html": "<div class=\"whatsapp-chat\">\n    <a class=\"hide-web\" href=\"https://api.whatsapp.com/send?phone=557799074455\" target=\"_blank\">\n        <img title=\"Contato via Whatsapp\" src=\"https://www.emporiotiasonia.com.br/img/uploads/whats.png\">\n    </a>\n\n    <a class=\"hide-mobile\" href=\"https://api.whatsapp.com/send?phone=557799074455\" target=\"_blank\">\n        <img title=\"Contato via Whatsapp\" src=\"https://www.emporiotiasonia.com.br/img/uploads/whats.png\">\n    </a>\n</div>\n<style>\n    @media only screen and (min-width: 768px){\n        .whatsapp-chat .hide-mobile {\n            display: none\n        }\n    }\n\n    @media only screen and (max-width: 767px){\n        .whatsapp-chat .hide-web {\n            display: none;\n        }\n    }\n\n    .whatsapp-chat {\n        position: fixed;\n        z-index: 999;\n        bottom: 50px;\n        left: 20px;\n    }\n\n    .whatsapp-chat img {\n        height: 55px;\n        width: auto;\n    }\n\n</style>"
     }
   ]
 }

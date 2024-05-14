@@ -2301,3 +2301,9 @@ text-align:center;
       }
   }
 }
+
+
+.shipping-line[data-service-code="FREIGHT_TYPE_ECONOMIC"],.shipping-line[data-service-code="FREIGHT_TYPE_EXPRESS"]  {
+  display: none !important;
+}
+
