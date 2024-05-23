@@ -303,6 +303,7 @@
                             <br>
                             <button
                               class="btn btn-sm btn-light"
+                              v-if="!transaction.payment_link.includes('pagaleve')"
                               @click="() => toClipboard(transaction.intermediator.transaction_code)"
                             >
                               <i class="i-copy mr-1"></i>
