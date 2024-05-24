@@ -2,12 +2,12 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Granola é Tia Sônia!\n\nPerfeitas para tornar seu dia mais saboroso e nutritivo. É saúde e sabor na medida certa, com um toque de amor e qualidade que só a Tia Sônia sabe oferecer. Venha celebrar o bem-estar e deixe sua rotina mais gostosa com a Tia Sônia!\n\n* Frete **Grátis** em compras acima de R$ 149\n* Pague no **PIX** e ganhe +5% OFF.\n* Use o cupom: **GRANOLA15** e aproveite.",
+  "body": "## Semana Zero Açúcar!\n\nDescubra um universo repleto de produtos diversificados, todos sem adição de açúcar, para enriquecer e complementar a sua dieta de maneira saudável, saborosa e prazerosa!\n\n* Frete **Grátis** em compras acima de R$ 149\n* Pague no **PIX** e ganhe +5% OFF.\n* Descontos em Produtos sem Açúcar adicionado!",
   "sections": [
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banner_festival_granolas_tia_so-nia.webp",
-      "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
+      "img": "/img/uploads/semanasemacucar-4-.webp",
+      "link": "https://www.emporiotiasonia.com.br/zero-adicao-de-acucar",
       "alt": "granola"
     },
     {
@@ -19,9 +19,9 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "5d09316924607a6a42d714ce:categories:Tradicional:/tradicional",
+      "collection_id": "609e7e5aaa82b4705e3e24df:categories:Sem Adição De Açúcar:/zero-adicao-de-acucar",
       "sort": "offers",
-      "title": "Saudáveis e Saborosas"
+      "title": "Confira as Ofertas!"
     },
     {
       "type": "collection-shelf",
