@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Granola é Tia Sônia.\n\nAqui você encontra opções de Granola sem glúten, light, orgânica, low carb, de chocolate e em cookies, com pacotes de 200 gramas, 400 gramas, 800 gramas e 1 quilo, com opções sem passas e vendidas separadamente ou em kits!\n\n* Frete **Grátis** em compras acima de R$ 149\n* Pague no **PIX** e ganhe +5% OFF.",
+  "body": "## Combinação perfeita de sabores!\n\nDescubra os Sabores da Tia Sônia, uma seleção especial de produtos cuidadosamente preparados para celebrar o amor. Com ingredientes integrais e saudáveis, nossos produtos trazem mais sabor e carinho para sua vida. Aproveite e torne seus momentos ainda mais especiais!\n\n* Frete **Grátis** em compras acima de R$ 149\n* Pague no **PIX** e ganhe +5% OFF.\n* 2﻿0% OFF em Kits Exclusivos.",
   "sections": [
     {
       "type": "responsive-banner",
@@ -17,21 +17,21 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
+      "limit": "",
+      "page": "",
+      "sort": "offers",
+      "title": "Combinação Perfeita de Sabores",
+      "collection_id": null,
+      "link": "https://www.emporiotiasonia.com.br/search?term=kit"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
       "limit": 12,
       "page": 1,
       "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
       "sort": "offers",
       "title": "Granola é Tia Sônia!"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "sort": "offers",
-      "title": "Até 15% OFF nos Kits Especias",
-      "collection_id": null,
-      "link": "https://www.emporiotiasonia.com.br/search?term=kit"
     },
     {
       "type": "collection-shelf",
