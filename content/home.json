@@ -65,6 +65,11 @@
           "img": "/img/uploads/kit01.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "kit01"
+        },
+        {
+          "img": "/img/uploads/kit02.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "kit02"
         }
       ]
     },
