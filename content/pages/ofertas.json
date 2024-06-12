@@ -15,6 +15,13 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/granola-sabores1920.webp",
+      "mobile_img": "/img/uploads/granola-sabores1080.webp",
+      "link": "https://www.emporiotiasonia.com.br/granola-sabores",
+      "alt": "sabores"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
