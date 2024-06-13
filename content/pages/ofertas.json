@@ -6,20 +6,14 @@
   "sections": [
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/2-copiar-3.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?term=kit",
-      "alt": "kits"
-    },
-    {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
-      "type": "responsive-banner",
       "img": "/img/uploads/granola-sabores1920.webp",
       "mobile_img": "/img/uploads/granola-sabores1080.webp",
       "link": "https://www.emporiotiasonia.com.br/granola-sabores",
       "alt": "sabores"
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     },
     {
       "type": "collection-shelf",
