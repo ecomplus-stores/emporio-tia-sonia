@@ -54,31 +54,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/kit01.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "kit01"
-        },
-        {
-          "img": "/img/uploads/kit02.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "kit02"
-        },
-        {
-          "img": "/img/uploads/kit03.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "kit03"
-        },
-        {
-          "img": "/img/uploads/kit04.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "kit04"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
