@@ -58,20 +58,8 @@
       </small>
     </div>
 
-    <div
-      key="discount-subscription"
-      v-if="canShowPriceOptions"
-      class="prices__discount prices__discount--subscription"
-      style="color: var(--success);"
-    >
-      <span>
-        {{ formatMoney(price * 0.9) }}
-      </span>
-      <small>
-        para assinantes
-      </small>
-    </div>
-
+    <!-- <div      key="discount-subscription"      v-if="canShowPriceOptions"      class="prices__discount prices__discount--subscription"      style="color: var(--success);"    >      <span>        {{ formatMoney(price * 0.9) }}      </span>      <small>        para assinantes      </small>    </div> -->
+    
     <div
       key="discount"
       v-if="typeof priceWithDiscount === 'number' && priceWithDiscount < price"
