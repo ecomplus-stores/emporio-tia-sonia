@@ -9,7 +9,7 @@
         :is="item.slug ? 'a-link' : 'span'"
         :href="`/${item.slug}`"
       >
-        <a-picture
+        <a-picture 
           :src="img.url"
           :alt="img.alt || item.name"
         />
@@ -39,7 +39,7 @@
         :title="item.name"
       >
         <a-link
-          v-if="item.slug"
+          v-if="item.slug && !isFreebie"
           :href="`/${item.slug}`"
         >
           {{ name }}
