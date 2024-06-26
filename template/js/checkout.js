@@ -8,7 +8,7 @@ import {
 const lessUnit = document.getElementById('lessUnit')
 const firstphrase = document.getElementById('lessSome')
 const lastphrase = document.getElementById('noMore')
-const lessQuantity = 150
+const lessQuantity = 149
 if(lessUnit) {
   lessUnit.innerHTML = window.ecomUtils.formatMoney(lessQuantity, 'BRL', 'pt_br')
   ecomCart.on('change', ({ data }) => {
@@ -20,7 +20,7 @@ if(lessUnit) {
       const evalQuantity = lessQuantity - countQuantity
       if (evalQuantity > 0) {
         lessUnit.innerHTML = window.ecomUtils.formatMoney(evalQuantity, 'BRL', 'pt_br')
-        percentBar = Math.round(countQuantity / lessQuantity * 149) + '%'
+        percentBar = Math.round(countQuantity / lessQuantity * 100) + '%'
         document.getElementById('lastUnitsBar').style.width = percentBar
         document.getElementById('percentBar').innerHTML = percentBar
         firstphrase.style.display = 'block'
