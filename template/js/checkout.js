@@ -20,7 +20,7 @@ if(lessUnit) {
       const evalQuantity = lessQuantity - countQuantity
       if (evalQuantity > 0) {
         lessUnit.innerHTML = window.ecomUtils.formatMoney(evalQuantity, 'BRL', 'pt_br')
-        percentBar = Math.round(countQuantity / lessQuantity * 100) + '%'
+        percentBar = Math.round(countQuantity / lessQuantity * 149) + '%'
         document.getElementById('lastUnitsBar').style.width = percentBar
         document.getElementById('percentBar').innerHTML = percentBar
         firstphrase.style.display = 'block'
