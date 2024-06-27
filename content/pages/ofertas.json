@@ -60,6 +60,14 @@
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "sort": "news",
+      "title": "Lançamentos"
     }
   ]
 }
