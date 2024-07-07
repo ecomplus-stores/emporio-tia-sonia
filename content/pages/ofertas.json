@@ -9,6 +9,10 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/01-03-semana-chocolate-banners.webp"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
