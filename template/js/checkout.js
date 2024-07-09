@@ -8,7 +8,7 @@ import {
 const lessUnit = document.getElementById('lessUnit')
 const firstphrase = document.getElementById('lessSome')
 const lastphrase = document.getElementById('noMore')
-const lessQuantity = 149
+const lessQuantity = 199
 if(lessUnit) {
   lessUnit.innerHTML = window.ecomUtils.formatMoney(lessQuantity, 'BRL', 'pt_br')
   ecomCart.on('change', ({ data }) => {
