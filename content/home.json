@@ -17,18 +17,18 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/granola-sabores1920.webp",
-          "mobile_img": "/img/uploads/granola-sabores1080.webp",
-          "link": "https://www.emporiotiasonia.com.br/granola-sabores",
-          "alt": "sabores"
+          "img": "/img/uploads/salgagas1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/salgadas",
+          "alt": "salgadas",
+          "mobile_img": "/img/uploads/salgadas21080.webp"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/01-ultrabar1920x500.webp",
-          "link": "https://www.emporiotiasonia.com.br/ultrabar",
-          "alt": "ultrabar",
-          "mobile_img": "/img/uploads/01-ultrabar1080x1080.webp"
+          "img": "/img/uploads/granola-sabores1920.webp",
+          "mobile_img": "/img/uploads/granola-sabores1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/granola-sabores",
+          "alt": "sabores"
         },
         {
           "start": "",
