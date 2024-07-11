@@ -54,21 +54,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/granola-francesa.jpg",
-          "link": "https://www.emporiotiasonia.com.br/salgadas",
-          "alt": "francesa"
-        },
-        {
-          "img": "/img/uploads/granola-salgada.jpg",
-          "link": "https://www.emporiotiasonia.com.br/salgadas",
-          "alt": "salgada"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
