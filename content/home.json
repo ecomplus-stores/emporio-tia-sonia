@@ -54,6 +54,12 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/01-03-semana-chocolate-banners.webp",
+      "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+      "alt": "oferta"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
