@@ -9,6 +9,14 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/semana-amizade-1920.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "ofertas",
+          "mobile_img": "/img/uploads/semana-amizade-1080.webp"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/salgagas1920x500.webp",
           "link": "https://www.emporiotiasonia.com.br/salgadas",
           "alt": "salgadas",
@@ -37,14 +45,6 @@
           "link": "https://www.emporiotiasonia.com.br/premium",
           "alt": "Premium",
           "mobile_img": "/img/uploads/premium1080x1080.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/semana-amizade-1920.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "ofertas",
-          "mobile_img": "/img/uploads/semana-amizade-1080.webp"
         }
       ],
       "full_width": true
