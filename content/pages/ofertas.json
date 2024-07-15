@@ -9,12 +9,6 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/01-03-semana-chocolate-banners.webp",
-      "link": "https://www.emporiotiasonia.com.br/cookies-gotas-de-chocolate-tia-sonia-100g",
-      "alt": "choco"
-    },
-    {
       "type": "extra-page",
       "enabled": true
     },
