@@ -23,7 +23,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/gemada-2.webp"
+          "img": "/img/uploads/gemada-2.webp",
+          "link": "https://chat.whatsapp.com/GOh0PK4icGXL85UF3WbnR0",
+          "alt": "gemada2"
         }
       ]
     },
@@ -35,7 +37,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/gemada-3.webp"
+          "img": "/img/uploads/gemada-3.webp",
+          "link": "https://chat.whatsapp.com/GOh0PK4icGXL85UF3WbnR0",
+          "alt": "gemada3"
         }
       ]
     },
@@ -47,7 +51,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/gemada-4.webp"
+          "img": "/img/uploads/gemada-4.webp",
+          "link": "https://chat.whatsapp.com/GOh0PK4icGXL85UF3WbnR0",
+          "alt": "gemada4"
         }
       ]
     },
