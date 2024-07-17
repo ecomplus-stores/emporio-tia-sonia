@@ -74,5 +74,5 @@
       ]
     }
   ],
-  "body": "."
+  "body": "<!-- Add the code below inside the <body> tags of your HTML page -->\n\n<script>\nwindow.VIDEOASK_EMBED_CONFIG = {\n  \"kind\": \"widget\",\n  \"url\": \"https://www.videoask.com/fynfth42e\",\n  \"options\": {\n    \"widgetType\": \"VideoThumbnailWindowTall\",\n    \"text\": \"\",\n    \"backgroundColor\": \"#FBCE37\",\n    \"position\": \"bottom-left\",\n    \"dismissible\": true,\n    \"videoPosition\": \"center center\"\n  }\n}\n</script>\n\n<script src=\"https://www.videoask.com/embed/embed.js\"></script>\n\n<!-- Important!!! In order to allow your videoask to open up on the same page when interacting with the widget, your website must use the secure https:// protocol (i.e have an SSL certificate). Otherwise, when clicking the widget, a new tab will be automatically opened in the browser.\n-->"
 }
