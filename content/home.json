@@ -81,40 +81,6 @@
     {
       "type": "custom-html",
       "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '85317'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/01-ultrabar1920x500.webp",
-      "link": "https://www.emporiotiasonia.com.br/ultrabar",
-      "alt": "ultrabar",
-      "mobile_img": "/img/uploads/01-ultrabar1080x1080.webp"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
-      "sort": "sales",
-      "title": "Marca Parceira: Ultrabar"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": "",
-      "page": "",
-      "collection_id": "5f9c2780b2161709fa46a603:collections:Pipocas Sinta+:/pipocas-sinta",
-      "sort": "sales",
-      "title": "Marca Parceira: Pipocas Sinta+"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
-      "sort": "sales",
-      "title": "Marca Parceira: Colheita das Alegrias",
-      "limit": "",
-      "page": ""
     }
   ]
 }
