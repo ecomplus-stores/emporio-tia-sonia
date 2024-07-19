@@ -260,8 +260,6 @@ export default {
         Date.now() < new Date(mockNewPromoDate.price_effective_date.end).getTime()
     },
 
-    
-
     ghostProductForPrices () {
       const prices = {}
       ;['price', 'base_price'].forEach(field => {
@@ -275,8 +273,8 @@ export default {
         }
         price *= this.qntCt
         prices[field] = price
-        if (field === 'base_price' && checkOnPromotion(this.body) && this.body['base_price']) {
-          prices[field] = this.body['base_price'] * this.qntCt
+        if (field === 'base_price' && checkOnPromotion(this.body) && this.body.base_price) {
+          prices[field] = this.body.base_price * this.qntCt
         }
       })
       prices.price = this.addProgressiveDiscount(prices.price)
@@ -407,8 +405,9 @@ export default {
 
     addProgressiveDiscount (price) {
       const { kitCta, isKit } = this
-      const progressiveDiscount =  !isKit && kitCta.qnt > 1 && this.qntToBuy * this.qntCt >= kitCta.qnt
-        ? kitCta.discount : 0
+      const progressiveDiscount = !isKit && kitCta.qnt > 1 && this.qntToBuy * this.qntCt >= kitCta.qnt
+        ? kitCta.discount
+        : 0
       if (progressiveDiscount) {
         return price * ((100 - progressiveDiscount) / 100)
       }
