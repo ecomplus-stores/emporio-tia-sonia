@@ -2,17 +2,11 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Juntos, tudo fica mais saboroso!\n\nNesta Semana, preparamos uma surpresa especial para você e seus amigos, casadinhas perfeitas entre si e para dividir! Confira nossas promoções especiais e compartilhe a alegria dos produtos Tia Sônia com seus amigos. Descubra os kits e aproveite! \n\n* **Frete Grátis** acima de R$ 119,90.\n* Cashback em sua próxima compra!",
+  "body": "## Granola é Tia Sônia!\n\nOs produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade. Foram preparados com muito carinho, com ingredientes integrais e saudáveis! \n\n* **Frete Grátis** acima de R$ 119,90.\n* Cashback em sua próxima compra!",
   "sections": [
     {
       "type": "info-bar",
       "enabled": true
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/semana-amizade-1920.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?term=Semana+da+Amizade",
-      "alt": "Amizade"
     },
     {
       "type": "extra-page",
