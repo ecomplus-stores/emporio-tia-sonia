@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Granola é Tia Sônia!\n\nOs produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade. Foram preparados com muito carinho, com ingredientes integrais e saudáveis! \n\n* **Frete Grátis** acima de R$ 119,90.\n* Cashback em sua próxima compra!",
+  "body": "## Granola é Tia Sônia!\n\nOs produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade. Foram preparados com muito carinho, com ingredientes integrais e saudáveis! \n\n* **Frete Grátis** acima de R$ 119,90.\n* 10% OFF no PIX!",
   "sections": [
     {
       "type": "info-bar",
@@ -11,6 +11,13 @@
     {
       "type": "extra-page",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/granolaehtiasonia19202307.webp",
+      "mobile_img": "/img/uploads/granoaehtiasonia10802307.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "ofertas"
     },
     {
       "type": "collection-shelf",
