@@ -53,6 +53,21 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/3-02-mini-banner-1024-x-768.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "pix"
+        },
+        {
+          "img": "/img/uploads/3-01-mini-banner-1024-x-768.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "granola"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": "",
