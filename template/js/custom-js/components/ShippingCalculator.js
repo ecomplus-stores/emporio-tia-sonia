@@ -219,7 +219,7 @@ export default {
         setTimeout(() => {
           this.isScheduled = false
           const { storeId } = this
-          let url = '/calculate_shipping.json?skip_ids=129446'
+          const url = '/calculate_shipping.json?skip_ids=129446'
           /* if (this.skipAppIds && this.skipAppIds.length) {
             url += '?skip_ids='
             this.skipAppIds.forEach((appId, i) => {
@@ -268,7 +268,7 @@ export default {
       if (this.canSelectServices) {
         this.$emit('select-service', this.shippingServices[i])
         this.selectedService = i
-        const eventLayer = window.dataLayer.find(({event}) => event === 'eec.checkout')
+        const eventLayer = window.dataLayer.find(({ event }) => event === 'eec.checkout')
         window.dataLayer.push({
           event: 'add_shipping_info',
           ecommerce: {
