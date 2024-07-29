@@ -177,8 +177,6 @@ export default {
         })
         if (!this.shippingServices.length) {
           if (!isRetry) {
-            this.fetchShippingServices(true)
-          } else {
             this.scheduleRetry()
           }
         } else {
@@ -204,7 +202,7 @@ export default {
       }
     },
 
-    scheduleRetry (timeout = 10000) {
+    scheduleRetry (timeout = 20000) {
       clearTimeout(this.retryTimer)
       this.retryTimer = setTimeout(() => {
         if (this.localZipCode && !this.shippingServices.length && this.shippedItems.length) {

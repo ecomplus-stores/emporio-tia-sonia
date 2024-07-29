@@ -46,6 +46,23 @@
       </div>
 
       <div
+        v-else-if="hasCalculated && !shippingServices.length"
+        key="empty-result"
+        class="alert alert-warning"
+      >
+        Nenhuma forma de envio disponível para este CEP,
+        por favor verifique o número preenchido.
+        <br>
+        <a
+          href="https://buscacepinter.correios.com.br/app/endereco/index.php"
+          target="_blank"
+          class="alert-link"
+        >
+          Não sei meu CEP
+        </a>
+      </div>
+
+      <div
         v-else
         key="services"
         class="list-group"
