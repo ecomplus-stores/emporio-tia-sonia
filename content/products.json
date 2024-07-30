@@ -17,20 +17,20 @@
       "enabled": true
     },
     {
-      "type": "recommended-products",
-      "title": "Você também vai gostar de"
-    },
-    {
-      "type": "related-products",
-      "title": "Você sabia que a Tia Sônia tem?"
+      "type": "product-description",
+      "enabled": true
     },
     {
       "type": "info-bar",
       "enabled": true
     },
     {
-      "type": "product-description",
-      "enabled": true
+      "type": "recommended-products",
+      "title": "Você também vai gostar de"
+    },
+    {
+      "type": "related-products",
+      "title": "Você sabia que a Tia Sônia tem?"
     },
     {
       "type": "product-specifications",
