@@ -9,6 +9,14 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/pais1-banner-principal-1920x500.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "ofertas",
+          "mobile_img": "/img/uploads/2-feed-1080x1080.webp"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/granolaehtiasonia19202307.webp",
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
           "mobile_img": "/img/uploads/granoaehtiasonia10802307.webp"
