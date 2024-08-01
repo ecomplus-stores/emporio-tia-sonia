@@ -13,6 +13,12 @@
       }
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/pais1-banner-principal-1920x500.webp",
+      "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+      "alt": "ofertas"
+    },
+    {
       "type": "buy-together",
       "enabled": true
     },
