@@ -7,6 +7,14 @@
       "autoplay": 10000,
       "slides": [
         {
+          "start": "2024-08-05T10:37:19.474Z",
+          "end": "",
+          "img": "/img/uploads/gemada-home-desk.webp",
+          "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia",
+          "alt": "gemada",
+          "mobile_img": "/img/uploads/gemada-home-mobile.webp"
+        },
+        {
           "start": "",
           "end": "",
           "img": "/img/uploads/pais1-banner-principal-1920x500.webp",
@@ -52,14 +60,6 @@
           "link": "https://www.emporiotiasonia.com.br/premium",
           "alt": "Premium",
           "mobile_img": "/img/uploads/premium1080x1080.webp"
-        },
-        {
-          "start": "2024-08-05T10:37:19.474Z",
-          "end": "",
-          "img": "/img/uploads/gemada-home-desk.webp",
-          "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia",
-          "alt": "gemada",
-          "mobile_img": "/img/uploads/gemada-home-mobile.webp"
         }
       ],
       "full_width": true
