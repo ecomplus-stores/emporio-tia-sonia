@@ -29,6 +29,12 @@
       "title": "Ofertas Especiais para Você"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/gemada-home-desk.webp",
+      "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia",
+      "alt": "gemada"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
