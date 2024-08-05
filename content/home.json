@@ -124,6 +124,14 @@
       "page": 1,
       "collection_id": "5f1f23581eda6e4befb57d9a:categories:Pipocas Sinta+:/pipocas-gourmet",
       "title": "Pipoca Sinta +   "
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
+      "title": "Colheita das Alegrias"
     }
   ]
 }
