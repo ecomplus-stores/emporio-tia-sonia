@@ -404,11 +404,11 @@
                   quantity: qntToBuy || body.min_quantity || 1
                 }]"
               >
-                <template v-slot:free-from-value="{ amountSubtotal, freeFromValue }">
+                <template v-slot:free-from-value="{ freeFromValue }">
                   <div class="product__free-shipping-from">
                     {{ i19freeShippingFrom }}
                     <strong>
-                      {{ Math.ceil(freeFromValue / amountSubtotal) }}
+                      {{ Math.ceil(freeFromValue / fixedPrice) }}
                       {{ i19units }}
                     </strong>
                   </div>
