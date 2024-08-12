@@ -130,14 +130,6 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "5f99819fb2161709fa453ee6:categories:Café Colheita das Alegrias:/cafe-colheita-das-alegrias",
-      "title": "Colheita das Alegrias"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
       "sort": null,
       "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
       "title": "Barras de energia sem glúten"
