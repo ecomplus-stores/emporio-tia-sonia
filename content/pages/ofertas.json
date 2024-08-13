@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Amor que Nutre!\n\nOs produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade.\n\n* **F﻿rete Grátis** acima de R$ 149.\n* **C﻿ashback 5%** na sua próxima compra!\n* P﻿ix com **10% OFF!**",
+  "body": "## Vale a Pena Provar!\n\nA Gemada Tia Sônia Auxilia no funcionamento do sistema imune. Auxilia no metabolismo energético. Combate os radicais livres. Recupera sua energia.\n\n* **F﻿rete Grátis** acima de R$ 149.\n* **C﻿ashback 5%** na sua próxima compra!\n* P﻿ix com **10% OFF!**",
   "sections": [
     {
       "type": "info-bar",
@@ -10,10 +10,9 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/granolaehtiasonia19202307.webp",
-      "mobile_img": "",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-      "alt": "ofertas"
+      "img": "/img/uploads/gemada-home-desk.webp",
+      "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia",
+      "alt": "gemada"
     },
     {
       "type": "extra-page",
@@ -24,15 +23,17 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
+      "sort": "news",
+      "title": "Vale a Pena Provar!"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
       "collection_id": "6446c1ca4bd2e929c1ddc69c:categories:Kits Especiais Tia Sônia:/kits-especiais-tia-sonia",
       "sort": "news",
       "title": "Ofertas Especiais para Você"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/gemada-home-desk.webp",
-      "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia",
-      "alt": "gemada"
     },
     {
       "type": "collection-shelf",
