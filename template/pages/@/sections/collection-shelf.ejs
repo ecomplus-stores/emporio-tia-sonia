@@ -47,6 +47,13 @@ if (opt.sort || opt.collection_id) {
     if (opt.page >= 2) {
       search.setPageNumber(opt.page)
     }
+    if (_.pageName === 'home') {
+      search.mergeFilter({
+        range: {
+          quantity: { gt: 0 }
+        }
+      })
+    }
     try {
       await search.fetch()
       items = search.getItems()
