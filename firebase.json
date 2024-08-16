@@ -7,6 +7,11 @@
         "type": 301
       },
       {
+        "source": "/sublime-tia-sonia-tapioca-crocante-200g",
+        "destination": "/sublime-tia-sonia-tapioca-crocante",
+        "type": 301
+      },
+      {
         "source": "/leite-de-coco-em-po-180g",
         "destination": "/pages/ofertas",
         "type": 301
