@@ -67,6 +67,7 @@ export default {
       default: true
     },
     modulesPayload: Object,
+    paymentGateway: Object,
     ecomCart: {
       type: Object,
       default () {
@@ -111,6 +112,22 @@ export default {
     canAddCoupon () {
       return !this.couponCode || !this.isCouponApplied ||
         this.couponCode !== this.localCouponCode
+    },
+
+    paymentGatewayDiscount () {
+      if (!this.paymentGateway) return 0
+      const { discount } = this.paymentGateway
+      if (!discount || !discount.value) return 0
+      const applyAt = discount.apply_at || 'total'
+      const maxDiscount = applyAt === 'total' ? this.localAmountTotal : this.amount[applyAt]
+      if (maxDiscount > 0) {
+        const { type, value } = discount
+        if (type === 'percentage') {
+          return maxDiscount * value / 100
+        }
+        return value <= maxDiscount ? value : maxDiscount
+      }
+      return 0
     }
   },
 
@@ -119,7 +136,8 @@ export default {
       const amount = this.amount || {
         subtotal: this.ecomCart.data.subtotal
       }
-      this.localAmountTotal = (amount.subtotal || 0) + (amount.freight || 0)
+      this.localAmountTotal = (amount.subtotal || 0) +
+        (amount.freight || 0) - this.paymentGatewayDiscount
     },
 
     parseDiscountOptions (listResult = []) {
@@ -204,7 +222,7 @@ export default {
             subtotal: this.localAmountTotal,
             ...this.amount,
             total: this.localAmountTotal,
-            discount: 0
+            discount: this.paymentGatewayDiscount
           },
           items: this.ecomCart.data.items,
           ...data
@@ -242,6 +260,17 @@ export default {
       ) {
         this.fetchDiscountOptions()
       }
+    },
+
+    scheduleUpdateDiscount () {
+      if (this.isUpdateSheduled) return
+      this.isUpdateSheduled = true
+      this.$nextTick(() => {
+        setTimeout(() => {
+          this.updateDiscount()
+          this.isUpdateSheduled = false
+        }, 600)
+      })
     }
   },
 
@@ -270,14 +299,8 @@ export default {
     },
 
     localAmountTotal (total, oldTotal) {
-      if (oldTotal !== null && Math.abs(total - oldTotal) > 0.01 && !this.isUpdateSheduled) {
-        this.isUpdateSheduled = true
-        this.$nextTick(() => {
-          setTimeout(() => {
-            this.updateDiscount()
-            this.isUpdateSheduled = false
-          }, 600)
-        })
+      if (oldTotal !== null && Math.abs(total - oldTotal) > 0.01) {
+        this.scheduleUpdateDiscount()
       }
     },
 
@@ -286,6 +309,10 @@ export default {
         this.fixAmount()
       },
       deep: true
+    },
+
+    paymentGatewayDiscount () {
+      this.scheduleUpdateDiscount()
     }
   },
 
