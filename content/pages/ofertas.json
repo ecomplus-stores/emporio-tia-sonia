@@ -14,10 +14,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/01-nuti-1920x500.webp",
+      "img": "/img/uploads/granolaehtiasonia19202307.webp",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
       "alt": "nutrir",
-      "mobile_img": "/img/uploads/02-nuti-1080x1080.webp"
+      "mobile_img": ""
     },
     {
       "type": "collection-shelf",
