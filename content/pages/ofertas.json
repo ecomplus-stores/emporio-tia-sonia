@@ -9,15 +9,15 @@
       "enabled": true
     },
     {
-      "type": "extra-page",
-      "enabled": true
-    },
-    {
       "type": "responsive-banner",
       "img": "/img/uploads/granolaehtiasonia19202307.webp",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
       "alt": "nutrir",
       "mobile_img": ""
+    },
+    {
+      "type": "extra-page",
+      "enabled": true
     },
     {
       "type": "collection-shelf",
