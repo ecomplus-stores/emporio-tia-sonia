@@ -95,7 +95,12 @@
       :variant="alertVariant"
       @dismiss="alertText = null"
     >
-      {{ localCouponCode.toLowerCase() === 'livelo'
-        ? 'Você ganha pontos LIVELO nessa compra.' : alertText }}
+      <template v-if="localCouponCode.toLowerCase() === 'livelo'">
+        Você ganha pontos LIVELO nessa compra.
+        <a href="https://www.emporiotiasonia.com.br/livelo" target="_blank" class="alert-link">
+          Confira o regulamento
+        </a>
+      </template>
+      <template v-else>{{ alertText }}</template>
     </a-alert>
   </div>
