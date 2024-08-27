@@ -1,106 +1,105 @@
 <div class="discount-applier">
-    <template v-if="hasCouponInput">
-      <transition-group
-        enter-active-class="animated fadeInDown"
-        leave-active-class="animated position-absolute fadeOutUp"
+  <template v-if="hasCouponInput">
+    <transition-group
+      enter-active-class="animated fadeInDown"
+      leave-active-class="animated position-absolute fadeOutUp"
+    >
+      <div
+        v-if="!isFormVisible"
+        key="button"
       >
-        <div
-          v-if="!isFormVisible"
-          key="button"
+        <h6
+          v-if="isAttentionWanted"
+          class="discount-applier__intro"
         >
-          <h6
-            v-if="isAttentionWanted"
-            class="discount-applier__intro"
-          >
-            {{ i19hasCouponOrVoucherQn }}
-          </h6>
+          {{ i19hasCouponOrVoucherQn }}
+        </h6>
   
-          <button
-            class="discount-applier__coupon-btn btn btn-sm"
-            :class="`btn-${(isAttentionWanted ? 'secondary' : 'light')}`"
-            @click.prevent="isFormVisible = !isFormVisible"
-            type="button"
-          >
-            <i class="i-tag mr-1"></i>
-            {{ i19addDiscountCoupon }}
-          </button>
-        </div>
-  
-        <form
-          v-else
-          key="form"
-          @submit.prevent="submitCoupon"
-          class="discount-applier__form"
+        <button
+          class="discount-applier__coupon-btn btn btn-sm"
+          :class="`btn-${(isAttentionWanted ? 'secondary' : 'light')}`"
+          @click.prevent="isFormVisible = !isFormVisible"
+          type="button"
         >
-          <div class="form-group">
-            <label for="discount-applier-coupon">
-              {{ i19discountCoupon }}
-            </label>
+          <i class="i-tag mr-1"></i>
+          {{ i19addDiscountCoupon }}
+        </button>
+      </div>
   
-            <div class="input-group">
-              <input
-                type="text"
-                ref="input"
-                class="form-control discount-applier__input"
-                id="discount-applier-coupon"
-                autocomplete="off"
-                required
-                :readonly="isLoading"
-                :placeholder="i19code"
-                :aria-label="i19code"
-                v-model="localCouponCode"
-                @input="event => localCouponCode = event.target.value.trim()"
+      <form
+        v-else
+        key="form"
+        @submit.prevent="submitCoupon"
+        class="discount-applier__form"
+      >
+        <div class="form-group">
+          <label for="discount-applier-coupon">
+            {{ i19discountCoupon }}
+          </label>
+  
+          <div class="input-group">
+            <input
+              type="text"
+              ref="input"
+              class="form-control discount-applier__input"
+              id="discount-applier-coupon"
+              autocomplete="off"
+              required
+              :readonly="isLoading"
+              :placeholder="i19code"
+              :aria-label="i19code"
+              v-model="localCouponCode"
+              @input="event => localCouponCode = event.target.value.trim()"
+            >
+  
+            <div class="input-group-append">
+              <span
+                v-if="isLoading"
+                class="input-group-text"
               >
-  
-              <div class="input-group-append">
                 <span
-                  v-if="isLoading"
-                  class="input-group-text"
-                >
-                  <span
-                    class="spinner-grow spinner-grow-sm"
-                    role="status"
-                  ></span>
-                  <span class="sr-only">Loading...</span>
-                </span>
+                  class="spinner-grow spinner-grow-sm"
+                  role="status"
+                ></span>
+                <span class="sr-only">Loading...</span>
+              </span>
   
-                <button
-                  v-else-if="canAddCoupon"
-                  key="add"
-                  class="btn btn-outline-secondary"
-                  type="submit"
-                >
-                  {{ i19add }}
-                </button>
-                <button
-                  v-else
-                  key="applied"
-                  class="btn btn-outline-success"
-                  disabled
-                  type="button"
-                >
-                  <i class="i-check-circle"></i>
-                </button>
-              </div>
+              <button
+                v-else-if="canAddCoupon"
+                key="add"
+                class="btn btn-outline-secondary"
+                type="submit"
+              >
+                {{ i19add }}
+              </button>
+              <button
+                v-else
+                key="applied"
+                class="btn btn-outline-success"
+                disabled
+                type="button"
+              >
+                <i class="i-check-circle"></i>
+              </button>
             </div>
           </div>
-        </form>
-      </transition-group>
-    </template>
+        </div>
+      </form>
+    </transition-group>
+  </template>
   
-    <a-alert
-      :key="`alert-${alertVariant}`"
-      v-if="!isLoading && Boolean(alertText)"
-      :can-show="!isLoading && Boolean(alertText)"
-      :variant="alertVariant"
-      @dismiss="alertText = null"
-    >
-      <template v-if="localCouponCode.toLowerCase() === 'livelo'">
-        Você ganha pontos LIVELO nessa compra.
-        <a href="https://www.emporiotiasonia.com.br/livelo" target="_blank" class="alert-link">
-          Confira o regulamento
-        </a>
-      </template>
-      <template v-else>{{ alertText }}</template>
-    </a-alert>
-  </div>
+  <a-alert
+    :key="`alert-${alertVariant}`"
+    :can-show="!isLoading && Boolean(alertText)"
+    :variant="alertVariant"
+    @dismiss="alertText = null"
+  >
+    <template v-if="localCouponCode.toLowerCase() === 'livelo'">
+      Você ganha pontos LIVELO nessa compra.
+      <a href="https://www.emporiotiasonia.com.br/livelo" target="_blank" class="alert-link">
+        Confira o regulamento
+      </a>
+    </template>
+    <template v-else>{{ alertText }}</template>
+  </a-alert>
+</div>
