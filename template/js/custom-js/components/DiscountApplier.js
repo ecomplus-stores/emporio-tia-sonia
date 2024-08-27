@@ -19,6 +19,11 @@ import AAlert from '@ecomplus/storefront-components/src/AAlert.vue'
 
 const addFreebieItems = (ecomCart, productIds) => {
   if (Array.isArray(productIds)) {
+    ecomCart.data.items.forEach(({ _id, product_id: productId, flags }) => {
+      if (flags && flags.includes('freebie') && !productIds.includes(productId)) {
+        ecomCart.removeItem(_id)
+      }
+    })
     productIds.forEach(productId => {
       const canAddFreebie = !ecomCart.data.items.find(item => {
         return item.product_id === productId && item.flags && item.flags.includes('freebie')
@@ -42,6 +47,14 @@ const addFreebieItems = (ecomCart, productIds) => {
           .catch(console.error)
       }
     })
+  } else {
+    if (ecomCart.data && ecomCart.data.items && ecomCart.data.items.length) {
+      ecomCart.data.items.forEach(({ _id, flags }) => {
+        if (flags && flags.includes('freebie')) {
+          ecomCart.removeItem(_id)
+        }
+      })
+    }
   }
 }
 
@@ -75,6 +88,7 @@ export default {
       }
     },
     customer: Object,
+    canPassManyDiscountApps: Boolean,
     ecomPassport: {
       type: Object,
       default () {
@@ -149,13 +163,26 @@ export default {
           if (validated && !error) {
             const appDiscountRule = response.discount_rule
             if (appDiscountRule) {
-              const discountRuleValue = appDiscountRule.extra_discount.value
-              if (!(extraDiscountValue > discountRuleValue)) {
-                extraDiscountValue = discountRuleValue
-                discountRule = {
-                  app_id: appResult.app_id,
-                  ...appDiscountRule
+              if (!this.canPassManyDiscountApps) {
+                const discountRuleValue = appDiscountRule.extra_discount.value
+                if (!(extraDiscountValue > discountRuleValue)) {
+                  extraDiscountValue = discountRuleValue
+                  discountRule = {
+                    app_id: appResult.app_id,
+                    ...appDiscountRule
+                  }
                 }
+              } else {
+                if (extraDiscountValue) {
+                  appDiscountRule.extra_discount.value += extraDiscountValue
+                  discountRule = appDiscountRule
+                } else {
+                  discountRule = {
+                    app_id: appResult.app_id,
+                    ...appDiscountRule
+                  }
+                }
+                extraDiscountValue = appDiscountRule.extra_discount.value
               }
             } else if (response.available_extra_discount && response.available_extra_discount.min_amount) {
               invalidCouponMsg = this.i19add$1ToGetDiscountMsg
@@ -177,7 +204,6 @@ export default {
               this.alertVariant = invalidAlertVariant || 'warning'
             } else {
               this.$emit('update:coupon-code', this.localCouponCode)
-              document.body.classList.add('__discount-coupon-applied')
               this.alertText = this.i19couponAppliedMsg
               this.alertVariant = 'info'
             }
@@ -276,11 +302,17 @@ export default {
 
   watch: {
     couponCode (couponCode) {
-      if (couponCode !== this.couponCode) {
+      if (couponCode !== this.localCouponCode) {
         this.localCouponCode = couponCode
         if (couponCode && !this.isFormVisible) {
           this.isFormVisible = true
         }
+      }
+    },
+
+    localCouponCode () {
+      if (this.alertVariant === 'info') {
+        this.alertText = null
       }
     },
 

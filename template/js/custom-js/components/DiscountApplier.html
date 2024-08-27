@@ -14,7 +14,7 @@
         >
           {{ i19hasCouponOrVoucherQn }}
         </h6>
-  
+
         <button
           class="discount-applier__coupon-btn btn btn-sm"
           :class="`btn-${(isAttentionWanted ? 'secondary' : 'light')}`"
@@ -25,7 +25,7 @@
           {{ i19addDiscountCoupon }}
         </button>
       </div>
-  
+
       <form
         v-else
         key="form"
@@ -36,7 +36,7 @@
           <label for="discount-applier-coupon">
             {{ i19discountCoupon }}
           </label>
-  
+
           <div class="input-group">
             <input
               type="text"
@@ -48,10 +48,9 @@
               :readonly="isLoading"
               :placeholder="i19code"
               :aria-label="i19code"
-              v-model="localCouponCode"
-              @input="event => localCouponCode = event.target.value.trim()"
+              v-model.trim="localCouponCode"
             >
-  
+
             <div class="input-group-append">
               <span
                 v-if="isLoading"
@@ -63,7 +62,7 @@
                 ></span>
                 <span class="sr-only">Loading...</span>
               </span>
-  
+
               <button
                 v-else-if="canAddCoupon"
                 key="add"
@@ -89,12 +88,12 @@
   </template>
   
   <a-alert
-    :key="`alert-${alertVariant}`"
+    :key="`alert-${alertVariant}-${localCouponCode}`"
     :can-show="!isLoading && Boolean(alertText)"
     :variant="alertVariant"
     @dismiss="alertText = null"
   >
-    <template v-if="localCouponCode.toLowerCase() === 'livelo'">
+    <template v-if="localCouponCode && localCouponCode.toLowerCase() === 'livelo'">
       Você ganha pontos LIVELO nessa compra.
       <a href="https://www.emporiotiasonia.com.br/livelo" target="_blank" class="alert-link">
         Confira o regulamento
