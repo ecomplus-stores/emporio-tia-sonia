@@ -65,9 +65,9 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "sort": null,
-      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
-      "title": "Barras de energia sem glúten"
+      "collection_id": null,
+      "title": "Novidades Tia Sônia",
+      "sort": "news"
     },
     {
       "type": "collection-shelf",
@@ -103,9 +103,9 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": null,
-      "title": "Novidades Tia Sônia",
-      "sort": "news"
+      "sort": null,
+      "collection_id": "62176ceb7963422eee194d05:categories:Ultrabar:/ultrabar",
+      "title": "Barras de energia sem glúten"
     }
   ]
 }
