@@ -7,6 +7,14 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/brasil01-1920x500px.webp",
+          "mobile_img": "/img/uploads/02-brasil1080x1080.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "brasil"
+        },
+        {
           "start": "2024-08-05T10:37:19.474Z",
           "end": "",
           "img": "/img/uploads/gemada-home-desk.webp",
