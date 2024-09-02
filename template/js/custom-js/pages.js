@@ -134,7 +134,7 @@ if (window.storefront && window.storefront.context && window.storefront.context.
     setTimeout(function () {
       const $points = document.querySelector('.product__prices .prices__points')
       let points = document.querySelector('.product__prices .prices__points span').innerText.replace('+', '').trim()
-      let transformToMoney = (Number(points) * 0.05).toFixed(2)
+      let transformToMoney = (Number(points) * 0.15).toFixed(2)
       const $money =  `<div id="dinheiro-volta"><a href="https://www.emporiotiasonia.com.br/pages/programa-de-fidelidade"><span>Ganhe <span class="dinheiro"><strong nid="changeMoney">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(transformToMoney)}</strong></span> na próxima compra</span></a></div>`
       $('.product__buy').after($money)
       if ($('.product__kit').length) {
