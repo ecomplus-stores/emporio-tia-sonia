@@ -13,53 +13,6 @@
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "diadocliente",
           "mobile_img": "/img/uploads/diadocliente1080.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/granolaehtiasonia19202307.webp",
-          "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
-          "mobile_img": "/img/uploads/granoaehtiasonia10802307.webp"
-        },
-        {
-          "start": "2024-08-05T10:37:19.474Z",
-          "end": "",
-          "img": "/img/uploads/gemada-home-desk.webp",
-          "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia",
-          "alt": "gemada",
-          "mobile_img": "/img/uploads/banner-1080x1080-fees.webp"
-        },
-        {
-          "start": "2024-08-20T00:31:37.177Z",
-          "end": "",
-          "img": "/img/uploads/salgagas1920x500.webp",
-          "link": "https://www.emporiotiasonia.com.br/salgadas",
-          "alt": "salgadas",
-          "mobile_img": "/img/uploads/prancheta-2-copiar-7-1.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/granola-sabores1920.webp",
-          "mobile_img": "/img/uploads/granola-sabores1080.webp",
-          "link": "https://www.emporiotiasonia.com.br/granola-sabores",
-          "alt": "sabores"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/granolalowcarbhome.webp",
-          "mobile_img": "/img/uploads/granolalowcarbhome1080x1080-1-.webp",
-          "link": "https://www.emporiotiasonia.com.br/low-carb",
-          "alt": "lowcarb"
-        },
-        {
-          "start": "2023-12-28T13:38:38.263Z",
-          "end": "",
-          "img": "/img/uploads/premium1920x500.webp",
-          "link": "https://www.emporiotiasonia.com.br/premium",
-          "alt": "Premium",
-          "mobile_img": "/img/uploads/premium1080x1080.webp"
         }
       ],
       "full_width": true
