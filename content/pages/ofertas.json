@@ -9,29 +9,8 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/brasil01-1920x500px.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-      "alt": "nutrir",
-      "mobile_img": ""
-    },
-    {
       "type": "extra-page",
       "enabled": false
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/05-mini-banner-01.webp"
-        },
-        {
-          "img": "/img/uploads/05-mini-banner-03.webp"
-        },
-        {
-          "img": "/img/uploads/05-mini-banner-02.webp"
-        }
-      ]
     },
     {
       "type": "collection-shelf",
