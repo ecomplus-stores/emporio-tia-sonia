@@ -9,6 +9,14 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/diadocliente1920.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "diadocliente",
+          "mobile_img": "/img/uploads/diadocliente1080.webp"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/granolaehtiasonia19202307.webp",
           "link": "https://www.emporiotiasonia.com.br/granola-tia-sonia",
           "mobile_img": "/img/uploads/granoaehtiasonia10802307.webp"
