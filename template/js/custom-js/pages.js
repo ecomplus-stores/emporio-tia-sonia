@@ -286,3 +286,4 @@ else {
   //info.textContent = "Your Browser does not support Speech Recognition";
 }
 
+window.productCardBuyText = 'COMPRAR'
