@@ -3,7 +3,6 @@ console.log(path.resolve(__dirname, 'template/js/custom-js/html/TheProduct.html'
 module.exports = () => ({
   resolve: {
     alias: {
-      './js/ShippingLine.js': path.resolve(__dirname, 'template/js/custom-js/js/ShippingLine.js'),
       './js/ShippingCalculator.js': path.resolve(__dirname, 'template/js/custom-js/components/ShippingCalculator.js'),
       './html/ShippingCalculator.html': path.resolve(__dirname, 'template/js/custom-js/components/ShippingCalculator.html'),
       './js/QuantitySelector.js': path.resolve(__dirname, 'template/js/custom-js/js/QuantitySelector.js'),
