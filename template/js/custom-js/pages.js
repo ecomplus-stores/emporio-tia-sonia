@@ -3,6 +3,7 @@ import EcomSearch from '@ecomplus/search-engine'
 import ecomCart from '@ecomplus/shopping-cart'
 import './tags'
 import './cashback-info'
+import './midd-shipping-deadline'
 
 console.log('ola', window.ecomPassport.checkLogin())
 let customerPurchaseData = {}

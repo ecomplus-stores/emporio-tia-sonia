@@ -5,6 +5,7 @@ import {
   price as getPrice,
   nickname as getNickname
 } from '@ecomplus/utils'
+import './midd-shipping-deadline'
 
 const urlParams = new URLSearchParams(window.location.search)
 const fbclid = urlParams.get('fbclid') || window.sessionStorage.getItem('fb_cookie')
