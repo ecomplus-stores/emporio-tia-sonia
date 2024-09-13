@@ -123,7 +123,7 @@ export default {
     },
 
     strBuy () {
-      return this.buyText ||
+      return 'COMPRAR' || this.buyText ||
         (typeof window === 'object' && window.productCardBuyText) ||
         i18n(i19buy)
     },
