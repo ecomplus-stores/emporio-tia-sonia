@@ -1,6 +1,6 @@
 {
   "title": "Grupo Vip no WhatsApp",
-  "body": "<style>\\\n.banner picture img {border-radius: 0px !important;}\\\n</style>",
+  "body": "<style>\n.banner picture img {border-radius: 0px !important;}\n</style>",
   "sections": [
     {
       "type": "extra-page",
