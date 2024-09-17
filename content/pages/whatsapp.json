@@ -39,7 +39,17 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false
+      "full_width": true,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/whats03.webp",
+          "mobile_img": "/img/uploads/pt-03.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/whatsapp",
+          "alt": "vip3"
+        }
+      ]
     },
     {
       "type": "banner-slider",
