@@ -1,4 +1,25 @@
 {
-  "title": "WhatsApp",
-  "body": "Grupo Vip no WhatsApp"
+  "title": "Grupo Vip no WhatsApp",
+  "body": ".",
+  "sections": [
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/01.webp",
+          "link": "https://chat.whatsapp.com/D4u5hWA1KM64dgjtdehVeE",
+          "alt": "vip",
+          "mobile_img": "/img/uploads/pt-01.webp"
+        }
+      ]
+    },
+    {
+      "type": "extra-page",
+      "enabled": false
+    }
+  ]
 }
