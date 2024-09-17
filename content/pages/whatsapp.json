@@ -3,10 +3,6 @@
   "body": "<style>\n.banner picture img {border-radius: 0px !important;}\n</style>",
   "sections": [
     {
-      "type": "custom-html",
-      "html": "<style>\n.banner picture img {border-radius: 0px !important;}\n</style>"
-    },
-    {
       "type": "extra-page",
       "enabled": false
     },
@@ -69,6 +65,10 @@
           "mobile_img": "/img/uploads/pt-04.webp"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<style>\n.banner picture img {border-radius: 0px !important;}\n</style>"
     }
   ]
 }
