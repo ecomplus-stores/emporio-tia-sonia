@@ -17,7 +17,7 @@
           "start": "",
           "end": "",
           "img": "/img/uploads/diadocliente1920.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "link": "https://www.emporiotiasonia.com.br/kit-semana-do-cliente",
           "alt": "diadocliente"
         }
       ]
@@ -25,15 +25,6 @@
     {
       "type": "extra-page",
       "enabled": true
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "6446c1ca4bd2e929c1ddc69c:categories:Kits Especiais Tia Sônia:/kits-especiais-tia-sonia",
-      "sort": "news",
-      "title": "Ofertas para Você"
     },
     {
       "type": "collection-shelf",
