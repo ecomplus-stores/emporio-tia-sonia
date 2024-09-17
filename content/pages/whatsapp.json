@@ -3,6 +3,10 @@
   "body": ".",
   "sections": [
     {
+      "type": "extra-page",
+      "enabled": false
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
@@ -40,10 +44,6 @@
           "mobile_img": "/img/uploads/pt-04.webp"
         }
       ]
-    },
-    {
-      "type": "extra-page",
-      "enabled": false
     }
   ]
 }
