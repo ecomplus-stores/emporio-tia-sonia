@@ -21,6 +21,14 @@
           "mobile_img": "/img/uploads/ultrabar_mobile.webp",
           "link": "https://www.emporiotiasonia.com.br/ultrabar",
           "alt": "ultrabar"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/sinta_-_desktop.webp",
+          "link": "https://www.emporiotiasonia.com.br/pipocas-gourmet",
+          "alt": "pacoca",
+          "mobile_img": "/img/uploads/sinta-_mobile.webp"
         }
       ],
       "full_width": true
