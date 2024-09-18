@@ -13,6 +13,14 @@
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "diadocliente",
           "mobile_img": "/img/uploads/quinzena-do-cliente_layout-mobile_alterado.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/ultrabar_desktop.webp",
+          "mobile_img": "/img/uploads/ultrabar_mobile.webp",
+          "link": "https://www.emporiotiasonia.com.br/ultrabar",
+          "alt": "ultrabar"
         }
       ],
       "full_width": true
