@@ -92,6 +92,13 @@
       "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '85317'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/ultrabar_desktop.webp",
+      "mobile_img": "/img/uploads/ultrabar_mobile.webp",
+      "link": "https://www.emporiotiasonia.com.br/ultrabar",
+      "alt": "ultrabar2"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
