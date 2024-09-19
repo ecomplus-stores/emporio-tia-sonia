@@ -41,6 +41,10 @@
     {
       "type": "product-specifications",
       "enabled": true
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"app-download-container text-center\">\n    <p>Baixe nosso <strong>aplicativo</strong> e tenha mais <strong>praticidade</strong> na sua compra.</p>\n    <div class=\"store-links d-flex justify-content-center\">\n        <a href=\"https://apps.apple.com/br/app/tia-s%C3%B4nia/id6475564321\" target=\"_blank\" class=\"store-link\">\n            <img src=\"https://www.emporiotiasonia.com.br/img/uploads/app_store-2.avif\" alt=\"App Store iOS\">\n        </a>\n        <a href=\"https://play.google.com/store/apps/details?id=com.converta.emporiotiasonia\" target=\"_blank\" class=\"store-link\">\n            <img src=\"https://www.emporiotiasonia.com.br/img/uploads/play-store-2.avif\" alt=\"Google Play Store\">\n        </a>\n    </div>\n</div>"
     }
   ]
 }
