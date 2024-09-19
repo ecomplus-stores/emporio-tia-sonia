@@ -80,6 +80,13 @@
       "sort": "sales"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/gemada-home-desk.webp",
+      "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia",
+      "alt": "gemada",
+      "mobile_img": "/img/uploads/gemada-mobile-1-.webp"
+    },
+    {
       "type": "info-bar",
       "enabled": true
     },
