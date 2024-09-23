@@ -53,6 +53,11 @@
           "img": "/img/uploads/minibanner-02.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "2"
+        },
+        {
+          "img": "/img/uploads/minibanner-03.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "3"
         }
       ]
     },
