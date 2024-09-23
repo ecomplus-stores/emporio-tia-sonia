@@ -12,15 +12,7 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/diadocliente1920.webp",
-          "link": "https://www.emporiotiasonia.com.br/kit-semana-do-cliente",
-          "alt": "diadocliente2"
-        }
-      ]
+      "slides": []
     },
     {
       "type": "extra-page",
