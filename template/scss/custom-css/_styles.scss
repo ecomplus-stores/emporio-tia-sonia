@@ -2311,7 +2311,9 @@ text-align:center;
     background: #fff3cd;
     padding: 15px;
     border-radius: 10px;
+    position: relative;
 }
-.product__info .mt-3 .lead::after {
-    content: "Use o cupom QUEROTIASONIA para ganhar desconto na primeira compra!";   
+
+.product__info .mt-3 .lead::before {
+    content: "Use o cupom QUEROTIASONIA para ganhar desconto na primeira compra!";
 }
