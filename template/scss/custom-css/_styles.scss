@@ -279,7 +279,7 @@ h1 {
 
 // FRETE CALCULO
 .shipping-calculator__services::after {
-  content: 'Compra 100% Segura! Devolução Grátis em até 7 dias\A após a confirmação de entrega. ';
+  content: 'Use o cupom QUEROTIASONIA para ganhar desconto na primeira compra!';
   white-space: pre;
   font-weight: 500;
   font-size: 12px;
@@ -2308,14 +2308,8 @@ text-align:center;
 .product__info{
     font-size: 1.25rem;
     font-weight: 300;
-    background: #fff3cd;
+    background: #f7f7f7;
     padding: 15px;
     border-radius: 10px;
 }
 
-.product__info::after {
-    content: " Use o cupom QUEROTIASONIA para ganhar desconto na primeira compra!";
-    font-weight: normal;
-    color: inherit; /* Herdar a cor do texto já existente */
-    display: inline;
-}
