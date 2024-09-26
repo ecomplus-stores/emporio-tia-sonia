@@ -2305,13 +2305,13 @@ text-align:center;
   background: transparent !important;
 }
 
-.body#page-products .mt-3 {
+.product__info .mt-3 .lead {
     font-size: 1.25rem;
     font-weight: 300;
     background: #fff3cd;
     padding: 15px;
     border-radius: 10px;
 }
-.body#page-products .mt-3::before {
+.product__info .mt-3 .lead::after {
     content: "Use o cupom QUEROTIASONIA para ganhar desconto na primeira compra!";   
 }
