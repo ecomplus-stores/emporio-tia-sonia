@@ -279,15 +279,13 @@ h1 {
 
 // FRETE CALCULO
 .shipping-calculator__services::after {
-  content: 'Use o cupom QUEROTIASONIA para ganhar desconto na primeira compra!';
-  white-space: pre;
-  font-weight: 500;
+  content: 'Desconto na 1ª compra com o cupom: QUEROTIASONIA';
+  white-space: pre;  
   font-size: 12px;
   color: #333;
-  background: #f6e7ba;
-  padding: 5px;
-  border-radius: 5px;
-  font-weight: bold;
+  background: #e9ecef;
+  padding: 3px;
+  border-radius: 3px;  
 }
 
 //banner categoria
