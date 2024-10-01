@@ -9,18 +9,8 @@
       "enabled": true
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/nordeste1920banner.webp",
-          "link": "https://www.emporiotiasonia.com.br/30off",
-          "alt": "30off"
-        }
-      ]
+      "type": "responsive-banner",
+      "img": "/img/uploads/nordeste1920banner.webp"
     },
     {
       "type": "extra-page",
