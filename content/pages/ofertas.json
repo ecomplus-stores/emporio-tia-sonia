@@ -2,8 +2,22 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## O sabor que encaixa no seu estilo de vida!\n\nAs Granolas Pipoca e Paçoca são as escolhas perfeitas para quem quer sabor e equilíbrio. Porque na correria do dia a dia, nada melhor do que opções práticas e deliciosas para te acompanhar!\n\n* Frete Grátis em compras acima de R$ 199.\n* L﻿eve 3 unidades e pague 2 - Granolas Pipoca e Paçoca",
+  "body": "## Do Nordeste para todo Brasil!\n\nFeitos com amor e qualidade, nossos produtos trazem o sabor único do Nordeste, proporcionando energia e bem-estar. Aproveite essa promoção que abraça todo o Brasil com amor, sabor e qualidade!\n\n* **Frete Grátis** em compras acima de R$ 199.\n* **30% OFF** na segunda unidade de produtos selecionados.",
   "sections": [
+    {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/nordeste1920banner.webp",
+          "link": "https://www.emporiotiasonia.com.br/30off",
+          "alt": "30off"
+        }
+      ]
+    },
     {
       "type": "info-bar",
       "enabled": true
