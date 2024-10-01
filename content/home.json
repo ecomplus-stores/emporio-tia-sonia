@@ -29,6 +29,14 @@
           "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
           "alt": "cafe",
           "mobile_img": "/img/uploads/alegrias-mobile.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/nordeste1920banner.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "nordeste",
+          "mobile_img": "/img/uploads/nordeste1080prancheta_1.webp"
         }
       ],
       "full_width": true
