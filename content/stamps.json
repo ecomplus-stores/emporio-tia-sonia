@@ -1,3 +1,11 @@
 {
-  "stamps_list": []
+  "stamps_list": [
+    {
+      "skus": [
+        "PA289"
+      ],
+      "img": "/img/uploads/30off.webp",
+      "id": "30OFF"
+    }
+  ]
 }
