@@ -42,6 +42,10 @@
       "full_width": true
     },
     {
+      "type": "custom-html",
+      "html": "[estilos-de-alimentacao]"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -60,10 +64,6 @@
           "alt": "sabores"
         }
       ]
-    },
-    {
-      "type": "custom-html",
-      "html": "[estilos-de-alimentacao]"
     },
     {
       "type": "collection-shelf",
