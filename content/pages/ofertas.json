@@ -24,7 +24,7 @@
     },
     {
       "type": "extra-page",
-      "enabled": false
+      "enabled": true
     },
     {
       "type": "collection-shelf",
