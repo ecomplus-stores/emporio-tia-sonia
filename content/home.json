@@ -45,17 +45,17 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/minibanner-03.webp",
+          "img": "/img/uploads/nordesteminibanner-03.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "kits"
         },
         {
-          "img": "/img/uploads/minibanner-02.webp",
+          "img": "/img/uploads/minibanner-nordeste02.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "nordeste"
         },
         {
-          "img": "/img/uploads/minibanner-01.webp",
+          "img": "/img/uploads/nordesteminibanner-01.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "sabores"
         }
