@@ -9,23 +9,8 @@
       "enabled": true
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/granolas-pipoca-e-pacoca.webp",
-          "mobile_img": "/img/uploads/granolas-pipoca-e-pacoca1080.webp",
-          "link": "https://www.emporiotiasonia.com.br/granola-sabores",
-          "alt": "Granolas Pipoca e Paçoca"
-        }
-      ]
-    },
-    {
       "type": "extra-page",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "collection-shelf",
