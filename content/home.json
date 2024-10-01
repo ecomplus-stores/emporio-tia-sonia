@@ -38,26 +38,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/minibanner-01.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "1"
-        },
-        {
-          "img": "/img/uploads/minibanner-02.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "2"
-        },
-        {
-          "img": "/img/uploads/minibanner-03.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "3"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
