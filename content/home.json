@@ -46,26 +46,6 @@
       "html": "[estilos-de-alimentacao]"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/nordesteminibanner-03.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "kits"
-        },
-        {
-          "img": "/img/uploads/minibanner-nordeste02.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "nordeste"
-        },
-        {
-          "img": "/img/uploads/nordesteminibanner-01.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "sabores"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
