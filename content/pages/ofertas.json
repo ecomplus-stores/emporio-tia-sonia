@@ -17,13 +17,6 @@
       "shuffle": false,
       "limit": 24,
       "page": 1,
-      "collection_id": "66fc0e779e4b2e07f52115fc:categories:Ganhe 30% na segunda unidade!:/30off2"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 24,
-      "page": 1,
       "sort": "news",
       "title": "Lançamentos"
     },
