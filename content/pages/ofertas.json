@@ -9,6 +9,10 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/amorquenutreout-5-.webp"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
