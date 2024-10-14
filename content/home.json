@@ -42,6 +42,20 @@
       "full_width": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/amorquenutreout-3-.webp"
+        },
+        {
+          "img": "/img/uploads/amorquenutreout-1-.webp"
+        },
+        {
+          "img": "/img/uploads/amorquenutreout-2-.webp"
+        }
+      ]
+    },
+    {
       "type": "custom-html",
       "html": "[estilos-de-alimentacao]"
     },
