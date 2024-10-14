@@ -9,12 +9,6 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/nordeste1920banner.webp",
-      "link": "https://www.emporiotiasonia.com.br/30off",
-      "alt": "30off"
-    },
-    {
       "type": "extra-page",
       "enabled": false
     },
