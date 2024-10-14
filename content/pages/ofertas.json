@@ -10,7 +10,9 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/amorquenutreout-5-.webp"
+      "img": "/img/uploads/amorquenutreout-5-.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "vendidos"
     },
     {
       "type": "extra-page",
