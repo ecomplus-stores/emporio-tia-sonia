@@ -1,26 +1,3 @@
 {
-  "stamps_list": [
-    {
-      "skus": [
-        "PA289",
-        "PA230",
-        "PA291",
-        "PA384",
-        "PA120",
-        "RV0008",
-        "PA730",
-        "PA732",
-        "PA814",
-        "RV0048",
-        "PA737",
-        "PA806",
-        "PA803",
-        "RV0074",
-        "PA830",
-        "PA742"
-      ],
-      "img": "/img/uploads/30off.webp",
-      "id": "30OFF"
-    }
-  ]
+  "stamps_list": []
 }
