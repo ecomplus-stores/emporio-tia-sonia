@@ -12,11 +12,12 @@
     },
     {
       "type": "page-title",
-      "title": "Seja um Consultor Tia Sônia"
+      "title": "Seja um Consultor Tia Sônia",
+      "description": "Olá, responda o formulário abaixo para que nossa equipe de relacionamento entre em contato com você."
     },
     {
       "type": "extra-page",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "custom-html",
