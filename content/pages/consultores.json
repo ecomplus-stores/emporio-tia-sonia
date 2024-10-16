@@ -5,6 +5,10 @@
   "meta_description": "Para ser uma consultora Tia Sonia, basta preencher o formulário abaixo para que nossa equipe de relacionamento entre em contato com você.",
   "sections": [
     {
+      "type": "page-title",
+      "title": "Cadastro Consultores Tia Sônia"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
