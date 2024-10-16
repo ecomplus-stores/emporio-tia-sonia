@@ -1,6 +1,16 @@
 {
   "title": "Consultores",
-  "body": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd7d6LHqhTkHNrMNqBuXMRYI7Nknxb7hjtqoqnkz98WvC5d0w/viewform?embedded=true\" width=\"640\" height=\"745\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Carregando…</iframe>",
+  "body": "Olá, responda o formulário abaixo para que nossa equipe de relacionamento entre em contato com você.",
   "meta_title": "Cadastro Consultores Tia Sônia",
-  "meta_description": "Para ser uma consultora Tia Sonia, basta preencher o formulário abaixo para que nossa equipe de relacionamento entre em contato com você."
+  "meta_description": "Para ser uma consultora Tia Sonia, basta preencher o formulário abaixo para que nossa equipe de relacionamento entre em contato com você.",
+  "sections": [
+    {
+      "type": "extra-page",
+      "enabled": true
+    },
+    {
+      "type": "custom-html",
+      "html": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd7d6LHqhTkHNrMNqBuXMRYI7Nknxb7hjtqoqnkz98WvC5d0w/viewform?embedded=true\" width=\"640\" height=\"745\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Carregando…</iframe>"
+    }
+  ]
 }
