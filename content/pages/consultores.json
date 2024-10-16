@@ -13,6 +13,12 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/consultora.jpeg",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSd7d6LHqhTkHNrMNqBuXMRYI7Nknxb7hjtqoqnkz98WvC5d0w/viewform?usp=sf_link",
+      "alt": "forms"
+    },
+    {
       "type": "custom-html",
       "html": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSd7d6LHqhTkHNrMNqBuXMRYI7Nknxb7hjtqoqnkz98WvC5d0w/viewform?embedded=true\" width=\"100%\" height=\"745\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Carregando…</iframe>\n\n<style>\n  .breadcrumb-item {display:none;}\n</style>"
     }
