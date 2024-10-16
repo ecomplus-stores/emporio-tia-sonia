@@ -5,18 +5,18 @@
   "meta_description": "Para ser uma consultora Tia Sonia, basta preencher o formulário abaixo para que nossa equipe de relacionamento entre em contato com você.",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/consultora.jpeg",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSd7d6LHqhTkHNrMNqBuXMRYI7Nknxb7hjtqoqnkz98WvC5d0w/viewform?usp=sf_link",
+      "alt": "forms"
+    },
+    {
       "type": "page-title",
       "title": "Seja um Consultor Tia Sônia"
     },
     {
       "type": "extra-page",
       "enabled": true
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/consultora.jpeg",
-      "link": "https://docs.google.com/forms/d/e/1FAIpQLSd7d6LHqhTkHNrMNqBuXMRYI7Nknxb7hjtqoqnkz98WvC5d0w/viewform?usp=sf_link",
-      "alt": "forms"
     },
     {
       "type": "custom-html",
