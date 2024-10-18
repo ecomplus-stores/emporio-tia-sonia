@@ -8,6 +8,10 @@
     "title": "Informações ",
     "list": [
       {
+        "text": "Sobre a Tia Sônia",
+        "url": "/pages/sobre-nos"
+      },
+      {
         "text": "Fale com a Tia Sônia",
         "url": "/pages/contato"
       },
@@ -44,12 +48,12 @@
         "url": "/pages/trocas"
       },
       {
-        "text": "Sobre a Tia Sônia",
-        "url": "/pages/sobre-nos"
-      },
-      {
         "url": "https://www.emporiotiasonia.com.br/pages/rastreio-seu-pedido",
         "text": "Rastreamento Pedido"
+      },
+      {
+        "text": "Black Friday",
+        "url": "https://www.emporiotiasonia.com.br/black-friday-tia-sonia"
       }
     ]
   },
