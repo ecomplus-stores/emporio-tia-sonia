@@ -9,10 +9,10 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/amorquenutreout-6-.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "amorquenutre",
-          "mobile_img": "/img/uploads/amorquenutreout-4-.webp"
+          "img": "/img/uploads/alegrias-desktop.webp",
+          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
+          "alt": "cafe",
+          "mobile_img": "/img/uploads/alegrias-mobile.webp"
         },
         {
           "start": "",
@@ -29,14 +29,6 @@
           "link": "https://www.emporiotiasonia.com.br/pipocas-gourmet",
           "alt": "pacoca",
           "mobile_img": "/img/uploads/sinta-_mobile.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/alegrias-desktop.webp",
-          "link": "https://www.emporiotiasonia.com.br/cafe-colheita-das-alegrias",
-          "alt": "cafe",
-          "mobile_img": "/img/uploads/alegrias-mobile.webp"
         }
       ],
       "full_width": true
@@ -44,20 +36,6 @@
     {
       "type": "custom-html",
       "html": "[estilos-de-alimentacao]"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/amorquenutreout-3-.webp"
-        },
-        {
-          "img": "/img/uploads/amorquenutreout-1-.webp"
-        },
-        {
-          "img": "/img/uploads/amorquenutreout-2-.webp"
-        }
-      ]
     },
     {
       "type": "collection-shelf",
