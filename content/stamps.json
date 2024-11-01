@@ -1,3 +1,11 @@
 {
-  "stamps_list": []
+  "stamps_list": [
+    {
+      "id": "BF",
+      "skus": [
+        "PA001"
+      ],
+      "img": "/img/uploads/selo-redondo.png"
+    }
+  ]
 }
