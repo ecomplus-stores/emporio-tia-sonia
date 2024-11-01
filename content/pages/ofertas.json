@@ -24,6 +24,21 @@
       "sort": "offers"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/minibanner-esq.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
+          "alt": "oferta"
+        },
+        {
+          "img": "/img/uploads/minibanner-dir.jpg",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "ecobag"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
