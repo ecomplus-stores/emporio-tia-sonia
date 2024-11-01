@@ -56,6 +56,11 @@
           "img": "/img/uploads/minibanner-dir.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "ecobag"
+        },
+        {
+          "img": "/img/uploads/minibanner-meio.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "frete"
         }
       ]
     },
