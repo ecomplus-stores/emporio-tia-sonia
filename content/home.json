@@ -50,6 +50,16 @@
       "full_width": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/minibanner-dir.jpg",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "ecobag"
+        }
+      ]
+    },
+    {
       "type": "custom-html",
       "html": "[estilos-de-alimentacao]"
     },
