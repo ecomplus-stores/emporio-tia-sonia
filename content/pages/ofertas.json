@@ -2,11 +2,17 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Granola é Tia Sônia!\n\nDescubra mais de 10 sabores de granolas irresistíveis, entre opções salgadas e doces. Encontre a sua favorita e transforme seu dia com mais sabor e nutrição!\n\n* **Frete Grátis** acima de R$ 199.\n* **Cashback** na sua próxima compra!\n* **Ofertas** Selecionadas para você!",
+  "body": "## Primeira Chamada – Black da Tia Sônia!\n\nA primeira chamada da Black da Tia Sônia já está disponível, com descontos imperdíveis em produtos selecionados!\n\n* **Frete Grátis** acima de R$ 149,90.\n* **Brinde** em compras acima de R$ 150.\n* **Ofertas** Selecionadas para você!",
   "sections": [
     {
       "type": "info-bar",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-ecommerce-pagina-de-vendas.webp",
+      "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+      "alt": "ofertas"
     },
     {
       "type": "extra-page",
