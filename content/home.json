@@ -7,6 +7,12 @@
       "autoplay": 100000,
       "slides": [
         {
+          "start": "2024-11-01T15:21:36.135Z",
+          "end": "",
+          "img": "/img/uploads/banner-ecommerce-pagina-principal.webp",
+          "mobile_img": "/img/uploads/banner-ecommerce-1080x1080-pagina-principal.webp"
+        },
+        {
           "start": "",
           "end": "",
           "img": "/img/uploads/granolaetiasoniaouto1920.webp",
