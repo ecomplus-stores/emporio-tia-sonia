@@ -6,7 +6,7 @@
     "buyText": "COMPRAR",
     "buy": "",
     "strHasQuantitySelector": "true",
-    "strHasPromotionTimer": " ",
+    "strHasPromotionTimer": "true",
     "lowQuantityToWarn": 12,
     "maxVariationOptionsBtns": 6,
     "quoteInfo": ""
