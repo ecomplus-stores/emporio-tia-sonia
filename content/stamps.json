@@ -3,20 +3,16 @@
     {
       "id": "BF",
       "skus": [
+        "PA550",
+        "RV0019",
+        "RV0050",
+        "PA800",
         "PA001",
-        "RV0048",
-        "PA154",
-        "PA032",
-        "PA792",
-        "PA264",
-        "PA261",
-        "PA816",
+        "VFM4416",
+        "KMF23",
+        "KLC23",
         "KITSUB",
-        "PA321",
-        "PA118",
-        "KIT005",
-        "PA293",
-        "TBN3085"
+        "RV0071"
       ],
       "img": "/img/uploads/selo-redondo.png"
     }
