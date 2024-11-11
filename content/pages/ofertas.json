@@ -10,7 +10,7 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banner-ecommerce-pagin141a-de-vendas.webp",
+      "img": "/img/uploads/banner-pagina-de-venda-semana21920x700px.webp",
       "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
       "alt": "ofertas"
     },
@@ -26,6 +26,11 @@
     {
       "type": "banners-grid",
       "banners": [
+        {
+          "img": "/img/uploads/minibanner-semana2esq.webp",
+          "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia--mixer-e-caneca-300ml",
+          "alt": "gemada"
+        },
         {
           "img": "/img/uploads/40minibanner-esq.webp",
           "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
