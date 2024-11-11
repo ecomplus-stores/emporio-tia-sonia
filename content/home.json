@@ -45,6 +45,9 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/minibanner-semana2esq.webp"
+        },
+        {
           "img": "/img/uploads/minibanner-meio.jpg",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "frete"
