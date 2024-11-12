@@ -8,19 +8,6 @@
   "meta_description": "Encontre neste artigo as principais informações sobre a Dieta Low Carb.",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2021-06-08T20:25:39.867Z",
-          "end": "",
-          "img": "/img/uploads/granola-low-carb.jpg",
-          "link": "https://www.emporiotiasonia.com.br/low-carb",
-          "alt": "low-carb"
-        }
-      ]
-    },
-    {
       "type": "breadcrumbs",
       "enabled": true
     },
