@@ -22,10 +22,6 @@
       "page": 1,
       "collection_id": "5deaa397cea1b26d087dc20a:collections:Mais Vendidos:/mais-vendidos",
       "title": "Os Queridinhos da Tia Sônia"
-    },
-    {
-      "type": "custom-html",
-      "html": "<!-- Add the code below inside the <body> tags of your HTML page -->\n<script>\nwindow.VIDEOASK_EMBED_CONFIG = {\n  \"kind\": \"widget\",\n  \"url\": \"https://www.videoask.com/f5orf3te2\",\n  \"options\": {\n    \"widgetType\": \"VideoThumbnailWindowTall\",\n    \"text\": \"\",\n    \"backgroundColor\": \"#4A424F\",\n    \"position\": \"bottom-left\",\n    \"dismissible\": true\n  }\n}\n</script>\n<script src=\"https://www.videoask.com/embed/embed.js\"></script>"
     }
   ]
 }
