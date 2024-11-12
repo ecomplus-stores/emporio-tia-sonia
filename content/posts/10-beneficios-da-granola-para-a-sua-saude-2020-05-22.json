@@ -1,6 +1,6 @@
 {
   "date": "2021-11-23T12:58:54.913Z",
-  "title": "Granola: Descubra os 10 Benefícios Essenciais para uma Vida Saudável e Ativa",
+  "title": "10 Benefícios da Granola para uma Vida Saudável e Ativa",
   "thumbnail": "/img/uploads/tia_sonia_estudio-13-1-.jpg",
   "description": "Explore os incríveis benefícios da granola para uma vida saudável. Saiba como este superalimento pode impulsionar sua energia, promover a saciedade e contribuir para a prevenção de doenças. Descubra mais aqui.",
   "meta_title": "Granola: 10 Benefícios para sua Saúde - Tia Sônia",
@@ -23,10 +23,6 @@
       "collection_id": "5d09311d24607a6a42d714ca:collections:Granolas:/granolas-col",
       "sort": "sales",
       "title": "Granola é Tia Sônia!"
-    },
-    {
-      "type": "custom-html",
-      "html": "\n<!-- Add the code below inside the <body> tags of your HTML page -->\n<script>\nwindow.VIDEOASK_EMBED_CONFIG = {\n  \"kind\": \"widget\",\n  \"url\": \"https://www.videoask.com/f5orf3te2\",\n  \"options\": {\n    \"widgetType\": \"VideoThumbnailWindowTall\",\n    \"text\": \"\",\n    \"backgroundColor\": \"#4A424F\",\n    \"position\": \"bottom-left\",\n    \"dismissible\": true\n  }\n}\n</script>\n<script src=\"https://www.videoask.com/embed/embed.js\"></script>"
     }
   ]
 }
