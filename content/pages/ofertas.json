@@ -24,21 +24,6 @@
       "sort": "offers"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/minibanner-semana2esq.webp",
-          "link": "https://www.emporiotiasonia.com.br/gemada-tia-sonia--mixer-e-caneca-300ml",
-          "alt": "gemada"
-        },
-        {
-          "img": "/img/uploads/40minibanner-esq.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
-          "alt": "oferta"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
