@@ -48,6 +48,11 @@
           "img": "/img/uploads/minibanner-3-1024x768px.png",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "frete"
+        },
+        {
+          "img": "/img/uploads/minibanner-1-1024x768px.png",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "40off"
         }
       ]
     },
