@@ -1,30 +1,3 @@
 {
-  "stamps_list": [
-    {
-      "id": "BF",
-      "skus": [
-        "RV0050",
-        "VFM4416",
-        "KMF23",
-        "KLC23",
-        "KITSUB",
-        "RV0071",
-        "PA338",
-        "PA311",
-        "PA671",
-        "PA261",
-        "PA384",
-        "PA230",
-        "PA316",
-        "PA744",
-        "PA002",
-        "GMC",
-        "PA291",
-        "TBN3085",
-        "PA001",
-        "KIT005"
-      ],
-      "img": "/img/uploads/selo-redondo.png"
-    }
-  ]
+  "stamps_list": []
 }
