@@ -15,6 +15,10 @@
       "alt": "ofertas"
     },
     {
+      "type": "custom-html",
+      "html": "<table align=\"center\"><tbody><tr><td><img src=\"https://gen.sendtric.com/countdown/ljt2wepwdb\" style=\"display: block;max-width:70%\" /></td></tr></tbody></table>"
+    },
+    {
       "type": "extra-page",
       "enabled": true
     },
