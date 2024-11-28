@@ -26,14 +26,6 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 24,
-      "page": 1,
-      "sort": "news",
-      "title": "Lançamentos"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
       "limit": 12,
       "page": 1,
       "sort": "sales",
@@ -47,6 +39,14 @@
       "collection_id": "62d01641eb85911216875e5f:collections:Granola sem Aveia:/granola-sem-aveia",
       "sort": "sales",
       "title": "Granola Especiais"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "sort": "news",
+      "title": "Lançamentos"
     },
     {
       "type": "collection-shelf",
