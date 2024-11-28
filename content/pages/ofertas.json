@@ -51,15 +51,6 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63ed43d8f4167e223c90fb41:categories:Nutsbar:/nutsbar-tia-sonia",
-      "title": "Nutsbar - Sem Glutén e Low carb",
-      "link": "https://www.emporiotiasonia.com.br/nutsbar-tia-sonia"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
       "limit": 24,
       "page": "",
       "collection_id": "5f219047f023684cdbd51b28:categories:Marcas Parceiras:/produtos-parceiros",
