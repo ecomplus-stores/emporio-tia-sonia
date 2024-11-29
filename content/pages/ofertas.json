@@ -25,6 +25,16 @@
           "img": "/img/uploads/minibanner-2-tigela1024x768px.webp",
           "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
           "alt": "tigela"
+        },
+        {
+          "img": "/img/uploads/minibanner-3-frete1024x768px.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "frte"
+        },
+        {
+          "img": "/img/uploads/minibanner-1-1024x768px.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "40off"
         }
       ]
     },
