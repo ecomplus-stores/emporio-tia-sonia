@@ -19,6 +19,16 @@
       "enabled": true
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/minibanner-2-tigela1024x768px.webp",
+          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
+          "alt": "tigela"
+        }
+      ]
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
