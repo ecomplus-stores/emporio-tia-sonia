@@ -45,6 +45,11 @@
       "type": "banners-grid",
       "banners": [
         {
+          "img": "/img/uploads/minibanner-2-tigela1024x768px.webp",
+          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
+          "alt": "tigela"
+        },
+        {
           "img": "/img/uploads/minibanner-3-1024x768px.png",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
           "alt": "frete"
