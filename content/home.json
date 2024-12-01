@@ -4,14 +4,15 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 100000,
+      "autoplay": 500000,
       "slides": [
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/natal1920.webp",
+          "img": "/img/uploads/natalbanner-1920x700px-1-.webp",
           "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "natal"
+          "alt": "natal",
+          "mobile_img": "/img/uploads/banner-principal-1080x1080px.webp"
         },
         {
           "start": "",
