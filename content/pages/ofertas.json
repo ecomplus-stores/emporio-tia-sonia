@@ -2,7 +2,7 @@
   "title": "Ofertas",
   "meta_title": "Ofertas - Alimentos Tia Sônia ",
   "meta_description": "Produtos deliciosos e saudáveis da Tia Sônia com descontos especiais.",
-  "body": "## Black da Tia Sônia!\n\nDescontos especiais que vão te surpreender! Chegou o momento de cuidar de você com nossos descontos exclusivos de Black Friday!",
+  "body": "## Amor, sabor e qualidade!\n\nOs produtos Tia Sônia são feitos de uma maneira toda especial - com amor, sabor e qualidade. Foram preparados com muito carinho, com ingredientes integrais e saudáveis!",
   "sections": [
     {
       "type": "info-bar",
@@ -10,33 +10,13 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banner-1920x700px.webp",
-      "link": "https://www.emporiotiasonia.com.br/search?sort=offers",
-      "alt": "ofertas"
+      "img": "/img/uploads/natal1920.webp",
+      "link": "https://www.emporiotiasonia.com.br/kits-de-natal",
+      "alt": "natal"
     },
     {
       "type": "extra-page",
       "enabled": true
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/minibanner-2-tigela1024x768px.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "tigela"
-        },
-        {
-          "img": "/img/uploads/minibanner-3-frete1024x768px.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "frte"
-        },
-        {
-          "img": "/img/uploads/minibanner-1-1024x768px.webp",
-          "link": "https://www.emporiotiasonia.com.br/search?sort=sales",
-          "alt": "40off"
-        }
-      ]
     },
     {
       "type": "dynamic-showcase",
