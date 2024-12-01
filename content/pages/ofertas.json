@@ -19,17 +19,18 @@
       "enabled": true
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "sort": "sales",
-      "title": "Os Preferidos dos Sobrinhos"
+      "sort": "views",
+      "title": "Os Preferidos dos Sobrinhos",
+      "collection_id": "6446c1ca4bd2e929c1ddc69c:categories:Kits Especiais Tia Sônia:/kits-especiais-tia-sonia"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     },
     {
       "type": "collection-shelf",
