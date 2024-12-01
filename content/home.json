@@ -51,8 +51,8 @@
       "limit": 12,
       "page": 1,
       "collection_id": null,
-      "title": "Começou a Black da Tia Sônia!",
-      "sort": "offers"
+      "title": "Recomendados para você",
+      "sort": "views"
     },
     {
       "type": "custom-html",
