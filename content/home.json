@@ -111,13 +111,6 @@
       "title": "Barras de energia sem glúten"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/sinta_-_desktop.webp",
-      "mobile_img": "/img/uploads/sinta-_mobile.webp",
-      "link": "https://www.emporiotiasonia.com.br/pipocas-gourmet",
-      "alt": "pacoca2"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
