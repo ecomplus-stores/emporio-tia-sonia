@@ -12,7 +12,8 @@
       "type": "responsive-banner",
       "img": "/img/uploads/natal1920.webp",
       "link": "https://www.emporiotiasonia.com.br/kits-de-natal",
-      "alt": "natal"
+      "alt": "natal",
+      "mobile_img": "/img/uploads/banner-pag.-venda-1920x700px.webp"
     },
     {
       "type": "extra-page",
