@@ -28,11 +28,6 @@
       "collection_id": "6446c1ca4bd2e929c1ddc69c:categories:Kits Especiais Tia Sônia:/kits-especiais-tia-sonia"
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": "",
@@ -58,6 +53,11 @@
       "title": "Conheça as Marcas Parceiras",
       "link": "https://www.emporiotiasonia.com.br/produtos-parceiros",
       "sort": "sales"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     }
   ]
 }
