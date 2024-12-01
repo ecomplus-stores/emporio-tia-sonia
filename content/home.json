@@ -42,26 +42,6 @@
       "full_width": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/minibanner-2-tigela1024x768px.webp",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "tigela"
-        },
-        {
-          "img": "/img/uploads/minibanner-3-1024x768px.png",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "frete"
-        },
-        {
-          "img": "/img/uploads/minibanner-1-1024x768px.png",
-          "link": "https://www.emporiotiasonia.com.br/pages/ofertas",
-          "alt": "40off"
-        }
-      ]
-    },
-    {
       "type": "custom-html",
       "html": "[estilos-de-alimentacao]"
     },
