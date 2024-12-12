@@ -41,14 +41,6 @@
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
-      "page": 1,
-      "sort": "news",
-      "title": "Lançamentos"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 24,
       "page": "",
       "collection_id": "5f219047f023684cdbd51b28:categories:Marcas Parceiras:/produtos-parceiros",
       "title": "Conheça as Marcas Parceiras",
