@@ -9,13 +9,13 @@
       "enabled": true
     },
     {
+      "type": "extra-page",
+      "enabled": false
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
-    },
-    {
-      "type": "extra-page",
-      "enabled": false
     },
     {
       "type": "collection-shelf",
