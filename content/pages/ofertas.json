@@ -9,24 +9,13 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/natal19202.webp",
-      "link": "https://www.emporiotiasonia.com.br/kits-de-natal",
-      "alt": "natal",
-      "mobile_img": "/img/uploads/natal10802.webp"
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     },
     {
       "type": "extra-page",
-      "enabled": true
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "sort": "views",
-      "title": "Presenteie com Tia Sônia!",
-      "collection_id": "6446c1ca4bd2e929c1ddc69c:categories:Kits Especiais Tia Sônia:/kits-especiais-tia-sonia"
+      "enabled": false
     },
     {
       "type": "collection-shelf",
@@ -46,11 +35,6 @@
       "title": "Conheça as Marcas Parceiras",
       "link": "https://www.emporiotiasonia.com.br/produtos-parceiros",
       "sort": "sales"
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
     }
   ]
 }
