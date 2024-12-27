@@ -13,6 +13,14 @@
       "enabled": false
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "sort": "offers",
+      "title": "Use o cupom: ANONOVO"
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "offers"
